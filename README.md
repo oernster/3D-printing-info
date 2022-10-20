@@ -1,11 +1,13 @@
 # 3D-printing-info
 Useful 3D printing information
 
-levelling: contains information on levelling and resolving adhesion issues for FDM printers.
+levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good levelled square.
 
 klipper-tools: self explanatory.
 
 stls: sources of STL files throughout the web + my personal collections that are continually updated.
+
+reference: information about TPU only currently as a specification sheet.
 
 This directory:
 3d-printing-tools.txt: Contains an exhaustive list of useful tools for 3D printing; not all are essential so you should pick and choose what you want/need.
