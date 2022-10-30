@@ -1,7 +1,7 @@
 # 3D-printing-info
 Useful 3D printing information
 
-levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good levelled square.
+levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
 klipper-tools: self explanatory.
 
