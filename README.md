@@ -14,3 +14,4 @@ This directory:
 drying.txt: filament drying guide.
 filament-experiences.txt: my personal experiences with numerous filament brands and types.
 slicers-guide.txt: brief summary of my two favourite slicers and pros and cons.
+TemperatureTowerGuide.txt: A simple guide to how to do a temperature tower.
