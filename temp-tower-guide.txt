@@ -1,5 +1,7 @@
 So, quick guide to doing a temperature tower in case you haven't done it before...
 
+First off, here's a useful temperature tower link: https://www.thingiverse.com/thing:2615842
+
 Basically, you slice your temp tower once, then move the slider (vertical) up to the 
 next temp change point in 'preview' then enter some example gcode which is 
 'M109 S220' say - that would set the temp to 220C and wait for the temp to settle.
