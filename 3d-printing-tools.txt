@@ -1,8 +1,6 @@
-3D PRINTING TOOLS GUIDE
------------------------
+# 3D PRINTING TOOLS GUIDE
 
-Essential tools
----------------
+## Essential tools
 
 Bowden Cutter: https://www.amazon.co.uk/gp/product/B015HA1NNA/ Useful 
 Isopropyl alcohol: https://www.amazon.co.uk/gp/product/B092TBHDL3/
@@ -10,8 +8,7 @@ Acupuncture needles for your nozzle: https://www.amazon.com/Hestya-Printer-Nozzl
 Cutters for post-processing of prints: https://smile.amazon.co.uk/gp/product/B09S5VF7PC/
 Spatulas: https://smile.amazon.co.uk/gp/product/B075SLTY8B/
 
-Optional tools
---------------
+## Optional tools
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
 80L plastic box for filament storage: https://www.amazon.co.uk/gp/product/B01H2SZRS2/
@@ -19,8 +16,7 @@ Silica desiccant beads (rechargeable) - throw in box(es) above: https://smile.am
 Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
-Expensive but lovely tools
---------------------------
+## Expensive but lovely tools
 
 Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
@@ -32,14 +28,12 @@ https://smile.amazon.co.uk/gp/product/B0117BTDT4/
 https://smile.amazon.co.uk/gp/product/B07124RR3T/ 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
-Lovely tools at a reasonable price
-----------------------------------
+## Lovely tools at a reasonable price
 
 Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 Allen key set compatible with ratchet above (1/4in): https://smile.amazon.co.uk/gp/product/B07YXL89GV/
 
-Reasonably priced just good tools
----------------------------------
+## Reasonably priced just good tools
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
@@ -60,8 +54,7 @@ Acetone for smoothing (Do NOT use on PLA!): https://www.amazon.co.uk/gp/product/
 Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https://www.amazon.co.uk/gp/product/B07L8YPYQK/
 Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 
-Handy tools/parts at varying prices but none are essential
-----------------------------------------------------------
+## Handy tools/parts at varying prices but none are essential
 
 Dremel: https://www.amazon.co.uk/gp/product/B013OYFDC8/
 Dremel Flex Shaft: https://smile.amazon.co.uk/gp/product/B008ETGPOY/
@@ -74,4 +67,4 @@ Paint brushes for acrylic paint set: https://www.amazon.co.uk/gp/product/B091SY4
 Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
 Nozzle Clean Drill Bits Kit: https://www.amazon.com/dp/B0919YYGT9/
 
-If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person with no real effort.
+### If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person with no real effort.
