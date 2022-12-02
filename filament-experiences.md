@@ -1,13 +1,13 @@
-My personal filament experiences:
+# My personal filament experiences:
 
-Premium Best buys; also pricier:
+## Premium Best buys; also pricier:
 
 Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.  
 I’m a repeat buyer.
 Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well - I’m 
 a repeat buyer.
 
-Best buys:
+## Best buys:
 
 ERYONE - amazing rainbow metal silk PLA that is fast changing.
 ZIRO - great prints from these silk PLA colours; I have ALL the silks and 
@@ -30,7 +30,7 @@ YOUSU - fast changing rainbow silk PLA; almost as good as ERYONE.  Also,
 their tricolour silk PLAs are absolutely BEAUTIFUL!  Their tricolour extrusion
 filaments are outstanding.
 
-Good to OK buys:
+## Good to OK buys:
 
 eSUN - mediocre PLA but does the job.  The eSUN ABS+ is great.
 Mika3D for a multipack of 0.5Kg matte PLA reels; I bought a pack of 12 - 
@@ -43,7 +43,7 @@ SUNLU - ok, not exciting PLA. Avoid the rainbow as it’s incredibly slow
 changing.
 StrongHero - nice printing PLA and comes in multiple colour combos.
 
-Bad buys / Terrible:
+## Bad buys / Terrible:
 
 PrimaSelect - sticks too well to PEI, ripping apart on finished prints - 
 have dried using a filament dryer and also stuck in a dry box 3 times - 
@@ -51,7 +51,7 @@ still terrible and I ended up throwing the spool.
 ICEYUN: Light blue matte adheres horribly to your bed and damages it - 
 chucked it after losing 3 beds I couldn’t scrape off with a Stanley knife.
 
-IMPORTANT NOTE: AVOID Amazon basics PLA… the filament is just whatever the 
+### IMPORTANT NOTE: AVOID Amazon basics PLA… the filament is just whatever the 
 cheapest is when they order a batch making it quite random in quality. It 
 is quite possible that one spool is just fine, then the next one will just 
 just clog.  Also, AVOID filament from printer manufacturers.
