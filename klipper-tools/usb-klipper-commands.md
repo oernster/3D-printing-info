@@ -6,5 +6,6 @@ ls /dev/serial/by-id
 
 ## Webcams:
 
-ls  /dev/v4l/by-id/
-ls  /dev/v4l/by-path/
+ls /dev/v4l/by-id/
+
+ls /dev/v4l/by-path/
