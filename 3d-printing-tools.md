@@ -37,8 +37,11 @@ Better brushes for Vision Miner Adhesive: https://smile.amazon.co.uk/gp/product/
 Outstanding Knipex pliers wrench: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
 Heat gun (Gentler heat than a butane flame); I recommend this one by Ryobi, it has a decent battery and it’s conveniently cordless... (3 parts): 
+
 https://smile.amazon.co.uk/gp/product/B0117BTDT4/
+
 https://smile.amazon.co.uk/gp/product/B07124RR3T/ 
+
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
 ## Lovely tools at a reasonable price
