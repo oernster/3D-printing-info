@@ -28,6 +28,8 @@ Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
 Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
 
+Knipex pliers for electrical installation: https://smile.amazon.co.uk/gp/product/B007AKGEY4/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
@@ -51,6 +53,8 @@ Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon
 Allen key set compatible with ratchet above (1/4in): https://smile.amazon.co.uk/gp/product/B07YXL89GV/
 
 ## Reasonably priced just good tools
+
+Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
