@@ -24,19 +24,21 @@ Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
+Handy desk torch: https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
+
 ## Expensive but lovely tools
 
 Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
 
 Knipex pliers for electrical installation: https://smile.amazon.co.uk/gp/product/B007AKGEY4/
 
+Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
 
 Better brushes for Vision Miner Adhesive: https://smile.amazon.co.uk/gp/product/B0052UN1JA/
-
-Outstanding Knipex pliers wrench: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
 Heat gun (Gentler heat than a butane flame); I recommend this one by Ryobi, it has a decent battery and it’s conveniently cordless... (3 parts): 
 
@@ -51,6 +53,12 @@ https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
 Allen key set compatible with ratchet above (1/4in): https://smile.amazon.co.uk/gp/product/B07YXL89GV/
+
+1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
+
+Bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.amazon.co.uk/gp/product/B085G1Y8FN/
+
+Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
 
 ## Reasonably priced just good tools
 
