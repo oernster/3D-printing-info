@@ -34,6 +34,10 @@ Knipex pliers for electrical installation: https://smile.amazon.co.uk/gp/product
 
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
+Knipex Diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
+
+Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
