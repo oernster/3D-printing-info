@@ -24,8 +24,6 @@ Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
-Handy desk torch: https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
-
 ## Expensive but lovely tools
 
 Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
@@ -34,9 +32,13 @@ Knipex pliers for electrical installation: https://smile.amazon.co.uk/gp/product
 
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
-Knipex Diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
+Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
 
 Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
+
+Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/gp/product/B003RWS988/
+
+Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
@@ -51,6 +53,10 @@ https://smile.amazon.co.uk/gp/product/B0117BTDT4/
 https://smile.amazon.co.uk/gp/product/B07124RR3T/ 
 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
+
+Handy desk torch: https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
+
+Charger and battery for torch: https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
 ## Lovely tools at a reasonable price
 
