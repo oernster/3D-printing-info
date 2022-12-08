@@ -136,4 +136,4 @@ Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR5
 
 Nozzle Clean Drill Bits Kit: https://www.amazon.com/dp/B0919YYGT9/
 
-### If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person with no real effort.
+### If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person for no extra effort.
