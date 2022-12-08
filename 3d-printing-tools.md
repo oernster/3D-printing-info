@@ -12,6 +12,8 @@ Cutters for post-processing of prints: https://smile.amazon.co.uk/gp/product/B09
 
 Spatulas: https://smile.amazon.co.uk/gp/product/B075SLTY8B/
 
+Decent metal digital calipers: https://smile.amazon.co.uk/gp/product/B085ZGTR2P/
+
 ## Optional tools
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
