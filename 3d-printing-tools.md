@@ -60,6 +60,8 @@ Handy desk torch: https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
 
 Charger and battery for torch: https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
+Superb micrometer: https://smile.amazon.co.uk/gp/product/B00LJLV8AK/
+
 ## Lovely tools at a reasonable price
 
 Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
