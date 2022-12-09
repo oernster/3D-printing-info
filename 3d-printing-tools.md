@@ -50,6 +50,8 @@ Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/
 
 Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
+Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
