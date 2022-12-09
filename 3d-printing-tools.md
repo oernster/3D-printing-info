@@ -40,6 +40,10 @@ Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
 
 Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/gp/product/B003RWS988/
 
+Knipex combination pliers 1000V insulated: https://smile.amazon.co.uk/gp/product/B0001D9JBW/
+
+Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
+
 Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
@@ -75,6 +79,8 @@ Bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.
 Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
 
 ## Reasonably priced just good tools
+
+Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
 
 Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
 
