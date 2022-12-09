@@ -4,7 +4,9 @@
 
 Bowden Cutter: https://www.amazon.co.uk/gp/product/B015HA1NNA/
 
-Isopropyl alcohol: https://www.amazon.co.uk/gp/product/B092TBHDL3/
+Isopropyl alcohol 100ml: https://www.amazon.co.uk/gp/product/B092TBHDL3/
+
+Isopropyl alcohol 500ml: https://www.amazon.co.uk/gp/product/B0924X4G9K/
 
 Acupuncture needles for your nozzle: https://www.amazon.com/Hestya-Printer-Nozzle-Cleaning-Stainless/dp/B078HXTLX8/
 
@@ -41,6 +43,8 @@ Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
 Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/gp/product/B003RWS988/
 
 Knipex combination pliers 1000V insulated: https://smile.amazon.co.uk/gp/product/B0001D9JBW/
+
+Knipex grip pliers: https://smile.amazon.co.uk/gp/product/B000CDSQEC/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
@@ -79,6 +83,14 @@ Bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.
 Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
 
 ## Reasonably priced just good tools
+
+Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
+
+Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
+
+Milwaukee 3 set of snips: https://smile.amazon.co.uk/gp/product/B0773QRV13/
+
+Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
 Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
 
