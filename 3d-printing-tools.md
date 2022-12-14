@@ -58,7 +58,7 @@ Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionmi
 
 Better brushes for Vision Miner Adhesive: https://smile.amazon.co.uk/gp/product/B0052UN1JA/
 
-Heat gun (Gentler heat than a butane flame); I recommend this one by Ryobi, it has a decent battery and it’s conveniently cordless... (3 parts): 
+Ryobi Heat gun (Gentler heat than a butane flame, 3 parts): 
 
 https://smile.amazon.co.uk/gp/product/B0117BTDT4/
 
@@ -66,13 +66,15 @@ https://smile.amazon.co.uk/gp/product/B07124RR3T/
 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
-Handy desk torch: https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
+Milwaukee desk torch (3 parts in 2 links):
 
-Charger and battery for torch: https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
+https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
 
-Superb micrometer: https://smile.amazon.co.uk/gp/product/B00LJLV8AK/
+https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
 ## Lovely tools at a reasonable price
+
+Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
 Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
@@ -153,7 +155,5 @@ Acrylic paint set: https://www.amazon.co.uk/gp/product/B081N8KVLP/
 Paint brushes for acrylic paint set: https://www.amazon.co.uk/gp/product/B091SY49TR/
 
 Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
-
-Nozzle Clean Drill Bits Kit: https://www.amazon.com/dp/B0919YYGT9/
 
 ### If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person for no extra effort.
