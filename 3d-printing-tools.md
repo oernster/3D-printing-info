@@ -48,6 +48,8 @@ Knipex grip pliers: https://smile.amazon.co.uk/gp/product/B000CDSQEC/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
+Wera combination wrench joker spanner set: https://smile.amazon.co.uk/gp/product/B085CSMQJ6/
+
 Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
 Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U/
