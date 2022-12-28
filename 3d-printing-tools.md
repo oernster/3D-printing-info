@@ -44,6 +44,12 @@ Knipex combination pliers 1000V insulated: https://smile.amazon.co.uk/gp/product
 
 Knipex grip pliers: https://smile.amazon.co.uk/gp/product/B000CDSQEC/
 
+Knipex precision electronics gripping pliers: https://smile.amazon.co.uk/gp/product/B000XIRAFM/
+
+Knipex electronics pliers: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
+
+C.K long snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
+
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
 Wera combination wrench joker spanner set: https://smile.amazon.co.uk/gp/product/B085CSMQJ6/
@@ -51,6 +57,8 @@ Wera combination wrench joker spanner set: https://smile.amazon.co.uk/gp/product
 Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
 Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U/
+
+Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
@@ -87,6 +95,12 @@ Bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.
 Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
 
 ## Reasonably priced just good tools
+
+Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
+
+Soldering helping hands: https://smile.amazon.co.uk/gp/product/B07233QBBS/
+
+Soldering station: https://smile.amazon.co.uk/gp/product/B07X3CZ3FJ/
 
 Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
