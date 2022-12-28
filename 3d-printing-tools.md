@@ -32,8 +32,6 @@ Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
 Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
 
-Knipex pliers for electrical installation: https://smile.amazon.co.uk/gp/product/B007AKGEY4/
-
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
 Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
