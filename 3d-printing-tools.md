@@ -16,6 +16,8 @@ Spatulas: https://smile.amazon.co.uk/gp/product/B075SLTY8B/
 
 Decent metal digital calipers: https://smile.amazon.co.uk/gp/product/B085ZGTR2P/
 
+You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QXB1BC/
+
 ## Optional tools
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
@@ -73,6 +75,8 @@ https://smile.amazon.co.uk/gp/product/B0117BTDT4/
 https://smile.amazon.co.uk/gp/product/B07124RR3T/ 
 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
+
+Ryobi high/low glue gun: https://smile.amazon.co.uk/gp/product/B08YKCSHR4/ 
 
 Milwaukee desk torch (3 parts in 2 links):
 
