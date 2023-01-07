@@ -54,7 +54,7 @@ C.K long snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
-Wera combination wrench joker spanner set: https://smile.amazon.co.uk/gp/product/B085CSMQJ6/
+Wera combination wrench ratcheting joker spanner set: https://smile.amazon.co.uk/gp/product/B00BT0AYG0/
 
 Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
 
@@ -102,9 +102,11 @@ Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FL
 
 Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
 
-Soldering helping hands: https://smile.amazon.co.uk/gp/product/B07233QBBS/
+Rolson Soldering helping hands: https://smile.amazon.co.uk/gp/product/B001BMSBD4/
 
-Soldering station: https://smile.amazon.co.uk/gp/product/B07X3CZ3FJ/
+Hakko Solder Reel Holder: https://smile.amazon.co.uk/gp/product/B000W9IVBY/
+
+Solder wire: https://smile.amazon.co.uk/gp/product/B07RD9GG52/
 
 Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
