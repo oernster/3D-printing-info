@@ -18,13 +18,7 @@ Decent metal digital calipers: https://smile.amazon.co.uk/gp/product/B085ZGTR2P/
 
 You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QXB1BC/
 
-## Drying
-
-80L plastic box for filament storage: https://www.amazon.co.uk/gp/product/B01H2SZRS2/
-
-Silica desiccant beads (rechargeable) - throw in box(es) above: https://smile.amazon.co.uk/gp/product/B087T2GBPX/
-
-Hygrometer (I have one in each box and one in my work area): https://smile.amazon.co.uk/gp/product/B01H1R0K68/
+Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
 ## Expensive but lovely tools
 
@@ -76,41 +70,19 @@ https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
 Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
-## Soldering/electrical
-
-Rolson Soldering helping hands: https://smile.amazon.co.uk/gp/product/B001BMSBD4/
-
-Hakko Solder Reel Holder: https://smile.amazon.co.uk/gp/product/B000W9IVBY/
-
-Solder wire: https://smile.amazon.co.uk/gp/product/B07RD9GG52/
-
-Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
-
-Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
-
 ## Reasonably priced just good tools
 
 Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
 
-Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
-
 Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
 
 Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
-Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
-
 Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
-
-Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
-
-Draper small parts Storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
-
-Bookcase for displaying prints (or Ikea is good too): https://smile.amazon.co.uk/gp/product/B085NRVXCD/
 
 Swiss Army knife: https://smile.amazon.co.uk/gp/product/B0001GS19K/ 
 
@@ -119,12 +91,6 @@ Stanley knife: https://www.amazon.co.uk/gp/product/B000X2CYN6/
 Feeler gauges (angled): https://smile.amazon.co.uk/gp/product/B07K8KQH47/
 
 Deburring tool: https://smile.amazon.co.uk/gp/product/B07RHZ7T5C/
-
-Sandpaper: https://www.amazon.co.uk/gp/product/B077TS8WT7/
-
-Sanding Twigs: https://smile.amazon.co.uk/gp/product/B08YFKSRJT/
-
-Filament holder/feeder/spool bearings: https://www.amazon.co.uk/gp/product/B083LM843L/
 
 Chisel set for removing supports: https://www.amazon.co.uk/gp/product/B07353DB6L/
 
@@ -139,22 +105,3 @@ Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 HiSpec rotary tool cabled: https://www.amazon.co.uk/gp/product/B013OYFDC8/
 
 Dremel Flex Shaft: https://smile.amazon.co.uk/gp/product/B008ETGPOY/
-
-PTFE Capricorn tubing: https://www.amazon.co.uk/gp/product/B07QRN74Z8/
-
-Copper buckles for 3D printing belt: https://www.amazon.co.uk/gp/product/B09KBSPNJF/
-
-5m 3D printing belt: https://www.amazon.co.uk/gp/product/B07NSTGDYL/
-
-Cable chains: https://www.amazon.co.uk/gp/product/B07SFFT1K5/
-
-Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
-
-## Painting
-
-Acrylic paint set: https://www.amazon.co.uk/gp/product/B081N8KVLP/
-
-Paint brushes for acrylic paint set: https://www.amazon.co.uk/gp/product/B091SY49TR/
-
-### If you're in the US then just search the same product names on amazon.com
-### or the smile variant of Amazon for charity
