@@ -4,9 +4,9 @@ Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
 
-Draper small parts Storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
+Draper small parts storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
 
-Bookcase for displaying prints (or Ikea is good too): https://smile.amazon.co.uk/gp/product/B085NRVXCD/
+Bookcase for displaying prints (Ikea is also good): https://smile.amazon.co.uk/gp/product/B085NRVXCD/
 
 Sandpaper: https://www.amazon.co.uk/gp/product/B077TS8WT7/
 
