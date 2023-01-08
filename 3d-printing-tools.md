@@ -18,17 +18,13 @@ Decent metal digital calipers: https://smile.amazon.co.uk/gp/product/B085ZGTR2P/
 
 You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QXB1BC/
 
-## Optional tools
-
-Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
+## Drying
 
 80L plastic box for filament storage: https://www.amazon.co.uk/gp/product/B01H2SZRS2/
 
 Silica desiccant beads (rechargeable) - throw in box(es) above: https://smile.amazon.co.uk/gp/product/B087T2GBPX/
 
-Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
-
-Hygrometer: https://smile.amazon.co.uk/gp/product/B01H1R0K68/
+Hygrometer (I have one in each box and one in my work area): https://smile.amazon.co.uk/gp/product/B01H1R0K68/
 
 ## Expensive but lovely tools
 
@@ -78,15 +74,9 @@ https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
 
 https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
-## Lovely tools at a reasonable price
-
 Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
-Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
-
-## Reasonably priced just good tools
-
-Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
+## Soldering/electrical
 
 Rolson Soldering helping hands: https://smile.amazon.co.uk/gp/product/B001BMSBD4/
 
@@ -94,15 +84,25 @@ Hakko Solder Reel Holder: https://smile.amazon.co.uk/gp/product/B000W9IVBY/
 
 Solder wire: https://smile.amazon.co.uk/gp/product/B07RD9GG52/
 
-Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
-
 Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
+
+Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
+
+## Reasonably priced just good tools
+
+Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
+
+Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
+
+Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
+
+Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
+
+Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
 Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
-
-Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
@@ -136,8 +136,6 @@ Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https
 
 Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 
-## Handy tools/parts at varying prices but none are essential
-
 HiSpec rotary tool cabled: https://www.amazon.co.uk/gp/product/B013OYFDC8/
 
 Dremel Flex Shaft: https://smile.amazon.co.uk/gp/product/B008ETGPOY/
@@ -150,11 +148,13 @@ Copper buckles for 3D printing belt: https://www.amazon.co.uk/gp/product/B09KBSP
 
 Cable chains: https://www.amazon.co.uk/gp/product/B07SFFT1K5/
 
+Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
+
+## Painting
+
 Acrylic paint set: https://www.amazon.co.uk/gp/product/B081N8KVLP/
 
 Paint brushes for acrylic paint set: https://www.amazon.co.uk/gp/product/B091SY49TR/
 
-Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
-
-### If you're in the US then just search the same product names on amazon.com 
+### If you're in the US then just search the same product names on amazon.com
 ### or the smile variant of Amazon for charity
