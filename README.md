@@ -21,8 +21,8 @@
 
 ### tool-accessories.md: additional tool accessories list.
 
-### filament-experiences.txt: my personal experiences with numerous filament brands and types.
+### filament-experiences.md: my personal experiences with numerous filament brands and types.
 
-### slicers-guide.txt: brief summary of my two favourite slicers and pros and cons.
+### slicers-guide.md: brief summary of my two favourite slicers and pros and cons.
 
-### temp-tower-guide.txt: A simple guide to how to do a temperature tower.
+### temp-tower-guide.md: A simple guide to how to do a temperature tower.
