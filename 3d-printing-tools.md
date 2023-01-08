@@ -44,8 +44,6 @@ Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/gp/product/B00
 
 Knipex combination pliers 1000V insulated: https://smile.amazon.co.uk/gp/product/B0001D9JBW/
 
-Knipex grip pliers: https://smile.amazon.co.uk/gp/product/B000CDSQEC/
-
 Knipex precision electronics gripping pliers: https://smile.amazon.co.uk/gp/product/B000XIRAFM/
 
 Knipex electronics pliers: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
@@ -62,13 +60,11 @@ Wera 75mm zyklop extension piece: https://smile.amazon.co.uk/gp/product/B003GDIR
 
 Wera torsion bit set/hex/screws: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
-Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U/
+Wera 9 piece 1/4in drive socket set: https://smile.amazon.co.uk/gp/product/B0757ZN7C6/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
-
-Wera bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.amazon.co.uk/gp/product/B085G1Y8FN/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
@@ -98,8 +94,6 @@ Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
 Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
-Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
-
 ## Reasonably priced just good tools
 
 Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
@@ -114,8 +108,6 @@ Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
 Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
 
-Milwaukee 3 set of snips: https://smile.amazon.co.uk/gp/product/B0773QRV13/
-
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
 Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
@@ -123,8 +115,6 @@ Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08X
 Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
-
-Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
 
