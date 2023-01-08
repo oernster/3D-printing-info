@@ -46,11 +46,15 @@ Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/
 
 Wera 75mm zyklop extension piece: https://smile.amazon.co.uk/gp/product/B003GDIREY/
 
-Wera socket/torx/hex bits+1/4in zyklop ratchet drive set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
+Wera 152mm zyklop 1/4in drive ratchet: https://smile.amazon.co.uk/gp/product/B001V9NCS6/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
+
+Wera ratchet screwdriver 17pc set: https://smile.amazon.co.uk/gp/product/B00476DIN4/
+
+Wera zyklop 1/4in drive 9pc socket set: https://smile.amazon.co.uk/gp/product/B0757ZN7C6/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
@@ -134,7 +138,7 @@ Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 
 ## Handy tools/parts at varying prices but none are essential
 
-Dremel: https://www.amazon.co.uk/gp/product/B013OYFDC8/
+HiSpec rotary tool cabled: https://www.amazon.co.uk/gp/product/B013OYFDC8/
 
 Dremel Flex Shaft: https://smile.amazon.co.uk/gp/product/B008ETGPOY/
 
@@ -152,4 +156,5 @@ Paint brushes for acrylic paint set: https://www.amazon.co.uk/gp/product/B091SY4
 
 Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
 
-### If you're in the US then just search the same product names on amazon.com or the smile variant of Amazon for your charity of choice if you're a nice person for no extra effort.
+### If you're in the US then just search the same product names on amazon.com 
+### or the smile variant of Amazon for charity
