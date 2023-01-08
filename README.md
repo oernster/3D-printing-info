@@ -11,9 +11,13 @@
 
 ## This directory:
 
-### 3d-printing-tools.txt: Contains an exhaustive list of useful tools for 3D printing; not all are essential so you should pick and choose what you want/need.
+### 3d-printing-tools.md: Decent tools list.
 
-### drying.txt: filament drying guide.
+### drying.md: drying toolkit.
+
+### painting.md: paint toolkit.
+
+### tool-accessories.md: additional tool accessories list.
 
 ### filament-experiences.txt: my personal experiences with numerous filament brands and types.
 
