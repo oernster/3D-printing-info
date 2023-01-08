@@ -23,6 +23,6 @@
 
 ### filament-experiences.md: my personal experiences with numerous filament brands and types.
 
-### slicers-guide.md: brief summary of my two favourite slicers and pros and cons.
+### slicers-guide.md: brief summary of the three slicers I've used.
 
 ### temp-tower-guide.md: A simple guide to how to do a temperature tower.
