@@ -66,6 +66,10 @@ Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
+Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
+
+Wera bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.amazon.co.uk/gp/product/B085G1Y8FN/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
@@ -92,13 +96,7 @@ https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
 Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
-Mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
-
-Allen key set compatible with ratchet above (1/4in): https://smile.amazon.co.uk/gp/product/B07YXL89GV/
-
-1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
-
-Bitholding screwdriver rapidaptor; very handy for nozzle removal: https://smile.amazon.co.uk/gp/product/B085G1Y8FN/
+Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
 Coloured 1/4in small socket set: https://smile.amazon.co.uk/gp/product/B076MK8FLD/
 
@@ -130,9 +128,9 @@ Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
 
-Draper Small parts Storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
+Draper small parts Storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
 
-Steel 6in square: https://smile.amazon.co.uk/gp/product/B0001IWQLC/
+Steel 6in square (FYI this one rusts): https://smile.amazon.co.uk/gp/product/B0001IWQLC/
 
 Bookcase for displaying prints: https://smile.amazon.co.uk/gp/product/B085NRVXCD/
 
