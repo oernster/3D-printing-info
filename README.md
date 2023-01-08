@@ -11,7 +11,7 @@
 
 ## This directory:
 
-### 3d-printing-tools.md: Decent tools list.
+### 3d-printing-tools.md: decent tools list.
 
 ### drying.md: drying toolkit.
 
