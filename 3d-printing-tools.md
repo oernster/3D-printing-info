@@ -40,27 +40,13 @@ Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
 
 Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
 
-Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/gp/product/B003RWS988/
-
-Knipex combination pliers 1000V insulated: https://smile.amazon.co.uk/gp/product/B0001D9JBW/
-
-Knipex precision electronics gripping pliers: https://smile.amazon.co.uk/gp/product/B000XIRAFM/
-
-Knipex electronics pliers: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
-
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
-Wera combination wrench ratcheting joker spanner set: https://smile.amazon.co.uk/gp/product/B00BT0AYG0/
-
-Wera zyklop ratchet with 1/4in drive 152mm: https://smile.amazon.co.uk/gp/product/B001V9NCS6/
-
 Wera 75mm zyklop extension piece: https://smile.amazon.co.uk/gp/product/B003GDIREY/
 
-Wera torsion bit set/hex/screws: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
-
-Wera 9 piece 1/4in drive socket set: https://smile.amazon.co.uk/gp/product/B0757ZN7C6/
+Wera socket/torx/hex bits+1/4in zyklop ratchet drive set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
@@ -120,9 +106,7 @@ Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
 
 Draper small parts Storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
 
-Steel 6in square (FYI this one rusts): https://smile.amazon.co.uk/gp/product/B0001IWQLC/
-
-Bookcase for displaying prints: https://smile.amazon.co.uk/gp/product/B085NRVXCD/
+Bookcase for displaying prints (or Ikea is good too): https://smile.amazon.co.uk/gp/product/B085NRVXCD/
 
 Swiss Army knife: https://smile.amazon.co.uk/gp/product/B0001GS19K/ 
 
