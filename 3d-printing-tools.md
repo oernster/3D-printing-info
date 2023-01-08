@@ -50,13 +50,17 @@ Knipex precision electronics gripping pliers: https://smile.amazon.co.uk/gp/prod
 
 Knipex electronics pliers: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
 
-C.K long snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
+C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
 Wera combination wrench ratcheting joker spanner set: https://smile.amazon.co.uk/gp/product/B00BT0AYG0/
 
-Wera zyklop ratchet with 1/4in drive: https://smile.amazon.co.uk/gp/product/B085CS9JBK/
+Wera zyklop ratchet with 1/4in drive 152mm: https://smile.amazon.co.uk/gp/product/B001V9NCS6/
+
+Wera 75mm zyklop extension piece: https://smile.amazon.co.uk/gp/product/B003GDIREY/
+
+Wera torsion bit set/hex/screws: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
 Wera 1/4in ratchet screwdriver: https://smile.amazon.co.uk/gp/product/B0047KXA6U/
 
