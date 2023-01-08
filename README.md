@@ -15,6 +15,8 @@
 
 ### drying.md: drying toolkit.
 
+### electrical-tools.md: essential electrical tools list.
+
 ### painting.md: paint toolkit.
 
 ### tool-accessories.md: additional tool accessories list.
