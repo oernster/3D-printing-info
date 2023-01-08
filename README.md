@@ -25,4 +25,4 @@
 
 ### slicers-guide.md: brief summary of the three slicers I've used.
 
-### temp-tower-guide.md: A simple guide to how to do a temperature tower.
+### temp-tower-guide.md: A simple guide describing how to do a temperature tower.
