@@ -28,8 +28,6 @@ Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/pro
 
 Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
 
-Knipex electronic super nips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/
-
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
@@ -80,7 +78,7 @@ Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
 
 Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
-Magnetic telescopic pick up tool set: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
+Magnetic telescopic 5 x pick up tools of varying sizes: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
 
 Needle nose pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
