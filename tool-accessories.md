@@ -1,5 +1,7 @@
 ## Tool accessories
 
+Gorilla super glue 15g: https://smile.amazon.co.uk/gp/product/B003CT4XT0/
+
 Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
 
 Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
