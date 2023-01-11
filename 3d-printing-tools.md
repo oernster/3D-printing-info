@@ -28,21 +28,21 @@ Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/pro
 
 Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
 
+Knipex electronic super knips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/ 
+
+Knipex combination pliers: https://smile.amazon.co.uk/gp/product/B0001D9J2G/
+
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
 
-Wera 75mm zyklop extension piece: https://smile.amazon.co.uk/gp/product/B003GDIREY/
+Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
-Wera 152mm zyklop 1/4in drive ratchet: https://smile.amazon.co.uk/gp/product/B001V9NCS6/
+Wera micro hex precision screwdriver set: https://smile.amazon.co.uk/gp/product/B007ICWFX8/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
-
-Wera ratchet screwdriver 17pc set: https://smile.amazon.co.uk/gp/product/B00476DIN4/
-
-Wera zyklop 1/4in drive 9pc socket set: https://smile.amazon.co.uk/gp/product/B0757ZN7C6/
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
