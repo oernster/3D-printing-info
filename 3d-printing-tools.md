@@ -40,6 +40,8 @@ Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.ama
 
 Wera micro hex precision screwdriver set: https://smile.amazon.co.uk/gp/product/B007ICWFX8/
 
+Wera screwdriving service kit (52pc): https://smile.amazon.co.uk/gp/product/B01BSKR35U/
+
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
