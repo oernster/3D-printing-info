@@ -48,7 +48,7 @@ Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
-Vision Miner Nano Polymer Adhesive (the best I've come across): https://visionminer.com/products/nano-polymer-adhesive
+Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money): https://visionminer.com/products/nano-polymer-adhesive
 
 Better brushes for Vision Miner Adhesive: https://smile.amazon.co.uk/gp/product/B0052UN1JA/
 
