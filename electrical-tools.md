@@ -1,6 +1,6 @@
 ## Soldering/electrical tools
 
-Quality soldering iron (Pinecil) that doesn't break the bank: https://smile.amazon.co.uk/gp/product/B096X6SG13/
+Decent soldering station: https://smile.amazon.co.uk/gp/product/B08YDTGDSY/
 
 Rolson Soldering helping hands: https://smile.amazon.co.uk/gp/product/B001BMSBD4/
 
