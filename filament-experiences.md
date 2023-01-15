@@ -2,10 +2,8 @@
 
 ## Premium Best buys; also pricier:
 
-Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.  
-I’m a repeat buyer.
-Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well - I’m 
-a repeat buyer.
+Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.
+Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well.
 
 ## Best buys:
 
