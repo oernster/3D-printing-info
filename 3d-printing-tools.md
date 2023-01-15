@@ -76,6 +76,8 @@ Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
 ## Reasonably priced just good tools
 
+Ratcheting wrench 10pc set: https://smile.amazon.co.uk/gp/product/B07W7TPJ3X/
+
 Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile.amazon.co.uk/gp/product/B073WWCW4W/
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
@@ -84,7 +86,7 @@ Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
 
 Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
-Magnetic telescopic 5 x pick up tools of varying sizes: https://smile.amazon.co.uk/gp/product/B08XXJ68TD/
+Magnetic telescopic pick up tool: https://smile.amazon.co.uk/gp/product/B001I78SK8/
 
 Swiss Army knife: https://smile.amazon.co.uk/gp/product/B0001GS19K/ 
 
