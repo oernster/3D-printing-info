@@ -107,5 +107,3 @@ Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https
 Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 
 HiSpec rotary tool cabled: https://www.amazon.co.uk/gp/product/B013OYFDC8/
-
-Dremel Flex Shaft: https://smile.amazon.co.uk/gp/product/B008ETGPOY/
