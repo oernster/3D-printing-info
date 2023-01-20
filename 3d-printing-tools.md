@@ -36,6 +36,8 @@ Knipex 140mm needle nosed pliers: https://smile.amazon.co.uk/gp/product/B0001LNA
 
 Knipex very long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
+Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/dp/B00182TGFO
+
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
@@ -49,6 +51,8 @@ Wera screwdriving service kit (52pc): https://smile.amazon.co.uk/gp/product/B01B
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
+
+Wera micro big pack screwdriver set: https://smile.amazon.co.uk/dp/B07X7JSBHG
 
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
