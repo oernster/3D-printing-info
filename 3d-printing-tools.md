@@ -38,6 +38,8 @@ Knipex very long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B002
 
 Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/dp/B00182TGFO
 
+Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1G/
+
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
