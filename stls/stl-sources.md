@@ -30,8 +30,6 @@ https://www.hex3dpatreon.com/index.php
 
 https://cults3d.com/en/users/Sassiecat3d/creations
 
-https://grabcad.com/
-
 https://www.youmagine.com/
 
 https://cults3d.com/en/users/FlexiFactory/creations
