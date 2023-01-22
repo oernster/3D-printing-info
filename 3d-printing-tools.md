@@ -48,11 +48,11 @@ Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.ama
 
 Wera micro hex precision screwdriver set: https://smile.amazon.co.uk/gp/product/B007ICWFX8/
 
+Wera pouch for above: https://smile.amazon.co.uk/gp/product/B0155KZV5S/
+
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
-
-Wera micro big pack screwdriver set: https://smile.amazon.co.uk/dp/B07X7JSBHG
 
 Wera ratchet screwdriver and bit set 17pc: https://smile.amazon.co.uk/gp/product/B00476DIN4/
 
@@ -81,6 +81,8 @@ https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
 ## Reasonably priced just good tools
+
+Acrylic spool mount: https://smile.amazon.co.uk/gp/product/B07872RX7G
 
 Ratcheting wrench 10pc set: https://smile.amazon.co.uk/gp/product/B07W7TPJ3X/
 
