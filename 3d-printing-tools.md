@@ -22,8 +22,6 @@ Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/pr
 
 ## Expensive but lovely tools
 
-Knipex long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B011IL419K/
-
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
 Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
@@ -31,8 +29,6 @@ Knipex diagonal cutters: https://smile.amazon.co.uk/gp/product/B0001D8PE4/
 Knipex electronic super knips: https://smile.amazon.co.uk/gp/product/B0001P0CI4/ 
 
 Knipex combination pliers: https://smile.amazon.co.uk/gp/product/B0001D9J2G/
-
-Knipex 140mm needle nosed pliers: https://smile.amazon.co.uk/gp/product/B0001LNAR8/
 
 Knipex very long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
@@ -42,13 +38,7 @@ Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1
 
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
-Bahco adjustable wrench 200mm length with soft grip: https://smile.amazon.co.uk/gp/product/B0001IX9B8/
-
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
-
-Wera micro hex precision screwdriver set: https://smile.amazon.co.uk/gp/product/B007ICWFX8/
-
-Wera pouch for above: https://smile.amazon.co.uk/gp/product/B0155KZV5S/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
@@ -70,15 +60,11 @@ https://smile.amazon.co.uk/gp/product/B07124RR3T/
 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
-Ryobi high/low heat glue gun: https://smile.amazon.co.uk/gp/product/B08YKCSHR4/ 
-
 Milwaukee desk torch (3 parts in 2 links):
 
 https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
 
 https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
-
-Decent digital micrometer: https://smile.amazon.co.uk/gp/product/B07K7GJSVP/
 
 ## Reasonably priced just good tools
 
@@ -91,8 +77,6 @@ Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://smile
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
 
 Mini locking grips: https://smile.amazon.co.uk/gp/product/B074XF9HL3/
-
-Digital angle finder: https://smile.amazon.co.uk/gp/product/B089W9Q9KC/
 
 Magnetic telescopic pick up tool: https://smile.amazon.co.uk/gp/product/B001I78SK8/
 
