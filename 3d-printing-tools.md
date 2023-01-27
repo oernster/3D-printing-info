@@ -70,6 +70,8 @@ https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
 
 ## Reasonably priced just good tools
 
+20pc hex head allen wrench drill bit set: https://smile.amazon.com/gp/product/B08Y5L5G6T/
+
 Acrylic spool mount: https://smile.amazon.co.uk/gp/product/B07872RX7G
 
 Ratcheting wrench 10pc set: https://smile.amazon.co.uk/gp/product/B07W7TPJ3X/
