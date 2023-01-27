@@ -3,7 +3,7 @@
 
 ### levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
-### klipper-tools: self explanatory.
+### klipper-commands: self explanatory.
 
 ### stls: sources of STL files throughout the web + my personal collections that are continually updated.
 
@@ -11,7 +11,7 @@
 
 ## This directory:
 
-### 3d-printing-tools.md: decent tools list.
+### 3d-printing-tools.md: decent tools list; regularly updated, adding good tools and removing unnecessary tools.
 
 ### drying.md: drying toolkit.
 
