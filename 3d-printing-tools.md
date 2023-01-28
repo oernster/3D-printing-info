@@ -62,11 +62,7 @@ https://smile.amazon.co.uk/gp/product/B07124RR3T/
 
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
-Milwaukee desk torch (3 parts in 2 links):
-
-https://smile.amazon.co.uk/gp/product/B00IS5VIIC/
-
-https://smile.amazon.co.uk/gp/product/B07LBWTP9G/
+Ryobi cordless LED project light: https://smile.amazon.co.uk/gp/product/B07QGRC18G/
 
 ## Reasonably priced just good tools
 
