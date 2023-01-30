@@ -1,7 +1,7 @@
 # Levelling starter for 10
 
 If you want to level then just download calibration shapes from Ultimaker 
-as a plugin to Cure.  Then, restart Cura.
+as a plugin to Cura.  Then, restart Cura.
 
 Next, under part for calibration in the extensions menu, create a cube.  
 Turn off uniform and snap scaling and set the z to 0.24mm.
