@@ -48,6 +48,8 @@ Wera ratchet screwdriver and bit set 17pc: https://smile.amazon.co.uk/gp/product
 
 Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OHOXF0M/
 
+Wera comprehensive torsion bits and holder set 61pc: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money): https://visionminer.com/products/nano-polymer-adhesive
@@ -65,6 +67,8 @@ https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 Ryobi cordless LED project light: https://smile.amazon.co.uk/gp/product/B07QGRC18G/
 
 ## Reasonably priced just good tools
+
+7pc hex screwdriver set: https://smile.amazon.co.uk/gp/product/B0854KM5PB/
 
 20pc hex head allen wrench drill bit set: https://smile.amazon.com/gp/product/B08Y5L5G6T/
 
