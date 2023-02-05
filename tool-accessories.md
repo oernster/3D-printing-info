@@ -1,5 +1,7 @@
 ## Tool accessories
 
+25ft - 1/2 inch PET Expandable Braided Sleeving: https://smile.amazon.co.uk/gp/product/B071ZV6MZ2/
+
 Gorilla super glue 15g: https://smile.amazon.co.uk/gp/product/B003CT4XT0/
 
 Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
