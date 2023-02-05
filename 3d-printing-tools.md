@@ -20,7 +20,7 @@ You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QX
 
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
-## Expensive but lovely tools
+## Just lovely tools
 
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
 
@@ -36,7 +36,11 @@ Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/dp/B00182TGFO
 
 Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1G/
 
+Knipex electronics pliers 140mm: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
+
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
+
+C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
