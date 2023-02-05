@@ -50,6 +50,8 @@ Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OH
 
 Wera comprehensive torsion bits and holder set 61pc: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
+Wera 7pc phillips/blade screwdriver set: https://smile.amazon.co.uk/gp/product/B08HCT8NDT/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money): https://visionminer.com/products/nano-polymer-adhesive
