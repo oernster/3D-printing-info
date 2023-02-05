@@ -10,4 +10,4 @@ Solder wire: https://smile.amazon.co.uk/gp/product/B07RD9GG52/
 
 Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
 
-Crimping tool: https://smile.amazon.co.uk/gp/product/B01N4L8QMW/
+Decent crimping tool: https://smile.amazon.co.uk/gp/product/B002AVVO7K/
