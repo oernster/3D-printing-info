@@ -42,6 +42,8 @@ C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
+C.K slim relieved side cutters: https://smile.amazon.co.uk/gp/product/B00W1MLOGY/
+
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
@@ -60,6 +62,8 @@ Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product
 
 Wera 6pc stubby magazine screwdriver: https://smile.amazon.co.uk/gp/product/B08XV4D43K/
 
+Precision Compact Side Cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money): https://visionminer.com/products/nano-polymer-adhesive
@@ -75,6 +79,10 @@ https://smile.amazon.co.uk/gp/product/B07124RR3T/
 https://smile.amazon.co.uk/gp/product/B07NQPLV5G/
 
 Ryobi cordless LED project light: https://smile.amazon.co.uk/gp/product/B07QGRC18G/
+
+Ryobi high/low glue gun: https://smile.amazon.co.uk/gp/product/B08YKCSHR4/
+
+Glue sticks for glue gun: https://smile.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
 
