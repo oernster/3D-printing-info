@@ -58,6 +58,8 @@ Wera 7pc phillips/blade screwdriver set: https://smile.amazon.co.uk/gp/product/B
 
 Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product/B009ODV0PI/
 
+Wera 6pc stubby magazine screwdriver: https://smile.amazon.co.uk/gp/product/B08XV4D43K/
+
 Fire extinguisher that won’t destroy your printer since CO2: https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
 Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money): https://visionminer.com/products/nano-polymer-adhesive
