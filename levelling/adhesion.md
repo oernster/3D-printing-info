@@ -1,4 +1,5 @@
 Adhesion Issues
+
 If you have no adhesion, then clean it with dish soap and warm water, dry 
 it, then apply some isopropyl alcohol of at least 90%+ concentration (I 
 use 99.9%) and wipe that off with ideally a microfibre cloth.
