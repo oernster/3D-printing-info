@@ -38,6 +38,10 @@ Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1
 
 Knipex electronics pliers 140mm: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
 
+Knipex high leverage diagonal cutters 140mm: https://smile.amazon.co.uk/gp/product/B000VD6ZQ4/
+
+Knipex long nosed pliers chrome plated 160mm: https://smile.amazon.co.uk/gp/product/B000ZEHC52/
+
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
