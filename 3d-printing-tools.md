@@ -66,6 +66,8 @@ Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product
 
 Wera 6pc stubby magazine screwdriver: https://smile.amazon.co.uk/gp/product/B08XV4D43K/
 
+Wera turbo gearbox screwdriver: https://smile.amazon.co.uk/gp/product/B085CSKBH8/
+
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
 
 Fire extinguisher (CO2): https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
