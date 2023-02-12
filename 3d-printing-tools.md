@@ -38,10 +38,6 @@ Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1
 
 Knipex electronics pliers 140mm: https://smile.amazon.co.uk/gp/product/B003RWS9I8/
 
-Knipex high leverage diagonal cutters 140mm: https://smile.amazon.co.uk/gp/product/B000VD6ZQ4/
-
-Knipex long nosed pliers chrome plated 160mm: https://smile.amazon.co.uk/gp/product/B000ZEHC52/
-
 C.K bent snipe nose pliers: https://smile.amazon.co.uk/gp/product/B00W1MKTGU/
 
 C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
@@ -58,15 +54,9 @@ Wera ratchet screwdriver and bit set 17pc: https://smile.amazon.co.uk/gp/product
 
 Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OHOXF0M/
 
-Wera comprehensive torsion bits and holder set 61pc: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
-
 Wera 7pc phillips/blade screwdriver set: https://smile.amazon.co.uk/gp/product/B08HCT8NDT/
 
 Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product/B009ODV0PI/
-
-Wera 6pc stubby magazine screwdriver: https://smile.amazon.co.uk/gp/product/B08XV4D43K/
-
-Wera turbo gearbox screwdriver: https://smile.amazon.co.uk/gp/product/B085CSKBH8/
 
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
 
