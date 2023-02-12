@@ -56,6 +56,8 @@ Wera 7pc phillips/blade screwdriver set: https://smile.amazon.co.uk/gp/product/B
 
 Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product/B009ODV0PI/
 
+Wiha professional electric 140mm cutters: https://smile.amazon.co.uk/gp/product/B07RMWXF4M/
+
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
 
 Fire extinguisher (CO2): https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
@@ -79,6 +81,8 @@ Ryobi high/low glue gun: https://smile.amazon.co.uk/gp/product/B08YKCSHR4/
 Glue sticks for glue gun: https://smile.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
+
+Rolson Stubby Claw Hammer: https://smile.amazon.co.uk/gp/product/B00JITHXRM/
 
 7pc hex screwdriver set: https://smile.amazon.co.uk/gp/product/B0854KM5PB/
 
