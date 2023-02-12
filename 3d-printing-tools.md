@@ -44,6 +44,10 @@ C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
 C.K slim relieved side cutters: https://smile.amazon.co.uk/gp/product/B00W1MLOGY/
 
+Wera bitholding screwdriver (quick release chuck): https://smile.amazon.co.uk/gp/product/B001555GVW/
+
+Wera general bit set, 30pc: https://smile.amazon.co.uk/gp/product/B01BNGH4HG/
+
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
 Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
@@ -109,8 +113,6 @@ Feeler gauges (angled): https://smile.amazon.co.uk/gp/product/B07K8KQH47/
 Deburring tool: https://smile.amazon.co.uk/gp/product/B07RHZ7T5C/
 
 Chisel set for removing supports: https://www.amazon.co.uk/gp/product/B07353DB6L/
-
-Needle file set: https://smile.amazon.co.uk/gp/product/B007BN6IQO/
 
 Acetone for smoothing (Do NOT use on PLA!): https://www.amazon.co.uk/gp/product/B087M84WR7/
 
