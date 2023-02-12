@@ -27,3 +27,10 @@ Copper buckles for 3D printing belt: https://www.amazon.co.uk/gp/product/B09KBSP
 Cable chains: https://www.amazon.co.uk/gp/product/B07SFFT1K5/
 
 Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
+
+1.25in (10ft) cord protector wire loom: https://smile.amazon.co.uk/gp/product/B08NT43H29/
+
+1200pc wire ferrules kit with crimp connectors: https://smile.amazon.co.uk/dp/B07QTZR69D/
+
+25ft 1/2in PET expandable braided sleeving: https://smile.amazon.co.uk/dp/B071ZV6MZ2/
+
