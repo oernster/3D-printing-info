@@ -12,4 +12,4 @@ Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
 
 Decent crimping tool: https://smile.amazon.co.uk/gp/product/B002AVVO7K/
 
-Awesome Knipex Self-Adjusting Crimping Pliers for wire ferrules with lateral access 180mm: https://smile.amazon.co.uk/dp/B000ZEHC52/
+Hexagonal crimping tool: https://smile.amazon.co.uk/gp/product/B08GFS4HL5/
