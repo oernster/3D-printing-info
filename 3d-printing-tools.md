@@ -50,8 +50,6 @@ Wera magnetiser/demagnetiser: https://smile.amazon.co.uk/gp/product/B09TL2LSCL/
 
 Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN/
 
-Wera ratchet screwdriver and bit set 17pc: https://smile.amazon.co.uk/gp/product/B00476DIN4/
-
 Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OHOXF0M/
 
 Wera 7pc phillips/blade screwdriver set: https://smile.amazon.co.uk/gp/product/B08HCT8NDT/
@@ -116,4 +114,3 @@ Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https
 
 Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
 
-HiSpec rotary tool cabled: https://www.amazon.co.uk/gp/product/B013OYFDC8/
