@@ -20,6 +20,8 @@ You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QX
 
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
+Coloured 18pc metric hex/torx allen key set: https://smile.amazon.co.uk/gp/product/B07K14WQSP/
+
 ## Just lovely tools
 
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
@@ -82,6 +84,8 @@ Glue sticks for glue gun: https://smile.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
 
+16pc needle file tool set: https://smile.amazon.co.uk/gp/product/B01N53K853/
+
 Rolson Stubby Claw Hammer: https://smile.amazon.co.uk/gp/product/B00JITHXRM/
 
 7pc hex screwdriver set: https://smile.amazon.co.uk/gp/product/B0854KM5PB/
@@ -113,4 +117,3 @@ Acetone for smoothing (Do NOT use on PLA!): https://www.amazon.co.uk/gp/product/
 Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https://www.amazon.co.uk/gp/product/B07L8YPYQK/
 
 Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
-
