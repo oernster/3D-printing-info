@@ -1,5 +1,7 @@
 ## Tool accessories
 
+10ft 1.25in PET wire loom/tubing cable: https://smile.amazon.co.uk/dp/B08NT43H29/
+
 25ft - 1/2 inch PET Expandable Braided Sleeving: https://smile.amazon.co.uk/gp/product/B071ZV6MZ2/
 
 Gorilla super glue 15g: https://smile.amazon.co.uk/gp/product/B003CT4XT0/
