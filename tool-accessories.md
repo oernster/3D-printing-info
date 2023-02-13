@@ -1,6 +1,6 @@
 ## Tool accessories
 
-10ft 1.25in PET wire loom/tubing cable: https://smile.amazon.co.uk/dp/B08NT43H29/
+1.25in (10ft) cord protector wire loom: https://smile.amazon.co.uk/gp/product/B08NT43H29/
 
 25ft - 1/2 inch PET Expandable Braided Sleeving: https://smile.amazon.co.uk/gp/product/B071ZV6MZ2/
 
@@ -30,9 +30,5 @@ Cable chains: https://www.amazon.co.uk/gp/product/B07SFFT1K5/
 
 Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
 
-1.25in (10ft) cord protector wire loom: https://smile.amazon.co.uk/gp/product/B08NT43H29/
-
 1200pc wire ferrules kit with crimp connectors: https://smile.amazon.co.uk/dp/B07QTZR69D/
-
-25ft 1/2in PET expandable braided sleeving: https://smile.amazon.co.uk/dp/B071ZV6MZ2/
 
