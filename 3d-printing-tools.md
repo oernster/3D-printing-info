@@ -46,9 +46,7 @@ C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
 C.K slim relieved side cutters: https://smile.amazon.co.uk/gp/product/B00W1MLOGY/
 
-Wera 1/4in bitholding screwdriver (quick release chuck): https://smile.amazon.co.uk/gp/product/B001555GVW/
-
-Wera general bit set, 30pc: https://smile.amazon.co.uk/gp/product/B01BNGH4HG/
+Wera 17pc screwdriver set with quick release chuck: https://smile.amazon.co.uk/gp/product/B000X1R2K2/
 
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
@@ -61,6 +59,8 @@ Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OH
 Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product/B009ODV0PI/
 
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
+
+Worx 4V 3-Speed Cordless Screwdriver: https://smile.amazon.co.uk/gp/product/B08FDBVDD8/
 
 Fire extinguisher (CO2): https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
