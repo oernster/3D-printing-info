@@ -10,6 +10,8 @@ Hakko Solder Reel Holder: https://smile.amazon.co.uk/gp/product/B000W9IVBY/
 
 Solder wire: https://smile.amazon.co.uk/gp/product/B07RD9GG52/
 
+Weller soldering sponges 5pc: https://smile.amazon.co.uk/gp/product/B003LRY9Y2/
+
 Decent solder sucker pump: https://smile.amazon.co.uk/gp/product/B002MJMXD4/
 
 Decent crimping tool: https://smile.amazon.co.uk/gp/product/B002AVVO7K/
