@@ -62,6 +62,8 @@ Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product
 
 Wera 61pc torsion bits and holder set in pouch: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
+Wera allen key / L key set (colour coded): https://smile.amazon.co.uk/gp/product/B009ODV0OE/ 
+
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
 
 Worx 4V 3-Speed Cordless Screwdriver: https://smile.amazon.co.uk/gp/product/B08FDBVDD8/
