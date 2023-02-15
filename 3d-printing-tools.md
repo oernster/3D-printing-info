@@ -22,6 +22,8 @@ Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/pr
 
 Coloured 18pc metric hex/torx allen key set: https://smile.amazon.co.uk/gp/product/B07K14WQSP/
 
+Brass brushes to clean your nozzle: https://smile.amazon.co.uk/gp/product/B08D9QH3X3/
+
 ## Just lovely tools
 
 Knipex mini pliers wrench with ergonomic grip: https://smile.amazon.co.uk/gp/product/B005EXOK0Y/
@@ -57,6 +59,8 @@ Wera 1/4in 25mm socket adapter: https://smile.amazon.co.uk/gp/product/B06XW33DSN
 Wera decent toolbag for 11 wrenches: https://smile.amazon.co.uk/gp/product/B00OHOXF0M/
 
 Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product/B009ODV0PI/
+
+Wera 61pc torsion bits and holder set in pouch: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
 
