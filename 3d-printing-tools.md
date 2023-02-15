@@ -46,7 +46,7 @@ C.K snipe long nose pliers: https://smile.amazon.co.uk/gp/product/B00W1OEBWG/
 
 C.K slim relieved side cutters: https://smile.amazon.co.uk/gp/product/B00W1MLOGY/
 
-Wera 17pc screwdriver set with quick release chuck: https://smile.amazon.co.uk/gp/product/B000X1R2K2/
+Wera turbo 17pc screwdriver set with quick release chuck: https://smile.amazon.co.uk/gp/product/B085CS7WDT/
 
 Wera 1/4in drive zyklop multi-function socket and ratchet set: https://smile.amazon.co.uk/gp/product/B00IMF1CDO/
 
