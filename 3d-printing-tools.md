@@ -36,6 +36,8 @@ Knipex combination pliers: https://smile.amazon.co.uk/gp/product/B0001D9J2G/
 
 Knipex very long needle nosed pliers: https://smile.amazon.co.uk/gp/product/B002UU3R7Q
 
+Knipex very long needle nosed pliers comfort grip: https://www.primetools.co.uk/product/knipex-31-15-160-flat-nose-pliers-needle-nose-pliers-multi-component-grips-chrome-plated-160mm/
+
 Knipex snipe nose side cutting pliers: https://smile.amazon.co.uk/dp/B00182TGFO
 
 Knipex electronics pliers 115mm: https://smile.amazon.co.uk/gp/product/B0001P0C1G/
