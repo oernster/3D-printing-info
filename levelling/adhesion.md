@@ -7,6 +7,10 @@ use 99.9%) and wipe that off with ideally a microfibre cloth.
 If you STILL get adhesion issues, then perhaps use (best choice) some 
 expensive hairspray, or, in a pinch, some cheap glue stick.
 
+Actually, the REAL best choice for adhesion, though pricey, is Vision Miner's nano polymer adhesive.
+
+That stuff makes prints stick like glue.  If you want to save some money it will adhere just as well with a 5:1 dilution with 99.9% IPA.
+
 All of this assumes you've levelled correctly; this requires making sure 
 your bed screws are right, then doing the paper test (you need mild to 
 medium friction under the nozzle when _COLD_), then adjusting the z offset 
