@@ -20,7 +20,7 @@ You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QX
 
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
-Coloured 18pc metric hex/torx allen key set: https://smile.amazon.co.uk/gp/product/B07K14WQSP/
+Coloured hex ball end/torx allen key metric set: https://smile.amazon.co.uk/gp/product/B0BJCZYTZ7/ 
 
 Brass brushes to clean your nozzle: https://smile.amazon.co.uk/gp/product/B08D9QH3X3/
 
@@ -62,11 +62,11 @@ Wera 12pc micro precision screwdriver set: https://smile.amazon.co.uk/gp/product
 
 Wera 61pc torsion bits and holder set in pouch: https://smile.amazon.co.uk/gp/product/B01BSOMS38/
 
-Wera allen key / L key set (colour coded): https://smile.amazon.co.uk/gp/product/B009ODV0OE/ 
+Wera allen key / L key set (colour coded): https://smile.amazon.co.uk/gp/product/B009ODV0OE/
+
+Wiha professional electric diagonal cutters 140mm: https://smile.amazon.co.uk/gp/product/B07RMWXF4M/
 
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
-
-Worx 4V 3-Speed Cordless Screwdriver: https://smile.amazon.co.uk/gp/product/B08FDBVDD8/
 
 Fire extinguisher (CO2): https://smile.amazon.co.uk/gp/product/B00NPWP6GI/
 
