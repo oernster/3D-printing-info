@@ -66,6 +66,8 @@ Wera 61pc torsion bits and holder set in pouch: https://smile.amazon.co.uk/gp/pr
 
 Wera allen key / L key set (colour coded): https://smile.amazon.co.uk/gp/product/B009ODV0OE/
 
+Wera stubby screwdriver magazine (6pc): https://smile.amazon.co.uk/dp/B08XTP1LR6/
+
 Wiha professional electric diagonal cutters 140mm: https://smile.amazon.co.uk/gp/product/B07RMWXF4M/
 
 Precision compact side cutters 120mm: https://smile.amazon.co.uk/gp/product/B000TGJSWG/
