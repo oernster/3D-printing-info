@@ -3,7 +3,7 @@
 
 ### levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
-### klipper: self explanatory.
+### klipper: guide to setting up klipper and also some useful webcam setup commands.
 
 ### stls: sources of STL files throughout the web + my personal collections that are continually updated.
 
