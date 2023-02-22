@@ -33,8 +33,7 @@ vacuum packed and may need drying on receipt.
 
 Hatchbox PLA - prints very well.
 
-YOUSU - fast changing rainbow silk PLA; almost as good as ERYONE.  Also, 
-their tricolour silk PLAs are absolutely BEAUTIFUL!  Their tricolour extrusion
+YOUSU - fast changing rainbow silk PLA; almost as good as ERYONE.  Their tricolour extrusion
 filaments are outstanding.
 
 ## Good to OK buys:
