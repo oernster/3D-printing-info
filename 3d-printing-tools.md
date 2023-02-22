@@ -20,8 +20,6 @@ You ARE going to burn your fingers: https://smile.amazon.co.uk/gp/product/B071QX
 
 Decent 2 pack of scissors with ergonomic grips: https://smile.amazon.co.uk/gp/product/B07H4LTQ1D/
 
-Coloured hex ball end/torx allen key metric set: https://smile.amazon.co.uk/gp/product/B0BJCZYTZ7/ 
-
 Brass brushes to clean your nozzle: https://smile.amazon.co.uk/gp/product/B08D9QH3X3/
 
 ## Just lovely tools
