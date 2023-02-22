@@ -68,5 +68,6 @@ chucked it after losing 3 beds I couldn’t scrape off with a Stanley knife.
 AVOID Amazon basics PLA… the filament is just whatever the 
 cheapest is when they order a batch making it quite random in quality. It 
 is quite possible that one spool is just fine, then the next one will just 
-just clog.  Also, AVOID filament from printer manufacturers.
+just clog.  Also, AVOID filament from printer manufacturers; with the key exception
+of prusament from prusa.
 
