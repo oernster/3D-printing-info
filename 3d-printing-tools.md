@@ -92,6 +92,8 @@ Glue sticks for glue gun: https://smile.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
 
+10pc impact rated 3in security torx bit set: https://www.amazon.co.uk/gp/product/B086K2DDS8/
+
 16pc needle file tool set: https://smile.amazon.co.uk/gp/product/B01N53K853/
 
 Rolson Stubby Claw Hammer: https://smile.amazon.co.uk/gp/product/B00JITHXRM/
