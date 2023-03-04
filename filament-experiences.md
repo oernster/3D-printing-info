@@ -8,7 +8,7 @@ Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well.
 
 ## Best buys:
 
-ERYONE - amazing rainbow metal silk PLA that is fast changing.
+ERYONE - amazing rainbow metal silk PLA that is fast changing.  Notably they have recently started selling tricolour silk PLA and it is cheaper than their competitors but just as nice.
 
 ZIRO - great prints from these silk PLA colours; I have ALL the silks and 
 ALL the glitter ones; they are all amazing and print so easily.
