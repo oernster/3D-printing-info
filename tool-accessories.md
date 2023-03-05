@@ -1,22 +1,22 @@
 ## Tool accessories
 
-1.25in (10ft) cord protector wire loom: https://smile.amazon.co.uk/gp/product/B08NT43H29/
+1.25in (10ft) cord protector wire loom: https://www.amazon.co.uk/gp/product/B08NT43H29/
 
-25ft - 1/2 inch PET Expandable Braided Sleeving: https://smile.amazon.co.uk/gp/product/B071ZV6MZ2/
+25ft - 1/2 inch PET Expandable Braided Sleeving: https://www.amazon.co.uk/gp/product/B071ZV6MZ2/
 
-Gorilla super glue 15g: https://smile.amazon.co.uk/gp/product/B003CT4XT0/
+Gorilla super glue 15g: https://www.amazon.co.uk/gp/product/B003CT4XT0/
 
-Bunch of useful tool bags: https://smile.amazon.co.uk/gp/product/B07G8YRQT7/
+Bunch of useful tool bags: https://www.amazon.co.uk/gp/product/B07G8YRQT7/
 
-Cutting mat: https://smile.amazon.co.uk/gp/product/B09JT382MS/
+Cutting mat: https://www.amazon.co.uk/gp/product/B09JT382MS/
 
-Draper small parts storage: https://smile.amazon.co.uk/gp/product/B0038XQZZK/
+Draper small parts storage: https://www.amazon.co.uk/gp/product/B0038XQZZK/
 
-Bookcase for displaying prints (Ikea is also good): https://smile.amazon.co.uk/gp/product/B085NRVXCD/
+Bookcase for displaying prints (Ikea is also good): https://www.amazon.co.uk/gp/product/B085NRVXCD/
 
 Sandpaper: https://www.amazon.co.uk/gp/product/B077TS8WT7/
 
-Sanding Twigs: https://smile.amazon.co.uk/gp/product/B08YFKSRJT/
+Sanding Twigs: https://www.amazon.co.uk/gp/product/B08YFKSRJT/
 
 Filament holder/feeder/spool bearings: https://www.amazon.co.uk/gp/product/B083LM843L/
 
@@ -28,7 +28,7 @@ Copper buckles for 3D printing belt: https://www.amazon.co.uk/gp/product/B09KBSP
 
 Cable chains: https://www.amazon.co.uk/gp/product/B07SFFT1K5/
 
-Rotating turntable for 3D scanning: https://smile.amazon.co.uk/gp/product/B08BR51YQX/
+Rotating turntable for 3D scanning: https://www.amazon.co.uk/gp/product/B08BR51YQX/
 
-1200pc wire ferrules kit with crimp connectors: https://smile.amazon.co.uk/dp/B07QTZR69D/
+1200pc wire ferrules kit with crimp connectors: https://www.amazon.co.uk/dp/B07QTZR69D/
 
