@@ -26,7 +26,7 @@ Continuing to sort the squares out:
 
 Then multiply the square by 8 copies in cura so you have 9 well spaced 
 squares, then set your z offset to about 0.05mm x 5-6 above the build 
-plate.  To clarify for people who aren't very bright.  This means multiply
+plate.  To clarify for people who aren't very bright, this means multiply
 0.05mm by 5 or 6 to give you approx 0.25mm to ensure that you don't crash
 your nozzle into the build plate.
 
