@@ -8,11 +8,15 @@ I have provided a Captain America shield STL in this github folder as a not so t
 
 It will require red, blue and white PLA.
 
+I have provided images of the final print as jpg files so you can see the correct colours to use.
+
+I have also provided an example prusaslicer screenshot of the final multiple sliced STL based on the instructions below; the final preview in cura will look very similar if you have followed my instructions correctly.
+
 ## SLICING
 
 ### Prusa or super slicer
 
-1) import the STL file into your slicer and centre it on your print bed.
+1) Import the STL file into your slicer and centre it on your print bed.
 
 2) Slice the print.
 
