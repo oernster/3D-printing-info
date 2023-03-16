@@ -1,5 +1,7 @@
 # Colour changes via performing a filament change operation in your slicer
 
+NOTE: This does NOT require an multi material device such as a Palette, MMU2S or ERCF.
+
 ## Acquire a suitable print
 
 A suitable print typically has a layer that you want in one colour and then at a certain height, the print changes so you want to perform a filament change e.g. to a new colour.
