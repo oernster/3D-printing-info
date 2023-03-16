@@ -45,3 +45,9 @@ We are not going to do that for this example but knock yourself out if you want 
 4) Wait for the next layer to print, rinse and repeat this process until the print is done.  Wait for bed to cool and then remove the print from the bed and you'll be golden.
 
 5) Happy filament colour change printing!!!
+
+## Final Notes
+
+1) When first checking a key chain or similar STL file for suitability to print, it's worth sometimes increasing the z height to gain a larger amount of extrusion on the top layer of the print.  You can subsequently perform a cut operation to remove some of the base layer (be careful not to cut off critical print base parts).  This can improve the quality of the print.
+
+2) Another point to make is sometimes online STLs for key fobs have too small holes to fit on a standard keyring because the designer was an idiot and didn't consider what he was actually designing.  In this scenario you have two choices; a) increase the x and y scale by the same amount but this means the print will be bigger or b) fiddle with it in a CAD program to you needs.
