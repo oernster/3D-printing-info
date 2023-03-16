@@ -10,7 +10,9 @@ I have provided a Captain America shield STL in this github folder as a not so t
 
 It will require red, blue and white PLA.
 
-I have provided images of the final print as jpg files so you can see the correct colours to use.
+I have provided images of the final Captain America key fob print as jpg files so you can see the correct colours to use.
+
+As another example, I have also added a Tazmanian Devil (the cartoon character) key fob print to the repository as a jpg file.
 
 I have also provided an example prusaslicer screenshot of the final multiple sliced STL based on the instructions below; the final preview in cura will look very similar if you have followed my instructions correctly.
 
