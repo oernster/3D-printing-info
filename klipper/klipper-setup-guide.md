@@ -22,7 +22,7 @@ Then you'll need to
 
 # make menuconfig
 
- and setup the klipper build according to your particular motherboard.  You will need to identify the chip on your motherboard by looking at it directly or googling for the schematic online.  Once you've configured the klipper build, do a 
+ and setup the klipper build according to your particular motherboard.  You will need to identify the chip on your _printer_ motherboard by looking at it directly or googling for the schematic online.  Once you've configured the klipper build, do a 
 make
 
  and then copy the klipper.bin file from the out directory to an SD card.
