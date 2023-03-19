@@ -59,3 +59,11 @@ PRINT_START EXTRUDER='"{first_layer_temperature[initial_extruder] + extruder_tem
 In end gcode enter...
 
 PRINT_END
+
+Now you want the 'moonraker connection' plugin for cura as you want to be able to upload to your pi as well after you've sliced a print.
+
+Once you have installed it, restart cura. 
+
+In Settings ~ Printer ~ Manage Printers ~ Connect Moonraker set your ip address as follows: http://10.0.0.1/ (adjust for the ip address of your pi).
+
+Next, in the Upload tab, select UFP with thumbnail.  I tick everything else but that's up to you.
