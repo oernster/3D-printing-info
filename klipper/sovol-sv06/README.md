@@ -54,11 +54,14 @@ PRINT_END
 
 In Settings ~ Printer ~ Manage Printers ~ Machine Settings ~ Start gcode: enter...
 
-PRINT_START EXTRUDER='"{first_layer_temperature[initial_extruder] + extruder_temperature_offset[initial_extruder]}"' BED='"[first_layer_bed_temperature]"' CHAMBER='"[chamber_temperature]"'
+SET_GCODE_VARIABLE MACRO=START_PRINT VARIABLE=bed_temp VALUE={material_bed_temperature_layer_0}
+SET_GCODE_VARIABLE MACRO=START_PRINT VARIABLE=extruder_temp VALUE={material_print_temperature_layer_0}
+START_PRINT
 
 In end gcode enter...
 
-PRINT_END
+SET_GCODE_VARIABLE MACRO=END_PRINT VARIABLE=machine_depth VALUE={machine_depth}
+END_PRINT
 
 Now you want the 'moonraker connection' plugin for cura as you want to be able to upload to your pi as well after you've sliced a print.
 
