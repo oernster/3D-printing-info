@@ -1,16 +1,6 @@
 # sovol-sv06-klipper-setup
 Setup guide for Sovol SV06 with klipper
 
-First off install git for your PC/linux/mac from here: https://github.com/git-guides/install-git
-
-Then on a command line or terminal (cmd.exe on windows, Terminal on a mac or linux box) go to the green Code button at the top right of this web page and click it.  Then click the two squares button to copy.
-
-Then type:
-
-git clone -paste in your copied command here without minus signs-
-
-This should copy this entire repository to your local machine.
-
 ## Flash Mainsail to your pi using raspberry pi imager
 
 Note: If you do not have a RPI then use kiauh as follows...
