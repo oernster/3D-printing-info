@@ -3,16 +3,6 @@ Setup guide for Tronxy x5sa with klipper
 
 You will need: Your 8GB Tronxy x5sa supplied SD card, a computer with SD card port/USB adaptor, another SD card for a raspberry pi or whatever pi variant you want to use and the pi variant itself; ideally an rpi but an orange pi or rock pi will do just fine.
 
-First off install git for your PC/linux/mac from here: https://github.com/git-guides/install-git
-
-Then on a command line or terminal (cmd.exe on windows, Terminal on a mac or linux box) go to the green Code button at the top right of this web page and click it.  Then click the two squares button to copy.
-
-Then type:
-
-git clone -paste in your copied command here without minus signs-
-
-This should copy this entire repository to your local machine.
-
 ## Flash Mainsail to your pi using raspberry pi imager
 
 Note: If you do not have a RPI then use kiauh as follows...
