@@ -1,7 +1,7 @@
 # 3D-printing-info
 ## Useful 3D printing information
 
-# If you're setting up klipper, you need to clone this repository; this is how you do it:
+# If you're setting up klipper, you need to clone this repository.  This is how you do it:
 
 First off install git for your PC/linux/mac from here: https://github.com/git-guides/install-git
 
