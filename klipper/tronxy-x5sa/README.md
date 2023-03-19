@@ -52,3 +52,5 @@ PRINT_START EXTRUDER={first_layer_temperature[initial_extruder] + extruder_tempe
 In end gcode enter...
 
 PRINT_END
+
+Make sure you set (using the cog icon in printer settings) your printer name, the ip address of your pi (without http://) and the printer firmware to klipper.
