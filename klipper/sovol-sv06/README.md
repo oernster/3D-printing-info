@@ -34,13 +34,13 @@ Turn on the printer.
 Wait for 3-5 mins.  The screen will not display anything of interest and 
 you just need to wait.
 
-Next ssh/winscp or putty into your pi and rename either the printer_cura.cfg or the printer_superslicer.cfg file I have attached to this repository to printer.cfg first, then copy it to to the /home/pi/printer_data/config directory.  Note prusaslicer does not support klipper natively; though it _sort of works_ with marlin 2 set as the firmware; personally I would not trust that so if you want klipper I think a good slicer choice is superslicer.  Note that you can export a config bundle from prusaslicer and import it into superslicer if that was your previous slicer.
+Next ssh/winscp or putty into your pi and rename either the printer_cura.cfg or the printer_superslicer.cfg file I have attached to this repository to printer.cfg first, then copy it to to the /home/pi/printer_data/config directory.  Note prusaslicer does not support klipper natively; though it _sort of works_ with marlin 2 set as the firmware; personally I would not trust that so if you want klipper I think a good slicer choice is superslicer.  Note that you can export a config bundle from prusaslicer and import it into superslicer if that was your previous slicer.  
 
 Insert IP address of your pi into your browser and you're almost good to go.
 
 ## Slicer configuration
 
-# Prusa/Superslicer
+# Superslicer
 
 In Printer Settings ~ Custom Gcode ~ Start gcode: enter... 
 
@@ -50,23 +50,4 @@ In end gcode enter...
 
 PRINT_END
 
-# Cura - WORK IN PROGRESS
-
-In Settings ~ Printer ~ Manage Printers ~ Machine Settings ~ Start gcode: enter...
-
-SET_GCODE_VARIABLE MACRO=PRINT_START VARIABLE=bed_temp VALUE={material_bed_temperature_layer_0}
-SET_GCODE_VARIABLE MACRO=PRINT_START VARIABLE=extruder_temp VALUE={material_print_temperature_layer_0} 
-PRINT_START
-
-In end gcode enter...
-
-SET_GCODE_VARIABLE MACRO=PRINT_END VARIABLE=machine_depth VALUE={machine_depth}
-PRINT_END
-
-Now you want the 'moonraker connection' plugin for cura as you want to be able to upload to your pi as well after you've sliced a print.
-
-Once you have installed it, restart cura. 
-
-In Settings ~ Printer ~ Manage Printers ~ Connect Moonraker set your ip address as follows: http://10.0.0.1/ (adjust for the ip address of your pi).
-
-Next, in the Upload tab, select UFP with thumbnail.  I tick everything else but that's up to you.
+Make sure you set (using the cog icon in printer settings) your printer name, the ip address of your pi (without http://) and the printer firmware to klipper.
