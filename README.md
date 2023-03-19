@@ -1,6 +1,18 @@
 # 3D-printing-info
 ## Useful 3D printing information
 
+# If you're setting up klipper, you need to clone this repository; this is how you do it:
+
+First off install git for your PC/linux/mac from here: https://github.com/git-guides/install-git
+
+Then on a command line or terminal (cmd.exe on windows, Terminal on a mac or linux box) go to the green Code button at the top right of the web page and click it.  Then click the two squares button to copy.
+
+Then type:
+
+git clone -paste in your copied command here without minus signs-
+
+This should copy this entire repository to your local machine.
+
 ### levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
 ### klipper: guide to setting up klipper and also some useful webcam setup commands.
