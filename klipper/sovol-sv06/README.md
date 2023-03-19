@@ -34,7 +34,7 @@ Turn on the printer.
 Wait for 3-5 mins.  The screen will not display anything of interest and 
 you just need to wait.
 
-Next ssh/winscp or putty into your pi and copy the printer.cfg file I have attached to this repository to the /home/pi/printer_data/config directory.
+Next ssh/winscp or putty into your pi and copy either the printer_cura.cfg or the printer_superslicer.cfg file I have attached to this repository to the /home/pi/printer_data/config directory.  Note prusaslicer does not support klipper natively; though it _sort of works_ with marlin 2 set as the firmware; personally I would not trust that.
 
 Insert IP address of your pi into your browser and you're almost good to go.
 
