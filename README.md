@@ -13,6 +13,8 @@ git clone -paste in your copied command here without minus signs-
 
 This should copy this entire repository to your local machine.
 
+Now click on the klipper folder and read everything relevant to you.
+
 ### levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
 ### klipper: guide to setting up klipper and also some useful webcam setup commands.
