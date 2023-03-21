@@ -66,6 +66,8 @@ Wera allen key / L key set (colour coded): https://www.amazon.co.uk/gp/product/B
 
 Wera stubby screwdriver magazine (6pc): https://www.amazon.co.uk/dp/B08XTP1LR6/
 
+Lovely mini smart electric screwdriver: https://www.aliexpress.com/item/1005004064785066.html
+
 Wiha professional electric diagonal cutters 140mm: https://www.amazon.co.uk/gp/product/B07RMWXF4M/
 
 Precision compact side cutters 120mm: https://www.amazon.co.uk/gp/product/B000TGJSWG/
@@ -91,6 +93,8 @@ Ryobi high/low glue gun: https://www.amazon.co.uk/gp/product/B08YKCSHR4/
 Glue sticks for glue gun: https://www.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
+
+Gorilla super glue: https://www.amazon.co.uk/dp/B003CT4XT0/
 
 10pc impact rated 3in security torx bit set: https://www.amazon.co.uk/gp/product/B086K2DDS8/
 
