@@ -10,6 +10,8 @@ Hakko Solder Reel Holder: https://www.amazon.co.uk/gp/product/B000W9IVBY/
 
 Solder wire: https://www.amazon.co.uk/gp/product/B07RD9GG52/
 
+Soldering tip iron cleaner 2pcs: https://www.amazon.co.uk/dp/B088DP77PS/
+
 Weller soldering sponges 5pc: https://www.amazon.co.uk/gp/product/B003LRY9Y2/
 
 Decent solder sucker pump: https://www.amazon.co.uk/gp/product/B002MJMXD4/
