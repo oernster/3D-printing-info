@@ -25,3 +25,7 @@ PINECIL Soldering Short Tip Set (Fine): https://pine64.com/product/pinecil-solde
 PinePower – 120W Desktop Power Supply – UK Version: https://pine64.com/product/pinepower-120w-desktop-power-supply-uk-version/
 
 UGREEN USB C Fast Charger Cable, 100W USB C to USB C Cable fast charging (for Pinecil): https://www.amazon.co.uk/gp/product/B0BFZYDM1S/
+
+Klein crimping and cutting tool for insulated and non-insulated terminals: https://www.amazon.co.uk/dp/B0006M6Y5M/
+
+Electrical connectors crimp/spade/wire/bullet: https://www.amazon.co.uk/dp/B09PQRXVM6/
