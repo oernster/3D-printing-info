@@ -70,6 +70,8 @@ Lovely mini smart electric screwdriver: https://www.aliexpress.com/item/10050040
 
 Wiha professional electric diagonal cutters 140mm: https://www.amazon.co.uk/gp/product/B07RMWXF4M/
 
+Wiha torx selector 11pc box of bits: https://www.amazon.co.uk/dp/B001US4RMI/
+
 Precision compact side cutters 120mm: https://www.amazon.co.uk/gp/product/B000TGJSWG/
 
 Fire extinguisher (CO2): https://www.amazon.co.uk/gp/product/B00NPWP6GI/
