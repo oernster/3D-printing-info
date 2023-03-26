@@ -66,6 +66,8 @@ Wera allen key / L key set (colour coded): https://www.amazon.co.uk/gp/product/B
 
 Wera stubby screwdriver magazine (6pc): https://www.amazon.co.uk/dp/B08XTP1LR6/
 
+Wera 7pc screwdriver set with ergonomic handles: https://www.amazon.co.uk/gp/product/B08H242SJP/
+
 Lovely mini smart electric screwdriver: https://www.aliexpress.com/item/1005004064785066.html
 
 Wiha professional electric diagonal cutters 140mm: https://www.amazon.co.uk/gp/product/B07RMWXF4M/
@@ -95,6 +97,8 @@ Ryobi high/low glue gun: https://www.amazon.co.uk/gp/product/B08YKCSHR4/
 Glue sticks for glue gun: https://www.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
+
+Dinky spirit level: https://www.amazon.co.uk/gp/product/B003UAT6KW/
 
 Gorilla super glue: https://www.amazon.co.uk/dp/B003CT4XT0/
 
