@@ -1,16 +1,12 @@
-# Sources of STL files for 3D printing
+# Sources of STL files for 3D printing: FREE
 
 https://www.thingiverse.com/ 
 
 https://thangs.com/ 
 
-https://cults3d.com/en 
-
 https://www.printables.com/ 
 
 https://www.yeggi.com/ 
-
-https://www.sidnaique.com/portraits 
 
 https://sketchfab.com/search?type=models 
 
@@ -24,19 +20,34 @@ https://pinshape.com/
 
 https://repables.com/
 
-https://www.patreon.com/Geoffro
-
-https://www.hex3dpatreon.com/index.php
-
-https://cults3d.com/en/users/Sassiecat3d/creations
-
 https://www.youmagine.com/
 
-https://cults3d.com/en/users/FlexiFactory/creations
+https://stlfinder.com
+
+Ancient sculptures: https://www.myminifactory.com/users/SMK%20-%20Statens%20Museum%20for%20Kunst
+
+# Sources of STL files for 3D printing: PAID
+
+https://www.patreon.com/3dWicked/posts
 
 https://rocketpiggames.com/
 
-https://www.printablescenery.com/
+https://cults3d.com/en/users/Sassiecat3d/creations
 
-https://stlfinder.com
+https://www.hex3dpatreon.com/
+
+https://cults3d.com/en/users/FlexiFactory/creations
+
+https://www.sidnaique.com/portraits
+
+https://cults3d.com/en
+
+https://lootstudios.com/
+
+https://galacticarmory.net/
+
+https://cults3d.com/en/users/zvc0430/creations
+
+https://www.stlflix.com/
+
 
