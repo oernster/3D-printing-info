@@ -1,10 +1,10 @@
 # Sources of STL files for 3D printing: FREE
 
-https://www.thingiverse.com/ 
+Millions of items: https://www.thingiverse.com/ 
 
-https://thangs.com/ 
+Easy search: https://thangs.com/ 
 
-https://www.printables.com/ 
+Excellent source of free prints: https://www.printables.com/ 
 
 https://www.yeggi.com/ 
 
@@ -22,32 +22,32 @@ https://repables.com/
 
 https://www.youmagine.com/
 
-https://stlfinder.com
+3D object search tool: https://stlfinder.com
 
 Ancient sculptures: https://www.myminifactory.com/users/SMK%20-%20Statens%20Museum%20for%20Kunst
 
 # Sources of STL files for 3D printing: PAID
 
-https://www.patreon.com/3dWicked/posts
+Mostly Marvel/DC character prints: https://www.patreon.com/3dWicked/posts
 
-https://rocketpiggames.com/
+Monster miniatures etc.: https://rocketpiggames.com/
 
-https://cults3d.com/en/users/Sassiecat3d/creations
+A privately curated collection of creations: https://cults3d.com/en/users/Sassiecat3d/creations
 
-https://www.hex3dpatreon.com/
+An excellent creator of models: https://www.hex3dpatreon.com/
 
-https://cults3d.com/en/users/FlexiFactory/creations
+Lovely flexi prints; usually print in place: https://cults3d.com/en/users/FlexiFactory/creations
 
-https://www.sidnaique.com/portraits
+Lovely, though pricey, busts and other models: https://www.sidnaique.com/portraits
 
-https://cults3d.com/en
+Lots of quality prints: https://cults3d.com/en
 
-https://lootstudios.com/
+Primarily miniatures: https://lootstudios.com/
 
-https://galacticarmory.net/
+It's in the name! https://galacticarmory.net/
 
-https://cults3d.com/en/users/zvc0430/creations
+Various printable weapons: https://cults3d.com/en/users/zvc0430/creations
 
-https://www.stlflix.com/
+Curated models via a subscription: https://www.stlflix.com/
 
 
