@@ -1,5 +1,5 @@
 # 3D-printing-info
-## Useful 3D printing information
+## Useful 3D printing information.
 
 # If you're setting up klipper, you need to clone this repository.  This is how you do it:
 
