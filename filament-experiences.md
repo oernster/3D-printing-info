@@ -8,15 +8,15 @@ Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well.
 
 ## Best buys:
 
-https://www.3dqf.co.uk/ - EXCELLENT PLA and at a bargain price in the UK; I have loads of their PLA spools and can highly recommend it.
-Note, however, that the PLA comes on a cardboard spool; that's a matter of taste but great for recycling.  Their ABS is rumoured to be average though.
-
 ERYONE - amazing rainbow metal silk PLA that is fast changing.  Notably they have recently started selling tricolour silk PLA and it is cheaper than their competitors but just as nice.  I have also had great experiences with their matte PLA.
 
 ZIRO - great prints from these silk PLA colours; I have ALL the silks and 
 ALL the glitter ones; they are all amazing and print so easily.
 
 AMOLEN - awesome silk colours; especially the bicolour ones.
+
+https://www.3dqf.co.uk/ - EXCELLENT PLA and at a bargain price in the UK; I have loads of their PLA spools and can highly recommend it.
+Note, however, that the PLA comes on a cardboard spool; that's a matter of taste but great for recycling.  Their ABS is rumoured to be average though.
 
 ICEYUN - lovely silk colours that print well; AVOID MATTE - see ‘bad buys’ 
 below.
