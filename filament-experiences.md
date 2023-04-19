@@ -1,6 +1,6 @@
 # My personal filament experiences:
 
-## Premium Best buys; also pricier:
+## Premium best buys; also pricier:
 
 Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.
 
