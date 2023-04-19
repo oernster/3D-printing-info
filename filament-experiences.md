@@ -6,7 +6,7 @@ Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.
 
 Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well.
 
-## Best buys:
+## Best buys at reasonable prices:
 
 ERYONE - amazing rainbow metal silk PLA that is fast changing.  Notably they have recently started selling tricolour silk PLA and it is cheaper than their competitors but just as nice.  I have also had great experiences with their matte PLA.
 
