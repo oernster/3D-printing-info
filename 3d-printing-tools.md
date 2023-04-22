@@ -102,6 +102,8 @@ Glue sticks for glue gun: https://www.amazon.co.uk/gp/product/B075K76SHF/
 
 Dinky spirit level: https://www.amazon.co.uk/gp/product/B003UAT6KW/
 
+Handy desk vice: https://www.amazon.co.uk/dp/B001O51JCS/
+
 Gorilla super glue: https://www.amazon.co.uk/dp/B003CT4XT0/
 
 10pc impact rated 3in security torx bit set: https://www.amazon.co.uk/gp/product/B086K2DDS8/
