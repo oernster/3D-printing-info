@@ -1,4 +1,7 @@
 # 3D-printing-info
+
+## Invite to 3D Hub discord: https://discord.gg/JUK6GcvK
+
 ## Useful 3D printing information.
 
 # If you're setting up klipper, you need to clone this repository.  This is how you do it:
