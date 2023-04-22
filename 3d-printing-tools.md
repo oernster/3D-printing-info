@@ -68,7 +68,9 @@ Wera stubby screwdriver magazine (6pc): https://www.amazon.co.uk/dp/B08XTP1LR6/
 
 Wera 7pc screwdriver set with ergonomic handles: https://www.amazon.co.uk/gp/product/B08H242SJP/
 
-Lovely mini smart electric screwdriver: https://sequremall.com/collections/screwdriver/products/electric-screwdriver
+Lovely mini smart electric screwdriver (iFixit bits work with it): https://sequremall.com/collections/screwdriver/products/electric-screwdriver
+
+iFixit Mako precision bit set/driver: https://www.amazon.co.uk/gp/product/B0189YWOIO/
 
 Wiha professional electric diagonal cutters 140mm: https://www.amazon.co.uk/gp/product/B07RMWXF4M/
 
