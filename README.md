@@ -4,7 +4,7 @@
 
 ## Useful 3D printing information.
 
-# If you're setting up klipper, you need to clone this repository.  This is how you do it:
+# To clone this repository, this is how you do it:
 
 First off install git for your PC/linux/mac from here: https://github.com/git-guides/install-git
 
@@ -15,8 +15,6 @@ Then type:
 git clone -paste in your copied command here without minus signs-
 
 This should copy this entire repository to your local machine.
-
-Now click on the klipper folder and read everything relevant to you.
 
 ### levelling: contains information on levelling and resolving adhesion issues for FDM printers, including a picture of a good well levelled set of 9 squares on a Prusa i3 MKS3+ smooth sheet bed.
 
