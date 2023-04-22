@@ -31,3 +31,5 @@ UGREEN USB C Fast Charger Cable, 100W USB C to USB C Cable fast charging (for Pi
 Klein crimping and cutting tool for insulated and non-insulated terminals: https://www.amazon.co.uk/dp/B0006M6Y5M/
 
 Electrical connectors crimp/spade/wire/bullet: https://www.amazon.co.uk/dp/B09PQRXVM6/
+
+JST-SM crimps male/female: https://www.amazon.co.uk/dp/B08357MWNJ/
