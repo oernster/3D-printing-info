@@ -22,6 +22,8 @@ This should copy this entire repository to your local machine.
 
 ### stls: sources of STL files throughout the web + my personal collections that are continually updated.
 
+### colour-swap: a guide to filament changing mid print.
+
 ### diagrams-schematics: self explanatory.
 
 ## This directory:
