@@ -68,6 +68,18 @@ Wera stubby screwdriver magazine (6pc): https://www.amazon.co.uk/dp/B08XTP1LR6/
 
 Wera 7pc screwdriver set with ergonomic handles: https://www.amazon.co.uk/gp/product/B08H242SJP/
 
+Wera 7pc hollow shaft nutspinner set: https://www.amazon.co.uk/gp/product/B00154Y0MY/
+
+Wera 7pc torx precision screwdriver set: https://www.amazon.co.uk/gp/product/B007ICV4FS/
+
+Wera empty pouch for torx drivers: https://www.amazon.co.uk/gp/product/B0155KZV5S/
+
+Wiha 8pc precision slotted/phillips screwdriver set with soft and pico finish handles: https://www.amazon.co.uk/gp/product/B000FV62SS/
+
+Wiha 7pc hex metric screwdriver set with soft and pico finish handles: https://www.amazon.co.uk/gp/product/B000T9W1GI/
+
+Engineer screw removal / extractor gripping pliers (combi style): https://www.amazon.co.uk/dp/B002L6HJAA/
+
 Lovely mini smart electric screwdriver (iFixit bits work with it): https://sequremall.com/collections/screwdriver/products/electric-screwdriver
 
 iFixit Mako precision bit set/driver: https://www.amazon.co.uk/gp/product/B0189YWOIO/
@@ -99,6 +111,8 @@ Ryobi high/low glue gun: https://www.amazon.co.uk/gp/product/B08YKCSHR4/
 Glue sticks for glue gun: https://www.amazon.co.uk/gp/product/B075K76SHF/
 
 ## Reasonably priced just good tools
+
+2pc machinist blocks: https://www.amazon.co.uk/gp/product/B07NY218RY/
 
 Dinky spirit level: https://www.amazon.co.uk/gp/product/B003UAT6KW/
 
