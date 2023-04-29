@@ -35,3 +35,6 @@ Electrical connectors crimp/spade/wire/bullet: https://www.amazon.co.uk/dp/B09PQ
 JST-SM crimps male/female: https://www.amazon.co.uk/dp/B08357MWNJ/
 
 20 Pair JST XH 2.54 mm 2 Pin Male and Female Micro Connector Plug with 10cm 24 AWG Electrical Wire Silicone Insulated: https://www.amazon.co.uk/dp/B07QMMC4WZ/
+
+Cheap and handy multimeter: https://www.amazon.co.uk/dp/B01ISAMUA6/
+
