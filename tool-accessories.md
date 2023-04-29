@@ -32,3 +32,5 @@ Rotating turntable for 3D scanning: https://www.amazon.co.uk/gp/product/B08BR51Y
 
 1200pc wire ferrules kit with crimp connectors: https://www.amazon.co.uk/dp/B07QTZR69D/
 
+Nice tool bag: https://www.amazon.co.uk/dp/B098L3QD6B/
+
