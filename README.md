@@ -1,6 +1,6 @@
 # 3D-printing-info
 
-## Invite to 3D Hub discord: https://discord.gg/JUK6GcvK
+## Invite to 3D Hub discord: https://discord.gg/uJzSpynC
 
 ## Useful 3D printing information.
 
