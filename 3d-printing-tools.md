@@ -112,46 +112,46 @@ Glue sticks for glue gun: https://www.amazon.co.uk/gp/product/B075K76SHF/?&_enco
 
 ## Reasonably priced just good tools
 
-2pc machinist blocks: https://www.amazon.co.uk/gp/product/B07NY218RY/
+2pc machinist blocks: https://www.amazon.co.uk/gp/product/B07NY218RY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=df28d09cb694edd154743198867e46a6&camp=1634&creative=6738
 
-Dinky spirit level: https://www.amazon.co.uk/gp/product/B003UAT6KW/
+Dinky spirit level: https://www.amazon.co.uk/gp/product/B003UAT6KW/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=e2ac8cb136a6326b823f11189661cf5b&camp=1634&creative=6738
 
-Handy desk vice: https://www.amazon.co.uk/dp/B001O51JCS/
+Handy desk vice: https://www.amazon.co.uk/dp/B001O51JCS/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=8c603f99805885f41ed63e5915ebc12e&camp=1634&creative=6738
 
-Gorilla super glue: https://www.amazon.co.uk/dp/B003CT4XT0/
+Gorilla super glue: https://www.amazon.co.uk/dp/B003CT4XT0/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=e5f885478d544a54c362083e400e353b&camp=1634&creative=6738
 
-10pc impact rated 3in security torx bit set: https://www.amazon.co.uk/gp/product/B086K2DDS8/
+10pc impact rated 3in security torx bit set: https://www.amazon.co.uk/gp/product/B086K2DDS8/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=4f16e9dc27d2363899dbb9b1e7e3dbef&camp=1634&creative=6738
 
-16pc needle file tool set: https://www.amazon.co.uk/gp/product/B01N53K853/
+16pc needle file tool set: https://www.amazon.co.uk/gp/product/B01N53K853/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=489f120fad9b6d8473741c530515b750&camp=1634&creative=6738
 
-Rolson Stubby Claw Hammer: https://www.amazon.co.uk/gp/product/B00JITHXRM/
+Rolson Stubby Claw Hammer: https://www.amazon.co.uk/gp/product/B00JITHXRM/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=2ac508df8827da5cbfb076a422e26d71&camp=1634&creative=6738
 
-7pc hex screwdriver set: https://www.amazon.co.uk/gp/product/B0854KM5PB/
+7pc hex screwdriver set: https://www.amazon.co.uk/gp/product/B0854KM5PB/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=5e4e4255dfb7030142894bb3562e95d2&camp=1634&creative=6738
 
-Acrylic spool mount: https://www.amazon.co.uk/gp/product/B07872RX7G
+Acrylic spool mount: https://www.amazon.co.uk/gp/product/B07872RX7G?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=5796e6c686e2cf3fcbceac332588c25f&camp=1634&creative=6738
 
-Ratcheting wrench 10pc set: https://www.amazon.co.uk/gp/product/B07W7TPJ3X/
+Ratcheting wrench 10pc set: https://www.amazon.co.uk/gp/product/B07W7TPJ3X/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=23afafbe19df9b3f5b117cc20d216a6c&camp=1634&creative=6738
 
-Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://www.amazon.co.uk/gp/product/B073WWCW4W/
+Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits: https://www.amazon.co.uk/gp/product/B073WWCW4W/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=8b1b6d6f4a82ce4f19b4d61d3a213fd6&camp=1634&creative=6738
 
 Amazing long thin metal thing tool: https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool
 
-Mini locking grips: https://www.amazon.co.uk/gp/product/B074XF9HL3/
+Mini locking grips: https://www.amazon.co.uk/gp/product/B074XF9HL3/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=b2039a69a0b8224d86864d387769dfac&camp=1634&creative=6738
 
-Magnetic telescopic pick up tool: https://www.amazon.co.uk/gp/product/B001I78SK8/
+Magnetic telescopic pick up tool: https://www.amazon.co.uk/gp/product/B001I78SK8/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d2b2315cb704811842350d62261baf7a&camp=1634&creative=6738
 
-Swiss Army knife: https://www.amazon.co.uk/gp/product/B0001GS19K/ 
+Swiss Army knife: https://www.amazon.co.uk/gp/product/B0001GS19K/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=fe3af98ec777c9c36a80e069157500c3&camp=1634&creative=6738
 
-Stanley knife: https://www.amazon.co.uk/gp/product/B000X2CYN6/
+Stanley knife: https://www.amazon.co.uk/gp/product/B000X2CYN6/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=b8e224b9e07fff252656eb338580980d&camp=1634&creative=6738
 
-Feeler gauges (angled): https://www.amazon.co.uk/gp/product/B07K8KQH47/
+Feeler gauges (angled): https://www.amazon.co.uk/gp/product/B07K8KQH47/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=766f42749f98f2666a42b99eeff3b332&camp=1634&creative=6738
 
-Deburring tool: https://www.amazon.co.uk/gp/product/B07RHZ7T5C/
+Deburring tool: https://www.amazon.co.uk/gp/product/B07RHZ7T5C/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=3eeff279f830a9b7ea584c2224d4aeed&camp=1634&creative=6738
 
-Chisel set for removing supports: https://www.amazon.co.uk/gp/product/B07353DB6L/
+Chisel set for removing supports: https://www.amazon.co.uk/gp/product/B07353DB6L/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=e2fc796b4d67b798183f987b11196426&camp=1634&creative=6738
 
-Acetone for smoothing (Do NOT use on PLA!): https://www.amazon.co.uk/gp/product/B087M84WR7/
+Acetone for smoothing (Do NOT use on PLA!): https://www.amazon.co.uk/gp/product/B087M84WR7/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=cc3287b58610ab2dab635974d5c1a32e&camp=1634&creative=6738
 
-Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https://www.amazon.co.uk/gp/product/B07L8YPYQK/
+Creme brûlée torch for cleaning off excess plastic from e.g. heat break: https://www.amazon.co.uk/gp/product/B07L8YPYQK/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=40147629154436cff23e3c99771e429a&camp=1634&creative=6738
 
-Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/
+Butane for torch above: https://www.amazon.co.uk/gp/product/B00CX3L8IA/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=025336c8d920bf194feda74e760ebbbf&camp=1634&creative=6738
