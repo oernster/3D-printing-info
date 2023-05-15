@@ -1,4 +1,4 @@
-# 3D-printing-info
+# 3D-printing-info - Please note that links to Amazon are affiliate links
 
 ## Invite to 3D Hub discord: https://discord.gg/uJzSpynC
 
