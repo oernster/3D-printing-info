@@ -36,6 +36,8 @@ JST-SM crimps male/female: https://www.amazon.co.uk/dp/B08357MWNJ/?&_encoding=UT
 
 20 Pair JST XH 2.54 mm 2 Pin Male and Female Micro Connector Plug with 10cm 24 AWG Electrical Wire Silicone Insulated: https://www.amazon.co.uk/dp/B07QMMC4WZ/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=a795fdba9d6d53b1e6ce6d5cf4b25907&camp=1634&creative=6738
 
+1200pc wire ferrules kit with crimp connectors: https://www.amazon.co.uk/dp/B07QTZR69D/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=3bf5263fd616a4ef5aec572919ab8a30&camp=1634&creative=6738
+
 Cheap and handy multimeter: https://www.amazon.co.uk/dp/B01ISAMUA6/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=818dec438919c1583ec94f5dd4c99242&camp=1634&creative=6738
 
 Quality Fluke 106 auto-ranging multimeter: https://www.amazon.co.uk/dp/B00V6BBWJ0?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=61655dfebe5017987e4e0ffda128ee11&camp=1634&creative=6738
