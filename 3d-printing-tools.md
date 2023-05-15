@@ -60,9 +60,9 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B009ODV0PI/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=e8ac651a510ea9a1d52ee5dbe4ebc4a7&camp=1634&creative=6738">Wera 12pc micro precision screwdriver set</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B01BSOMS38/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=39805c01ac81b47452772c49a29428b7&camp=1634&creative=6738>Wera 61pc torsion bits and holder set in pouch</a>
+<a href="https://www.amazon.co.uk/gp/product/B01BSOMS38/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=39805c01ac81b47452772c49a29428b7&camp=1634&creative=6738">Wera 61pc torsion bits and holder set in pouch</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B009ODV0OE/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=7edd5d697f253dda0d5bb13b474a1588&camp=1634&creative=6738>Wera allen key / L key set (colour coded)</a>
+<a href="https://www.amazon.co.uk/gp/product/B009ODV0OE/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=7edd5d697f253dda0d5bb13b474a1588&camp=1634&creative=6738">Wera allen key / L key set (colour coded)</a>
 
 <a href="https://www.amazon.co.uk/dp/B08XTP1LR6/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=98409778282569e3754dc39924f5bfe8&camp=1634&creative=6738">Wera stubby screwdriver magazine (6pc)</a>
 
@@ -92,7 +92,7 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B00NPWP6GI/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=302591d51e650a4c327e71ce63a95f36&camp=1634&creative=6738">Fire extinguisher (CO2)</a>
 
-<a href="https://visionminer.com/products/nano-polymer-adhesive>Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money)</a>
+<a href="https://visionminer.com/products/nano-polymer-adhesive">Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money)</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B0052UN1JA/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=72b0e681f47ddf21428bf7ae9ef72f07&camp=1634&creative=6738">Better brushes for Vision Miner Adhesive</a>
 
