@@ -96,15 +96,15 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B0052UN1JA/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=72b0e681f47ddf21428bf7ae9ef72f07&camp=1634&creative=6738">Better brushes for Vision Miner Adhesive</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B0117BTDT4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=dbad5f930845c38319838f818003bce7&camp=1634&creative=6738">Ryobi Heat gun (Gentler heat than a butane flame, part 1)</a>
+<a href="https://www.amazon.co.uk/gp/product/B0117BTDT4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=dbad5f930845c38319838f818003bce7&camp=1634&creative=6738">Ryobi Battery Pk Lithium 5Ah 18V</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B07124RR3T/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d254ea2e89861dd63a953ca1177e73e4&camp=1634&creative=6738">Ryobi Heat gun (Gentler heat than a butane flame, part 2)</a>
+<a href="https://www.amazon.co.uk/gp/product/B07124RR3T/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d254ea2e89861dd63a953ca1177e73e4&camp=1634&creative=6738">Ryobi 18V ONE+ Compact Charger</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B07NQPLV5G/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=1d15ff03b6a970c3ecdc59a538520e61&camp=1634&creative=6738">Ryobi Heat gun (Gentler heat than a butane flame, part 3)</a>
+<a href="https://www.amazon.co.uk/gp/product/B07NQPLV5G/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=1d15ff03b6a970c3ecdc59a538520e61&camp=1634&creative=6738">Ryobi ONE+ Cordless Heat Gun (Body Only)</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B07QGRC18G/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=87198faf56ea5477ccb8a31e245bd015&camp=1634&creative=6738">Ryobi cordless LED project light</a>
+<a href="https://www.amazon.co.uk/gp/product/B07QGRC18G/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=87198faf56ea5477ccb8a31e245bd015&camp=1634&creative=6738">Ryobi cordless LED project light (Body Only)</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B08YKCSHR4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=85cf87eb1e9d09710b64549234d6bef9&camp=1634&creative=6738">Ryobi high/low glue gun</a>
+<a href="https://www.amazon.co.uk/gp/product/B08YKCSHR4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=85cf87eb1e9d09710b64549234d6bef9&camp=1634&creative=6738">Ryobi high/low glue gun (Body Only)</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B075K76SHF/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=ff464f3db3c3319f97d354bc06b6761c&camp=1634&creative=6738">Glue sticks for glue gun</a>
 
