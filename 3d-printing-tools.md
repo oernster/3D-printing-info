@@ -48,6 +48,8 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B00W1MLOGY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=10c6e362528c6bc18b7becef6000bb90&camp=1634&creative=6738">C.K slim relieved side cutters</a>
 
+<a href="https://amzn.to/42wwo0q">Wera TORX HF Zyklop Bit Nut Set with Holding Function 1/4 Inch Drive 9-Piece</a>
+  
 <a href="https://www.amazon.co.uk/gp/product/B085CS7WDT/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d2af585ec8fd083c347f4a00aabdcfd9&camp=1634&creative=6738">Wera turbo 17pc screwdriver set with quick release chuck</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B00IMF1CDO/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=173a0b3264b61be63880a793619ddb25&camp=1634&creative=6738">Wera 1/4in drive zyklop multi-function socket and ratchet set</a>
