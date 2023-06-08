@@ -22,6 +22,8 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B08D9QH3X3/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=52444864091dcc963c1f6e2be7726262&camp=1634&creative=6738">Brass brushes to clean your nozzle</a>
 
+<a href="https://amzn.to/3MYJopO">Original Barratt Giant Foam Bananas 1 Kilo Bag - ESSENTIAL 3D PRINTING TREATS!!!</a>
+  
 ## Just lovely tools
 
 <a href="https://www.amazon.co.uk/gp/product/B005EXOK0Y/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=a1b56f1bab0036b868be7850ed2b3d47&camp=1634&creative=6738">Knipex mini pliers wrench with ergonomic grip</a>
