@@ -50,6 +50,8 @@
 
 <a href="https://amzn.to/42wwo0q">Wera TORX HF Zyklop Bit Nut Set with Holding Function 1/4 Inch Drive 9-Piece</a>
   
+<a href="https://amzn.to/464iV34">Wera Kraftform Kompakt Vario Ra Ratchet Screwdriver and Bit Set, 7 Pieces</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B085CS7WDT/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d2af585ec8fd083c347f4a00aabdcfd9&camp=1634&creative=6738">Wera turbo 17pc screwdriver set with quick release chuck</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B00IMF1CDO/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=173a0b3264b61be63880a793619ddb25&camp=1634&creative=6738">Wera 1/4in drive zyklop multi-function socket and ratchet set</a>
@@ -110,6 +112,10 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B075K76SHF/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=ff464f3db3c3319f97d354bc06b6761c&camp=1634&creative=6738">Glue sticks for glue gun</a>
 
+<a href="https://amzn.to/3WSFSSx">RYOBI ONE+ 18V Cordless 1/2 in. Drill/Driver (Tool Only)</a>
+
+<a href="https://amzn.to/43MWmxP">Ryobi Mixed Drilling and Driving Bit Set, 30 Piece</a>
+  
 ## Reasonably priced just good tools
 
 <a href="https://www.amazon.co.uk/gp/product/B07NY218RY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=df28d09cb694edd154743198867e46a6&camp=1634&creative=6738">2pc machinist blocks</a>
