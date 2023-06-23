@@ -82,7 +82,7 @@
 
 <a href="https://amzn.to/44c6WP4">Wiha 7 Piece Precision Slotted and Phillips Screwdriver Set</a>
 
-<a href=*https://amzn.to/42WoFc8">Wiha VDE SoftFinish Slotted/ Pozi Screwdriver Set 6pc</a>
+<a href="https://amzn.to/42WoFc8">Wiha VDE SoftFinish Slotted/ Pozi Screwdriver Set 6pc</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B000T9W1GI/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=ba5aa628fd2723d555bae9ef86d52856&camp=1634&creative=6738">Wiha 7pc hex metric screwdriver set with soft and pico finish handles</a>
 
