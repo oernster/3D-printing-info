@@ -80,7 +80,9 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B0155KZV5S/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=26d937b53d958f9db15cdba58d181525&camp=1634&creative=6738">Wera empty pouch for torx drivers</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B000FV62SS/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=9c13b8163481e33fea674478c34366d5&camp=1634&creative=6738">Wiha 8pc precision slotted/phillips screwdriver set with soft and pico finish handles</a>
+<a href="https://amzn.to/44c6WP4">Wiha 7 Piece Precision Slotted and Phillips Screwdriver Set</a>
+
+<a href=*https://amzn.to/42WoFc8*>Wiha VDE SoftFinish Slotted/ Pozi Screwdriver Set 6pc</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B000T9W1GI/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=ba5aa628fd2723d555bae9ef86d52856&camp=1634&creative=6738">Wiha 7pc hex metric screwdriver set with soft and pico finish handles</a>
 
@@ -102,6 +104,10 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B0052UN1JA/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=72b0e681f47ddf21428bf7ae9ef72f07&camp=1634&creative=6738">Better brushes for Vision Miner Adhesive</a>
 
+<a href="https://amzn.to/3pm9RpF">Ryobi snap off knife</a>
+
+<a href="https://amzn.to/3Xk5Y15">Ryobi 18V ONE+ Cordless 10cm Clamp Fan (Bare Tool) Hyper Green</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B0117BTDT4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=dbad5f930845c38319838f818003bce7&camp=1634&creative=6738">Ryobi Battery Pk Lithium 5Ah 18V</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B07124RR3T/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d254ea2e89861dd63a953ca1177e73e4&camp=1634&creative=6738">Ryobi 18V ONE+ Compact Charger</a>
@@ -119,6 +125,8 @@
 <a href="https://amzn.to/43MWmxP">Ryobi Mixed Drilling and Driving Bit Set, 30 Piece</a>
   
 ## Reasonably priced just good tools
+
+<a href="https://amzn.to/43ZZve7">Lepro UV Torch for glow in the dark print charging</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B07NY218RY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=df28d09cb694edd154743198867e46a6&camp=1634&creative=6738">2pc machinist blocks</a>
 
