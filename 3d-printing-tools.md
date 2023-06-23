@@ -102,6 +102,8 @@
 
 <a href="https://visionminer.com/products/nano-polymer-adhesive">Vision Miner Nano Polymer Adhesive (the best I've come across; you can dilute this 5:1 IPA 99.9% to VM and it'll be just as good to save money)</a>
 
+<a href="https://www.printyplease.uk/Accessories/CV120">Cat vomit (great alternative to Vision Miner for adhesion and cheaper)</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B0052UN1JA/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=72b0e681f47ddf21428bf7ae9ef72f07&camp=1634&creative=6738">Better brushes for Vision Miner Adhesive</a>
 
 <a href="https://amzn.to/3pm9RpF">Ryobi snap off knife</a>
