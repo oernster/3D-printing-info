@@ -1,6 +1,8 @@
 ### AMS is flashing red on one or more spool slots?  Here's how you fix it...
 
-## You will need: 1 x Hex 2mm screwdriver, 1 x Hex 1.5mm screwdriver, 1x brass wire brush, 1x sprayable bottle of IPA
+## You will need: 
+
+1 x Hex 2mm screwdriver, 1 x Hex 1.5mm screwdriver, 1x brass wire brush, 1x sprayable bottle of IPA
 
 # TURN OFF YOUR PRINTER!!!
 
