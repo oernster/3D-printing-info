@@ -1,5 +1,9 @@
 ### AMS is flashing red on one or more spool slots?  Here's how you fix it...
 
+## PREFACE
+
+It will flash red for lots of reasons...  For instance, while loading the filament, grab the spool so it won't turn.  It will try three times, then fault out and flash red.  No dissassembly required.  Trouble loading all the way to the extruder, for one reason, or another.  Flashing red.  Dissasembly of the AMS won't help.  Broken filament in the extruder, flashing red in the AMS.  Once again, won't help.  And not always necessary to turn off the printer.  What if you are in the middle of a print?  Unless you can get it dissassembled, fixed, and reassembled before the bed cools off, you will lose that print.  Check the Bambu wiki FIRST before trying any of this, please.  I accept no responsibiliity for for user error.
+
 ## You will need: 
 
 1 x Hex 2mm screwdriver, 1 x Hex 1.5mm screwdriver, 1x brass wire brush, 1x sprayable bottle of IPA
