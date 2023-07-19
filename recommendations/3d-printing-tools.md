@@ -44,7 +44,7 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B003RWS9I8/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=5106e94f95c0bc4df9eae6d72ef6d973&camp=1634&creative=6738">Knipex electronics pliers 140mm</a>
 
-<a href="https://amzn.to/3K4RMDv">Knipex Precision Electronics Side Cutter ESD burnished, with multi-component grips 125 mm</a>
+<a href="https://amzn.to/3K4RMDv">Knipex Precision Electronics Side Cutter ESD burnished, 125 mm - Perfect for cutting filament at an angle</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B00W1MKTGU/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=16b43828c134fe398ad021725083dd09&camp=1634&creative=6738">C.K bent snipe nose pliers</a>
 
