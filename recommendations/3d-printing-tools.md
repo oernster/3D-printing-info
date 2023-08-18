@@ -56,6 +56,10 @@
   
 <a href="https://amzn.to/464iV34">Wera Kraftform Kompakt Vario Ra Ratchet Screwdriver and Bit Set, 7 Pieces</a>
 
+<a href="https://amzn.to/3qvzpkE">Wera Click-Torque A 6 Set 1 Adjustable Torque Wrench Set, 1/4" Hex Drive, 2.5-25 Nm, 20pc</a>
+
+<a href="https://amzn.to/3QEalm6">Wera Joker Combination Ratchet Spanner set Metric, 11pc</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B085CS7WDT/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=d2af585ec8fd083c347f4a00aabdcfd9&camp=1634&creative=6738">Wera turbo 17pc screwdriver set with quick release chuck</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B00IMF1CDO/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=173a0b3264b61be63880a793619ddb25&camp=1634&creative=6738">Wera 1/4in drive zyklop multi-function socket and ratchet set</a>
