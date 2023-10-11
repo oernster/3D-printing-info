@@ -8,13 +8,23 @@ This bowden also pokes just outside the rear of the printer.
 
 In this scenario, please replace that bowden tube with a suitable length of spare bowden (Bambu supply plenty of spare tubing but you can pick up more if required on Amazon cheaply).
 
-## 2) Bowden feeding to the AMS hub kinked
+## 2) External bowden issues
+
+If your bowden on the rear of the AMS keeps popping out of it's slot and feeding filament like mad, requiring you to stop a print and unload and basically panic, here's what you need to do...
+
+Basically, the black clip for your bowden that you normally push down to release the bowden from the rear of the AMS has probably got stuck in the down position.  There should be no visible PTFE at the rear of the AMS once it's push in as a snug fit.
+
+To resolve this, in my case, I had to use a small pair of needle nosed pliers to jimmy up both sides of the black plastic clip (being careful not to snap it of course) in a symmetrical manner such that the bowden can no longer be seen at the rear of the AMS.
+
+Theoretically, your bowden will no longer pop out of the AMS when feeding the hotend now.
+
+## 3) Bowden feeding to the AMS hub kinked
 
 If the bowden on the rear of the AMS that feeds into the AMS hub on the rear of the printer is kinked, perhaps due to poor printer orientation c.f. the AMS position, then that will prevent the filament from feeding in to the AMS hub.
 
 If this happens, you _may_ be able to get away with simply reorienting the printer so the bowden is no longer kinked.  Worst case scenario, replace the bowden that enters the rear of the AMS and feeds into the AMS hub on the rear of the printer.
 
-## 3) The extruder and/or hotend may be clogged.
+## 4) The extruder and/or hotend may be clogged.
 
 In this case, I recommend cleaning one or both of those while they are hot to ensure that there is no filament blocking the feeding path for printing.
 
@@ -22,7 +32,7 @@ Personally, I can recommend a noclogger tool (the short variant) from noclogger.
 
 Once this has been done, reinsert the bowden securely and replace the front toolhead housing (be careful not to remove the connector to the toolhead front plastic piece housing while doing all of this but it is easy to reinsert it if this happens), then resume your print.  
 
-## 4) Last resort
+## 5) Last resort
 
 Refer to BambuAMSCleaning.md.  This is quite a lot more work but is likely to resolve your issues.
 
