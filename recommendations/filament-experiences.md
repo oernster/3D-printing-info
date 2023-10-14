@@ -18,7 +18,7 @@ ALL the glitter ones; they are all amazing and print so easily.
 AMOLEN - awesome silk colours; especially the bicolour ones.
 
 https://www.3dqf.co.uk/ - EXCELLENT PLA and at a bargain price in the UK; I have loads of their PLA spools and can highly recommend it.
-Note, however, that the PLA comes on a cardboard spool; that's a matter of taste but great for recycling.  Their ABS is rumoured to be average though.
+Note, however, that the PLA comes on a cardboard spool (which is NOT suitable unless you respool it for a Bambu AMS btw); that's a matter of taste but great for recycling.  Their ABS is rumoured to be average though.
 
 ICEYUN - lovely silk colours that print well; AVOID MATTE - see ‘bad buys’ 
 below.
