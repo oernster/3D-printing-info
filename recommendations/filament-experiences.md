@@ -6,6 +6,8 @@ Prusament filament - awesome PLA/PETG/ASA; my favourite filament brand.
 
 Fillamentum PLA/ASA/PETG - lovely matte colours; prints really well.
 
+Polymaker ABS/ASA - Amazing colours and quality.
+
 ## Best buys at reasonable prices:
 
 Bambu filament - lovely PLA/PLA CF/PLA Metal.
