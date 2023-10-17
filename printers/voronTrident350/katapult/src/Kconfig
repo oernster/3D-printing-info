@@ -1,0 +1,122 @@
+# Main Kconfig settings
+
+VERSION := $(shell, git describe --tags --long --always --dirty 2> /dev/null)
+
+mainmenu "Katapult Configuration $(VERSION)"
+
+config LOW_LEVEL_OPTIONS
+    bool
+    default y
+
+choice
+    prompt "Micro-controller Architecture"
+    config MACH_LPC176X
+        bool "LPC176x (Smoothieboard)"
+    config MACH_STM32
+        bool "STMicroelectronics STM32"
+    config MACH_RP2040
+        bool "Raspberry Pi RP2040"
+endchoice
+
+source "src/lpc176x/Kconfig"
+source "src/stm32/Kconfig"
+source "src/rp2040/Kconfig"
+
+# Generic configuration options for serial ports
+config SERIAL
+    bool
+config SERIAL_BOOTLOADER_SIDECHANNEL
+    bool
+config SERIAL_BAUD
+    depends on SERIAL
+    int "Baud rate for serial port" if LOW_LEVEL_OPTIONS
+    default 250000
+    help
+        Specify the baud rate of the serial port. This should be set
+        to 250000. Read the FAQ before changing this value.
+
+# Generic configuration options for USB
+config USBSERIAL
+    bool
+config USBCANBUS
+    bool
+config USB
+    bool
+    default y if USBSERIAL || USBCANBUS
+config USB_VENDOR_ID
+    default 0x1d50
+config USB_DEVICE_ID
+    default 0x6177
+config USB_SERIAL_NUMBER_CHIPID
+    depends on USB && HAVE_CHIPID
+    default y
+config USB_SERIAL_NUMBER
+    default "12345"
+
+menu "USB ids"
+    depends on USB && LOW_LEVEL_OPTIONS
+config USB_VENDOR_ID
+    hex "USB vendor ID" if USBSERIAL
+config USB_DEVICE_ID
+    hex "USB device ID" if USBSERIAL
+config USB_SERIAL_NUMBER_CHIPID
+    bool "USB serial number from CHIPID" if HAVE_CHIPID
+config USB_SERIAL_NUMBER
+    string "USB serial number" if !USB_SERIAL_NUMBER_CHIPID
+endmenu
+
+# Generic configuration options for CANbus
+config CANSERIAL
+    bool
+config CANBUS
+    bool
+    default y if CANSERIAL || USBCANBUS
+config CANBUS_FREQUENCY
+    int "CAN bus speed" if LOW_LEVEL_OPTIONS && CANBUS
+    default 500000
+config CANBUS_FILTER
+    bool
+    default y if CANSERIAL
+
+# Support setting gpio state at startup
+config INITIAL_PINS
+    string "GPIO pins to set on bootloader entry"
+    depends on LOW_LEVEL_OPTIONS
+    help
+        One may specify a comma separated list of gpio pins to set
+        during bootloader entry (these gpio pins are not set if the
+        main application is started nor are they set while checking
+        for a bootloader request). By default the pins will be set to
+        output high - preface a pin with a '!' character to set that
+        pin to output low.
+
+config ENABLE_DOUBLE_RESET
+    bool "Support bootloader entry on rapid double click of reset button"
+    default y
+
+config ENABLE_BUTTON
+    bool "Enable bootloader entry on button (or gpio) state"
+    default n
+
+config BUTTON_PIN
+    string "Button GPIO Pin"
+    depends on ENABLE_BUTTON
+
+config ENABLE_LED
+    bool "Enable Status LED"
+    default n
+
+config STATUS_LED_PIN
+    string "Status LED GPIO Pin"
+    depends on ENABLE_LED
+
+config BUILD_DEPLOYER
+    bool
+    default y if FLASH_APPLICATION_ADDRESS != FLASH_BOOT_ADDRESS
+    default n
+
+# The HAVE_x options allow boards to disable support for some commands
+# if the hardware does not support the feature.
+config HAVE_CHIPID
+    bool
+    default n

@@ -1,0 +1,24 @@
+#### Sonar - A WiFi Keepalive daemon
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022
+#### https://github.com/mainsail-crew/sonar
+####
+#### This File is distributed under GPLv3
+####
+
+[Unit]
+Description=Sonar - A WiFi Keepalive daemon
+Documentation=https://github.com/mainsail-crew/sonar
+After=udev.service network-online.target nss-lookup.target
+Wants=udev.service network-online.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=exec
+RemainAfterExit=Yes
+ExecStart=/usr/local/bin/sonar
+Restart=on-failure
+RestartSec=5

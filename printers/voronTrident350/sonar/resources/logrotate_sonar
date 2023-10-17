@@ -1,0 +1,21 @@
+# sonar logrotate template
+
+#### Sonar - A WiFi Keepalive daemon
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022
+#### https://github.com/mainsail-crew/sonar
+####
+#### This File is distributed under GPLv3
+####
+
+/var/log/sonar.log {
+    rotate 1
+    missingok
+    notifempty
+    copy
+    daily
+    dateext
+    dateformat .%Y-%m-%d
+    maxsize 4M
+}
