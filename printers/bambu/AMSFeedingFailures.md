@@ -12,11 +12,13 @@ In this scenario, please replace that bowden tube with a suitable length of spar
 
 If your bowden on the rear of the AMS keeps popping out of it's slot and feeding filament like mad, requiring you to stop a print and unload and basically panic, here's what you need to do...
 
-Basically, the black clip for your bowden that you normally push down to release the bowden from the rear of the AMS has probably got stuck in the down position.  There should be no visible PTFE at the rear of the AMS once it's push in as a snug fit.
+Basically, the black clip for your bowden that you normally push down to release the bowden from the rear of the AMS has probably got stuck in the down position.
 
-To resolve this, in my case, I had to use a small pair of needle nosed pliers to jimmy up both sides of the black plastic clip (being careful not to snap it of course) in a symmetrical manner such that the bowden can no longer be seen at the rear of the AMS.
+To resolve this, in my case, I had to take apart the AMS (two small hex screws 2.0mm bore) and take out the black bowden clip.  Then, gently squeeze the 4 tabs inward slightly and remount it snugly.  Now, reassemble the AMS and reinsert the bowden into the rear of the AMS until it locks into place.
 
-Theoretically, your bowden will no longer pop out of the AMS when feeding the hotend now.
+You should be able to tug the bowden tube from the rear of the AMS with light to medium force and it should not pull out.
+
+Theoretically, your bowden will no longer pop out of the AMS when feeding the hotend now.  To test it, load one spool of filament into the AMS and either wait for it to recognise it using the RFID tag or specify the spool type, then perform a load operation.  If the bowden doesn't pop out, you're golden.
 
 ## 3) Bowden feeding to the AMS hub kinked
 
