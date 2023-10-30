@@ -10,15 +10,11 @@ In this scenario, please replace that bowden tube with a suitable length of spar
 
 ## 2) External bowden issues
 
-If your bowden on the rear of the AMS keeps popping out of it's slot and feeding filament like mad, requiring you to stop a print and unload and basically panic, here's what you need to do...
+If your bowden on the rear of the AMS keeps popping out of it's slot and feeding filament like mad, requiring you to stop a print and unload and basically panic, you probably need a replacement part.  
 
-Basically, the black clip for your bowden that you normally push down to release the bowden from the rear of the AMS has probably got stuck in the down position.
+If your Bambu X1C is within the 1st year of guarantee you should be able to obtain this part free from Bambu.  This is the part you need: https://uk.store.bambulab.com/collections/accessories-for-x1-series/products/ams-internal-hub-unit
 
-To resolve this, in my case, I had to take apart the AMS (two small hex screws 2.0mm bore) and take out the black bowden clip.  Then, gently squeeze the 4 tabs inward slightly and remount it snugly.  Now, reassemble the AMS and reinsert the bowden into the rear of the AMS until it locks into place.
-
-You should be able to tug the bowden tube from the rear of the AMS with light to medium force and it should not pull out.
-
-Theoretically, your bowden will no longer pop out of the AMS when feeding the hotend now.  To test it, load one spool of filament into the AMS and either wait for it to recognise it using the RFID tag or specify the spool type, then perform a load operation.  If the bowden doesn't pop out, you're golden.
+There is a guide to installation here: https://wiki.bambulab.com/en/x1/maintenance/replace-filament-hub
 
 ## 3) Bowden feeding to the AMS hub kinked
 
