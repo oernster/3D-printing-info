@@ -6,6 +6,8 @@ Easy search: https://thangs.com/
 
 Excellent source of free prints: https://www.printables.com/ 
 
+Bambu's printables clone: https://makerworld.com/
+
 https://www.yeggi.com/ 
 
 https://sketchfab.com/search?type=models 
