@@ -1,4 +1,4 @@
-# 3D PRINTING TOOLS GUIDE - Please note that the Amazon links are affiliate links.
+# 3D PRINTING TOOLS GUIDE
 
 ## Essential tools
 

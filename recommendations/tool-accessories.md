@@ -1,4 +1,4 @@
-## Tool accessories - Please note that the Amazon links are affiliate links.
+## Tool accessories
 
 <a href="https://www.amazon.co.uk/gp/product/B08NT43H29/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=fa71418d58ecdc058eba67679b093702&camp=1634&creative=6738">1.25in (10ft) cord protector wire loom</a>
 
