@@ -10,7 +10,7 @@ Polymaker ABS/ASA - Amazing colours and quality.
 
 ## Best buys at reasonable prices:
 
-Bambu filament - lovely PLA/PLA CF/PLA Metal.
+Bambu filament - lovely PLA/PLA CF/PLA Metal/ABS/ASA.
 
 ERYONE - amazing rainbow metal silk PLA that is fast changing.  Notably they have recently started selling tricolour silk PLA and it is cheaper than their competitors but just as nice.  I have also had great experiences with their matte PLA.
 
