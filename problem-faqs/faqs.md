@@ -1,5 +1,4 @@
 # FAQs
-# ====
 
 ## For Bambu see the Bambu sub folder
 
