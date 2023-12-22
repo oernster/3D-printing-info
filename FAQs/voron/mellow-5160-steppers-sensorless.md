@@ -14,7 +14,7 @@ Be careful not to supply 48V to the external stepper drivers or you'll bork them
 
 If you experience GSTAT or GLOBAL SCALER errors then it might be worth trying this command to check that you can read/write to the steppers:
 
-### DUMP_TMC STEPPER=stepper_x (Repeat for stepper_y) - You should see movement on the toolhead.
+### DUMP_TMC STEPPER=stepper_x (Repeat for stepper_y) - You should see data not all zeros in the output.
 
 To save you constantly performing a firmware_retsart, consider sending this command: 
 
@@ -24,7 +24,7 @@ You can adjust the stepper_ to x or y as appropriate and the VALUE to the value 
 
 It's worth performing a stepper buzz on x and y to see if the print toolhead moves in an appropriate direction and the steppers are actually functioning:
 
-### STEPPER_BUZZ stepper=stepper_y (repeat for x)
+### STEPPER_BUZZ stepper=stepper_y (repeat for x) - You should see movement on the toolhead.
 
 Now, if like me, you migrated from endstops to sensorless, it is quite possible that when you cut your endstop wires you also cut your motor wires (don't ask) so please check you haven't done this or your toolhead will not home x and y correctly.
 
