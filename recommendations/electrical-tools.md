@@ -47,5 +47,3 @@
 <a href="https://amzn.to/3pm7kMg">2 x 40g FLUX, ROSIN for electronics SMD solder flux COLOPHONY -HIGH Purity</a>
 
 <a href="https://amzn.to/3Xkbf8Q">Wago 85pc box set</a>
-
-<a href="https://amzn.to/3XiZ9Nj">Ryobi 18V One+ Cordless Soldering Iron (Body Only)</a>
