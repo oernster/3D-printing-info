@@ -26,6 +26,12 @@
   
 ## Just lovely tools
 
+<a href="https://www.amazon.co.uk/dp/B003NKALBC">Digital angle finder for deracking your printer</a>
+
+<a href="https://www.amazon.co.uk/dp/B003AI9US2">Lovely low torque range in Nm screwdriver for nozzle mounting</a>
+
+<a href="https://www.amazon.co.uk/gp/product/B07BMQ9BP5/">Knipex electrician's shears with multicomponent grips</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B005EXOK0Y/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=a1b56f1bab0036b868be7850ed2b3d47&camp=1634&creative=6738">Knipex mini pliers wrench with ergonomic grip</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B0001D8PE4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=b3a0bd27a51e973289df214bb64f7dd0&camp=1634&creative=6738">Knipex diagonal cutters</a>
