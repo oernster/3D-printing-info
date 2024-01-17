@@ -14,6 +14,6 @@
 2) Turn off uniform scaling and set the z height to 0.24mm.
 3) Slice the print and send it to the printer.
 4) Live adjust z on the fly while it prints either using your printer's small screen or in mainsail to get a perfect first layer.
-5) On COMPLETION of the print, NOT BEFORE, perform a SAVE on the z offset section in Mainsail, then perform a SAVE_CONFIG; a firmware_restart should then occut.
+5) On COMPLETION of the print, NOT BEFORE, perform a SAVE on the z offset section in Mainsail, then perform a SAVE_CONFIG; a firmware_restart should then update.
 6) You may need to repeat steps 4 and 5 until you get a perfect first layer.
 7) Once you've done all of that then you can print with a levelled printer.
