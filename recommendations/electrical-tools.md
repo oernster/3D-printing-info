@@ -55,3 +55,5 @@
 <a href="https://amzn.to/3pm7kMg">2 x 40g FLUX, ROSIN for electronics SMD solder flux COLOPHONY -HIGH Purity</a>
 
 <a href="https://amzn.to/3Xkbf8Q">Wago 85pc box set</a>
+
+<a href="https://www.amazon.co.uk/dp/B0C7Q5PWCJ">24AWG Wire 24 Gauge Electrical Wire, PVC 1007 Stranded Wire Hook Up Wire Tinned Copper Wire 100m(328ft) 5 Colors</a>
