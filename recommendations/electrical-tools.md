@@ -1,14 +1,18 @@
 ## Soldering/electrical tools
 
+<a href="https://www.amazon.co.uk/dp/B0BG5755B8">ENGINEER PA-24 Micro Connector Crimping Pliers</a>
+
+<a href="https://www.amazon.co.uk/gp/product/B002AVVO7K/">ENGINEER PA-09 Super-Precise Crimping Tool</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B09KXYCWS3/">Reasonably priced good bench power supply</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B083SFWLW7/">Third Hand Soldering Tool PCB Holder Two Magnetic Based Flexible Metal Arms; weighted base</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B001HQMWNY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=edeab6b9a608b22732ea0f7fbaf6088c&camp=1634&creative=6738">Precision wire strippers for thin gauge wire, professional grade</a>
+<a href="https://www.amazon.co.uk/gp/product/B001HQMWNY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=edeab6b9a608b22732ea0f7fbaf6088c&camp=1634&creative=6738">ENGINEER PA-06 Precision wire strippers for thin gauge wire, professional grade</a>
+
+<a href="https://www.amazon.co.uk/dp/B07BMQ9BP5">Knipex Electricians' Shears with multi-component grips</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B08YDTGDSY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=c6ff769da78395a4ad675920e246d45e&camp=1634&creative=6738">Decent soldering station</a>
-
-<a href="https://www.amazon.co.uk/gp/product/B001BMSBD4/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=7ac4a69c9b48d0c7737b7d0df40113b8&camp=1634&creative=6738">Rolson Soldering helping hands</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B000W9IVBY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=a1310c726915fe9081401786275d9836&camp=1634&creative=6738">Hakko Solder Reel Holder</a>
 
