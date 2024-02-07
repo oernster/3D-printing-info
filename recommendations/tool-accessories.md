@@ -29,3 +29,5 @@
 <a href="https://www.amazon.co.uk/dp/B098L3QD6B/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=b7ad9ab1e5c8ab7fe29178db162e980b&camp=1634&creative=6738">Nice tool bag</a>
 
 <a href="https://www.amazon.co.uk/dp/B00EDLPG7Y">VHB tape</a>
+
+<a href="https://www.amazon.co.uk/dp/B087RMPT4Z">Kapton tape multiple sizes</a>
