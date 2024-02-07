@@ -152,6 +152,8 @@
 
 <a href="https://www.amazon.co.uk/dp/B0888HD7YZ">Stainless Steel Ruler and Metal Rule Kit with Conversion Table (Blue, 12 Inch, 6 Inch)</a>
 
+<a href="https://www.amazon.co.uk/dp/B0108A492G">Draper Soft Grip Carpenters Awl, 75mm Length, Blue</a>
+
 <a href="https://amzn.to/3CLbS1Q">Libraton Deburring Tool with 11PCS High Speed Steel Blades, Aluminum Handle</a>
 
 <a href="https://amzn.to/43ZZve7">Lepro UV Torch for glow in the dark print charging</a>
