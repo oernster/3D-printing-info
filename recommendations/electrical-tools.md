@@ -1,5 +1,9 @@
 ## Soldering/electrical tools
 
+<a href="https://www.amazon.co.uk/gp/product/B09KXYCWS3/">Reasonably priced good bench power supply</a>
+
+<a href="https://www.amazon.co.uk/gp/product/B083SFWLW7/">Third Hand Soldering Tool PCB Holder Two Magnetic Based Flexible Metal Arms; weighted base</a>
+
 <a href="https://www.amazon.co.uk/gp/product/B001HQMWNY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=edeab6b9a608b22732ea0f7fbaf6088c&camp=1634&creative=6738">Precision wire strippers for thin gauge wire, professional grade</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B08YDTGDSY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=c6ff769da78395a4ad675920e246d45e&camp=1634&creative=6738">Decent soldering station</a>
