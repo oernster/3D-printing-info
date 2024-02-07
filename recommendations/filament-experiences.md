@@ -45,7 +45,7 @@ filaments are outstanding.
 
 ## Good to OK buys:
 
-eSUN - mediocre PLA but does the job.  The eSUN ABS+ is great.
+eSUN - mediocre PLA but does the job.  The eSUN ABS+ is OK to fairly good.
 
 Mika3D for a multipack of 0.5Kg matte PLA reels; I bought a pack of 12 - 
 matte reels - it’s good stuff but despite the range of colours they are 
