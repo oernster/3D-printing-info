@@ -148,7 +148,7 @@
   
 ## Reasonably priced just good tools
 
-<a href="https://www.amazon.co.uk/dp/B0BSL4CQL5">SPEEDWOX 4.5 Inches Flat Nose Pliers</a>
+<a href="https://www.amazon.co.uk/dp/B0BSL4CQL5">SPEEDWOX 4.5 Inches needle nose pliers</a>
 
 <a href="https://amzn.to/3CLbS1Q">Libraton Deburring Tool with 11PCS High Speed Steel Blades, Aluminum Handle</a>
 
