@@ -23,8 +23,14 @@
 <a href="https://www.amazon.co.uk/gp/product/B08D9QH3X3/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=52444864091dcc963c1f6e2be7726262&camp=1634&creative=6738">Brass brushes to clean your nozzle</a>
 
 <a href="https://amzn.to/3MYJopO">Original Barratt Giant Foam Bananas 1 Kilo Bag - ESSENTIAL 3D PRINTING TREATS!!!</a>
+
+<a href="https://www.amazon.co.uk/gp/product/B07ZW9PY6B/">Decent Tool album to listen to while you're working!!!</a>
   
 ## Just lovely tools
+
+<a href="https://www.amazon.co.uk/gp/product/B0108AETW6/">Draper torque screwdriver kit 1-5Nm</a>
+
+<a href="https://www.amazon.co.uk/gp/product/B06XW33DSN/">Wera 1/4 x 25mm adaptor for torque screwdriver or rapidator etc for Wera sockets</a>
 
 <a href="https://www.amazon.co.uk/dp/B003NKALBC">Digital angle finder for deracking your printer</a>
 
