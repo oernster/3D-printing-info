@@ -148,6 +148,8 @@
   
 ## Reasonably priced just good tools
 
+<ahref="https://www.amazon.co.uk/dp/B0BSL4CQL5">SPEEDWOX 4.5 Inches Flat Nose Pliers</a>
+
 <a href="https://amzn.to/3CLbS1Q">Libraton Deburring Tool with 11PCS High Speed Steel Blades, Aluminum Handle</a>
 
 <a href="https://amzn.to/43ZZve7">Lepro UV Torch for glow in the dark print charging</a>
