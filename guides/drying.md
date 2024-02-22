@@ -1,4 +1,4 @@
-## Drying filament and keeping it dry - Please note that the Amazon links are affiliate links.
+## Drying filament and keeping it dry
 
 <a href="https://www.amazon.co.uk/gp/product/B09WYBY8X8/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=854f084579d9449613a1732ba21fe884&camp=1634&creative=6738">Good filament dryer (SUNLU S2)</a>
 
