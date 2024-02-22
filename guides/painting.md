@@ -1,4 +1,4 @@
-## Painting - Please note that the Amazon links are affiliate links.
+## Painting
 
 <a href="https://www.amazon.co.uk/gp/product/B081N8KVLP/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=4ab77f827b545bb323e06e5db3eb08e6&camp=1634&creative=6738">Acrylic paint set</a>
 
