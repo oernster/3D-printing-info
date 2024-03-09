@@ -68,8 +68,6 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B00W1MLOGY/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=10c6e362528c6bc18b7becef6000bb90&camp=1634&creative=6738">C.K slim relieved side cutters</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B000R2C9EG/">Knipex tool case (BASIC) empty - lovely storage case for tools such as pliers etc.</a>
-
 <a href="https://amzn.to/3EuOMgG">Wera Joker M Self-Setting Spanner, 13-16 mm (1/2"-5/8“)</a>
 
 <a href="https://amzn.to/42wwo0q">Wera TORX HF Zyklop Bit Nut Set with Holding Function 1/4 Inch Drive 9-Piece</a>
