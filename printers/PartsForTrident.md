@@ -30,6 +30,7 @@
 ## Annex Engineering panel clips: https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges
 ## Clicky clacky door kit UK: https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/ or US: https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors
 ## Clicky clacky door build guide: https://github.com/tanaes/whopping_Voron_mods/tree/main/clickyclacky_door
+## Voron Skirt LEDs: https://www.aliexpress.com/item/1005006085179120.html
 
 # Klipper plugins...
 
