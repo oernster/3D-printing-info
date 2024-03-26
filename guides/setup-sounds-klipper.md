@@ -13,4 +13,5 @@ alsamixer
 
 
 https://github.com/oernster/3D-printing-info/tree/main/printers/voronTrident350
+
 https://thepihut.com/products/usb-powered-speakers
