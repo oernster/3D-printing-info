@@ -41,3 +41,4 @@
 ## LED Effect: https://github.com/julianschill/klipper-led_effect
 ## TMC Autotune: https://github.com/andrewmcgr/klipper_tmc_autotune
 ## Klipper network status (only suitable for a mini12864 LCD Display): https://github.com/JeremyRuhland/klipper_network_status
+## Stereo sound effects: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
