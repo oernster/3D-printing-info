@@ -21,4 +21,5 @@
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD
 ## Camera mount by PsychoShaft (Paul) on the outside of the printer
 ## Running a Logtech C920 camera on an odroid M1 8GB device using a custom ffmpeg feed via OBS which I find handy to stream to discord as a virtual camera
-## mini12864 screen which I use to play tunes in gcode and also have nice colours - I also have KlipperScreen on my BTT Pad 7 on my desk
+## mini12864 screen which I use to play tunes in gcode and also have nice colours - I've since upgraded to the below - I also have KlipperScreen on my BTT Pad 7 on my desk
+## Sound effects based on samples in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
