@@ -92,13 +92,13 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B000T9W1GI/">Wiha 7pc hex metric screwdriver set with soft and pico finish handles</a>
 
-<a href="https://www.amazon.co.uk/dp/B002L6HJAA/">Engineer screw removal / extractor gripping pliers (combi style)</a>
+<a href="https://www.amazon.co.uk/dp/B002L6HJAA/">ENGINEER screw removal / extractor gripping pliers (combi style)</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B0189YWOIO/">iFixit Mako precision bit set/driver</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B07RMWXF4M/">Wiha professional electric diagonal cutters 140mm</a>
 
-<a href="https://www.amazon.co.uk/gp/product/B000TGJSWG/">Precision compact side cutters 120mm</a>
+<a href="https://www.amazon.co.uk/gp/product/B000TGJSWG/">ENGINEER precision compact side cutters 120mm</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B00NPWP6GI/">Fire extinguisher (CO2)</a>
 
