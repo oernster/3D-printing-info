@@ -14,7 +14,7 @@ https://github.com/dw-0/kiauh
 
 ...the advanced option: gcode shell command.
 
-## 2) Enable audio in case you have not done so already: sudo raspi-config for that.
+## 2) Enable audio in case you have not done so already: sudo raspi-config for that after ssh-ing into your pi or using putty if that's your preferred method to access the command line on your pi.
 
 ## 3) Create a shell command similar to my shell command here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/print_start.sh
 
