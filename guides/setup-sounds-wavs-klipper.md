@@ -8,6 +8,10 @@
 
 3) A raspberry pi (I use a 4b 8GB)
 
+4) Optionally putty for windows
+
+5) Optionally WinSCP for transferring files from windows to your pi.
+
 ## 1) Install via kiauh, which you can find here:
 
 https://github.com/dw-0/kiauh 
