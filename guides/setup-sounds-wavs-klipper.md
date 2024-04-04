@@ -10,7 +10,7 @@
 
 4) Optionally putty for windows
 
-5) Optionally WinSCP for transferring files from windows to your pi.
+5) Optionally WinSCP for transfering files from windows to your pi.
 
 ## 1) Install via kiauh, which you can find here:
 
