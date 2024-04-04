@@ -14,7 +14,9 @@ https://github.com/dw-0/kiauh
 
 ...the advanced option: gcode shell command.
 
-## 2) Create a shell command similar to my shell command here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/print_start.sh
+## 2) Enable audio in case you have not done so already: sudo raspi-config for that.
+
+## 3) Create a shell command similar to my shell command here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/print_start.sh
 
 This pre-supposes that you have a print_start.wav file.  It also assumes you have aplay installed which if not on your variant of raspbian you can install with: sudo apt install aplay
 
@@ -26,7 +28,7 @@ You _may_ need to install this: sudo apt install alsamixer
 
 This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from teh command line.
 
-## Create a config file such as shell_command.cfg here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/shell_command.cfg
+## 4) Create a config file such as shell_command.cfg here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/shell_command.cfg
 
 This can be customised to your specific needs and wav files.  
 
