@@ -6,6 +6,8 @@
 
 2) A set of speakers ( I use these: https://thepihut.com/products/usb-powered-speakers ); these are USB/audio jack speakers.  I have not experimented with a bluetooth speaker setup.
 
+3) A raspberry pi (I use a 4b 8GB)
+
 ## 1) Install via kiauh, which you can find here:
 
 https://github.com/dw-0/kiauh 
