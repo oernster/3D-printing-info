@@ -53,4 +53,6 @@ gcode:
 ### Now, if you want to customise your macros to play specific sounds due to an event then simply make a call to the relevant gcode customised sound from the shell_command.cfg file we discussed earlier.
 ### Examples can be found in my PRINT_START macro here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/configs/macros.cfg
 
+# ENJOY!!!
+
 
