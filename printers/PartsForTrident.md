@@ -1,6 +1,5 @@
 # Hardware upgrades and sources...
 
-## Retractable key fobs in a set of 10, super cheap: https://www.aliexpress.com/item/1005004007459613.html + mounts: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Ellis/Badge_Retractor_Mount
 ## Lovely coloured cable sleeving: https://www.aliexpress.com/item/1005003952536698.html
 ## CNC idlers: https://www.aliexpress.com/item/1005005997740026.html (could for the life of me figure out what the spare red circular CNC parts and bolts were for so they aren't installed! - they seem superfluous)
 ## Fun coloured bowden (1.9 inner, 4.0 outer): https://www.aliexpress.com/item/1005005754150879.html
