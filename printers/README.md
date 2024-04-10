@@ -17,7 +17,6 @@
 ## 1.0.R carrying handles
 ## Nevermore v6 with correct coconut based carbon pellets inside and 2x5015 fans
 ## 350 bed, planning on going Xol soon™️
-## Retractable key fob mounts and the key fobs themselves to keep the umbilical out of the way
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD
 ## Camera mount by PsychoShaft (Paul) on the outside of the printer
 ## Running a Logtech C920 camera on an odroid M1 8GB device using a custom ffmpeg feed via OBS which I find handy to stream to discord as a virtual camera
