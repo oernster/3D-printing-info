@@ -1,5 +1,7 @@
 # My personal filament experiences:
 
+# Excellent buys:
+
 ## ABS/ASA
 
 Prusament filament - awesome ABS/ASA; my favourite filament brand.
@@ -85,7 +87,7 @@ PrimaSelect - sticks too well to PEI, ripping apart on finished prints - have dr
 
 ICEYUN - Light blue matte adheres horribly to your PEI bed and damages it - chucked it after losing 3 beds I couldn’t scrape off with a Stanley knife.
 
-### NOTE: 
+# Final comments: 
 
 I wouldn't really recommend Amazon basics PLA… the filament is just whatever the cheapest is when they order a batch making it quite random in quality. It is quite possible that one spool is just fine, then the next one will just just clog.  
 
