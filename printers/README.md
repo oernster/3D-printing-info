@@ -13,7 +13,7 @@
 ## Octopus Pro v1.0.1
 ## PT1000 thermistors all over the place
 ## Disco on sticks
-## Annex Engineering clips for all panels for ease of removeability and reattachment when doing maintenance
+## Annex Engineering clips for all panels for ease of removability and reattachment when doing maintenance
 ## 1.0.R carrying handles
 ## Nevermore v6 with correct coconut based carbon pellets inside and 2x5015 fans
 ## 350 bed, planning on going Xol soon™️
