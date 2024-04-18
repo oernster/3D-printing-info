@@ -21,7 +21,7 @@
 ## Disco RGBW on sticks mount: https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main
 ## Disco RGBW on sticks, UK source: https://www.printyplease.uk/Disco
 ## Top hat mod and 1.0.R carry handles: https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha
-## Logitech C920 camera mount: https://mods.vorondesign.com/details/Rf0gKYeOT50oZDxFJY1xWA
+## Logitech C920 camera mount: https://makerworld.com/en/models/406337#profileId-318589
 ## Bowden tube guide: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL
 ## Aluminium X gantry rail: https://www.aliexpress.com/item/1005004121247823.html + lovely nylock nuts for that gantry: https://www.amazon.co.uk/gp/product/B0C8NBX9JQ/
 ## Alu X gantry build and STL guide: https://github.com/3DPrintingMods/VoronAluminumX
