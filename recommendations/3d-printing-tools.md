@@ -30,15 +30,9 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B000R2C9EG/">Knipex Tool Case "Basic" empty - LOVELY!</a>
 
-<a href="https://www.amazon.co.uk/Wiha-Slim-Torque-Screwdriver-Pieces/dp/B00ISOY1W8/">Wiha 5pc VDE Slim Torque Screwdriver Set, Multi-Colour, 1-5 Nm</a>
-
-<a href="https://www.amazon.co.uk/dp/B07PSZGKBV">Wiha slimVario Electric Adaptor for 1/4 Inch Socket Spanner (works with Torque screwdriver)</a>
-
 <a href="https://www.amazon.co.uk/dp/B001URYIFK">Wiha Bit Selector with Hex Inch Bits</a>
 
 <a href="https://www.amazon.co.uk/dp/B001US4RMI/">Wiha torx selector 11pc box of bits</a>
-
-<a href="https://www.amazon.co.uk/gp/product/B06XW33DSN/">Wera 1/4 x 25mm adaptor for torque screwdriver or rapidator etc for Wera sockets</a>
 
 <a href="https://www.amazon.co.uk/dp/B077PMWLBM">10 PCS Professional Nail Files Double Sided Emery Board(100/180 Grit) - REMOVES SUPERGLUE FROM FINGERS WITH WATER</a>
 
