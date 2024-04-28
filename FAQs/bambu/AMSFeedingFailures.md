@@ -30,7 +30,11 @@ Personally, I can recommend a noclogger tool (the short variant) from noclogger.
 
 Once this has been done, reinsert the bowden securely and replace the front toolhead housing (be careful not to remove the connector to the toolhead front plastic piece housing while doing all of this but it is easy to reinsert it if this happens), then resume your print.  
 
-## 5) Last resort
+## 5) Your filament is going back and forth repeatedly and it won't go into the extruder.
+
+It's possible your cutting blade is blunt; consider replacing it.
+
+## 6) Last resort
 
 Refer to BambuAMSCleaning.md.  This is quite a lot more work but is likely to resolve your issues.
 
