@@ -8,7 +8,7 @@
 
 ## Order of events
 
-(Do all of this cold)
+(Do all of this cold; apart from your final measurement of your axes (input shaping) which should be done hot with fans going at normal rates to test correct resonances).
 
 1) Do your belts
 
