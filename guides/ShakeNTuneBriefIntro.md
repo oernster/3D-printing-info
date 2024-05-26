@@ -1,4 +1,4 @@
-# Brief introduction to Shake 'n' Tune
+# Brief introduction to Shake 'n' Tune by Frix
 
 ### NOTE: A LIS2DW accelerometer will produce unpredictable results.  You ideally want an ADXL345 accelerometer.
 
@@ -36,6 +36,8 @@ e) Use this online tone generator and use your ears if they are good enough: htt
 
 ### 2) Now that you've done that, home your printer and run the macro: COMPARE BELTWS RESPONSES.
 
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/belts_tuning.md
+
 a) You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting 
 
 two peaks which need to align (in purple and orange) or potentially two double peaks which need to align.
@@ -53,12 +55,15 @@ When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each 
 The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.
 
 Now, ignore the peak labels on the graphs, they are badly labelled - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
+NOTE: The peak labelling is planned to be changed to Greek lettering to reduce confusion soon.
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
-Once you see the results for input shaping as a graph, typicallly if you see peaks around 40-50Hz this might be 
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axis_tuning.md
 
-caused by binding so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
+Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be 
+
+caused by binding (i.e. a low frequency signal) so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
 
 Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating 
 
@@ -70,11 +75,17 @@ Once you're done, take the recommended shaper for either performance or vibratio
 
 have already saved one to replace that.
 
-If you have greater than 1% vibrations on either IS graph (x or y) then you have hardware issues which I won't go into here.
+If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper
+
+is a combination of vibrations and smoothing at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.
+
+I've spoken to Frix and he says that the filter recommendation (performance) will be suitable for most scenarios in future and the vibrations shaper will be much more of a last resort choice.
 
 You want to choose the lower of the two max recommended accels (x and y) for your outer walls on your slicer profile for printer with.
 
 ### 4) Once you've tuned everything
+
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/vibrations_profile.md
 
 Run the macro CREATE VIBRATIONS PROFILE.
 
