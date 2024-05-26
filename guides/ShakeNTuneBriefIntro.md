@@ -8,6 +8,8 @@
 
 ## Order of events
 
+(Do all of this cold)
+
 1) Do your belts
 
 2) Do your input shaping
