@@ -36,7 +36,7 @@ d) Use a guitar tuning app and tune to the tone that is 110Hz
 
 e) Use this online tone generator and use your ears if they are good enough: https://onlinetonegenerator.com/
 
-### 2) Now that you've done that, home your printer and run the macro: COMPARE BELTWS RESPONSES.
+### 2) Now that you've done that, home your printer and run the macro: COMPARE BELTS RESPONSES.
 
 DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/belts_tuning.md
 
