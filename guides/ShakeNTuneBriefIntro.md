@@ -1,5 +1,7 @@
 # Brief introduction to Shake 'n' Tune by Frix
 
+### This guide is based on this tool: https://github.com/Frix-x/klippain-shaketune
+
 ### NOTE: A LIS2DW accelerometer will produce unpredictable results.  You ideally want an ADXL345 accelerometer.
 
 ### The RESULTS will be stored under MACHINE in mainsail in KShakeTune_Results 
