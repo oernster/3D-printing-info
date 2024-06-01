@@ -22,6 +22,20 @@
 
 ## BELTS
 
+### Mounting the belts...
+
+Lay both of your belts on the floor (a flat surface not a carpet) and ensure that both are EXACTLY the same length.
+
+Then, using a sharpie, (red works well), mark a tooth on both sides 20cm vertically on both belts (this assumes a 350 printer, consider 15cm for a 300, maybe 12cm for a 250).
+
+Next loosen up both idlers completely.
+
+Then mount the belts.  You want to be able to see when mounting that the red lines line up vertically on the front of the printer, left and right sides
+
+Pull the belts to reasonable tension on both sides (as tight as possible without overdoing it; you'll struggle to get them overtight unless you are pulling them towards you).
+
+Then once you've mounted both belts successfully to the carriage using whatever mounting mechanism you use and tightened up the belt mounts, tighten up the idlers.
+
 ### 1) First off we need to get your belts tuned to be 110Hz on each belts
 
 Methods include (all require that you turn off motors and move the gantry to 15cm/150mm from the front idlers):
