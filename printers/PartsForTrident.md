@@ -23,8 +23,6 @@
 ## Top hat mod and 1.0.R carry handles: https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha
 ## Logitech C920 camera mount: https://makerworld.com/en/models/406337#profileId-318589
 ## Bowden tube guide: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL
-## Aluminium X gantry rail: https://www.aliexpress.com/item/1005004121247823.html + lovely nylock nuts for that gantry: https://www.amazon.co.uk/gp/product/B0C8NBX9JQ/
-## Alu X gantry build and STL guide: https://github.com/3DPrintingMods/VoronAluminumX
 ## Nevermore micro v6: https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6 and carbon: https://github.com/nevermore3d/Reseller
 ## Annex Engineering panel clips: https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges
 ## Clicky clacky door kit UK: https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/ or US: https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors
