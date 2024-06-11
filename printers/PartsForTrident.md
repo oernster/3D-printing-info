@@ -1,7 +1,7 @@
 # Hardware upgrades and sources...
 
 ## Lovely coloured cable sleeving: https://www.aliexpress.com/item/1005003952536698.html
-## CNC idlers: https://www.aliexpress.com/item/1005005997740026.html (could for the life of me figure out what the spare red circular CNC parts and bolts were for so they aren't installed! - they seem superfluous)
+## CNC idlers x/y joints: https://www.aliexpress.com/item/1005005997740026.html (could for the life of me figure out what the spare red circular CNC parts and bolts were for so they aren't installed! - they seem superfluous)
 ## Fun coloured bowden (1.9 inner, 4.0 outer): https://www.aliexpress.com/item/1005005754150879.html
 ## CNC motor mounts for A/B: https://www.aliexpress.com/item/1005005455416696.html
 ## Excellent Mellow CNC Tap (which I had before I went Beacon revH): https://www.aliexpress.com/item/1005005773603203.html
