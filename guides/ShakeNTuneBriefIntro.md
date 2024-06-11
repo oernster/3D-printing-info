@@ -79,23 +79,23 @@ NOTE: The peak labelling is planned to be changed to Greek lettering to reduce c
 
 DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axis_tuning.md
 
-Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be 
+Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) 
 
-caused by binding (i.e. a low frequency signal) so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
+so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
 
-Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating 
+Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating on the input 
 
-on the input shaping graph that is producing said peak or peaks; you may need to excite multiple frequencies.
+shaping graph that is producing said peak or peaks; you may need to excite multiple frequencies.
 
 The macro to run is called: EXCITE AXIS AT FREQ; use the DROPDOWN.
 
-Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio and add it to your printer.cfg (or at the base in the commented section if you 
+Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio 
 
-have already saved one to replace that.
+and add it to your printer.cfg (or at the base in the commented section if you have already saved one to replace that.
 
-If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper
+If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper is a combination of vibrations and smoothing 
 
-is a combination of vibrations and smoothing at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.
+at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.
 
 I've spoken to Frix and he says that the filter recommendation (performance) will be suitable for most scenarios in future and the vibrations shaper will be much more of a last resort choice.
 
