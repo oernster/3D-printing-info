@@ -10,7 +10,7 @@ Fillamentum ASA - lovely matte colours; prints really well.
 
 Polymaker ABS/ASA - Amazing colours and quality.
 
-Bamnbu ABS/ASA.
+Bambu ABS/ASA.
 
 ## PETG
 
