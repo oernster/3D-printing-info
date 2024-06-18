@@ -34,7 +34,7 @@ Additionally,  use as low a heat as possible - aim for 50-60°C. Any higher risk
 
 Keep in mind that adding the PVP in increments (e.g. 2-3g at a time) and letting it dissolve between each addition may help too. Ensure good mixing/circulation with a magnetic stir bar if possible for even heating. The end solution should be clear with no visible undissolved particles; allow to cool fully before using.
 
-I'm letting it cool in a large saucepan now.  Then I will decant that into a Pyrex jug, then that into individual bottles.
+I let it cool in a large saucepan.  Then I decanted that into a Pyrex jug, then that into individual 120ml bottles.
 
 FYI dipping 120ml plastic bottles into the hot liquid melts the bottles so don't do that lol!!!!
 LET IT COOL!
