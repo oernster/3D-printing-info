@@ -1,0 +1,71 @@
+./KAMP_Settings.cfg:variable_fuzz_amount: 0                     # Slightly randomizes mesh points to spread out wear from nozzle-based probes. Leave at 0 to disable.
+./KAMP_Settings.cfg:# The following variables are for those with a dockable probe like Klicky, Euclid, etc.                 # ----------------  Attach Macro | Detach Macro
+./KAMP_Settings.cfg:variable_probe_dock_enable: False           # Set to True to enable the usage of a dockable probe.      # ---------------------------------------------
+./KAMP_Settings.cfg:variable_attach_macro: 'Attach_Probe'       # The macro that is used to attach the probe.               # Klicky Probe:   'Attach_Probe' | 'Dock_Probe'
+./KAMP_Settings.cfg:variable_detach_macro: 'Dock_Probe'         # The macro that is used to store the probe.                # Euclid Probe:   'Deploy_Probe' | 'Stow_Probe'
+./KAMP/Adaptive_Meshing.cfg:# This macro will parse information from objects in your gcode to define a min and max mesh area to probe, creating an adaptive mesh!
+./KAMP/Adaptive_Meshing.cfg:# This macro will not increase probe_count values in your [bed_mesh] config. If you want richer meshes, be sure to increase probe_count. We recommend at least 5,5.
+./KAMP/Adaptive_Meshing.cfg:    {% set probe_count = printer.configfile.settings.bed_mesh.probe_count %}                                                        # Get probe count from printer.cfg
+./KAMP/Adaptive_Meshing.cfg:    {% set probe_dock_enable = kamp_settings.probe_dock_enable | abs %}                                                             # Pull probe dockable probe settings from _KAMP_Settings
+./KAMP/Adaptive_Meshing.cfg:    {% set attach_macro = kamp_settings.attach_macro | string %}                                                                    # Pull attach probe command from _KAMP_Settings
+./KAMP/Adaptive_Meshing.cfg:    {% set detach_macro = kamp_settings.detach_macro | string %}                                                                    # Pull detach probe command from _KAMP_Settings
+./KAMP/Adaptive_Meshing.cfg:    {% set probe_count = probe_count if probe_count|length > 1 else probe_count * 2  %}                                             # If probe count is only a single number, convert it to 2. E.g. probe_count:7 = 7,7
+./KAMP/Adaptive_Meshing.cfg:    {% set max_probe_point_distance_x = ( bed_mesh_max[0] - bed_mesh_min[0] ) / (probe_count[0] - 1)  %}                            # Determine max probe point distance
+./KAMP/Adaptive_Meshing.cfg:    {% set max_probe_point_distance_y = ( bed_mesh_max[1] - bed_mesh_min[1] ) / (probe_count[1] - 1)  %}                            # Determine max probe point distance
+./KAMP/Adaptive_Meshing.cfg:    {% set points_x = (((adapted_x_max - adapted_x_min) / max_probe_point_distance_x) | round(method='ceil') | int) + 1 %}          # Define probe_count's x point count and round up
+./KAMP/Adaptive_Meshing.cfg:    {% set points_y = (((adapted_y_max - adapted_y_min) / max_probe_point_distance_y) | round(method='ceil') | int) + 1 %}          # Define probe_count's y point count and round up
+./KAMP/Adaptive_Meshing.cfg:    {% set points_x = [points_x , min_points]|max %}                                                                                # Set probe_count's x points to fit the calculated algorithm
+./KAMP/Adaptive_Meshing.cfg:    {% set points_y = [points_y , min_points]|max %}                                                                                # Set probe_count's y points to fit the calculated algorithm
+./KAMP/Adaptive_Meshing.cfg:    {% set points_x = [points_x , probe_count[0]]|min %}
+./KAMP/Adaptive_Meshing.cfg:    {% set points_y = [points_y , probe_count[1]]|min %}
+./KAMP/Adaptive_Meshing.cfg:            { action_respond_info("Default probe count: {},{}.".format(                                                                  
+./KAMP/Adaptive_Meshing.cfg:                (probe_count[0]),                                                                                                       
+./KAMP/Adaptive_Meshing.cfg:                (probe_count[1]),                                                                                                       
+./KAMP/Adaptive_Meshing.cfg:            { action_respond_info("Adapted probe count: {},{}.".format(                                                                  
+./KAMP/Adaptive_Meshing.cfg:    {% if probe_dock_enable == True %}
+./KAMP/Adaptive_Meshing.cfg:        {attach_macro}                                                                                                              # Attach/deploy a probe if the probe is stored somewhere outside of the print area
+./KAMP/Adaptive_Meshing.cfg:    {% if probe_dock_enable == True %}
+./KAMP/Adaptive_Meshing.cfg:        {detach_macro}                                                                                                              # Detach/stow a probe if the probe is stored somewhere outside of the print area
+./KAMP/KAMP_Settings.cfg:variable_fuzz_amount: 0                     # Slightly randomizes mesh points to spread out wear from nozzle-based probes. Leave at 0 to disable.
+./KAMP/KAMP_Settings.cfg:# The following variables are for those with a dockable probe like Klicky, Euclid, etc.                 # ----------------  Attach Macro | Detach Macro
+./KAMP/KAMP_Settings.cfg:variable_probe_dock_enable: False           # Set to True to enable the usage of a dockable probe.      # ---------------------------------------------
+./KAMP/KAMP_Settings.cfg:variable_attach_macro: 'Attach_Probe'       # The macro that is used to attach the probe.               # Klicky Probe:   'Attach_Probe' | 'Dock_Probe'
+./KAMP/KAMP_Settings.cfg:variable_detach_macro: 'Dock_Probe'         # The macro that is used to store the probe.                # Euclid Probe:   'Deploy_Probe' | 'Stow_Probe'
+./configs/canbus.cfg:# probe_points:
+./config_backups/printer-20240222_143337.cfg:endstop_pin: probe:z_virtual_endstop
+./config_backups/printer-20240222_143337.cfg:[probe]
+./config_backups/printer-20240222_143337.cfg:probe_count: 5,5
+./config_backups/printer-20240222_143337.cfg:# probe for ABS/ASA
+./config_backups/printer-20240222_143337.cfg:# probe for PLAs
+./config_backups/printer-20240222_143337.cfg:#*# [probe]
+./config_backups/printer-20240222_192418.cfg:endstop_pin: probe:z_virtual_endstop
+./config_backups/printer-20240222_192418.cfg:[probe]
+./config_backups/printer-20240222_192418.cfg:probe_count: 5,5
+./config_backups/printer-20240222_192418.cfg:# probe for ABS/ASA
+./config_backups/printer-20240222_192418.cfg:# probe for PLAs
+./config_backups/printer-20240222_192418.cfg:#*# [probe]
+./config_backups/printer-20240222_190726.cfg:endstop_pin: probe:z_virtual_endstop
+./config_backups/printer-20240222_190726.cfg:[probe]
+./config_backups/printer-20240222_190726.cfg:probe_count: 5,5
+./config_backups/printer-20240222_190726.cfg:# probe for ABS/ASA
+./config_backups/printer-20240222_190726.cfg:# probe for PLAs
+./config_backups/printer-20240222_190726.cfg:#*# [probe]
+./config_backups/printer-20240218_190619.cfg:endstop_pin: probe:z_virtual_endstop
+./config_backups/printer-20240218_190619.cfg:[probe]
+./config_backups/printer-20240218_190619.cfg:probe_count: 5,5
+./config_backups/printer-20240218_190619.cfg:# probe for ABS/ASA
+./config_backups/printer-20240218_190619.cfg:# probe for PLAs
+./config_backups/printer-20240218_190619.cfg:#*# [probe]
+./config_backups/printer-20240218_191240.cfg:endstop_pin: probe:z_virtual_endstop
+./config_backups/printer-20240218_191240.cfg:[probe]
+./config_backups/printer-20240218_191240.cfg:probe_count: 5,5
+./config_backups/printer-20240218_191240.cfg:# probe for ABS/ASA
+./config_backups/printer-20240218_191240.cfg:# probe for PLAs
+./config_backups/printer-20240218_191240.cfg:#*# [probe]
+./printer.cfg:endstop_pin: probe:z_virtual_endstop
+./printer.cfg:# probe_points: 175, 175, 20
+./printer.cfg:# probe_points:
+./printer.cfg:probe_points: 175, 175, 20
+./printer.cfg:# [probe]
+./printer.cfg:probe_count: 75,75
+./printer.cfg:#*# [probe]
