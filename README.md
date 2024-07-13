@@ -7,3 +7,7 @@
 ### [Friendly coffee donation here](https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4)
 
 # THANKS and ENJOY!!!
+
+# Contents of repository/layout
+
+## FAQs: Bambu and Voron Frequently asked questions.
