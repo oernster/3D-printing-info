@@ -10,11 +10,27 @@
 
 # --Contents of repository/layout--
 
-## FAQs: Bambu and Voron Frequently asked questions.
-## browser-bookmarks: A large curated over 5+ years set of Voron and other 3D printing bookmark/favourites resources, importable into your favourite browser.
-## diagrams-schematics: A number of useful diagrams and common schematics used by Voron printers in one handy location to save you scouring the internet.
-## guides: Numerous guides and similar resources describing how to use Shake n Tune, drying, slicer choices, adhesion, levelling well and other useful things.
-## handy-linux-commands: Debian/raspbian, commonly used by Voron users, linux commands that I can never remember so I put them in one place.
-## printers: Configs for all of my printers, past and present; specifically my Vorons.  Also some useful other reference data and a summary of the upgrades that I have performed on my Voron Trident 350
-## recommendations: Highly recommended curated list of tools for 3D printing, electrical items and also my personal filament experiences.
-## stls: My personal collections of STLs from various STL sites that I've curated over time along with links to many additional STL resources around the internet.
+## FAQs: 
+
+Bambu and Voron Frequently asked questions.
+## browser-bookmarks: 
+
+A large curated over 5+ years set of Voron and other 3D printing bookmark/favourites resources, importable into your favourite browser.
+## diagrams-schematics: 
+
+A number of useful diagrams and common schematics used by Voron printers in one handy location to save you scouring the internet.
+## guides: 
+
+Numerous guides and similar resources describing how to use Shake n Tune, drying, slicer choices, adhesion, levelling well and other useful things.
+## handy-linux-commands: 
+
+Debian/raspbian, commonly used by Voron users, linux commands that I can never remember so I put them in one place.
+## printers: 
+
+Configs for all of my printers, past and present; specifically my Vorons.  Also some useful other reference data and a summary of the upgrades that I have performed on my Voron Trident 350
+## recommendations: 
+
+Highly recommended curated list of tools for 3D printing, electrical items and also my personal filament experiences.
+## stls: 
+
+My personal collections of STLs from various STL sites that I've curated over time along with links to many additional STL resources around the internet.
