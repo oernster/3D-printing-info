@@ -12,3 +12,4 @@
 
 ## FAQs: Bambu and Voron Frequently asked questions.
 ## browser-bookmarks: A large curated over 5+ years set of Voron and other 3D printing bookmark/favourites resources, importable into your favourite browser.
+## diagrams-schematics: A number of useful diagrams and common schematics used by Voron printers in one handy location to save you scouring the internet.
