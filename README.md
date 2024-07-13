@@ -16,3 +16,4 @@
 ## guides: Numerous guides and similar resources describing how to use Shake n Tune, drying, slicer choices, adhesion, levelling well and other useful things.
 ## handy-linux-commands: Debian/raspbian, commonly used by Voron users, linux commands that I can never remember so I put them in one place.
 ## printers: Configs for all of my printers, past and present; specifically my Vorons.  Also some useful other reference data and a summary of the upgrades that I have performed on my Voron Trident 350
+## recommendations: Highly recommended curated list of tools for 3D printing, electrical items and also my personal filament experiences.
