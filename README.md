@@ -8,6 +8,6 @@
 
 # THANKS and ENJOY!!!
 
-# Contents of repository/layout
+# --Contents of repository/layout--
 
 ## FAQs: Bambu and Voron Frequently asked questions.
