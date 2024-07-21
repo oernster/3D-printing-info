@@ -1,6 +1,7 @@
 # The Trident has these lovely upgrades:
 
 ## 48V, 5160s 1.5 Mellow
+## BTT SFS filament runout sensor v2
 ## CNC Alu X gantry 
 ## CNC xy joints 
 ## CNC A/B motor mounts
