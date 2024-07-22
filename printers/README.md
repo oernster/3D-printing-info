@@ -20,5 +20,5 @@
 ## 350 bed, with UHF hex coloured Stealthburner; planning on going Xol soon™️
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD
 ## Camera mount by PsychoShaft on the outside of the printer for a Logitech C920 with Crowsnest
-## mini12864 screen which I use to play tunes in gcode and also have nice colours - I've since upgraded to the below - I also have KlipperScreen on my BTT Pad 7 on my desk
+## mini12864 screen which I use to play tunes in gcode and also have nice colours - I've since upgraded to the below
 ## Sound effects based on samples in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
