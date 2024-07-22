@@ -17,7 +17,7 @@
 ## Annex Engineering clips for all panels for ease of removability and reattachment when doing maintenance
 ## 1.0.R carrying handles
 ## Nevermore v6 with correct coconut based carbon pellets inside and 2x5015 fans
-## 350 bed, planning on going Xol soon™️
+## 350 bed, with UHF hex coloured Stealthburner; planning on going Xol soon™️
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD
 ## Camera mount by PsychoShaft on the outside of the printer for a Logitech C9230 with Crowsnest
 ## mini12864 screen which I use to play tunes in gcode and also have nice colours - I've since upgraded to the below - I also have KlipperScreen on my BTT Pad 7 on my desk
