@@ -9,7 +9,7 @@
 ## Beacon revH with touch setup
 ## Cartographer CNC mount for Beacon
 ## Stealthburner with UHF Rapido UHF v2 hotend and Bondtech CHT 0.4mm nozzle (I also have spare undertaker TC 0.4mm nozzles)
-## CNC BFIs 
+## BFIs 
 ## Nice top hat mod with PC panel
 ## Clicky clacky door mod
 ## Octopus Pro v1.0.1
