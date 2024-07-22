@@ -1,6 +1,6 @@
 # All my collections
 ## For inspiration…
-### Each picture has a collection inside:
+### Each picture _in each link_ has a collection inside:
 
 https://www.printables.com/social/255293-oernster/collections
 
