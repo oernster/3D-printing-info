@@ -2,10 +2,11 @@
 
 ## 48V, 5160s 1.5 Mellow
 ## BTT SFS filament runout sensor v2
+## Bed fans x 2
 ## CNC Alu X gantry 
 ## CNC xy joints 
 ## CNC A/B motor mounts
-## Beacon revH 
+## Beacon revH with touch setup
 ## Cartographer CNC mount for Beacon
 ## Stealthburner with UHF Rapido UHF v2 hotend and Bondtech CHT 0.4mm nozzle (I also have spare undertaker TC 0.4mm nozzles)
 ## CNC BFIs 
