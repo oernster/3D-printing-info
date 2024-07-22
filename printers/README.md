@@ -3,7 +3,6 @@
 ## 48V, 5160s 1.5 Mellow
 ## BTT SFS filament runout sensor v2
 ## Bed fans x 2
-## CNC Alu X gantry 
 ## CNC xy joints 
 ## CNC A/B motor mounts
 ## Beacon revH with touch setup
