@@ -30,7 +30,7 @@ You can customise the print_start.wav filename and shell script name as per your
 
 You _may_ need to install this: sudo apt install alsamixer
 
-This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from teh command line.
+This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from the command line.
 
 ## 4) Create a config file such as shell_command.cfg here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/shell_command.cfg
 
