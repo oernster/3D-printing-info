@@ -18,6 +18,8 @@ or
 
 ## Regarding mixing your own...
 
+Starting with this recipe as a source: https://goo.by.frank.af/recipe.html
+
 So I discussed the chemical concoction for adhesive liquid for your bed on the Chemistry discord:
 
 Me:
