@@ -8,7 +8,7 @@ Prusament filament - awesome ABS/ASA; my favourite filament brand; NOTE Prusamen
 
 Fillamentum ASA - lovely matte colours; prints really well; NOTE Fillamentum ABS is a blend, the ASA is (I think) raw ASA and produces lovely results.
 
-Polymaker ABS/ASA - Amazing colours and quality; NOTE that the ABS is a blend and the ASA is likely closer to the raw material.
+Polymaker ABS/ASA - Amazing colours and quality; NOTE that the ABS is a blend and the ASA is likely closer to the raw material.  Caveat: polymaker says the ABS is not a blend, however I have it on fairly good authority that the base resin seems to not have the properties they claim; ymmv
 
 Bambu ABS/ASA - prints great but NOTE I suspect all of it is a blend.
 
