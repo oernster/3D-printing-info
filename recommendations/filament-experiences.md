@@ -4,17 +4,13 @@
 
 ## ABS/ASA for all of these I recommend chamber temps of at least 50C if not 60C if you can achieve that.
 
-Prusament filament - awesome ABS/ASA; my favourite filament brand.
+Prusament filament - awesome ABS/ASA; my favourite filament brand; NOTE Prusament ABS is a blend but prints nicely.
 
-NOTE: Prusament ABS is a blend but prints nicely.
+Fillamentum ASA - lovely matte colours; prints really well; NOTE Fillamentum ABS is a blend, the ASA is (I think) raw ASA and produces lovely results.
 
-Fillamentum ASA - lovely matte colours; prints really well.
+Polymaker ABS/ASA - Amazing colours and quality; NOTE that the ABS is a blend and the ASA is likely closer to the raw material.
 
-NOTE Fillamentum ABS is a blend, the ASA is (I think) raw ASA and produces lovely results.
-
-Polymaker ABS/ASA - Amazing colours and quality; note that the ABS is a blend and the ASA is likely closer to the raw material.
-
-Bambu ABS/ASA.
+Bambu ABS/ASA - prints great but NOTE I suspect all of it is a blend.
 
 eSUN ABS+ is good if you can keep your chamber temps to a reasonable level; if not it will create weaker parts.
 
