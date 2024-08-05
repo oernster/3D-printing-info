@@ -12,6 +12,8 @@ Polymaker ABS/ASA - Amazing colours and quality.
 
 Bambu ABS/ASA.
 
+eSUN ABS+ is good if you can keep your chamber temps to a reasonable level; if not it will create weaker parts.
+
 ## PETG
 
 Prusament PETG
@@ -57,10 +59,6 @@ Hatchbox PLA - prints very well.
 YOUSU - fast changing rainbow silk PLA; almost as good as ERYONE.  Their tricolour extrusion filaments are outstanding.
 
 # Good to OK buys:
-
-## ABS
-
-eSUN ABS+ is OK to fairly good.
 
 ## PLA
 
