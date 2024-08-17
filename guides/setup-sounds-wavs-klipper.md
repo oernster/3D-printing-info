@@ -22,7 +22,11 @@ https://github.com/dw-0/kiauh
 
 ## 3) Create a shell command similar to my shell command here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/print_start.sh
 
-NOTE: aplay and alsamixer are not required for bookworm distros of raspbian.
+NOTE: aplay and alsamixer are not required for bookworm distros of raspbian.  HOWEVER, you need to add the following lines to /etc/asounds.conf:
+
+```defaults.ctl.card 0
+defaults.pcm.card 0
+defaults.pcm.device 0```
 
 This pre-supposes that you have a print_start.wav file.  It also assumes you have aplay installed which if not on your variant of raspbian you can install with: sudo apt install aplay
 
