@@ -1,5 +1,7 @@
 ## Soldering/electrical tools
 
+<a href="https://www.aliexpress.com/item/1005007170181024.html">DC Power Supply 60V 5A 300W</a> 
+
 <a href="https://www.amazon.co.uk/dp/B0BG5755B8">ENGINEER PA-24 Micro Connector Crimping Pliers</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B002AVVO7K/">ENGINEER PA-09 Super-Precise Crimping Tool</a>
