@@ -2,6 +2,7 @@
 
 # The Trident has these lovely upgrades:
 
+## Emergency stop switch with blue LEDs: https://www.aliexpress.com/item/1005004076049556.html
 ## BTT SFS filament runout sensor v2: https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor
 ## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BV
 ## CNC xy joints: https://www.aliexpress.com/item/1005005997740026.html
