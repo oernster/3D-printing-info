@@ -8,7 +8,7 @@
 
 A really good dryer, which I have, though also a fair price but possibly one of the best ones on the market currently (September 2024) is the Eibos Cyclopes which can dry 2 decently sized 1Kg spools at once.  I ordered mine direct from the Eibos website. 
 
-Depending on how many spools you have you will also want to store them in a dry location.  A dry box comes in here.  In an ideal world you'd want a vaccuum sealed box but they cost a fortune.  So, I recommend some kind of large 80L approx plastic container with a lid that you layer the base with silica desiccant beads.
+Depending on how many spools you have you will also want to store them in a dry location.  A dry box comes in here.  In an ideal world you'd want a vaccuum sealed box but they cost a fortune.  So, I recommend some kind of large 80L approx plastic container with a lid that you can layer the base inside with silica desiccant beads.
 
 NOTE: you do NOT want the blue desiccant as that is cobalt based and toxic.  Go for the orange beads.
 
