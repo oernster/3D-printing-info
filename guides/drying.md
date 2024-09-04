@@ -1,6 +1,18 @@
-## Drying filament and keeping it dry
+## Drying filament 
 
-A really good dryer, though also a fair price and possibly one of the best ones on the market currently (August 2024) is the Eibos Cyclopes which can dry 2 decently sized spools at once.  I ordered mine direct from the Eibos website. 
+## You need to both dry your filament on occasion, sometimes straight out of the box (just because it's new doesn't guarantee it's not wet) and also keep it dry.
+
+## This is particularly the case if you live in a humid environment.  Wet filaament can cause bubbles in your prints making them look bad or just a complete mess on your first or subsequent layers.  One symptom of wet filament is spitting when the filament exits the nozzle at temperature.
+
+## To dry your filament you'll want a decent dryer.
+
+A really good dryer, which I have, though also a fair price but possibly one of the best ones on the market currently (September 2024) is the Eibos Cyclopes which can dry 2 decently sized 1Kg spools at once.  I ordered mine direct from the Eibos website. 
+
+Depending on how many spools you have you will also want to store them in a dry location.  A dry box comes in here.  In an ideal world you'd want a vaccuum sealed box but they cost a fortune.  So, I recommend some kind of large 80L approx plastic container with a lid that you layer the base with silica desiccant beads.
+
+NOTE: you do NOT want the blue desiccant as that is cobalt based and toxic.  Go for the orange beads.
+
+<a href="https://shop.eibos3d.com/collections/eibos-prodect/products/filament-dryer">Eibois Cyclopes dryer</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B01H2SZRS2/?&_encoding=UTF8&tag=oernster-21&linkCode=ur2&linkId=a47a6fb51d05a4b5a99e3913475e1a63&camp=1634&creative=6738">80L plastic box for filament storage</a>
 
