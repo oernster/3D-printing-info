@@ -2,7 +2,7 @@
 
 ## You need to both dry your filament on occasion, sometimes straight out of the box (just because it's new doesn't guarantee it's not wet) and also keep it dry.
 
-## This is particularly the case if you live in a humid environment.  Wet filaament can cause bubbles in your prints making them look bad or just a complete mess on your first or subsequent layers.  One symptom of wet filament is spitting when the filament exits the nozzle at temperature.
+## This is particularly the case if you live in a humid environment.  Wet filament can cause bubbles in your prints making them look bad or just a complete mess on your first or subsequent layers.  One symptom of wet filament is spitting when the filament exits the nozzle at temperature.
 
 ## To dry your filament you'll want a decent dryer.
 
