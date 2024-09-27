@@ -42,7 +42,7 @@ Lovely flexi prints; usually print in place: https://cults3d.com/en/users/FlexiF
 
 Lovely, though pricey, busts and other models: https://www.sidnaique.com/portraits
 
-Lots of quality prints: https://cults3d.com/en
+Lots of quality prints; some free: https://cults3d.com/en
 
 Primarily miniatures: https://lootstudios.com/
 
