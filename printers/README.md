@@ -6,7 +6,7 @@
 ## BTT SFS filament runout sensor v2: https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor
 ## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BV
 ## CNC xy joints: https://www.aliexpress.com/item/1005005997740026.html
-## CNC A/B motor mounts: https://www.aliexpress.com/item/1005005455416696.html
+## CNC A/B motor mounts: https://www.aliexpress.com/item/1005006662246017.html
 ## Beacon revH with touch setup: https://beacon3d.com/
 ## Cartographer CNC mount for Beacon: https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
 ## OR go Cartographer for a cheaper alternative: Cartographer ADXL v3: https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb
