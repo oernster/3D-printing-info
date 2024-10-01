@@ -1,0 +1,4 @@
+camera="usb"
+camera_usb_options="-r 1920x1080 -f 30 -d /dev/video0"
+camera_streamer="mjpeg"
+
