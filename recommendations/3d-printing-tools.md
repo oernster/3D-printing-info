@@ -158,7 +158,7 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B073WWCW4W/">Hakkin mini ratchet wrench screwdriver bit set+hex torx star bits</a>
 
-<a href="https://noclogger.com/products/noclogger-the-must-have-3d-printing-tool">Amazing long thin metal thing tool - the NoClogger</a>
+<a href="https://www.amazon.com/dp/B0D3FD43W7/">Don't buy the NoClogger; this has a better handle and doesn't have stupid shipping costs - the ONLY Creality product I recommend</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B074XF9HL3/">Mini locking grips</a>
 
