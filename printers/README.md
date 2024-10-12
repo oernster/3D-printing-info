@@ -7,7 +7,7 @@
 ## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BV
 ## CNC xy joints: https://www.aliexpress.com/item/1005005997740026.html
 ## CNC A/B motor mounts: https://www.aliexpress.com/item/1005006662246017.html
-## Cartographer CNC mount for Beacon: https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
+## Cartographer CNC mount for Beacon or Cartographer: https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
 ## Cartographer ADXL v3: https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb
 ## Stealthburner with UHF Rapido UHF v2 hotend and Bondtech CHT 0.4mm nozzle (I also have spare West3D undertaker TC 0.4mm nozzles) and Rainbow BARF LEDs
 ## BFIs
