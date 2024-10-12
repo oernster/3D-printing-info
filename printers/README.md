@@ -37,7 +37,7 @@
 ## Voron metal serial number plate: https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with
 ## Granite/Marble slab for reducing resonances source in UK: https://www.scmgltd.co.uk/
 ## Disco RGBW on sticks mount: https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main
-## Logitech C920 camera mount: https://makerworld.com/en/models/406337#profileId-318589
+## Logitech C920 camera with custom mount on top hat; contact me for the STL if you want it
 ## Bowden tube guide: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL
 ## Annex Engineering panel clips: https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges
 
@@ -51,3 +51,4 @@
 ## Klipper network status (only suitable for a mini12864 LCD Display): https://github.com/JeremyRuhland/klipper_network_status
 ## Stereo sound effects: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
 ## Sonar: https://github.com/mainsail-crew/sonar
+## Autospeed: https://github.com/Anonoei/klipper_auto_speed
