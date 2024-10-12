@@ -27,9 +27,7 @@
 ## Cricut Voron logo on rear panel of printer
 ## LDO 2504ac A/B motors: https://www.aliexpress.com/item/1005006864255848.html
 ## 48V
-## Lovely coloured cable sleeving: https://www.aliexpress.com/item/1005003952536698.html
-## Fun coloured bowden (1.9 inner, 4.0 outer): https://www.aliexpress.com/item/1005005754150879.html
-## Excellent Mellow CNC Tap (which I had before I went Beacon revH): https://www.aliexpress.com/item/1005005773603203.html
+## Cable clips for 2020 extrusions all over the place: https://www.printables.com/model/365945-voron-2020-aluminum-profile-cable-clip 
 ## Rainbow BARF LEDs (buy a few sets): https://www.aliexpress.com/item/1005005412156327.html
 ## Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy): https://www.aliexpress.com/item/4001033375208.html
 ## Heatset inserts - get loads: https://www.aliexpress.com/item/1005004535859664.html
