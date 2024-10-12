@@ -44,11 +44,10 @@
 # Klipper plugins...
 
 ## Shake n Tune: https://github.com/Frix-x/klippain-shaketune
-## Klipper AUTO SPEED: https://github.com/Anonoei/klipper_auto_speed
+## Klipper Auto Speed: https://github.com/Anonoei/klipper_auto_speed
 ## Rainbow BARF: https://github.com/tanaes/whopping_Voron_mods/tree/main/LEDs/Rainbow_Barf_Logo_LED
 ## LED Effect: https://github.com/julianschill/klipper-led_effect
 ## TMC Autotune: https://github.com/andrewmcgr/klipper_tmc_autotune
 ## Klipper network status (only suitable for a mini12864 LCD Display): https://github.com/JeremyRuhland/klipper_network_status
 ## Stereo sound effects: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
 ## Sonar: https://github.com/mainsail-crew/sonar
-## Autospeed: https://github.com/Anonoei/klipper_auto_speed
