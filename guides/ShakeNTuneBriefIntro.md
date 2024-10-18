@@ -1,4 +1,4 @@
-# Brief introduction to Shake 'n' Tune by Frix
+# Brief introduction to Shake 'n' Tune (original author of SnT is Frix)
 
 ### This guide is based on this tool: https://github.com/Frix-x/klippain-shaketune
 
