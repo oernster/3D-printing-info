@@ -8,7 +8,7 @@
 
 ### Carto:
 
-Supports CANBUS/USB, soon™️ will support higher temperature chambers, 1/4 of the price, not as good quality components as Beacon but perfectly good.  Supports something virtually identical to Beacon Touch called Survey.  Normal and low profile variants available.
+Supports CANBUS/USB, soon™️ will support higher temperature chambers, 1/4 of the price, once you include shipping, not as good quality components as Beacon but perfectly good.  Supports something virtually identical to Beacon Touch called Survey.  Normal and low profile variants available.
 
 ### Beacon:
 
