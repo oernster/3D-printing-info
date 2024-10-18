@@ -32,4 +32,4 @@ The way to deal with that, would be to create faulty regions in your bed mesh se
 
 https://www.klipper3d.org/Bed_Mesh.html#faulty-regions
 
-However, you're using a magnetic bed or bed with magnets in then maybe an Eddy Current sensor isn't really what you're looking to use on your printer (unless of course you use faulty regions).
+However, if you're using a magnetic bed or bed with magnets in then maybe an Eddy Current sensor isn't really what you're looking to use on your printer (unless of course you use faulty regions).
