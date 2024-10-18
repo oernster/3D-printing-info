@@ -23,3 +23,11 @@ Works with both Beacon and Carto.  Supports normal v6 hotends for SB and UHF hot
 1) Beacon: https://beacon3d.com/ and here: https://docs.beacon3d.com/quickstart/ and also here: https://github.com/beacon3d/beacon_klipper
 
 2) Cartographer: https://cartographer3d.com/
+
+## Side notes:
+
+If you want info about survey adjustment after scanning but you need to do meshing not by scanning, this is not supported by the Cartographer...
+
+The way to deal with that, would be to create faulty regions in your bed mesh settings; see below:
+
+https://www.klipper3d.org/Bed_Mesh.html#faulty-regions
