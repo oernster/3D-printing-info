@@ -6,6 +6,8 @@
 
 3) The BTT Eddy Current Scanner which is untested by anyone I know and I would avoid that option until it has been.
 
+4) I _think_ there is a Mellow one as well on the market now but I have no experience with it. 
+
 ### Carto:
 
 Supports CANBUS/USB, soon™️ will support higher temperature chambers, 1/4 of the price, once you include shipping, not as good quality components as Beacon but perfectly good.  Supports something virtually identical to Beacon Touch called Survey.  Normal and low profile variants available.
