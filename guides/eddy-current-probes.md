@@ -1,4 +1,4 @@
-# There are 3 companies creating eddy current scanners on the market as of September 2024. 
+# There are 3 companies creating eddy current scanners on the market as of October 2024. 
 
 1) Beacon revH.
 
