@@ -20,7 +20,7 @@ https://github.com/dw-0/kiauh
 
 ## 2) Enable audio in case you have not done so already: sudo raspi-config for that after ssh-ing into your pi or using putty if that's your preferred method to access the command line on your pi.
 
-## 3) Create a shell command similar to my shell command here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/print_start.sh
+## 3) Create a shell command similar to my shell command here: https://github.com/oernster/VT350/blob/main/print_start.sh
 
 NOTE: aplay and alsamixer are not required for bookworm distros of raspbian.  HOWEVER, you need to add the following lines to /etc/asounds.conf, e.g. by sending the command sudo nano /etc/asounds.conf, then paste in and Ctrl X and y to exit.
 
@@ -40,7 +40,7 @@ You _may_ need to install this: sudo apt install alsamixer
 
 This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from the command line.
 
-## 4) Create a config file such as shell_command.cfg here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/shell_command.cfg
+## 4) Create a config file such as shell_command.cfg here: https://github.com/oernster/VT350/blob/main/shell_command.cfg
 
 This can be customised to your specific needs and wav files.  
 
@@ -59,7 +59,7 @@ gcode:
 ```
 
 ### Now, if you want to customise your macros to play specific sounds due to an event then simply make a call to the relevant gcode customised sound from the shell_command.cfg file we discussed earlier.
-### Examples can be found in my PRINT_START macro here: https://github.com/oernster/3D-printing-info/blob/main/printers/voronTrident350/configs/macros.cfg
+### Examples can be found in my PRINT_START macro here: https://github.com/oernster/VT350/blob/main/configs/macros.cfg
 
 # ENJOY!!!
 
