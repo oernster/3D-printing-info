@@ -54,7 +54,7 @@ e) Use this online tone generator and use your ears if they are good enough: htt
 
 ### 2) Now that you've done that, home your printer and run the macro: COMPARE BELTS RESPONSES.
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/belts_tuning.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/compare_belts_responses.md
 
 a) You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting 
 
