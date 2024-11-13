@@ -66,14 +66,13 @@ are not completely aligned it's not the end of the world.  Furthermore, in an id
 
 NOTE: The percentage similarity is less important than the shape of the graph; you are aiming for ideally a single joint peak.
 
-NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a special channel available to those who have serialised their Voron printers on Discord.
+NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a channel available in the Voron Discord.  For more advanced tuning and ONLY for those with serialised printers, there is a unicorn chansing variant.
 
 When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each time you adjust on either the B or A idler.
 
 The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.
 
-Now, ignore the peak labels on the graphs, they are badly labelled - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
-NOTE: The peak labelling is planned to be changed to Greek lettering to reduce confusion soon.
+Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
