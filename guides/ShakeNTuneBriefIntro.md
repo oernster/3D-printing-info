@@ -77,7 +77,7 @@ NOTE: The peak labelling is planned to be changed to Greek lettering to reduce c
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axis_tuning.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axes_shaper_calibrations.md
 
 Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) 
 
@@ -105,7 +105,7 @@ You want to choose the lower of the two max recommended accels (x and y) for you
 
 ### 4) Once you've tuned everything
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/vibrations_profile.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/create_vibrations_profile.md
 
 Run the macro CREATE VIBRATIONS PROFILE.
 
