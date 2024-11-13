@@ -66,7 +66,7 @@ are not completely aligned it's not the end of the world.  Furthermore, in an id
 
 NOTE: The percentage similarity is less important than the shape of the graph; you are aiming for ideally a single joint peak.
 
-NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a channel available in the Voron Discord.  For more advanced tuning and ONLY for those with serialised printers, there is a unicorn chansing variant.
+NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a channel available in the Voron Discord.  For more advanced tuning and ONLY for those with serialised printers, there is a unicorn chasing variant.
 
 When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each time you adjust on either the B or A idler.
 
