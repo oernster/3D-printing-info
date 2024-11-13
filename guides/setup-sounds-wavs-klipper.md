@@ -63,4 +63,6 @@ gcode:
 
 # ENJOY!!!
 
+### If you struggle to get it working, then debug with details from here: https://raspberrypi.stackexchange.com/questions/22708/is-there-some-trick-to-getting-aplay-audio-output-working 
+
 
