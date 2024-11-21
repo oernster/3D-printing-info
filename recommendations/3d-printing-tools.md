@@ -25,7 +25,9 @@
 <a href="https://amzn.to/3MYJopO">Original Barratt Giant Foam Bananas 1 Kilo Bag - ESSENTIAL 3D PRINTING TREATS!!!</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B07ZW9PY6B/">Decent Tool album to listen to while you're working!!!</a>
-  
+
+<a href="https://www.amazon.co.uk/dp/B09XQKQNQK/">Pocket mirror with light for seeing behind your toolhead - VERY useful!</a>
+
 ## Just lovely tools
 
 <a href="https://www.amazon.co.uk/gp/product/B000R2C9EG/">Knipex Tool Case "Basic" empty - LOVELY!</a>
