@@ -20,7 +20,7 @@
 ## West3d x and y titanium backers: https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788
 ## Annex Engineering clips for all panels for ease of removability and reattachment when doing maintenance
 ## Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans: https://github.com/nevermore3d/Nevermore_Micro
-## 350mm bed and magnetic base: https://www.aliexpress.com/item/1005005131647373.html and https://www.aliexpress.com/item/1005006400462518.html 
+## 350mm bed and magnetic base: https://www.printyplease.uk/CatBed355 (Textured)
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD: https://thepihut.com/products/raspberry-pi-4-model-b?variant=31994565689406 and https://thepihut.com/products/argon-one-m-2-raspberry-pi-4-case
 ## mini12864 screen
 ## Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
