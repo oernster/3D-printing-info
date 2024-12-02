@@ -18,7 +18,6 @@
 ## PT1000 thermistors all over the place: https://www.aliexpress.com/item/4000717733995.html
 ## Disco on sticks: https://www.printyplease.uk/Disco?search=disco
 ## West3d x and y titanium backers: https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788
-## Annex Engineering clips for all panels for ease of removability and reattachment when doing maintenance
 ## Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans: https://github.com/nevermore3d/Nevermore_Micro
 ## 350mm bed and magnetic base: https://www.printyplease.uk/CatBed355 (Textured)
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD: https://thepihut.com/products/raspberry-pi-4-model-b?variant=31994565689406 and https://thepihut.com/products/argon-one-m-2-raspberry-pi-4-case
@@ -32,8 +31,8 @@
 ## Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy): https://www.aliexpress.com/item/4001033375208.html
 ## Heatset inserts - get loads: https://www.aliexpress.com/item/1005004535859664.html
 ## Handy cheap temp gun for checking A/B stepper motor etc temps: https://www.aliexpress.com/item/1005005730726048.html
-## BIGTREETECH TMC5160T Pro V1.0 SPI Stepper Motor Drivers: https://www.amazon.co.uk/dp/B0CLNSRRKR
-## Spare melt zone extenders for a Rapido UHF v2: https://www.aliexpress.com/item/1005004359643945.html
+## Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers: https://www.amazon.co.uk/dp/B0CLNSRRKR
+## Spare melt zone extenders: https://www.aliexpress.com/item/1005004359643945.html
 ## Voron metal serial number plate: https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with
 ## Granite/Marble slab for reducing resonances source in UK: https://www.scmgltd.co.uk/
 ## Disco RGBW on sticks mount: https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main
