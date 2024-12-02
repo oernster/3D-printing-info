@@ -25,7 +25,7 @@
 ## mini12864 screen
 ## Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
 ## Cricut Voron logo on rear panel of printer
-## LDO 2504ac A/B motors: https://www.aliexpress.com/item/1005006864255848.html
+## Mellow 2504ac A/B motors: https://www.aliexpress.com/item/1005006864255848.html
 ## 48V
 ## Cable clips for 2020 extrusions all over the place: https://www.printables.com/model/365945-voron-2020-aluminum-profile-cable-clip 
 ## Rainbow BARF LEDs (buy a few sets): https://www.aliexpress.com/item/1005005412156327.html
