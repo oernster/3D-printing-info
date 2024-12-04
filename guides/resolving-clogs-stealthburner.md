@@ -13,7 +13,7 @@
 
 ## Tools you can use to declog:
 
-## Note that this has a better non 3D printed handle than the noclogger below.
+## Note that this has a better non 3D printed handle than the noclogger below; it's the ONLY Creality product I'll recommend.
 ## Clog Poke Creality (UK): https://www.amazon.co.uk/Creality-Cleaning-Piercing-Printing-Disassembly/dp/B0D3HKY3M2
 ## Clog Poke Creality (US): https://www.amazon.com/Creality-Cleaning-Piercing-Disassembly-Thoroughly/dp/B0D3FD43W7
 ## Noclogger (US): https://noclogger.com/
