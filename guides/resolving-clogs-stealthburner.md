@@ -1,5 +1,7 @@
 # Resolving Clogs in a Stealthburner Guide
 
+
+## BEFORE: Check your hotend fan is spinning above 50C.
 ## 1) Check your extruder can extrude back and forth without the base of the toolhead attached and no clicking.
 ## 2) Check there is no piece of filament obstructing anything in the small narrow filament path under the extruder itself but inside the SB.
 ## 3) Check the bowden piece inside the toolhead has no filament inside or on top/bottom.
