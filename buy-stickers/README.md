@@ -5,3 +5,5 @@
 ### If interested, please use the coffee payment link on the front page of my repo to pay.
 
 ### Please also provide your full name and address and post / zip code so I can send them to you.
+
+Big thank you to BradTN for taking my photo and creating these designs in PhotoShop.
