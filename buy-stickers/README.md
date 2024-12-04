@@ -1,6 +1,6 @@
 # See this folder for a set of stickers I can do for you.
 
-## Two of each will cost you £5 (GBP) + postage which is not much more than cost to me).  (I need to order multiple of each type you see).
+## Two of each will cost you £5 (GBP) + postage (£4 on top for US or Europe, probably Canada too, £2 for UK which is not much more than cost to me).  (I need to order multiple of each type you see).
 
 ### If interested, please use the coffee payment link on the front page of my repo to pay.
 
