@@ -9,8 +9,8 @@
 ## CNC A/B motor mounts: https://www.aliexpress.com/item/1005006662246017.html
 ## Cartographer CNC mount for Beacon or Cartographer: https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
 ## Cartographer ADXL v3: https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb
-## Stealthburner with UHF Rapido UHF v2 hotend and Bondtech CHT 0.4mm nozzle (I also have spare West3D undertaker TC 0.4mm nozzles) and Rainbow BARF LEDs
-## BFIs; CNC ones on the way; these: https://www.aliexpress.com/item/1005007313796436.html
+## Stealthburner with UHF Dragon hotend and Bondtech CHT 0.4mm nozzle (I also have spare West3D undertaker TC 0.4mm nozzles) and Rainbow BARF LEDs
+## BFIs; CNC ones: https://www.aliexpress.com/item/1005007313796436.html
 ## Top hat mod and 1.0.R carry handles: https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha
 ## Clicky clacky door kit UK: https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/ or US: https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors
 ## Clicky clacky door build guide: https://github.com/tanaes/whopping_Voron_mods/tree/main/clickyclacky_door
@@ -18,22 +18,21 @@
 ## PT1000 thermistors all over the place: https://www.aliexpress.com/item/4000717733995.html
 ## Disco on sticks: https://www.printyplease.uk/Disco?search=disco
 ## West3d x and y titanium backers: https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788
-## Annex Engineering clips for all panels for ease of removability and reattachment when doing maintenance
 ## Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans: https://github.com/nevermore3d/Nevermore_Micro
-## 350mm bed and magnetic base: https://www.aliexpress.com/item/1005005131647373.html and https://www.aliexpress.com/item/1005006400462518.html 
+## 350mm bed and magnetic base: https://www.printyplease.uk/CatBed355 (Textured)
 ## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD: https://thepihut.com/products/raspberry-pi-4-model-b?variant=31994565689406 and https://thepihut.com/products/argon-one-m-2-raspberry-pi-4-case
 ## mini12864 screen
 ## Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
 ## Cricut Voron logo on rear panel of printer
-## LDO 2504ac A/B motors: https://www.aliexpress.com/item/1005006864255848.html
+## Mellow 2504ac A/B motors: https://www.aliexpress.com/item/1005006864255848.html
 ## 48V
 ## Cable clips for 2020 extrusions all over the place: https://www.printables.com/model/365945-voron-2020-aluminum-profile-cable-clip 
 ## Rainbow BARF LEDs (buy a few sets): https://www.aliexpress.com/item/1005005412156327.html
 ## Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy): https://www.aliexpress.com/item/4001033375208.html
 ## Heatset inserts - get loads: https://www.aliexpress.com/item/1005004535859664.html
 ## Handy cheap temp gun for checking A/B stepper motor etc temps: https://www.aliexpress.com/item/1005005730726048.html
-## BIGTREETECH TMC5160T Pro V1.0 SPI Stepper Motor Drivers: https://www.amazon.co.uk/dp/B0CLNSRRKR
-## Spare melt zone extenders for a Rapido UHF v2: https://www.aliexpress.com/item/1005004359643945.html
+## Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers: https://www.amazon.co.uk/dp/B0CLNSRRKR
+## Spare melt zone extenders: https://www.aliexpress.com/item/1005004359643945.html
 ## Voron metal serial number plate: https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with
 ## Granite/Marble slab for reducing resonances source in UK: https://www.scmgltd.co.uk/
 ## Disco RGBW on sticks mount: https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main

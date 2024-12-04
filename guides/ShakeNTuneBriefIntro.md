@@ -54,7 +54,7 @@ e) Use this online tone generator and use your ears if they are good enough: htt
 
 ### 2) Now that you've done that, home your printer and run the macro: COMPARE BELTS RESPONSES.
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/belts_tuning.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/compare_belts_responses.md
 
 a) You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting 
 
@@ -66,18 +66,17 @@ are not completely aligned it's not the end of the world.  Furthermore, in an id
 
 NOTE: The percentage similarity is less important than the shape of the graph; you are aiming for ideally a single joint peak.
 
-NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a special channel available to those who have serialised their Voron printers on Discord.
+NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a channel available in the Voron Discord.  For more advanced tuning and ONLY for those with serialised printers, there is a unicorn chasing variant.
 
 When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each time you adjust on either the B or A idler.
 
 The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.
 
-Now, ignore the peak labels on the graphs, they are badly labelled - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
-NOTE: The peak labelling is planned to be changed to Greek lettering to reduce confusion soon.
+Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axis_tuning.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axes_shaper_calibrations.md
 
 Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) 
 
@@ -105,7 +104,7 @@ You want to choose the lower of the two max recommended accels (x and y) for you
 
 ### 4) Once you've tuned everything
 
-DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/vibrations_profile.md
+DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/create_vibrations_profile.md
 
 Run the macro CREATE VIBRATIONS PROFILE.
 
