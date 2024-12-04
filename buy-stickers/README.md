@@ -1,4 +1,4 @@
-# See folder for a the stickers.
+# See folder for the stickers.
 
 ## Two of each will cost you £15 (GBP) including postage.
 
