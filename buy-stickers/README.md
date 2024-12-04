@@ -1,9 +1,11 @@
-# See this folder for a set of stickers I can do for you.
+# See folder for a the stickers.
 
-## Two of each will cost you £5 (GBP) + postage (£4 on top for US or Europe, probably Canada too, £2 for UK which is not much more than cost to me).  (I need to order multiple of each type you see).
+## Two of each will cost you £5 (GBP) + postage (£4 on top for US/Europe/Canada, £2 for UK).
 
-### If interested, please use the coffee payment link on the front page of my repo to pay.
+### [Payment](https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4)
 
-### Please also provide your full name and address and post / zip code so I can send them to you.
+### Please provide your full name and address and post / zip code.
+
+
 
 Big thank you to BradTN for taking my photo and creating these designs in PhotoShop.
