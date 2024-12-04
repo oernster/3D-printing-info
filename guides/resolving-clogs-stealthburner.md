@@ -10,3 +10,11 @@
 ## 6) Adjust the adjustment screw to tighten up such that it just blocks the filament from going through the extruder, then back it off by 1/4 of a turn but still retaining the blocking nature of the filament going in; it should grab easily and pull/push when you extrude/retract.
 
 ### Note that I have never experienced a nozzle clog in 6+ years of printing; it's extremely unlikely to be a nozzle clog.
+
+## Tools you can use to declog:
+
+## Note that this has a better non 3D printed handle than the noclogger below.
+## Clog Poke Creality (UK): https://www.amazon.co.uk/Creality-Cleaning-Piercing-Printing-Disassembly/dp/B0D3HKY3M2
+## Clog Poke Creality (US): https://www.amazon.com/Creality-Cleaning-Piercing-Disassembly-Thoroughly/dp/B0D3FD43W7
+## Noclogger (US): https://noclogger.com/
+## A suitably sized allen key (not as easy as a decent declogging tool but it works in a pinch).
