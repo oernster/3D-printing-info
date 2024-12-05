@@ -40,6 +40,8 @@ You _may_ need to install this: sudo apt install alsamixer
 
 This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from the command line.
 
+Note that once you've adjusted any alsamixer settings, you can escape from the tool and then to ssave your changes run this command: sudo alsactl store
+
 ## 4) Create a config file such as shell_command.cfg here: https://github.com/oernster/VT350/blob/main/shell_command.cfg
 
 This can be customised to your specific needs and wav files.  
