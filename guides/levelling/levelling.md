@@ -14,8 +14,8 @@
 
 # Now, while it is printing, live adjust z on your printer or through mainsail/fluidd up or down by small adjustments at a time until you have a perfect first layer.
 
-# I know the picture is old in this directory and it's from a Prusa which I no longer own and it's for 9 well spaced squares instead but you can clearly see from that picture what a good level with a square _should_ look like.
+# Refer to the picture to see what it _should_ look like.
 
-### Continue to reprint and live adjust until you have a perfect square or set of duplicated squares across your bed.
+### Continue to reprint and live adjust until you have a perfect square.
 
 # Now, you can print normally as you have levelled correctly.
