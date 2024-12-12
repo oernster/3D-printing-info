@@ -24,7 +24,7 @@ Me:
 
 I'm a 3D printing guy and I am attempting to mix up some decent sticky fluid for bed adhesion for FDM printing with plastics such as PLA, ABS, ASA, PC, PETG.  Now, I have a concoction of 100ml water, 50ml of 99.9% isopropyl alcohol and 10mg of polyvinyl pyrrolidone. PVP K90.  I attempted to mix it all up but it is struggling to dissolve and makes a mess of solid inside the liquid.  
 
-I did try heating it on my hob in a pyrex jug but my hob isn't working great so this might be the right solution.  My question really is this: assuming I can get my hob (oven top) to heat properly, will heat make it dissolve better or am I doing something incorrect here, please? 
+I did try heating it on my hob in a pyrex jug but my hob isn't working great so this might not be the right solution.  My question really is this: assuming I can get my hob (oven top) to heat properly, will heat make it dissolve better or am I doing something incorrect here, please? 
 
 Response:
 
