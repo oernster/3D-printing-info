@@ -8,4 +8,4 @@
 ### I am oliver5000 on discord.
 
 
-Big thank you to BradTN for taking my photo and creating these designs in PhotoShop.
+Big thank you to BradTN for taking my current photo and creating these designs in PhotoShop.
