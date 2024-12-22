@@ -20,9 +20,9 @@ Fillamentum PETG
 
 ## PLA
 
-Fillamentum PLA
+Fillamentum PLA - gucci stuff
 
-Prusament PLA
+Prusament PLA - gucci stuff
 
 Bambu filament - lovely PLA/PLA CF/PLA Metal.
 
