@@ -14,9 +14,9 @@ Bambu ABS/ASA - prints great but NOTE I suspect all of it is a blend.
 
 ## PETG
 
-Prusament PETG
+Prusament PETG - very good quality
 
-Fillamentum PETG
+Fillamentum PETG - very good quality
 
 ## PLA
 
