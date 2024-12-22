@@ -22,7 +22,7 @@
 
 <a href="https://www.amazon.co.uk/gp/product/B08D9QH3X3/">Brass brushes to clean your nozzle</a>
 
-<a href="https://amzn.to/3MYJopO">Original Barratt Giant Foam Bananas 1 Kilo Bag - ESSENTIAL 3D PRINTING TREATS!!!</a>
+<a href="https://www.amazon.co.uk/gp/product/B0047073HM">Original Barratt Giant Foam Bananas 1 Kilo Bag - ESSENTIAL 3D PRINTING TREATS!!!</a>
 
 <a href="https://www.amazon.co.uk/gp/product/B07ZW9PY6B/">Decent Tool album to listen to while you're working!!!</a>
 
