@@ -22,7 +22,7 @@ wsl --list --online
 wsl install -d ubuntu
 ```
 
-## Note this will prompt for a username and password for your windows linux distro.
+## Note this will prompt for a username and password for your windows sub system for linux (wsl) linux distro.
 
 ## Move the tarball in this repo directory to the Linux Ubuntu/home/<your username> directory using Windows Explorer (yellow folder not the browser).
 
