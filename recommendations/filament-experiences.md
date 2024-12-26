@@ -24,6 +24,8 @@ Fillamentum PLA - gucci stuff
 
 Prusament PLA - gucci stuff
 
+Overture PLA - I have only used 1-2 spools but I have had good experiences with it.
+
 Bambu filament - lovely PLA/PLA CF/PLA Metal.
 
 SUNLU - perfectly fine to print with; as I understand it Bambu PLA is just rebranded SUNLU.
