@@ -82,7 +82,7 @@ rsync -aSPvx --delete -n --numeric-ids qidiroot/ root@<insert your IP here witho
 
 ## If all good, then do it for REAL:
 ```
-rsync -aSPvx --delete -n --numeric-ids qidiroot/ root@<insert your IP here without angled brackets>:/
+rsync -aSPvx --delete --numeric-ids qidiroot/ root@<insert your IP here without angled brackets>:/
 ```
 
 ## Go to your ssh terminal and enter:
