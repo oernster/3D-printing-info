@@ -4,7 +4,7 @@
 
 2) Download and install 7-zip from here: https://www.7-zip.org/
 
-3) Extract the .001 file;  it will automatically extract all related numbered files.
+3) Extract the .7z file locally.
 
-4) Use BalenaEtcher to flash your EMMC device for your Qidi Q1 Pro.
+4) Use BalenaEtcher to flash your EMMC device with the extracted bin file for your Qidi Q1 Pro.
 
