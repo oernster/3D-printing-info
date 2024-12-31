@@ -95,7 +95,7 @@ sudo shutdown now
 
 # UI will be borked.  Therefore, format a FAT32 USB stick and copy to the root directory this file:
 
-## (UI file download)[https://drive.google.com/file/d/1GYtFym1_HIyWzPiGaFYPqDV0K048fQJZ/view]:
+## [https://drive.google.com/file/d/1GYtFym1_HIyWzPiGaFYPqDV0K048fQJZ/view](UI file download)
 
 ```
 mksclient.recovery
