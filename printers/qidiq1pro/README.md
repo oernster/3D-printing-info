@@ -48,7 +48,7 @@ sudo nano qidiroot/etc/wpa_supplicant/wpa_supplicant-wlan0.conf
 
 ## As an aside the root password is `makerbase`
 
-# Flash the emmc using BalenaEtcher using the Qidi Q1 image from this link: https://wiki.qidi3d.com/en/Memo/flash-emmc 
+# Flash the emmc using BalenaEtcher using the Qidi Q1 image from (this link)[https://wiki.qidi3d.com/en/Memo/flash-emmc]
 
 ## Eject the emmc once done.
 
