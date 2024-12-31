@@ -1,7 +1,7 @@
 # Installation instructions for recovering Qidi Q1 Pro Operating System.
 
 # 1) Buy one of these or an equivalent local to your country:
-# https://www.amazon.co.uk/dp/B0D7X87QGR
+# [EMMC adapter](https://www.amazon.co.uk/dp/B0D7X87QGR)
 # To get to the emmc you need to unscrew all screws from the rear of the printer and also 3 screws either side of the rear panel.  
 # Then unscrew the two screws that mount the emmc to your printer motherboard and remove the emmc.  
 # There is a clear diagram / picture on the adapter showing the orientation for plugging in to flash which we will come to later.
@@ -95,7 +95,7 @@ sudo shutdown now
 
 # UI will be borked.  Therefore, format a FAT32 USB stick and copy to the root directory this file:
 
-## [https://drive.google.com/file/d/1GYtFym1_HIyWzPiGaFYPqDV0K048fQJZ/view](UI file download)
+## (https://drive.google.com/file/d/1GYtFym1_HIyWzPiGaFYPqDV0K048fQJZ/view)[UI file download]
 
 ```
 mksclient.recovery
@@ -107,7 +107,7 @@ mksclient.recovery
 
 # Wait for flash.  The UI is probably still borked but this is fine.
 
-## Now plug USB stick into PC, download emmc firmware from here: https://github.com/QIDITECH/QIDI_Q1_Pro/releases  (as of Xmas Day 2024 this is Q1_V4.4.24.zip).
+## Now plug USB stick into PC, (download emmc firmware from here)[https://github.com/QIDITECH/QIDI_Q1_Pro/releases]  (as of Xmas Day 2024 this is Q1_V4.4.24.zip).
 
 ## In order to extract the zip file you will need probably to create an exception in your virus scanner since it will likely be immediately quarantined; or if you're feeling lucky, simply temporarily disable your virus scanner, extract then re-enable it immediately.
 
