@@ -4,7 +4,7 @@
 # https://www.amazon.co.uk/dp/B0D7X87QGR
 # To get to the emmc you need to unscrew all screws from the rear of the printer and also 3 screws either side of the rear panel.  
 # Then unscrew the two screws that mount the emmc to your printer motherboard and remove the emmc.  
-# There is a clear diagram / picture on the adapter on orientation for plugging in to flash which we will come to later.
+# There is a clear diagram / picture on the adapter oshowing the orientation for plugging in to flash which we will come to later.
 
 ## Install WSL on windows (Windows sub system for linux)...
 
