@@ -40,6 +40,8 @@
 ## Bowden tube guide: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL
 ## Annex Engineering panel clips: https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges
 
+# I have migrated to Kalico (previously DangerKlipper) instead of Klipper as well.
+
 # Klipper plugins...
 
 ## Shake n Tune: https://github.com/Frix-x/klippain-shaketune
