@@ -4,7 +4,7 @@
 
 ## Emergency stop switch with blue LEDs: https://www.aliexpress.com/item/1005004076049556.html
 ## BTT SFS filament runout sensor v2: https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor
-## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BV
+## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BVRpi4b
 ## CNC xy joints: https://www.aliexpress.com/item/1005005997740026.html
 ## CNC A/B motor mounts: https://www.aliexpress.com/item/1005006662246017.html
 ## Cartographer CNC mount for Beacon or Cartographer: https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
@@ -20,7 +20,7 @@
 ## West3d x and y titanium backers: https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788
 ## Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans: https://github.com/nevermore3d/Nevermore_Micro
 ## 350mm bed and magnetic base: https://www.printyplease.uk/CatBed355 (Textured)
-## pi4b 8GB in Argon One case external to the printer with 1TB M.2 SSD: https://thepihut.com/products/raspberry-pi-4-model-b?variant=31994565689406 and https://thepihut.com/products/argon-one-m-2-raspberry-pi-4-case
+## Pi4b 4GB in Aluminium NAS Case for Pi 4 with Quiet Cooling Fan external to the printer with 1TB M.2 SSD
 ## mini12864 screen
 ## Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here: https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md
 ## Cricut Voron logo on rear panel of printer
