@@ -28,6 +28,6 @@
 ### ```systemctl restart moonraker```
 ### ```systemctl restart klipper```
 
-# Now Mainsail should be available from here: http://<your IP address without angled brackets>:8081
+# Now Mainsail should be available from here: http://(your IP address without brackets):8081
 
 # TADA!
