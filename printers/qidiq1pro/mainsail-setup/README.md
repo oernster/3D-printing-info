@@ -17,7 +17,7 @@
 ### When it runs, choose SFTP and specify your IP address, username (root) and password (makerbase)
 ### Copy the mainsail file from this repository into /etc/nginx/sites-available
 
-## Run these commands
+## Run these commands in your _ssh_ terminal
 ### ```ln -s /etc/nginx/sites-available/mainsail /etc/nginx/sites-enabled/```
 ### ```systemctl restart nginx```
 
