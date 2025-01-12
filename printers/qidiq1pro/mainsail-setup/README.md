@@ -26,7 +26,7 @@
 
 ## Now run:
 ### ```systemctl restart moonraker```
-### ```sudo systemctl restart klipper```
+### ```systemctl restart klipper```
 
 # Now Mainsail should be available from here: http://<your IP address without angled brackets>:8081
 
