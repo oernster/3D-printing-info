@@ -30,7 +30,9 @@ Then, using a sharpie, (red works well), mark a tooth on both sides 20cm vertica
 
 Next loosen up both idlers completely.
 
-Then mount the belts.  You want to be able to see when mounting that the red lines line up vertically on the front of the printer, left and right sides
+Then mount the belts.  You want to be able to see when mounting that the red lines line up vertically on the front of the printer, left and right sides.
+
+Note, to clarify, the sharpie marks are NOT to align the frayed bits; they are to align the belts once mounted in an easy way and the sharpie marks will be somewhere on the x gantry.
 
 Pull the belts to reasonable tension on both sides (as tight as possible without overdoing it; you'll struggle to get them overtight unless you are pulling them towards you).
 
