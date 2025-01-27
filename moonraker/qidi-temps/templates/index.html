@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printer Temperature</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
+            background-color: rgba(17, 17, 17, 0.6);
+            color: #fff;
+        }
+
+        .temperature-display {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding: 10px;
+            width: 100%;
+            background-color: rgba(34, 34, 34, 0.6);
+            overflow-x: auto;
+            justify-content: center;
+        }
+
+        .sensor {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            flex: 0 0 100px;
+        }
+
+        .sensor .name {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .sensor .temperature {
+            font-size: 1.2em;
+            color: red;
+        }
+
+        .sensor .target {
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="temperature-display" id="temperatureDisplay">
+        <!-- Dynamic content will be inserted here -->
+    </div>
+
+    <script>
+        async function fetchTemperatures() {
+            try {
+                const response = await fetch('/temperatures');
+                const data = await response.json();
+
+                const display = document.getElementById('temperatureDisplay');
+                display.innerHTML = ''; // Clear existing content
+
+                for (const [sensor, details] of Object.entries(data)) {
+                    const sensorDiv = document.createElement('div');
+                    sensorDiv.classList.add('sensor');
+
+                    const nameDiv = document.createElement('div');
+                    nameDiv.classList.add('name');
+                    nameDiv.textContent = sensor;
+
+                    const temperatureDiv = document.createElement('div');
+                    temperatureDiv.classList.add('temperature');
+                    temperatureDiv.textContent = details.temperature !== null
+                        ? `${details.temperature}°C`
+                        : 'No Temperature Data';
+
+                    sensorDiv.appendChild(nameDiv);
+                    sensorDiv.appendChild(temperatureDiv);
+
+                    if (details.target !== undefined) {
+                        const targetDiv = document.createElement('div');
+                        targetDiv.classList.add('target');
+                        targetDiv.textContent = details.target !== null
+                            ? `Target: ${details.target}°C`
+                            : 'No Target';
+                        sensorDiv.appendChild(targetDiv);
+                    }
+
+                    display.appendChild(sensorDiv);
+                }
+            } catch (error) {
+                console.error('Error fetching temperatures:', error);
+            }
+        }
+
+        setInterval(fetchTemperatures, 1000);
+        fetchTemperatures();
+    </script>
+</body>
+</html>

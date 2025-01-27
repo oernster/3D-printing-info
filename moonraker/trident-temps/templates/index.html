@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printer Temperature</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
+            background-color: rgba(17, 17, 17, 0.6);
+            color: #fff;
+        }
+
+        .temperature-display {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding: 10px;
+            width: 100%;
+            background-color: rgba(34, 34, 34, 0.6);
+            overflow-x: auto;
+            justify-content: center; /* Center all blocks */
+        }
+
+        .sensor {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1); /* Low opacity for the background */
+            border-radius: 8px;
+            flex: 0 0 100px; /* Adjust block width */
+        }
+
+        .sensor .name {
+            font-weight: bold;
+            font-size: 1em; /* Smaller text size */
+        }
+
+        .sensor .temperature {
+            font-size: 1.2em;
+            color: red;
+        }
+
+        .sensor .target {
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .sensor .fan-speed {
+            font-size: 0.9em;
+            color: rgba(0, 200, 200, 0.8); /* Cyan for fan speed */
+        }
+    </style>
+</head>
+<body>
+    <div class="temperature-display" id="temperatureDisplay">
+        <!-- Dynamic content will be inserted here -->
+    </div>
+
+    <script>
+        async function fetchTemperatures() {
+            try {
+                // Fetch data from the backend
+                const response = await fetch('/temperatures');
+                const data = await response.json();
+
+                // Update the temperature display
+                const display = document.getElementById('temperatureDisplay');
+                display.innerHTML = ''; // Clear existing content
+
+                // Render updated data
+                for (const [sensor, details] of Object.entries(data)) {
+                    const sensorDiv = document.createElement('div');
+                    sensorDiv.classList.add('sensor');
+
+                    const nameDiv = document.createElement('div');
+                    nameDiv.classList.add('name');
+                    nameDiv.textContent = sensor === 'MCU' ? 'MCU' : sensor;
+
+                    const temperatureDiv = document.createElement('div');
+                    temperatureDiv.classList.add('temperature');
+                    if (details.temperature !== null) {
+                        temperatureDiv.textContent = `${details.temperature}°C`;
+                    } else {
+                        temperatureDiv.textContent = 'No Temperature Data';
+                    }
+
+                    sensorDiv.appendChild(nameDiv);
+                    sensorDiv.appendChild(temperatureDiv);
+
+                    if (details.target !== undefined) {
+                        const targetDiv = document.createElement('div');
+                        targetDiv.classList.add('target');
+                        targetDiv.textContent = details.target !== null
+                            ? `Target: ${details.target}°C`
+                            : 'No Target';
+                        sensorDiv.appendChild(targetDiv);
+                    }
+
+                    if (details.speed !== undefined) {
+                        const speedDiv = document.createElement('div');
+                        speedDiv.classList.add('fan-speed');
+                        speedDiv.textContent = details.speed !== null
+                            ? `Fan Speed: ${details.speed}`
+                            : 'No Fan Data';
+                        sensorDiv.appendChild(speedDiv);
+                    }
+
+                    display.appendChild(sensorDiv);
+                }
+            } catch (error) {
+                console.error('Error fetching temperatures:', error);
+            }
+        }
+
+        // Poll temperatures every second
+        setInterval(fetchTemperatures, 1000);
+
+        // Fetch temperatures initially
+        fetchTemperatures();
+    </script>
+</body>
+</html>
