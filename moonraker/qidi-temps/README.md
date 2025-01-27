@@ -2,7 +2,7 @@
 
 ## 1) Download req.txt, app.py and the templates directory to your machine.
 
-## 1a) Adjust the IP address in app.py to be the IP address of your Qidi here: MOONRAKER_API_URL = "http://<your ip without angled brackets>:7125/printer/objects/query"
+## 1a) Adjust the IP address in app.py to be the IP address of your Qidi here: MOONRAKER_API_URL = "http://(your ip without brackets):7125/printer/objects/query"
 
 ## 2) Install Python 3 (https://www.python.org); ensure you add the PYTHONPATH on windows during install.
 
