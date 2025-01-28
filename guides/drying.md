@@ -6,7 +6,7 @@
 
 ## To dry your filament you'll want a decent dryer.
 
-A really good dryer, which I have, though also a fair price but possibly one of the best ones on the market currently (September 2024) is the Eibos Cyclopes which can dry 2 decently sized 1Kg spools at once.  I ordered mine direct from the Eibos website. 
+A really good dryer, which I have, though also a fair price but possibly one of the best ones on the market currently (Jan 2025) is the Eibos Cyclopes which can dry 2 decently sized 1Kg spools at once - it gets up to 70C and achieves 10% humidity in the box while having fans to release humidity.  I ordered mine direct from the Eibos website. 
 
 Depending on how many spools you have you will also want to store them in a dry location.  A dry box comes in here.  In an ideal world you'd want a vaccuum sealed box but they cost a fortune.  So, I recommend some kind of large 80L approx plastic container with a lid that you can layer the base inside with silica desiccant beads.
 
