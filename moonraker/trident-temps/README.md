@@ -43,7 +43,7 @@
 
 ## Hit Windows key + R, then type ```shell:startup```
 
-## Add a VoronTemps.bat file like this: 
+## Add a VoronTemps.bat file (edit in notepad or notepad++ for example) like this: 
 
 ```@echo off
 cd <path to your Voron temps directory where you downloaded my files above>
