@@ -33,3 +33,16 @@
 ## Add a browser source and call it something like 'QidiTemps'
 
 ## In the browser source untick local file and define the URL as 127.0.0.1:5001
+
+# What if you want to do this on boot?
+
+## Hit Windwos key + R, then type ```shell:startup```
+
+## Add a QidiTemps.bat file like this: 
+
+```@echo off
+cd <path to your qidi temps directory where you downloaded my files above>
+call venv\Scripts\activate
+python app.py
+```
+
