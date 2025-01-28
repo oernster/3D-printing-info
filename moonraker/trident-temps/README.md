@@ -41,7 +41,7 @@
 
 # What if you want to do this on boot?
 
-## Hit Windwos key + R, then type ```shell:startup```
+## Hit Windows key + R, then type ```shell:startup```
 
 ## Add a VoronTemps.bat file like this: 
 
