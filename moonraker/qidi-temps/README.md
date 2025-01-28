@@ -38,7 +38,7 @@
 
 ## Hit Windows key + R, then type ```shell:startup```
 
-## Add a QidiTemps.bat file like this: 
+## Add a QidiTemps.bat file (edit in notepad or notepad++ for example) like this: 
 
 ```@echo off
 cd <path to your qidi temps directory where you downloaded my files above>
