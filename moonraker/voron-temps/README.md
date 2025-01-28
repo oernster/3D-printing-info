@@ -2,7 +2,7 @@
 
 ## 1) Download req.txt, app.py and the templates directory to your machine.
 
-## 1a) Adjust the IP address in app.py to be the IP address of your Qidi here: MOONRAKER_API_URL = "http://<your ip without angled brackets>:7125/printer/objects/query"
+## 1a) Adjust the IP address in app.py to be the IP address of your Qidi here: MOONRAKER_API_URL = "http://(your ip without angled brackets):7125/printer/objects/query"
 
 ## 2) Install Python 3 (https://www.python.org); ensure you add the PYTHONPATH on windows during install.
 
@@ -30,7 +30,7 @@
 
 ## 7) Add a scene.
 
-## Add a browser source and call it something like 'QidiTemps'
+## Add a browser source and call it something like 'VoronTridentTemps'
 
 ## In the browser source untick local file and define the URL as 127.0.0.1:5001
 
@@ -38,3 +38,16 @@
 # Customisations: Study app.py; my setup will be different from yours.
 ## Specifically, extruder, heater_bed and temperature_fan variables are defined in TEMPERATURE_SENSORS.
 ## TEMPERATURE_SENSOR_VARIABLES defines your temperature_sensor variables from printer.cfg.
+
+# What if you want to do this on boot?
+
+## Hit Windows key + R, then type ```shell:startup```
+
+## Add a VoronTemps.bat file (edit in notepad or notepad++ for example) like this: 
+
+```@echo off
+cd <path to your Voron temps directory where you downloaded my files above>
+call venv\Scripts\activate
+python app.py
+```
+
