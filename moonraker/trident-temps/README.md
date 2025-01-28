@@ -38,3 +38,16 @@
 # Customisations: Study app.py; my setup will be different from yours.
 ## Specifically, extruder, heater_bed and temperature_fan variables are defined in TEMPERATURE_SENSORS.
 ## TEMPERATURE_SENSOR_VARIABLES defines your temperature_sensor variables from printer.cfg.
+
+# What if you want to do this on boot?
+
+## Hit Windwos key + R, then type ```shell:startup```
+
+## Add a VoronTemps.bat file like this: 
+
+```@echo off
+cd <path to your Voron temps directory where you downloaded my files above>
+call venv\Scripts\activate
+python app.py
+```
+
