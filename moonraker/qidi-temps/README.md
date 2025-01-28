@@ -1,4 +1,5 @@
 # How to setup OBS Studio with live temperature reporting on a Qidi - see the jpg for an example.
+![OBSQidiQ1ProExample](https://github.com/user-attachments/assets/f1ae5294-0c69-4bf1-a6ef-72fb971a822c)
 
 ## 1) Download req.txt, app.py and the templates directory to your machine.
 
