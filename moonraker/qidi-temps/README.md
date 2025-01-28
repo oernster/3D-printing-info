@@ -36,7 +36,7 @@
 
 # What if you want to do this on boot?
 
-## Hit Windwos key + R, then type ```shell:startup```
+## Hit Windows key + R, then type ```shell:startup```
 
 ## Add a QidiTemps.bat file like this: 
 
