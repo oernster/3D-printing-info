@@ -1,5 +1,3 @@
-# Hardware upgrades and sources...
-
 # The Trident has these lovely upgrades:
 
 ## Originally a formbot kit
