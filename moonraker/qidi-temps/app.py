@@ -58,13 +58,14 @@ def fetch_progress_data():
         time_progress = (print_duration / total_duration) * 100
         print(f"DEBUG | time_progress: {time_progress:.2f}%")
 
-        # Final adjusted progress is simply time_progress
+        # Ensure the progress does not exceed 100% (even if data causes it to go slightly over)
         adjusted_progress = min(round(time_progress, 2), 100)  # Cap at 100%
 
-        # Final adjusted progress debug log
+        # Debug log for the final adjusted progress
         print(f"DEBUG | Adjusted Progress: {adjusted_progress:.2f}%")
 
-        return {"progress_percentage": adjusted_progress}
+        # Ensure progress never drops below 0 if there's an error
+        return {"progress_percentage": max(adjusted_progress, 0)}
 
     except requests.RequestException as e:
         print(f"Error fetching progress data: {e}")
