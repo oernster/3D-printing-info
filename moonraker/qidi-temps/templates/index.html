@@ -9,32 +9,37 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            height: 100vh;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: flex-end; /* Adjust to align items to the bottom */
+            height: 100vh;
             background-color: #111;
             color: #fff;
+            overflow: hidden;
         }
 
         .dashboard {
-            width: 90%;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-around;
             align-items: center;
+            width: 90%;
+            padding: 10px;
             background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px;
+            border-radius: 5px;
         }
 
-        .sensor, .progress-bar-container, .file-info {
-            width: 100%;
+        .sensor, .progress-bar-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             padding: 10px;
-            margin: 10px 0;
             background-color: #333;
             border-radius: 5px;
-            text-align: center;
+            margin: 5px;
+            flex-grow: 1;
+            min-width: 150px;
         }
 
         .progress-bar {
@@ -54,28 +59,27 @@
             box-sizing: border-box;
             transition: width 0.5s ease-in-out;
         }
-
-        .file-info {
-            font-size: 0.9em;
-        }
     </style>
 </head>
 <body>
     <div class="dashboard">
-        <div id="extruderTemp" class="sensor">Extruder: -- °C</div>
-        <div id="bedTemp" class="sensor">Bed: -- °C</div>
-        <div id="chamberTemp" class="sensor">Chamber: -- °C</div>
+        <div class="sensor">
+            <strong>Extruder Temp:</strong>
+            <div id="extruderTemp">-- °C</div>
+        </div>
+        <div class="sensor">
+            <strong>Bed Temp:</strong>
+            <div id="bedTemp">-- °C</div>
+        </div>
+        <div class="sensor">
+            <strong>Chamber Temp:</strong>
+            <div id="chamberTemp">-- °C</div>
+        </div>
 
         <div class="progress-bar-container">
             <div class="progress-bar">
                 <div id="progress" class="progress" style="width: 0%;">0% Complete</div>
             </div>
-        </div>
-
-        <div id="fileInfo" class="file-info">
-            File: N/A<br>
-            Size: 0 bytes<br>
-            Position: 0/0 bytes
         </div>
     </div>
 
@@ -95,21 +99,15 @@
             const progressData = await fetchData('/progress');
 
             if (tempData) {
-                document.getElementById('extruderTemp').textContent = `Extruder: ${tempData.extruder.temperature} °C`;
-                document.getElementById('bedTemp').textContent = `Bed: ${tempData.heater_bed.temperature} °C`;
-                document.getElementById('chamberTemp').textContent = `Chamber: ${tempData['heater_generic chamber'].temperature} °C`;
+                document.getElementById('extruderTemp').textContent = `${tempData.extruder.temperature} °C`;
+                document.getElementById('bedTemp').textContent = `${tempData.heater_bed.temperature} °C`;
+                document.getElementById('chamberTemp').textContent = `${tempData['heater_generic chamber'].temperature} °C`;
             }
 
             if (progressData) {
                 const progressBar = document.getElementById('progress');
                 progressBar.style.width = `${progressData.progress_percentage}%`;
                 progressBar.textContent = `${progressData.progress_percentage.toFixed(1)}% Complete`;
-
-                document.getElementById('fileInfo').innerHTML = `
-                    File: ${progressData.file_path}<br>
-                    Size: ${progressData.file_size} bytes<br>
-                    Position: ${progressData.file_position}/${progressData.file_size} bytes
-                `;
             }
         }
 
