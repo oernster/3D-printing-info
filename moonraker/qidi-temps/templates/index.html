@@ -3,102 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Printer Temperature</title>
+    <title>3D Printer Dashboard</title>
     <style>
         body {
             margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
             height: 100vh;
             display: flex;
             align-items: flex-end;
-            background-color: rgba(17, 17, 17, 0.6);
+            justify-content: center;
+            background-color: #111;
             color: #fff;
         }
 
-        .temperature-display {
+        .dashboard {
+            width: 80%;
             display: flex;
-            flex-direction: row;
-            gap: 10px;
+            justify-content: space-between;
+            align-items: stretch;
+            background-color: #222;
             padding: 10px;
-            width: 100%;
-            background-color: rgba(34, 34, 34, 0.6);
-            overflow-x: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .sensor, .progress-bar-container {
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-        }
-
-        .sensor {
             text-align: center;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-            flex: 0 0 100px;
+            padding: 15px;
+            background-color: #333;
+            border-radius: 5px;
+            flex: 1;
+            margin: 0 5px;
+            align-items: center; /* Ensures content is centered horizontally */
         }
 
-        .sensor .name {
-            font-weight: bold;
-            font-size: 1em;
+        /* Allow sensor boxes to widen dynamically based on content */
+        .sensor {
+            color: white;
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden;    /* Hide overflowed text */
+            text-overflow: ellipsis; /* Optionally add "..." for overflowing text */
+            flex: 1; /* Allow the boxes to take up space based on content */
+            min-width: 140px; /* Set a minimum width for the sensor boxes */
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box; /* Include padding in width calculation */
+            justify-content: center; /* Vertically center the content */
         }
 
-        .sensor .temperature {
-            font-size: 1.2em;
-            color: red;
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #555;
+            overflow: hidden;
+            border-radius: 5px;
         }
 
-        .sensor .target {
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.8);
+        /* Set progress bar text color to green */
+        .progress {
+            height: 100%;
+            line-height: 20px;
+            color: green; /* Set progress bar text color to green */
+            width: 0%;
+            background: linear-gradient(to right, white, darkblue);
+            text-align: left;
+            padding-left: 5px;
+            box-sizing: border-box;
+            transition: width 0.5s ease-in-out, background-color 0.5s ease;
         }
+
+        /* Progress color transitions */
+        .progress[data-progress="0"] { background: white; }
+        .progress[data-progress="25"] { background: linear-gradient(to right, white, lightblue); }
+        .progress[data-progress="50"] { background: linear-gradient(to right, lightblue, blue); }
+        .progress[data-progress="75"] { background: linear-gradient(to right, blue, darkblue); }
+        .progress[data-progress="100"] { background: darkblue; }
+
     </style>
 </head>
 <body>
-    <div class="temperature-display" id="temperatureDisplay">
-        <!-- Dynamic content will be inserted here -->
+    <div class="dashboard">
+        <div id="chamberTemp" class="sensor">Chamber: -- °C</div>
+        <div id="extruderTemp" class="sensor">Extruder: -- °C</div>
+        <div id="bedTemp" class="sensor">Bed: -- °C</div>
+
+        <div class="progress-bar-container">
+            <div class="progress-bar">
+                <div id="progress" class="progress" data-progress="0">0% Complete</div>
+            </div>
+        </div>
     </div>
 
     <script>
+        // Fetch temperature data from backend
         async function fetchTemperatures() {
             try {
                 const response = await fetch('/temperatures');
                 const data = await response.json();
 
-                const display = document.getElementById('temperatureDisplay');
-                display.innerHTML = ''; // Clear existing content
-
-                for (const [sensor, details] of Object.entries(data)) {
-                    const sensorDiv = document.createElement('div');
-                    sensorDiv.classList.add('sensor');
-
-                    const nameDiv = document.createElement('div');
-                    nameDiv.classList.add('name');
-                    nameDiv.textContent = sensor;
-
-                    const temperatureDiv = document.createElement('div');
-                    temperatureDiv.classList.add('temperature');
-                    temperatureDiv.textContent = details.temperature !== null
-                        ? `${details.temperature}°C`
-                        : 'No Temperature Data';
-
-                    sensorDiv.appendChild(nameDiv);
-                    sensorDiv.appendChild(temperatureDiv);
-
-                    if (details.target !== undefined) {
-                        const targetDiv = document.createElement('div');
-                        targetDiv.classList.add('target');
-                        targetDiv.textContent = details.target !== null
-                            ? `Target: ${details.target}°C`
-                            : 'No Target';
-                        sensorDiv.appendChild(targetDiv);
-                    }
-
-                    display.appendChild(sensorDiv);
-                }
+                document.getElementById('chamberTemp').textContent = `Chamber: ${data['heater_generic chamber']?.temperature ?? '--'} °C`;
+                document.getElementById('extruderTemp').textContent = `Extruder: ${data.extruder?.temperature ?? '--'} °C`;
+                document.getElementById('bedTemp').textContent = `Bed: ${data.heater_bed?.temperature ?? '--'} °C`;
             } catch (error) {
-                console.error('Error fetching temperatures:', error);
+                console.error("Error fetching temperatures:", error);
             }
         }
 
+        // Fetch progress data from backend
+        async function fetchProgress() {
+            try {
+                const response = await fetch('/progress');
+                const data = await response.json();
+
+                const progressBar = document.getElementById('progress');
+                const progress = Math.round(data.progress_percentage) || 0; // Correctly access progress_percentage
+
+                // Update progress bar width and text
+                progressBar.style.width = `${progress}%`;
+                progressBar.textContent = `${progress}% Complete`;
+
+                // Update progress bar color dynamically
+                if (progress >= 100) {
+                    progressBar.setAttribute('data-progress', '100');
+                } else if (progress >= 75) {
+                    progressBar.setAttribute('data-progress', '75');
+                } else if (progress >= 50) {
+                    progressBar.setAttribute('data-progress', '50');
+                } else if (progress >= 25) {
+                    progressBar.setAttribute('data-progress', '25');
+                } else {
+                    progressBar.setAttribute('data-progress', '0');
+                }
+
+            } catch (error) {
+                console.error("Error fetching progress:", error);
+                const progressBar = document.getElementById('progress');
+                progressBar.style.width = '0%';
+                progressBar.textContent = '0% Complete';
+            }
+        }
+
+        // Update every 12 seconds
         setInterval(fetchTemperatures, 12000);
+        setInterval(fetchProgress, 12000);
+
+        // Initial load
         fetchTemperatures();
+        fetchProgress();
     </script>
 </body>
 </html>
