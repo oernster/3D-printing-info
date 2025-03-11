@@ -1,75 +1,74 @@
 from flask import Flask, render_template, jsonify
+import aiohttp
+import asyncio
+import logging
 
-import requests
+logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 
-MOONRAKER_API_URL = "http://192.168.0.103:7125/printer/objects/query"
+MOONRAKER_API_URL = "http://192.168.0.104:7125/printer/objects/query"
 
-# Define the sensors and attributes to query
 TEMPERATURE_SENSORS = {
     "extruder": ["temperature", "target"],
     "heater_bed": ["temperature", "target"],
-    "temperature_fan MCU_Fans": ["temperature"],  # Query the temperature_fan MCU_Fans temperature
+    "temperature_fan MCU_Fans": ["temperature"],
 }
 
-TEMPERATURE_SENSOR_VARIABLES = ["CHAMBER", "Internals", "Pi"]  # Additional temperature sensors if needed
+TEMPERATURE_SENSOR_VARIABLES = ["CHAMBER", "Internals", "Pi"]
 
-def fetch_temperature_data():
-    """
-    Fetch temperature and target data for all sensors from the Moonraker API.
-    """
-    try:
-        # Query standard temperature objects
-        payload = {"objects": TEMPERATURE_SENSORS}
-        response = requests.post(MOONRAKER_API_URL, json=payload)
-        response.raise_for_status()
-        data = response.json()
+async def fetch_temperature_data():
+    temperatures = {}
 
-        # Parse standard sensors
-        sensors_data = data.get("result", {}).get("status", {})
-        temperatures = {}
-        for sensor, attributes in TEMPERATURE_SENSORS.items():
-            sensor_data = sensors_data.get(sensor, {})
-            # Use a display name of "MCU" for "temperature_fan MCU_Fans"
-            display_name = "MCU" if sensor == "temperature_fan MCU_Fans" else sensor
-            temperatures[display_name] = {attr: sensor_data.get(attr) for attr in attributes}
+    async with aiohttp.ClientSession() as session:
+        try:
+            # Fetch standard sensors
+            payload_standard = {"objects": TEMPERATURE_SENSORS}
+            async with session.post(MOONRAKER_API_URL, json=payload_standard) as response:
+                response.raise_for_status()
+                data_standard = await response.json()
 
-        # Query `temperature_sensor` variables
-        if TEMPERATURE_SENSOR_VARIABLES:
-            payload = {"objects": {f"temperature_sensor {sensor}": ["temperature"] for sensor in TEMPERATURE_SENSOR_VARIABLES}}
-            response = requests.post(MOONRAKER_API_URL, json=payload)
-            response.raise_for_status()
-            data = response.json()
+            sensors_data = data_standard.get("result", {}).get("status", {})
+            for sensor, attributes in TEMPERATURE_SENSORS.items():
+                sensor_data = sensors_data.get(sensor, {})
+                display_name = "MCU" if sensor == "temperature_fan MCU_Fans" else sensor.title().replace("_", " ")
+                temperatures[display_name] = {attr: sensor_data.get(attr, "N/A") for attr in attributes}
 
-            # Parse `temperature_sensor` variables
-            sensor_data = data.get("result", {}).get("status", {})
+            # Fetch temperature_sensor variables
+            payload_variables = {"objects": {f"temperature_sensor {sensor}": ["temperature"] for sensor in TEMPERATURE_SENSOR_VARIABLES}}
+            async with session.post(MOONRAKER_API_URL, json=payload_variables) as response:
+                response.raise_for_status()
+                data_variables = await response.json()
+
+            sensor_variables_data = data_variables.get("result", {}).get("status", {})
             for sensor in TEMPERATURE_SENSOR_VARIABLES:
-                temperature = sensor_data.get(f"temperature_sensor {sensor}", {}).get("temperature")
-                if temperature is not None:
-                    temperatures[sensor] = {"temperature": temperature}
+                sensor_key = f"temperature_sensor {sensor}"
+                temperature = sensor_variables_data.get(sensor_key, {}).get("temperature", "N/A")
+                temperatures[sensor] = {"temperature": temperature, "target": "N/A"}
 
-        return temperatures
-    except requests.RequestException as e:
-        print(f"Error fetching data from Moonraker API: {e}")
-        return {}
+        except aiohttp.ClientError as e:
+            logging.error(f"Error fetching data from Moonraker API: {e}")
+
+    return temperatures
+
+@app.route('/progress')
+def get_progress():
+    progress_data = {
+        "progress_percentage": 75,
+        "status": "In Progress",
+        "details": "Printing layer 10 of 40"
+    }
+    return jsonify(progress_data)
 
 @app.route("/temperatures")
-def get_temperatures():
-    """
-    API endpoint to fetch temperature data for polling.
-    """
-    temperatures = fetch_temperature_data()
+async def get_temperatures():
+    temperatures = await fetch_temperature_data()
     return jsonify(temperatures)
 
 @app.route("/")
-def index():
-    """
-    Main route to display the temperature data on the frontend.
-    """
-    temperatures = fetch_temperature_data()
+async def index():
+    temperatures = await fetch_temperature_data()
     return render_template("index.html", temperatures=temperatures)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000, debug=False)
-
+    app.run(host="127.0.0.1", port=5000, debug=True, use_reloader=False)
