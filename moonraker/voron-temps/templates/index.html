@@ -78,12 +78,12 @@
 			try {
 				const response = await fetch('/temperatures');
 				const data = await response.json();
-				document.getElementById('extruder').querySelector('.temp-value').textContent = (data.Extruder.temperature || '--') + '°C';
-				document.getElementById('heaterBed').querySelector('.temp-value').textContent = (data['Heater Bed'].temperature || '--') + '°C';
-				document.getElementById('chamber').querySelector('.temp-value').textContent = (data.CHAMBER.temperature || '--') + '°C';
-				document.getElementById('mcu').querySelector('.temp-value').textContent = (data.MCU.temperature || '--') + '°C';
-				document.getElementById('internals').querySelector('.temp-value').textContent = (data.Internals.temperature || '--') + '°C';
-				document.getElementById('pi').querySelector('.temp-value').textContent = (data.Pi.temperature || '--') + '°C';
+				document.getElementById('extruder').querySelector('.temp-value').textContent = (data.Extruder.temperature ? parseFloat(data.Extruder.temperature).toFixed(2) : '--') + '°C';
+				document.getElementById('heaterBed').querySelector('.temp-value').textContent = (data['Heater Bed'].temperature ? parseFloat(data['Heater Bed'].temperature).toFixed(2) : '--') + '°C';
+				document.getElementById('chamber').querySelector('.temp-value').textContent = (data.CHAMBER.temperature ? parseFloat(data.CHAMBER.temperature).toFixed(2) : '--') + '°C';
+				document.getElementById('mcu').querySelector('.temp-value').textContent = (data.MCU.temperature ? parseFloat(data.MCU.temperature).toFixed(2) : '--') + '°C';
+				document.getElementById('internals').querySelector('.temp-value').textContent = (data.Internals.temperature ? parseFloat(data.Internals.temperature).toFixed(2) : '--') + '°C';
+				document.getElementById('pi').querySelector('.temp-value').textContent = (data.Pi.temperature ? parseFloat(data.Pi.temperature).toFixed(2) : '--') + '°C';
 			} catch (error) {
 				console.error('Failed to fetch temperatures:', error);
 			}
