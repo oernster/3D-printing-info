@@ -15,7 +15,7 @@ TEMPERATURE_SENSORS = {
     "temperature_fan MCU_Fans": ["temperature"],
 }
 
-TEMPERATURE_SENSOR_VARIABLES = ["CHAMBER", "Internals", "Pi"]
+TEMPERATURE_SENSOR_VARIABLES = ["CHAMBER", "Internals", "Pi", "EBB36"]
 
 async def fetch_temperature_data():
     temperatures = {}
