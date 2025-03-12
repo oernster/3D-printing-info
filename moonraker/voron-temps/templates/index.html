@@ -29,12 +29,20 @@
             box-sizing: border-box;
         }
         .sensor {
-            font-size: 18px;
-            padding: 5px 10px;
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 5px;
-            white-space: nowrap;
-        }
+			font-size: 18px;
+			padding: 5px 10px;
+			background-color: rgba(0, 0, 0, 0.6);
+			border-radius: 5px;
+			white-space: nowrap;
+			width: 200px; /* fixed width for each sensor */
+		}
+
+		.temp-value {
+			display: inline-block;
+			min-width: 50px; /* minimum width reserved for the temperature value */
+			text-align: right; /* aligns the temperature to the right of the sensor div */
+		}
+
         .progress-bar-container {
             width: 90%;
             margin-top: 10px;
