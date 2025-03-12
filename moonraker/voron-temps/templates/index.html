@@ -98,11 +98,28 @@
 				console.error('Failed to fetch temperatures:', error);
 			}
 		}
+		async function fetchProgress() {
+			try {
+				const response = await fetch('/progress');
+				const data = await response.json();
+				updateProgressBar(data.progress_percentage);
+			} catch (error) {
+				console.error('Failed to fetch progress:', error);
+			}
+		}
 
-    document.addEventListener('DOMContentLoaded', function () {
-        fetchTemperatures();
-        setInterval(fetchTemperatures, 12000);
-    });
+		function updateProgressBar(progress) {
+			const progressBar = document.getElementById('progress');
+			progressBar.style.width = progress + '%';
+			progressBar.textContent = progress + '%';
+		}
+
+		document.addEventListener('DOMContentLoaded', function () {
+			fetchTemperatures();
+			fetchProgress();
+			setInterval(fetchTemperatures, 12000);
+			setInerval(fetchProgress, 30000);
+		});
 </script>
 </body>
 </html>

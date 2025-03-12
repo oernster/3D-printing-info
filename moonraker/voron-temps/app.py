@@ -51,15 +51,34 @@ async def fetch_temperature_data():
 
     return temperatures
 
-@app.route('/progress')
-def get_progress():
-    progress_data = {
-        "progress_percentage": 75,
-        "status": "In Progress",
-        "details": "Printing layer 10 of 40"
-    }
-    return jsonify(progress_data)
+async def fetch_progress_data():
+    try:
+        payload = {"objects": {"virtual_sdcard": ["file_path", "progress", "is_active", "file_position", "file_size"]}}
+        async with aiohttp.ClientSession() as session:
+            async with session.post(MOONRAKER_API_URL, json=payload) as response:
+                response.raise_for_status()
+                data = await response.json()
 
+        logging.debug("API response: %s", data)
+
+        progress_data = data.get("result", {}).get("status", {}).get("virtual_sdcard", {})
+        progress = {
+            "progress_percentage": round((progress_data.get("progress") or 0) * 100, 1),
+            "file_path": progress_data.get("file_path", "N/A"),
+            "is_active": progress_data.get("is_active", False),
+            "file_position": progress_data.get("file_position", 0),
+            "file_size": progress_data.get("file_size", 0)
+        }
+        return progress
+    except aiohttp.ClientError as e:
+        logging.error("Error fetching data from Moonraker API: %s", e)
+        return {"progress_percentage": 0}
+
+@app.route('/progress')
+async def get_progress():
+    progress = await fetch_progress_data()
+    return jsonify(progress)
+    
 @app.route("/temperatures")
 async def get_temperatures():
     temperatures = await fetch_temperature_data()
