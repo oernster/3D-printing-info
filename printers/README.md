@@ -3,15 +3,15 @@
 ## Originally a formbot kit
 
 ## BTT U2C
-## EBB36 v1.2
-## RGB 3010 fan on Rapid Burner soon - this: https://www.aliexpress.com/item/1005007495629783.html
+## EBB36 v1.2 with umbilical from Mellow and piano wire installed
+## RGB 3010 fan on Reaper toolhead - this: https://www.aliexpress.com/item/1005007495629783.html
 ## Skirt buttons in progress - these: https://www.aliexpress.com/item/1005006085179120.html
 ## BTT SFS filament runout sensor v2: https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor
 ## Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BVRpi4b
 ## CNC xy joints: https://www.aliexpress.com/item/1005005997740026.html
 ## CNC A/B motor mounts: https://www.aliexpress.com/item/1005006662246017.html
 ## Cartographer CNC mount for Cartographer (also works with Beacon): https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g
-## Cartographer ADXL v3: https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb
+## Cartographer ADXL v3 (red): https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb
 ## RapidBurner with UHF Rapido v2 Plus, PT1000 and Bozzle 0.5mm nozzle
 ## BFIs (not really!!!); CNC ones that are advertised as BFIs but are actually be Ramalamas in reality: https://www.aliexpress.com/item/1005007313796436.html
 ## Top hat mod and 1.0.R carry handles: https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha
@@ -34,16 +34,16 @@
 ## Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy): https://www.aliexpress.com/item/4001033375208.html
 ## Heatset inserts - get loads: https://www.aliexpress.com/item/1005004535859664.html
 ## Handy cheap temp gun for checking A/B stepper motor etc temps: https://www.aliexpress.com/item/1005005730726048.html
-## Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers with fans: https://www.amazon.co.uk/dp/B0CLNSRRKR on these mounts: https://www.printables.com/model/454343-mellow-tmc-5160-hv-support-din-rail
+## Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers with fans x 2: https://www.amazon.co.uk/dp/B0CLNSRRKR on these mounts: https://www.printables.com/model/454343-mellow-tmc-5160-hv-support-din-rail
 ## Spare melt zone extenders: https://www.aliexpress.com/item/1005004359643945.html
 ## Voron metal serial number plate: https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with
-## Granite/Marble slab for reducing resonances source in UK: https://www.scmgltd.co.uk/
+## Marble slab under printer from B&Q UK; 600mm square, 3cm high
 ## Disco RGBW on sticks mount: https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main
 ## Logitech C920 camera with custom mount on top hat; contact me for the STL if you want it
 ## Bowden tube guide: https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL
 ## Annex Engineering panel clips: https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges
 
-# Klipper plugins...
+# Klipper (Now Kalico) plugins...
 
 ## Shake n Tune: https://github.com/Frix-x/klippain-shaketune
 ## Klipper Auto Speed: https://github.com/Anonoei/klipper_auto_speed
