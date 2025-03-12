@@ -41,6 +41,7 @@
 			display: inline-block;
 			min-width: 50px; /* minimum width reserved for the temperature value */
 			text-align: right; /* aligns the temperature to the right of the sensor div */
+			color: orange; /* sets the color of the temperature value to orange */
 		}
 
         .progress-bar-container {
@@ -69,14 +70,14 @@
 </head>
 <body>
     <div class="dashboard">
-        <div id="extruder" class="sensor">Extruder: <span class="temp-value">--</span>°C</div>
-        <div id="heaterBed" class="sensor">Heater Bed: <span class="temp-value">--</span>°C</div>
-        <div id="chamber" class="sensor">Chamber: <span class="temp-value">--</span>°C</div>
-        <div id="mcu" class="sensor">MCU: <span class="temp-value">--</span>°C</div>
-        <div id="internals" class="sensor">Internals: <span class="temp-value">--</span>°C</div>
-        <div id="pi" class="sensor">Pi: <span class="temp-value">--</span>°C</div>
-		<div id="ebb36" class="sensor">EBB36: <span class="temp-value">--</span>°C</div>
-		<div id="cartographer" class="sensor">Cartographer: <span class="temp-value">--</span>°C</div>
+        <div id="extruder" class="sensor">Extruder: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+        <div id="heaterBed" class="sensor">Heater Bed: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+        <div id="chamber" class="sensor">Chamber: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+        <div id="mcu" class="sensor">MCU: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+        <div id="internals" class="sensor">Internals: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+        <div id="pi" class="sensor">Pi: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+		<div id="ebb36" class="sensor">EBB36: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+		<div id="cartographer" class="sensor">Cartographer: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
     </div>
     <div class="progress-bar-container">
         <div class="progress-bar">
