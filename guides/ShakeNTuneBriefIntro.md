@@ -74,7 +74,7 @@ When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each 
 
 The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.
 
-Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.
+Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.  ACTUALLY, Frix swaps the colours on an almost weekly basis so you can't trust this; read it from the graph top left.
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
