@@ -90,7 +90,7 @@ shaping graph that is producing said peak or peaks; you may need to excite multi
 
 The macro to run is called: EXCITE AXIS AT FREQ; use the DROPDOWN.
 
-NOTE: if you have a lot of noise in your graph then you can increase the accel_per_hz value by e.g. 20-25 at a time to 100 (default is 75), then 125 etc under [resonance_tester] in your  printer.cfg file.
+NOTE: if you have a lot of noise in your graph then you can increase the accel_per_hz value by e.g. 20-25 at a time to 100 (default is 75), then 125 etc under [resonance_tester] in your  printer.cfg file.  If you have to go much above 115-125Hz then there is probably something more serious wrong with your printer hardware setup.
 
 Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio 
 
