@@ -58,13 +58,9 @@ e) Use this online tone generator and use your ears if they are good enough: htt
 
 DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/compare_belts_responses.md
 
-a) You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting 
+a) You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting two peaks which need to align (in purple and orange) or potentially two double peaks which need to align.
 
-two peaks which need to align (in purple and orange) or potentially two double peaks which need to align.
-
-What you are after is the purple and orange peaks to be aligned and at the same height in an ideal world but if the amplitude differences
-
-are not completely aligned it's not the end of the world.  Furthermore, in an ideal world you are after 90%+ similarity on the belts;
+What you are after is the purple and orange peaks to be aligned and at the same height in an ideal world but if the amplitude differences are not completely aligned it's not the end of the world.  Furthermore, in an ideal world you are after 90%+ similarity on the belts;
 
 NOTE: The percentage similarity is less important than the shape of the graph; you are aiming for ideally a single joint peak.
 
@@ -74,35 +70,34 @@ When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each 
 
 The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.
 
-Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your B belt is the orange graph, the purple one is your A belt.  ACTUALLY, Frix swaps the colours on an almost weekly basis so you can't trust this; read it from the graph top left.
+Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your A belt is the orange graph, the purple one is your B belt.  ACTUALLY, Frix swaps the colours on an almost weekly basis so you can't trust this; read it from the graph top left.
+
+My belts graph isn't perfect but it's all in the green belt and the A/B belts are almost aligned in the peaks as you can see in my most recent run here: 
+![Screenshot 2025-03-18 221958](https://github.com/user-attachments/assets/c6b014e4-a44a-44ab-93b2-f29f2d5c7ba9)
 
 ### 3) Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.
 
 DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axes_shaper_calibrations.md
 
-Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) 
+Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
 
-so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.
+Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating on the input shaping graph that is producing said peak or peaks; you may need to excite multiple frequencies.
 
-Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating on the input 
-
-shaping graph that is producing said peak or peaks; you may need to excite multiple frequencies.
-
-The macro to run is called: EXCITE AXIS AT FREQ; use the DROPDOWN.
+The macro to run is called: EXCITE AXIS AT FREQ; use the DROPDOWN.  Touch all the things on your printer including your toolhead and tighten up anything that moves at that resonant frequency.
 
 NOTE: if you have a lot of noise in your graph then you can increase the accel_per_hz value by e.g. 20-25 at a time to 100 (default is 75), then 125 etc under [resonance_tester] in your  printer.cfg file.  If you have to go much above 115-125Hz then there is probably something more serious wrong with your printer hardware setup.
 
-Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio 
+Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio and add it to your printer.cfg (or at the base in the commented section if you have already saved one to replace that.
 
-and add it to your printer.cfg (or at the base in the commented section if you have already saved one to replace that.
-
-If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper is a combination of vibrations and smoothing 
-
-at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.
+If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper is a combination of vibrations and smoothing at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.
 
 I've spoken to Frix and he says that the filter recommendation (performance) will be suitable for most scenarios in future and the vibrations shaper will be much more of a last resort choice.
 
 You want to choose the lower of the two max recommended accels (x and y) for your outer walls on your slicer profile for printer with.
+
+I'm not particularly proud of my x shaper result so I won't post it here but my y is pretty nice and what you're aiming for on both so here is that as a good example:
+![Screenshot 2025-03-18 222200](https://github.com/user-attachments/assets/0217a276-59e0-486e-8093-a7b5ae789984)
+(This was run with ADXL v3 Cartographer FYI)
 
 ### 4) Once you've tuned everything
 
@@ -110,6 +105,9 @@ DEEP DIVE HERE: https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macr
 
 Run the macro CREATE VIBRATIONS PROFILE.
 
-This will produce a set of useful graphs that you can study to improve your slicer settings.  Generally speaking you might want to choose a minimum speed to avoid vibrations in your slicer.
+This will produce a set of useful graphs that you can study to improve your slicer settings.  Generally speaking you might want to choose a minimum speed (usually around 10-25mm/s) to avoid vibrations in your slicer; this is the top middle graph.
 
-Apart from that, this section I will leave relatively limited I'm afraid for now as this is a new feature that I'm still getting familiar with myself; I'll update as I learn more.
+Then ensure that none of your print speeds are in the white areas; always in the green areas.  The bottom middle graph indicates high orange colours for where resonances are occurring in the heat map.  The bottom right and top right graphs should ideally look like a set of clean peaks.  This ios my most recent run, it's not perfect but it's also pretty good (running with TMC autotune): 
+![Screenshot 2025-03-18 221840](https://github.com/user-attachments/assets/d16b2b3c-9332-4cc6-b9ac-62b7901d8f63)
+
+You ideally want close to 90%+ on the polar angle energy profile. 
