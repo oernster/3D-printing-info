@@ -107,7 +107,7 @@ Run the macro CREATE VIBRATIONS PROFILE.
 
 This will produce a set of useful graphs that you can study to improve your slicer settings.  Generally speaking you might want to choose a minimum speed (usually around 10-25mm/s) to avoid vibrations in your slicer; this is the top middle graph.
 
-Then ensure that none of your print speeds are in the white areas; always in the green areas.  The bottom middle graph indicates high orange colours for where resonances are occurring in the heat map.  The bottom right and top right graphs should ideally look like a set of clean peaks.  This ios my most recent run, it's not perfect but it's also pretty good (running with TMC autotune): 
+Then ensure that none of your print speeds are in the white areas; always in the green areas.  The bottom middle graph indicates high orange colours for where resonances are occurring in the heat map.  The bottom right and top right graphs should ideally look like a set of clean peaks.  This is my most recent run, it's not perfect but it's also pretty good (running with TMC autotune): 
 ![Screenshot 2025-03-18 221840](https://github.com/user-attachments/assets/d16b2b3c-9332-4cc6-b9ac-62b7901d8f63)
 
 You ideally want close to 90%+ on the polar angle energy profile. 
