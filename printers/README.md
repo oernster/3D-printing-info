@@ -39,7 +39,7 @@
 * [Voron metal serial number plate](https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with)
 * Marble slab under printer from B&Q UK; 600mm square, 3cm high
 * [Disco RGBW on sticks mount](https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main)
-* [Logitech C920 camera with this mount(mine is mounted internally though)](https://makerworld.com/en/models/406337-c920-logitech-camera-mount-3d-printer-mount)
+* [Logitech C920 camera with this mount (mine is mounted internally though)](https://makerworld.com/en/models/406337-c920-logitech-camera-mount-3d-printer-mount)
 * [Bowden tube guide](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL)
 * [Annex Engineering panel clips](https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges)
 
