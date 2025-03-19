@@ -4,7 +4,7 @@
 
 * BTT U2C
 * BB36 v1.2 with umbilical from Mellow and piano wire installed
-* RGB 3010 fan on Reaper toolhead - this: https://www.aliexpress.com/item/1005007495629783.html
+* [RGB 3010 fan on Reaper toolhead](https://www.aliexpress.com/item/1005007495629783.html)
 * Skirt buttons in progress - these: https://www.aliexpress.com/item/1005006085179120.html
 * BTT SFS filament runout sensor v2: https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor
 * Bed fans 92mm x 25cm (2 off): https://www.amazon.co.uk/dp/B087JHB9BVRpi4b
