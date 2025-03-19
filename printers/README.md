@@ -34,7 +34,7 @@
 * [Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy)](https://www.aliexpress.com/item/4001033375208.html)
 * [Heatset inserts - get loads](https://www.aliexpress.com/item/1005004535859664.html)
 * [Handy cheap temp gun for checking A/B stepper motor etc temps](https://www.aliexpress.com/item/1005005730726048.html)
-* [Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers with fans x 2](https://www.amazon.co.uk/dp/B0CLNSRRKR) [on these mounts](https://www.printables.com/model/454343-mellow-tmc-5160-hv-support-din-rail)
+* [Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers with fans x 2](https://www.amazon.co.uk/dp/B0CLNSRRKR);  [On these mounts](https://www.printables.com/model/454343-mellow-tmc-5160-hv-support-din-rail)
 * [Spare melt zone extenders](https://www.aliexpress.com/item/1005004359643945.html)
 * [Voron metal serial number plate](https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with)
 * Marble slab under printer from B&Q UK; 600mm square, 3cm high
