@@ -1,6 +1,6 @@
 # The Trident has these lovely upgrades:
 
-* Originally a formbot kit
+## Originally a formbot kit
 
 * BTT U2C
 * BB36 v1.2 with umbilical from Mellow and piano wire installed
