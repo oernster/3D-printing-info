@@ -74,6 +74,34 @@ async def fetch_progress_data():
         logging.error("Error fetching data from Moonraker API: %s", e)
         return {"progress_percentage": 0}
 
+# Fetch current part cooling fan speed:
+async def fetch_fan_data():
+    """
+    According to the Klipper + Moonraker docs, we can query the 'fan' object.
+    The 'speed' typically ranges from 0.0 (off) to 1.0 (full speed).
+    We'll convert that to a 0-100 scale.
+    """
+    fan_data = {"fan_speed": 0}
+    payload = {"objects": {"fan": ["speed"]}}
+
+    async with aiohttp.ClientSession() as session:
+        try:
+            async with session.post(MOONRAKER_API_URL, json=payload) as response:
+                response.raise_for_status()
+                data = await response.json()
+                fan_status = data.get("result", {}).get("status", {}).get("fan", {})
+                speed_fraction = fan_status.get("speed", 0)
+                # Convert 0.0-1.0 to 0-100%
+                fan_data["fan_speed"] = round(speed_fraction * 100, 1)
+        except aiohttp.ClientError as e:
+            logging.error(f"Error fetching fan data from Moonraker API: {e}")
+
+    return fan_data
+
+
+######################################################################
+# Flask Routes
+######################################################################
 @app.route('/progress')
 async def get_progress():
     progress = await fetch_progress_data()
@@ -84,10 +112,19 @@ async def get_temperatures():
     temperatures = await fetch_temperature_data()
     return jsonify(temperatures)
 
-@app.route("/")
+@app.route('/fan')
+async def get_fan_speed():
+    """Return the current fan speed in percentage."""
+    fan_data = await fetch_fan_data()
+    return jsonify(fan_data)
+
+@app.route('/')
 async def index():
+    # We'll fetch some basic data to display if desired.
     temperatures = await fetch_temperature_data()
-    return render_template("index.html", temperatures=temperatures)
+    fan_data = await fetch_fan_data()
+    return render_template('index.html', temperatures=temperatures, fan_data=fan_data)
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True, use_reloader=False)
+
