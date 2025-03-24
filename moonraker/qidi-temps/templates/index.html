@@ -5,114 +5,376 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Printer Dashboard</title>
     <style>
-        body {
+        /* Reset and base styles */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --color-bg-primary: #111;
+            --color-bg-secondary: #222;
+            --color-bg-tertiary: #333;
+            --color-text-primary: #fff;
+            --color-text-secondary: #ddd;
+            --color-accent: #ff7700;
+            --color-progress-bg: #555;
+            --border-radius: 5px;
+            --spacing-xs: 5px;
+            --spacing-sm: 10px;
+            --spacing-md: 15px;
+            --spacing-lg: 20px;
+        }
+        
+        body {
             font-family: Arial, sans-serif;
+            background-color: var(--color-bg-primary);
+            color: var(--color-text-primary);
+            
+            /* Keep everything at the bottom of the window */
             display: flex;
-            justify-content: center;
-            align-items: flex-end; /* Adjust to align items to the bottom */
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
             height: 100vh;
-            background-color: #111;
-            color: #fff;
-            overflow: hidden;
+            padding: var(--spacing-sm);
         }
 
+        /* Dashboard layout components */
         .dashboard {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;
-            width: 90%;
-            padding: 10px;
-            background-color: #222;
-            border-radius: 5px;
+            width: 100%;
+            max-width: 800px;
+            padding: var(--spacing-sm);
+            background-color: var(--color-bg-secondary);
+            border-radius: var(--border-radius);
+            margin-bottom: var(--spacing-sm);
         }
 
-        .sensor, .progress-bar-container {
+        .sensor {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 10px;
-            background-color: #333;
-            border-radius: 5px;
-            margin: 5px;
+            padding: var(--spacing-sm);
+            background-color: var(--color-bg-tertiary);
+            border-radius: var(--border-radius);
+            margin: var(--spacing-xs);
             flex-grow: 1;
-            min-width: 150px;
+            min-width: 120px;
+            text-align: center;
         }
 
+        .sensor-name {
+            font-weight: bold;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .sensor-value {
+            color: var(--color-accent);
+            font-size: 1.2rem;
+        }
+
+        /* Progress bar components */
+        .progress-bar-container {
+            width: 90%;
+            margin-bottom: var(--spacing-lg);
+            max-width: 800px;
+        }
+        
         .progress-bar {
             width: 100%;
-            height: 20px;
-            background-color: #555;
-            border-radius: 5px;
+            height: var(--spacing-lg);
+            background-color: var(--color-progress-bg);
+            border-radius: var(--border-radius);
             overflow: hidden;
         }
 
         .progress {
             height: 100%;
-            color: #fff;
-            background: linear-gradient(to right, #4caf50, #087f23);
-            text-align: left;
-            padding-left: 5px;
-            box-sizing: border-box;
+            background: linear-gradient(
+                to right,
+                #ff0000 0%,
+                #ffa500 25%,
+                #ffff00 50%,
+                #4caf50 100%
+            );
+            border-radius: var(--border-radius);
+            width: 0%;
             transition: width 0.5s ease-in-out;
+            line-height: var(--spacing-lg);
+            text-align: center;
+            color: #000;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="dashboard">
-        <div class="sensor">
-            <strong>Extruder Temp:</strong>
-            <div id="extruderTemp">-- °C</div>
+    <div class="dashboard" id="temperature-dashboard">
+        <div class="sensor" id="extruder-sensor">
+            <div class="sensor-name">Extruder</div>
+            <div class="sensor-value" id="extruder-temp">-- °C</div>
         </div>
-        <div class="sensor">
-            <strong>Bed Temp:</strong>
-            <div id="bedTemp">-- °C</div>
+        <div class="sensor" id="bed-sensor">
+            <div class="sensor-name">Bed</div>
+            <div class="sensor-value" id="bed-temp">-- °C</div>
         </div>
-        <div class="sensor">
-            <strong>Chamber Temp:</strong>
-            <div id="chamberTemp">-- °C</div>
+        <div class="sensor" id="chamber-sensor">
+            <div class="sensor-name">Chamber</div>
+            <div class="sensor-value" id="chamber-temp">-- °C</div>
         </div>
+    </div>
 
-        <div class="progress-bar-container">
-            <div class="progress-bar">
-                <div id="progress" class="progress" style="width: 0%;">0% Complete</div>
-            </div>
+    <div class="progress-bar-container">
+        <div class="progress-bar">
+            <div id="progress" class="progress">0%</div>
         </div>
     </div>
 
     <script>
-        async function fetchData(url) {
-            try {
-                const response = await fetch(url);
-                return await response.json();
-            } catch (error) {
-                console.error("Error fetching data:", error);
-                return null;
+        /**
+         * Base API client responsible for fetching data from endpoints
+         */
+        class APIClient {
+            constructor(baseUrl = '') {
+                this.baseUrl = baseUrl;
+            }
+
+            /**
+             * Fetch data from an endpoint
+             * @param {string} endpoint - The API endpoint to fetch from
+             * @returns {Promise<object|null>} The parsed JSON data or null if there was an error
+             */
+            async fetchData(endpoint) {
+                try {
+                    const response = await fetch(this.baseUrl + endpoint);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error ${response.status}`);
+                    }
+                    return await response.json();
+                } catch (error) {
+                    console.error(`Failed to fetch data from ${endpoint}:`, error);
+                    return null;
+                }
             }
         }
 
-        async function updateUI() {
-            const tempData = await fetchData('/temperatures');
-            const progressData = await fetchData('/progress');
-
-            if (tempData) {
-                document.getElementById('extruderTemp').textContent = `${tempData.extruder.temperature} °C`;
-                document.getElementById('bedTemp').textContent = `${tempData.heater_bed.temperature} °C`;
-                document.getElementById('chamberTemp').textContent = `${tempData['heater_generic chamber'].temperature} °C`;
+        /**
+         * Service for handling printer data operations
+         */
+        class PrinterDataService {
+            constructor(apiClient) {
+                this.apiClient = apiClient;
+                this.endpoints = {
+                    temperatures: '/temperatures',
+                    progress: '/progress'
+                };
             }
 
-            if (progressData) {
-                const progressBar = document.getElementById('progress');
-                progressBar.style.width = `${progressData.progress_percentage}%`;
-                progressBar.textContent = `${progressData.progress_percentage.toFixed(1)}% Complete`;
+            /**
+             * Get current temperatures from all sensors
+             * @returns {Promise<object|null>} Temperature data
+             */
+            async getTemperatures() {
+                return await this.apiClient.fetchData(this.endpoints.temperatures);
+            }
+
+            /**
+             * Get current print progress
+             * @returns {Promise<object|null>} Progress data
+             */
+            async getProgress() {
+                return await this.apiClient.fetchData(this.endpoints.progress);
             }
         }
 
-        setInterval(updateUI, 12000);
-        updateUI();  // Initial call to load the data
+        /**
+         * Component for displaying temperature data
+         */
+        class TemperatureDashboard {
+            constructor(dataService, updateInterval = 12000) {
+                this.dataService = dataService;
+                this.updateInterval = updateInterval;
+                this.intervalId = null;
+                
+                // Map of sensor names to their display elements
+                this.temperatureElements = {
+                    'extruder': document.getElementById('extruder-temp'),
+                    'heater_bed': document.getElementById('bed-temp'),
+                    'heater_generic chamber': document.getElementById('chamber-temp')
+                };
+            }
+
+            /**
+             * Format a number value with a specified number of decimal places
+             * @param {number|string} value - The value to format
+             * @param {number} decimals - Number of decimal places
+             * @returns {string} Formatted value
+             */
+            formatValue(value, decimals = 1) {
+                if (value === undefined || value === null || value === '') {
+                    return '--';
+                }
+                return parseFloat(value).toFixed(decimals);
+            }
+
+            /**
+             * Update the temperature display with current data
+             */
+            async update() {
+                try {
+                    const data = await this.dataService.getTemperatures();
+                    if (!data) return;
+
+                    // Update each temperature element
+                    for (const [sensorName, element] of Object.entries(this.temperatureElements)) {
+                        const sensorData = data[sensorName];
+                        if (sensorData && sensorData.temperature !== undefined) {
+                            element.textContent = `${this.formatValue(sensorData.temperature)} °C`;
+                        } else {
+                            element.textContent = '-- °C';
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error updating temperatures:', error);
+                }
+            }
+
+            /**
+             * Start periodic updates
+             */
+            start() {
+                // Initial update
+                this.update();
+                
+                // Clear any existing interval
+                if (this.intervalId) {
+                    clearInterval(this.intervalId);
+                }
+                
+                // Set up new interval
+                this.intervalId = setInterval(() => this.update(), this.updateInterval);
+            }
+
+            /**
+             * Stop periodic updates
+             */
+            stop() {
+                if (this.intervalId) {
+                    clearInterval(this.intervalId);
+                    this.intervalId = null;
+                }
+            }
+        }
+
+        /**
+         * Component for displaying print progress
+         */
+        class ProgressBar {
+            constructor(dataService, updateInterval = 3000) {
+                this.dataService = dataService;
+                this.updateInterval = updateInterval;
+                this.intervalId = null;
+                this.progressElement = document.getElementById('progress');
+            }
+
+            /**
+             * Update the progress bar with current data
+             */
+            async update() {
+                try {
+                    const data = await this.dataService.getProgress();
+                    if (!data) return;
+                    
+                    const progress = data.progress_percentage;
+                    this.progressElement.style.width = progress + '%';
+                    this.progressElement.textContent = progress + '%';
+                } catch (error) {
+                    console.error('Error updating progress:', error);
+                }
+            }
+
+            /**
+             * Start periodic updates
+             */
+            start() {
+                // Initial update
+                this.update();
+                
+                // Clear any existing interval
+                if (this.intervalId) {
+                    clearInterval(this.intervalId);
+                }
+                
+                // Set up new interval
+                this.intervalId = setInterval(() => this.update(), this.updateInterval);
+            }
+
+            /**
+             * Stop periodic updates
+             */
+            stop() {
+                if (this.intervalId) {
+                    clearInterval(this.intervalId);
+                    this.intervalId = null;
+                }
+            }
+        }
+
+        /**
+         * Main application class
+         */
+        class PrinterDashboardApp {
+            constructor() {
+                // Create the API client
+                this.apiClient = new APIClient();
+                
+                // Create the data service
+                this.dataService = new PrinterDataService(this.apiClient);
+                
+                // Create UI components
+                this.temperatureDashboard = new TemperatureDashboard(this.dataService);
+                this.progressBar = new ProgressBar(this.dataService);
+                
+                // Start components when DOM is ready
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', () => this.start());
+                } else {
+                    this.start();
+                }
+            }
+
+            /**
+             * Start all components
+             */
+            start() {
+                this.temperatureDashboard.start();
+                this.progressBar.start();
+            }
+
+            /**
+             * Stop all components
+             */
+            stop() {
+                this.temperatureDashboard.stop();
+                this.progressBar.stop();
+            }
+        }
+
+        // Initialize the application
+        const app = new PrinterDashboardApp();
+
+        // Handle page visibility changes to conserve resources
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                app.stop();
+            } else {
+                app.start();
+            }
+        });
     </script>
 </body>
 </html>
