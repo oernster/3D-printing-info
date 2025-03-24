@@ -33,7 +33,7 @@
 
 ## Add a browser source and call it something like 'VoronTridentTemps'
 
-## In the browser source untick local file and define the URL as 127.0.0.1:5001
+## In the browser source untick local file and define the URL as 127.0.0.1:5000
 
 
 # Customisations: Study app.py; my setup will be different from yours.
