@@ -76,7 +76,7 @@
         <div id="mcu" class="sensor">MCU: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
         <div id="internals" class="sensor">Internals: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
         <div id="pi" class="sensor">Pi: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
-		<div id="ebb36" class="sensor">EBB36: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
+		<div id="nh36" class="sensor">NH36: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
 		<div id="cartographer" class="sensor">Cartographer: <span class="temp-value">--</span><span style="color:orange">°C</span></div>
     </div>
     <div class="progress-bar-container">
@@ -95,8 +95,8 @@
 				document.getElementById('mcu').querySelector('.temp-value').textContent = (data.MCU.temperature ? parseFloat(data.MCU.temperature).toFixed(2) : '--');
 				document.getElementById('internals').querySelector('.temp-value').textContent = (data.Internals.temperature ? parseFloat(data.Internals.temperature).toFixed(2) : '--');
 				document.getElementById('pi').querySelector('.temp-value').textContent = (data.Pi.temperature ? parseFloat(data.Pi.temperature).toFixed(2) : '--');
-				document.getElementById('ebb36').querySelector('.temp-value').textContent = (data.Pi.temperature ? parseFloat(data.EBB36.temperature).toFixed(2) : '--');
-				document.getElementById('cartographer').querySelector('.temp-value').textContent = (data.Pi.temperature ? parseFloat(data.Cartographer.temperature).toFixed(2) : '--');
+				document.getElementById('nh36').querySelector('.temp-value').textContent = (data.NH36.temperature ? parseFloat(data.NH36.temperature).toFixed(2) : '--');
+				document.getElementById('cartographer').querySelector('.temp-value').textContent = (data.Cartographer.temperature ? parseFloat(data.Cartographer.temperature).toFixed(2) : '--');
 			} catch (error) {
 				console.error('Failed to fetch temperatures:', error);
 			}
