@@ -52,4 +52,4 @@ call venv\Scripts\activate
 python app.py
 ```
 
-# Multiple printers: Create multiple virtual environments and choose a different port in app.py instead of 5001 for each printer.
+# Multiple printers: Create multiple virtual environments and choose a different port in app.py instead e.g. 5001, or other port for each printer.
