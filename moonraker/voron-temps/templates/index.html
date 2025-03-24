@@ -62,19 +62,21 @@
       margin-top: 10px;
       box-sizing: border-box;
     }
+    
     .progress-bar {
       width: 100%;
       height: 20px;
       background-color: #555;
       border-radius: 5px;
     }
+    
     .progress {
       height: 100%;
       background: linear-gradient(
         to right,
         #ff0000 0%,
-        #ffa500 25%,
-        #ffff00 50%,
+        #ffa500 33%,
+        #ffff00 66%,
         #4caf50 100%
       );
       border-radius: 5px;
@@ -84,6 +86,39 @@
       text-align: center;
       color: #0000ff; /* Blue text */
       font-weight: bold; /* Make the text bold */
+      position: relative; /* For positioning the rainbow edge */
+    }
+    
+    /* Rainbow vertical bar with animation */
+    @keyframes rainbow-shift {
+        0% {
+            background-position: 0% 0%;
+        }
+        100% {
+            background-position: 0% 200%;
+        }
+    }
+    
+    .progress::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(
+            to bottom,
+            #ff0000,
+            #ff7f00,
+            #ffff00,
+            #00ff00,
+            #0000ff,
+            #4b0082,
+            #9400d3,
+            #ff0000
+        );
+        background-size: 100% 800%; /* Make gradient 8x taller than element */
+        animation: rainbow-shift 3s linear infinite;
     }
   </style>
 </head>
