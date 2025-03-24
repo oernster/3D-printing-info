@@ -1,5 +1,5 @@
-# How to setup OBS Studio with live temperature reporting on a Voron - see the jpg for an example.
-![VTTemps](https://github.com/user-attachments/assets/2a476844-8db6-40a5-9254-cfac273cdea1)
+# How to setup OBS Studio with live temperature reporting on a Voron - see the pic for an example.
+![VoronTemps](https://github.com/user-attachments/assets/ecf71b62-7b15-4671-b5b7-617109fb210e)
 
 ## 1) Download req.txt, app.py and the templates directory to your machine.
 
