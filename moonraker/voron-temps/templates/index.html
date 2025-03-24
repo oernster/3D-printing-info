@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>3D Printer Dashboard</title>
   <style>
+    :root {
+      --progress-percent: 0;
+    }
+    
     body {
       margin: 0;
       padding: 10px;
@@ -68,6 +72,7 @@
       height: 20px;
       background-color: #555;
       border-radius: 5px;
+      overflow: hidden;
     }
     
     .progress {
@@ -75,14 +80,12 @@
       background: linear-gradient(
         to right,
         #ff0000 0%,
-        #ff4500 33%,
-        #ffa500 66%,
+        #ff4500 15%,
+        #ffa500 35%,
+        #ffff00 70%,
         #ffff00 95%,
         #4caf50 100%
       );
-      /* Fix the gradient to the container width, not progress width */
-      background-size: 100vw 100%;
-      background-position: left;
       border-radius: 5px;
       width: 0%;
       transition: width 0.5s ease-in-out;
