@@ -2,17 +2,15 @@
 
 ## Originally a formbot kit
 
-* BTT U2C
-* BB36 v1.2 with umbilical from Mellow and piano wire installed
+* Nitehawk 36, small extension for USB Cartographer and piano wire installed in umbilical with zip ties
 * [RGB 3010 fan on Reaper toolhead](https://www.aliexpress.com/item/1005007495629783.html)
-* [Skirt buttons in progress](https://www.aliexpress.com/item/1005006085179120.html)
 * [BTT SFS filament runout sensor v2](https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor)
 * [Bed fans 92mm x 25cm (2 off)](https://www.amazon.co.uk/dp/B087JHB9BVRpi4b)
 * [CNC xy joints](https://www.aliexpress.com/item/1005005997740026.html)
 * [CNC A/B motor mounts](https://www.aliexpress.com/item/1005006662246017.html)
 * [Cartographer CNC mount for Cartographer (also works with Beacon)](https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g)
 * [Cartographer ADXL v3 (red)](https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb)
-* Reaper with UHF Rapido v2 Plus, PT1000, Bozzle 0.5mm nozzle and CNC Mini Sherpa by Fystec
+* Reaper toolhead with UHF Rapido v2 Plus, PT1000, Bozzle 0.5mm nozzle and CNC Mini Sherpa by Fystec
 * [BFIs (not really!!!); CNC ones that are advertised as BFIs but are actually Ramalamas in reality](https://www.aliexpress.com/item/1005007313796436.html)
 * [Top hat mod and 1.0.R carry handles](https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha)
 * Clicky clacky door kit [UK](https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/) or [US](https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors)
@@ -22,14 +20,14 @@
 * [Disco on sticks](https://www.printyplease.uk/Disco?search=disco)
 * [West3d x and y titanium backers](https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788)
 * [Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans](https://github.com/nevermore3d/Nevermore_Micro)
-* [350mm bed and magnetic base](https://www.printyplease.uk/CatBed355 (Textured))
+* [350mm textured bed and magnetic base](https://www.printyplease.uk/CatBed355)
 * 6mm Gates GT2 belts
 * Pi4b 4GB in Aluminium NAS Case for Pi 4 with Quiet Cooling Fan external to the printer with 1TB M.2 SSD
 * mini12864 screen
 * [Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here](https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md)
 * Cricut Voron logo on rear panel of printer
 * [Mellow 2504ac A/B motors](https://www.aliexpress.com/item/1005006864255848.html)
-* 48V with a slimline 24V Meanwell power supply and another slimline 48V power supply
+* 48V with a slimline 24V Meanwell power supply and another Meanwell slimline 48V power supply
 * [Cable clips for 2020 extrusions all over the place](https://www.printables.com/model/365945-voron-2020-aluminum-profile-cable-clip) 
 * [Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy)](https://www.aliexpress.com/item/4001033375208.html)
 * [Heatset inserts - get loads](https://www.aliexpress.com/item/1005004535859664.html)
@@ -53,5 +51,4 @@
 * [Klipper network status (only suitable for a mini12864 LCD Display)](https://github.com/JeremyRuhland/klipper_network_status)
 * [Stereo sound effects](https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md)
 * [Sonar](https://github.com/mainsail-crew/sonar)
-* MPC tuned extruder
 * Z_TILT_NG calibrated Z_TILT for speedy Z_TILTing.
