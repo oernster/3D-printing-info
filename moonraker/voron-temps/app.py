@@ -15,7 +15,7 @@ class PrinterDataFetcher:
             "heater_bed": ["temperature", "target"],
             "temperature_fan MCU_Fans": ["temperature"],
         }
-        self.temperature_sensor_variables = ["CHAMBER", "Internals", "Pi", "NH36", "Cartographer"]
+        self.temperature_sensor_variables = ["CHAMBER", "Internals", "NucBox", "NH36", "Cartographer"]
     
     async def fetch_temperature_data(self):
         """Fetch temperature data from all sensors."""
@@ -142,7 +142,7 @@ class PrinterDashboardApp:
 # Main application entry point
 if __name__ == "__main__":
     # Configuration
-    MOONRAKER_API_URL = "http://192.168.0.104:7125/printer/objects/query"
+    MOONRAKER_API_URL = "http://192.168.0.80:7125/printer/objects/query"
     
     # Initialize and run the application
     app = PrinterDashboardApp(MOONRAKER_API_URL)
