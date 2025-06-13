@@ -1,6 +1,6 @@
 # 3D-printing-info
 
-## Useful 3D printing information.
+## Useful 3D printing information.  This repo has been created and maintained over a period of 8 years or more.
 
 ## If you find this repository of use and would like to offer me a tip for creating and maintaining it then please feel free to buy me a coffee via paypal:
 
