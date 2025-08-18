@@ -22,7 +22,7 @@
 * [Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans](https://github.com/nevermore3d/Nevermore_Micro)
 * [350mm textured bed and magnetic base](https://www.printyplease.uk/CatBed355)
 * 6mm Gates GT2 belts
-* Pi4b 4GB in Aluminium NAS Case for Pi 4 with Quiet Cooling Fan external to the printer with 1TB M.2 SSD
+* GMKTec NucBox AMD with 256GB SSD
 * mini12864 screen
 * [Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here](https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-klipper.md)
 * Cricut Voron logo on rear panel of printer
