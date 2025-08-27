@@ -5,7 +5,7 @@
 
 ## 1a) Adjust the IP address in app.py to be the IP address of your Voron here: MOONRAKER_API_URL = "http://(your ip without angled brackets):7125/printer/objects/query"
 
-## 2) Install Python 3 (https://www.python.org); ensure you add the PYTHONPATH on windows during install.
+## 2) Install Python 3 (https://www.python.org); ensure you add the PYTHONPATH if on windows during install.
 
 ## 3) Install pip for python
 
@@ -17,7 +17,10 @@
 
 ```python -m virtualenv venv```
 
+WINDOWS:
 ```venv\scripts\activate```
+LINUX/MAC:
+```source venv/bin/activate```
 
 ```python -m pip install --upgrade pip```
 
