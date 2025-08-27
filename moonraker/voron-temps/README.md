@@ -43,7 +43,7 @@ LINUX/MAC:
 ## Specifically, extruder, heater_bed and temperature_fan variables are defined in TEMPERATURE_SENSORS.
 ## TEMPERATURE_SENSOR_VARIABLES defines your temperature_sensor variables from printer.cfg.
 
-# What if you want to do this on boot?
+# What if you want to do this on boot? (Windows only)
 
 ## Hit Windows key + R, then type ```shell:startup```
 
