@@ -8,6 +8,8 @@
 
 # THANKS and ENJOY!!!
 
+- Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)  
+
 # --Contents of repository/layout--
 
 ## FAQs: 
