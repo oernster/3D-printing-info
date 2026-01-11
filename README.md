@@ -8,6 +8,9 @@
 
 # THANKS and ENJOY!!!
 
+[![Invite PrinterShameBot Discord bot](https://discord.com/oauth2/authorize?client_id=1459775088017670410&permissions=2147600384&integration_type=0&scope=bot+applications.commands)
+
+
 - Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)  
 
 # --Contents of repository/layout--
