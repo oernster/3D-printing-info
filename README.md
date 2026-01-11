@@ -8,8 +8,8 @@
 
 # THANKS and ENJOY!!!
 
-[Invite PrinterShameBot Discord bot to your discord](https://discord.com/oauth2/authorize?client_id=1459775088017670410&permissions=2147600384&integration_type=0&scope=bot+applications.commands)
-[PrinterShameBot code can be found here](https://github.com/oernster/snark3Dprinter-discord-bot)
+- [Invite PrinterShameBot Discord bot to your discord](https://discord.com/oauth2/authorize?client_id=1459775088017670410&permissions=2147600384&integration_type=0&scope=bot+applications.commands)
+- [PrinterShameBot code can be found here](https://github.com/oernster/snark3Dprinter-discord-bot)
 
 - Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)  
 
