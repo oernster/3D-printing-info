@@ -19,8 +19,7 @@ Once invited, in any channel the bot has permission to read/send messages:
 - [PrinterShameBot code can be found here](https://github.com/oernster/snark3Dprinter-discord-bot)
 
 
-
-##Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)##  
+**Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)**  
 
 # --Contents of repository/layout--
 
