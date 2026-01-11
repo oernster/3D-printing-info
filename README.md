@@ -8,7 +8,14 @@
 
 # THANKS and ENJOY!!!
 
-- [Invite PrinterShameBot Discord bot to your discord](https://discord.com/oauth2/authorize?client_id=1459775088017670410&permissions=2147600384&integration_type=0&scope=bot+applications.commands)
+## Invite PrinterShameBot
+
+Got a Discord server and want to politely torment your friends’ 3D prints?
+
+👉 **[Click here to invite PrinterShameBot to your Discord](https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=PERMISSIONS_INTEGER&scope=bot%20applications.commands)**
+
+Once invited, in any channel the bot has permission to read/send messages:
+Just send the command: ```!printquote```
 - [PrinterShameBot code can be found here](https://github.com/oernster/snark3Dprinter-discord-bot)
 
 - Please note you can find a guide to setting up OBS Studio with [A lovely UI for temperature displays here](https://github.com/oernster/3D-Printer-Launcher)  
