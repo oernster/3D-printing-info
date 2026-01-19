@@ -8,6 +8,8 @@
 
 # THANKS and ENJOY!!!
 
+<img width="1767" height="989" alt="3D-printing-info" src="https://github.com/user-attachments/assets/ca95d5ac-e456-43af-9cec-20937c5ac8d2" />
+
 ## Invite PrinterShameBot
 
 Got a Discord server and want to politely torment your friends’ 3D prints?
