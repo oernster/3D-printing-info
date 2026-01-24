@@ -48,8 +48,6 @@ Primarily miniatures: https://lootstudios.com/
 
 It's in the name! https://galacticarmory.net/
 
-Various printable weapons: https://cults3d.com/en/users/zvc0430/creations
-
 Curated models via a subscription: https://www.stlflix.com/
 
 
