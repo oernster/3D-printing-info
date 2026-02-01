@@ -10,7 +10,7 @@
 * [CNC A/B motor mounts](https://www.aliexpress.com/item/1005006662246017.html)
 * [Cartographer CNC mount for Cartographer (also works with Beacon)](https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g)
 * [Cartographer ADXL v3 (red)](https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb)
-* Reaper toolhead with UHF Rapido v2 Plus, PT1000, Bozzle 0.5mm nozzle and CNC Mini Sherpa by Fystec
+* [HyperNova toolhead](https://hyperdrivedesign.com/products/Hypernova/hypernova/) with UHF Rapido v2 Plus, PT1000, Bozzle 0.5mm nozzle and CNC Mini Sherpa by Fystec.
 * [BFIs (not really!!!); CNC ones that are advertised as BFIs but are actually Ramalamas in reality](https://www.aliexpress.com/item/1005007313796436.html)
 * [Top hat mod and 1.0.R carry handles](https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha)
 * Clicky clacky door kit [UK](https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/) or [US](https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors)
