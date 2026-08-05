@@ -1,0 +1,51 @@
+# This repository is a documentation tree: guides, configs and the images and
+# firmware they reference. It had no .gitignore at all, which is how deleted
+# klippy logs, resonance CSVs, a video and an 80 MB CAD assembly ended up in
+# its history, where git keeps them forever.
+#
+# None of the patterns below match anything currently tracked. Genuinely
+# needed binaries go through Git LFS instead, as the eMMC backup under
+# printers/qidiq1pro/ already does; add a .gitattributes beside the file
+# rather than committing it raw.
+
+# Klipper and printer run-time output. Regenerated constantly, large, and of
+# no use to a reader of the guides.
+*.log
+klippy.log*
+klippy.log.*
+*.gcode
+*.gco
+
+# Input shaper and resonance testing output.
+resonances_*.csv
+calibration_data_*.csv
+adxl345-*.csv
+*.csv
+
+# Video. Use a link rather than committing it.
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# CAD working files. Large, opaque to diff, and not readable as documentation.
+# The tracked Trident assembly predates this rule.
+*.f3z
+*.step
+*.stp
+*.3mf
+
+# Archives, other than the LFS-tracked backups that carry their own
+# .gitattributes.
+*.zip
+*.rar
+*.tar
+*.tar.xz
+
+# Editor and OS clutter.
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
