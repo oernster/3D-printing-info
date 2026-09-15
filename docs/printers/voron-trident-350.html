@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voron Trident 350 build | 3D-printing-info</title>
+<meta name="description" content="A Formbot Trident rebuilt piece by piece: Hypernova toolhead, Cartographer probe, Mellow 5160 drivers, 48V motion and the Klipper plugins it runs.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/printers/voron-trident-350.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="Voron Trident 350 build">
+<meta property="og:description" content="A Formbot Trident rebuilt piece by piece: Hypernova toolhead, Cartographer probe, Mellow 5160 drivers, 48V motion and the Klipper plugins it runs.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/assets/img/printers-my-printers-images-vt350-960.webp">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/printers/voron-trident-350.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Voron Trident 350 build","description":"A Formbot Trident rebuilt piece by piece: Hypernova toolhead, Cartographer probe, Mellow 5160 drivers, 48V motion and the Klipper plugins it runs.","url":"https://ernster.dev/3D-printing-info/printers/voron-trident-350.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"Printers","item":"https://ernster.dev/3D-printing-info/printers/"},{"@type":"ListItem","position":3,"name":"Voron Trident 350 build","item":"https://ernster.dev/3D-printing-info/printers/voron-trident-350.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/">Guides</a><a href="../faqs/">FAQs</a><a href="../printers/" aria-current="page">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../printers/">Printers</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Voron Trident 350 build</span></nav><h1>Voron Trident 350 build</h1><p class="page-lead">A Formbot Trident rebuilt piece by piece: Hypernova toolhead, Cartographer probe, Mellow 5160 drivers, 48V motion and the Klipper plugins it runs.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>Voron Trident 350</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/printers/README.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><p>The complete, current Trident config lives in its own repository, <a href="https://github.com/oernster/VT350">VT350</a>. This page is the build sheet: every upgrade with a link to the part.</p><h2 id="originally-a-formbot-kit">Originally a formbot kit</h2>
+<ul>
+<li>Nitehawk 36, small extension for USB Cartographer and piano wire installed in umbilical with zip ties</li>
+<li><a href="https://www.aliexpress.com/item/1005007495629783.html">RGB 3010 fan on Reaper toolhead</a></li>
+<li><a href="https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor">BTT SFS filament runout sensor v2</a></li>
+<li><a href="https://www.amazon.co.uk/dp/B087JHB9BVRpi4b">Bed fans 92mm x 25cm (2 off)</a></li>
+<li><a href="https://www.aliexpress.com/item/1005005997740026.html">CNC xy joints</a></li>
+<li><a href="https://www.aliexpress.com/item/1005006662246017.html">CNC A/B motor mounts</a></li>
+<li><a href="https://cartographer3d.com/products/cartographer3d-cnc-stealthburner-mount-only-23-4g">Cartographer CNC mount for Cartographer (also works with Beacon)</a></li>
+<li><a href="https://cartographer3d.com/products/copy-of-cartographer-probe-v3-with-adxl345-standard-edition-both-can-usb">Cartographer ADXL v3 (red)</a></li>
+<li><a href="https://hyperdrivedesign.com/products/Hypernova/hypernova/">HyperNova toolhead</a> with UHF Rapido v2 Plus, PT1000, Bozzle 0.5mm nozzle and CNC Mini Sherpa by Fystec.</li>
+<li><a href="https://www.aliexpress.com/item/1005007313796436.html">BFIs (not really!!!); CNC ones that are advertised as BFIs but are actually Ramalamas in reality</a></li>
+<li><a href="https://www.printables.com/model/768192-voron-24-trident-canopy-top-hat-remix-for-1-0-r-ha">Top hat mod and 1.0.R carry handles</a></li>
+<li>Clicky clacky door kit <a href="https://www.onetwo3d.co.uk/product/clicky-clacky-door-for-voron-trident-by-ldo/">UK</a> or <a href="https://west3d.com/products/clickyclacky-door-kit-by-ldo-motors">US</a></li>
+<li><a href="https://github.com/tanaes/whopping_Voron_mods/tree/main/clickyclacky_door">Clicky clacky door build guide</a></li>
+<li><a href="https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446?variant=39482177257570">Octopus Pro v1.0.1</a></li>
+<li><a href="https://www.aliexpress.com/item/4000717733995.html">PT1000 thermistors all over the place</a></li>
+<li><a href="https://www.printyplease.uk/Disco?search=disco">Disco on sticks</a></li>
+<li><a href="https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?variant=42064409624788">West3d x and y titanium backers</a></li>
+<li><a href="https://github.com/nevermore3d/Nevermore_Micro">Nevermore micro v6 with correct coconut based carbon pellets inside and 2 x 5015 fans</a></li>
+<li><a href="https://www.printyplease.uk/CatBed355">350mm textured bed and magnetic base</a></li>
+<li>6mm Gates GT2 belts</li>
+<li>GMKTec NucBox AMD with 256GB SSD</li>
+<li>mini12864 screen</li>
+<li><a href="../guides/klipper-sounds.html">Sound effects based on samples of 2001 Space Odyssey in wav files for specific print macros as per here</a></li>
+<li>Cricut Voron logo on rear panel of printer</li>
+<li><a href="https://www.aliexpress.com/item/1005006864255848.html">Mellow 2504ac A/B motors</a></li>
+<li>48V with a slimline 24V Meanwell power supply and another Meanwell slimline 48V power supply</li>
+<li><a href="https://www.printables.com/model/365945-voron-2020-aluminum-profile-cable-clip">Cable clips for 2020 extrusions all over the place</a> </li>
+<li><a href="https://www.aliexpress.com/item/4001033375208.html">Limit switches (get set: Color: MS-1A-13.5 and buy a few sets like 20 as they will always come in handy)</a></li>
+<li><a href="https://www.aliexpress.com/item/1005004535859664.html">Heatset inserts - get loads</a></li>
+<li><a href="https://www.aliexpress.com/item/1005005730726048.html">Handy cheap temp gun for checking A/B stepper motor etc temps</a></li>
+<li><a href="https://www.amazon.co.uk/dp/B0CLNSRRKR">Mellow 1.5 Pro TMC5160 external Stepper Motor Drivers with fans x 2</a>;  <a href="https://www.printables.com/model/454343-mellow-tmc-5160-hv-support-din-rail">On these mounts</a></li>
+<li><a href="https://www.aliexpress.com/item/1005004359643945.html">Spare melt zone extenders</a></li>
+<li><a href="https://www.etsy.com/uk/listing/1085646952/voron-serial-number-plate-display-with">Voron metal serial number plate</a></li>
+<li>Marble slab under printer from B&amp;Q UK; 600mm square, 3cm high</li>
+<li><a href="https://github.com/MugenMicko/DaylightDiscoRainbow-Stick-Mounts/tree/main">Disco RGBW on sticks mount</a></li>
+<li><a href="https://makerworld.com/en/models/406337-c920-logitech-camera-mount-3d-printer-mount">Logitech C920 camera with this mount (mine is mounted internally though)</a></li>
+<li><a href="https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Galvanic/Bowden_Tube_Guide/STL">Bowden tube guide</a></li>
+<li><a href="https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/All_Printers/annex_dev-Panel_2020_Clips_and_Hinges">Annex Engineering panel clips</a></li>
+</ul>
+<h2 id="klipper-now-kalico-plugins">Klipper (Now Kalico) plugins...</h2>
+<ul>
+<li><a href="https://github.com/Frix-x/klippain-shaketune">Shake n Tune</a></li>
+<li><a href="https://github.com/Anonoei/klipper_auto_speed">Klipper Auto Speed</a></li>
+<li><a href="https://github.com/tanaes/whopping_Voron_mods/tree/main/LEDs/Rainbow_Barf_Logo_LED">Rainbow BARF</a> - currently not installed </li>
+<li><a href="https://github.com/julianschill/klipper-led_effect">LED Effect</a> - for strip lighting</li>
+<li><a href="https://github.com/andrewmcgr/klipper_tmc_autotune">TMC Autotune</a></li>
+<li><a href="https://github.com/JeremyRuhland/klipper_network_status">Klipper network status (only suitable for a mini12864 LCD Display)</a></li>
+<li><a href="../guides/klipper-sounds.html">Stereo sound effects</a></li>
+<li><a href="https://github.com/mainsail-crew/sonar">Sonar</a></li>
+<li>Z_TILT_NG calibrated Z_TILT for speedy Z_TILTing.</li>
+</ul><div class="gallery"><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/printers/my-printers-images/VT350.jpg" data-thumb="../assets/img/printers-my-printers-images-vt350-960.webp" data-caption="The Voron Trident 350"><img src="../assets/img/printers-my-printers-images-vt350-960.webp" width="720" height="960" alt="The Voron Trident 350" loading="lazy" decoding="async"></a><figcaption>The Voron Trident 350</figcaption></figure></div></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l2"><a href="#originally-a-formbot-kit">Originally a formbot kit</a></li><li class="toc-l2"><a href="#klipper-now-kalico-plugins">Klipper (Now Kalico) plugins...</a></li></ol></nav><div class="aside-box"><h2 class="aside-title">Files</h2><ul class="files"><li><a class="file" href="../configs/view.html?f=voron-startup/VORONTRIDENT-STARTUP.cfg"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span class="file-body"><span class="file-label">Trident PRINT_START and PRINT_END macros</span><span class="file-meta">VORONTRIDENT-STARTUP.cfg · 77 lines</span></span></a></li></ul></div></div></aside></div><nav class="pager" aria-label="More in this section"><span class="pager-gap"></span><a class="pager-link pager-next" href="../printers/qidi-q1-pro-recovery.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Qidi Q1 Pro: recover the operating system</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>

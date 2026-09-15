@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shake &#x27;n&#x27; Tune: belts, input shaping and vibrations | 3D-printing-info</title>
+<meta name="description" content="Tune the A and B belts to 110Hz, run input shaping and read the vibrations profile with Klippain Shake&amp;Tune, with real result graphs to aim for.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/guides/shake-n-tune.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="Shake &#x27;n&#x27; Tune: belts, input shaping and vibrations">
+<meta property="og:description" content="Tune the A and B belts to 110Hz, run input shaping and read the vibrations profile with Klippain Shake&amp;Tune, with real result graphs to aim for.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/hero.png">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/guides/shake-n-tune.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Shake 'n' Tune: belts, input shaping and vibrations","description":"Tune the A and B belts to 110Hz, run input shaping and read the vibrations profile with Klippain Shake&Tune, with real result graphs to aim for.","url":"https://ernster.dev/3D-printing-info/guides/shake-n-tune.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://ernster.dev/3D-printing-info/guides/"},{"@type":"ListItem","position":3,"name":"Shake 'n' Tune: belts, input shaping and vibrations","item":"https://ernster.dev/3D-printing-info/guides/shake-n-tune.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/" aria-current="page">Guides</a><a href="../faqs/">FAQs</a><a href="../printers/">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../guides/">Guides</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Shake &#x27;n&#x27; Tune: belts, input shaping and vibrations</span></nav><h1>Shake &#x27;n&#x27; Tune: belts, input shaping and vibrations</h1><p class="page-lead">Tune the A and B belts to 110Hz, run input shaping and read the vibrations profile with Klippain Shake&amp;Tune, with real result graphs to aim for.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Tuning and calibration</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/guides/ShakeNTuneBriefIntro.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><p class="lead">Brief introduction to Shake 'n' Tune (original author of SnT is Frix)</p>
+<p>This guide is based on this tool: <a href="https://github.com/Frix-x/klippain-shaketune">https://github.com/Frix-x/klippain-shaketune</a></p>
+<div class="callout">
+<p>NOTE: A LIS2DW accelerometer will produce unpredictable results.  You ideally want an ADXL345 accelerometer.</p>
+</div>
+<p>The RESULTS will be stored under MACHINE in mainsail in KShakeTune_Results</p>
+<h2 id="order-of-events">Order of events</h2>
+<p>(Do all of this cold; apart from your final measurement of your axes (input shaping) which should be done hot with fans going at normal rates to test correct resonances).</p>
+<ol>
+<li>
+<p>Do your belts</p>
+</li>
+<li>
+<p>Do your input shaping</p>
+</li>
+</ol>
+<p><strong>2a)</strong> Remove unwanted resonances seen in input shaping graphs</p>
+<p><strong>2b)</strong> Rinse and repeat input shaping until resonances disappear that you do not want</p>
+<ol start="3">
+<li>Run vibrations graph generator</li>
+</ol>
+<h2 id="belts">BELTS</h2>
+<h3 id="mounting-the-belts">Mounting the belts...</h3>
+<p>Lay both of your belts on the floor (a flat surface not a carpet) and ensure that both are EXACTLY the same length.</p>
+<p>Then, using a sharpie, (red works well), mark a tooth on both sides 20cm vertically on both belts (this assumes a 350 printer, consider 15cm for a 300, maybe 12cm for a 250).</p>
+<p>Next loosen up both idlers completely.</p>
+<p>Then mount the belts.  You want to be able to see when mounting that the red lines line up vertically on the front of the printer, left and right sides.</p>
+<p>Note, to clarify, the sharpie marks are NOT to align the frayed bits; they are to align the belts once mounted in an easy way and the sharpie marks will be somewhere on the x gantry.</p>
+<p>Pull the belts to reasonable tension on both sides (as tight as possible without overdoing it; you'll struggle to get them overtight unless you are pulling them towards you).</p>
+<p>Then once you've mounted both belts successfully to the carriage using whatever mounting mechanism you use and tightened up the belt mounts, tighten up the idlers.</p>
+<h3 class="step" id="1-first-off-we-need-to-get-your-belts-tuned-to-be-110hz-on-each-belts"><span class="step-n">1</span> First off we need to get your belts tuned to be 110Hz on each belts</h3>
+<p>Methods include (all require that you turn off motors and move the gantry to 15cm/150mm from the front idlers):</p>
+<p><strong>a)</strong> Use a 3D printed and constructed GT2 tension meter; this: </p>
+<ul class="linklist"><li><a href="https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Manual/GT2_Tensiometer_Manual.pdf">https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Manual/GT2_Tensiometer_Manual.pdf</a></li></ul>
+<p><strong>b)</strong> Use Spectroid (available on Android phones) and tune to 110Hz on left and right belt.</p>
+<p><strong>c)</strong> Use Gates carbon drive (available on apple and android phones)</p>
+<p><strong>d)</strong> Use a guitar tuning app and tune to the tone that is 110Hz</p>
+<p><strong>e)</strong> Use this online tone generator and use your ears if they are good enough: <a href="https://onlinetonegenerator.com/">https://onlinetonegenerator.com/</a></p>
+<h3 class="step" id="2-now-that-youve-done-that-home-your-printer-and-run-the-macro-compare-belts-responses"><span class="step-n">2</span> Now that you've done that, home your printer and run the macro: COMPARE BELTS RESPONSES.</h3>
+<p>DEEP DIVE HERE: <a href="https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/compare_belts_responses.md">https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/compare_belts_responses.md</a></p>
+<p><strong>a)</strong> You should be able to see (if you have a good starting point and tuned to 110Hz on each belt well) that you are almost getting two peaks which need to align (in purple and orange) or potentially two double peaks which need to align.</p>
+<p>What you are after is the purple and orange peaks to be aligned and at the same height in an ideal world but if the amplitude differences are not completely aligned it's not the end of the world.  Furthermore, in an ideal world you are after 90%+ similarity on the belts;</p>
+<div class="callout">
+<p>NOTE: The percentage similarity is less important than the shape of the graph; you are aiming for ideally a single joint peak.</p>
+</div>
+<div class="callout">
+<p>NOTE2: For more assistance with SnT belts tuning and general resonance tuning there is a channel available in the Voron Discord.  For more advanced tuning and ONLY for those with serialised printers, there is a unicorn chasing variant.</p>
+</div>
+<p>When tuning the belts, you want to tighten by about 1/4 to 1/8th of a turn each time you adjust on either the B or A idler.</p>
+<p>The B idler is on the left and the A idler is on the right.  Think of looking at your printer as like looking at a sheep; a sheep goes BAAAAAA, hence BA left to right.</p>
+<p>Now, ignore the peak labels on the graphs, they are labelled with Greek lettering - they are NOT your belts.  Your A belt is the orange graph, the purple one is your B belt.  ACTUALLY, Frix swaps the colours on an almost weekly basis so you can't trust this; read it from the graph top left.</p>
+<p>My belts graph isn't perfect but it's all in the green belt and the A/B belts are almost aligned in the peaks as you can see in my most recent run here: </p>
+<figure class="shot"><a class="zoom" href="https://github.com/user-attachments/assets/c6b014e4-a44a-44ab-93b2-f29f2d5c7ba9" data-caption="Compare belts responses: the A and B belt peaks are almost aligned"><img src="https://github.com/user-attachments/assets/c6b014e4-a44a-44ab-93b2-f29f2d5c7ba9" alt="Compare belts responses graph" loading="lazy" decoding="async"></a><figcaption>Compare belts responses: the A and B belt peaks are almost aligned</figcaption></figure>
+<h3 class="step" id="3-now-run-the-axes-shaper-calibration-macro-this-will-perform-your-input-shaping"><span class="step-n">3</span> Now run the AXES SHAPER CALIBRATION macro.  This will perform your input shaping.</h3>
+<p>DEEP DIVE HERE: <a href="https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axes_shaper_calibrations.md">https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/axes_shaper_calibrations.md</a></p>
+<p>Once you see the results for input shaping as a graph, typically if you see peaks starting around 0Hz this might be caused by binding (i.e. a low frequency signal) so check your idlers and pulleys for too much tension and you may need to redo your belts at this point if you adjust tension here.</p>
+<p>Other peaks that are unwanted can be tested by hand; what you need to do is insert the frequency, the time of run (I choose about 60 seconds) and the axis that is resonating on the input shaping graph that is producing said peak or peaks; you may need to excite multiple frequencies.</p>
+<p>The macro to run is called: EXCITE AXIS AT FREQ; use the DROPDOWN.  Touch all the things on your printer including your toolhead and tighten up anything that moves at that resonant frequency.</p>
+<div class="callout">
+<p>NOTE: if you have a lot of noise in your graph then you can increase the accel_per_hz value by e.g. 20-25 at a time to 100 (default is 75), then 125 etc under [resonance_tester] in your  printer.cfg file.  If you have to go much above 115-125Hz then there is probably something more serious wrong with your printer hardware setup.</p>
+</div>
+<p>Once you're done, take the recommended shaper for either performance or vibrations (I always take the best vibrations one; preferably 0.0% or 0.something%), frequency and damping ratio and add it to your printer.cfg (or at the base in the commented section if you have already saved one to replace that.</p>
+<p>If you have greater than 5% vibrations on either IS graph (x or y) then you may want to worry about your hardware a little.  The recommended shaper is a combination of vibrations and smoothing at the recommended acceleration and most of the time smoothing is more important according to Frix.  You can always check and validate with a test print.</p>
+<p>I've spoken to Frix and he says that the filter recommendation (performance) will be suitable for most scenarios in future and the vibrations shaper will be much more of a last resort choice.</p>
+<p>You want to choose the lower of the two max recommended accels (x and y) for your outer walls on your slicer profile for printer with.</p>
+<p>I'm not particularly proud of my x shaper result so I won't post it here but my y is pretty nice and what you're aiming for on both so here is that as a good example:</p>
+<figure class="shot"><a class="zoom" href="https://github.com/user-attachments/assets/0217a276-59e0-486e-8093-a7b5ae789984" data-caption="Axis shaper calibration for Y: the shape to aim for on both axes"><img src="https://github.com/user-attachments/assets/0217a276-59e0-486e-8093-a7b5ae789984" alt="Y axis input shaper graph" loading="lazy" decoding="async"></a><figcaption>Axis shaper calibration for Y: the shape to aim for on both axes</figcaption></figure>
+<p>(This was run with ADXL v3 Cartographer FYI)</p>
+<h3 class="step" id="4-once-youve-tuned-everything"><span class="step-n">4</span> Once you've tuned everything</h3>
+<p>DEEP DIVE HERE: <a href="https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/create_vibrations_profile.md">https://github.com/Frix-x/klippain-shaketune/blob/main/docs/macros/create_vibrations_profile.md</a></p>
+<p>Run the macro CREATE VIBRATIONS PROFILE.</p>
+<p>This will produce a set of useful graphs that you can study to improve your slicer settings.  Generally speaking you might want to choose a minimum speed (usually around 10-25mm/s) to avoid vibrations in your slicer; this is the top middle graph.</p>
+<p>Then ensure that none of your print speeds are in the white areas; always in the green areas.  The bottom middle graph indicates high orange colours for where resonances are occurring in the heat map.  The bottom right and top right graphs should ideally look like a set of clean peaks.  This is my most recent run, it's not perfect but it's also pretty good (running with TMC autotune): </p>
+<figure class="shot"><a class="zoom" href="https://github.com/user-attachments/assets/d16b2b3c-9332-4cc6-b9ac-62b7901d8f63" data-caption="Create vibrations profile, run with TMC Autotune"><img src="https://github.com/user-attachments/assets/d16b2b3c-9332-4cc6-b9ac-62b7901d8f63" alt="Vibrations profile graphs" loading="lazy" decoding="async"></a><figcaption>Create vibrations profile, run with TMC Autotune</figcaption></figure>
+<p>You ideally want close to 90%+ on the polar angle energy profile. </p></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l2"><a href="#order-of-events">Order of events</a></li><li class="toc-l2"><a href="#belts">BELTS</a></li><li class="toc-l3"><a href="#mounting-the-belts">Mounting the belts...</a></li><li class="toc-l3"><a href="#1-first-off-we-need-to-get-your-belts-tuned-to-be-110hz-on-each-belts">First off we need to get your belts…</a></li><li class="toc-l3"><a href="#2-now-that-youve-done-that-home-your-printer-and-run-the-macro-compare-belts-responses">Now that you&#x27;ve done that, home your printer…</a></li><li class="toc-l3"><a href="#3-now-run-the-axes-shaper-calibration-macro-this-will-perform-your-input-shaping">Now run the AXES SHAPER CALIBRATION macro. This…</a></li><li class="toc-l3"><a href="#4-once-youve-tuned-everything">Once you&#x27;ve tuned everything</a></li></ol></nav></div></aside></div><nav class="pager" aria-label="More in this section"><span class="pager-gap"></span><a class="pager-link pager-next" href="../guides/pid-tuning.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Manual PID tuning</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>

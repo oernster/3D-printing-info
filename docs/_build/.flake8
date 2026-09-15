@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203
+# HTML templates, URLs and catalog data: a long literal reads better whole
+# than split mid-attribute. Every other module holds to the 88 column limit.
+per-file-ignores =
+    layout.py:E501
+    pages.py:E501
+    pages_special.py:E501
+    catalog.py:E501

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qidi Q1 Pro: recover the operating system | 3D-printing-info</title>
+<meta name="description" content="Bring a broken Q1 Pro back from a known-good OS image: eMMC adapter, WSL, rsync, the UI recovery file and a firmware update.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/printers/qidi-q1-pro-recovery.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="Qidi Q1 Pro: recover the operating system">
+<meta property="og:description" content="Bring a broken Q1 Pro back from a known-good OS image: eMMC adapter, WSL, rsync, the UI recovery file and a firmware update.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/assets/img/printers-my-printers-images-qidiq1pro-960.webp">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/printers/qidi-q1-pro-recovery.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Qidi Q1 Pro: recover the operating system","description":"Bring a broken Q1 Pro back from a known-good OS image: eMMC adapter, WSL, rsync, the UI recovery file and a firmware update.","url":"https://ernster.dev/3D-printing-info/printers/qidi-q1-pro-recovery.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"Printers","item":"https://ernster.dev/3D-printing-info/printers/"},{"@type":"ListItem","position":3,"name":"Qidi Q1 Pro: recover the operating system","item":"https://ernster.dev/3D-printing-info/printers/qidi-q1-pro-recovery.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/">Guides</a><a href="../faqs/">FAQs</a><a href="../printers/" aria-current="page">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../printers/">Printers</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Qidi Q1 Pro: recover the operating system</span></nav><h1>Qidi Q1 Pro: recover the operating system</h1><p class="page-lead">Bring a broken Q1 Pro back from a known-good OS image: eMMC adapter, WSL, rsync, the UI recovery file and a firmware update.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>Qidi Q1 Pro</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/printers/qidiq1pro/README.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><h3 class="step" id="1-buy-one-of-these-or-an-equivalent-local-to-your-country"><span class="step-n">1</span> Buy one of these or an equivalent local to your country:</h3>
+<ul class="linklist"><li><a href="https://www.amazon.co.uk/dp/B0D7X87QGR">EMMC adapter</a></li></ul>
+<p>To get to the emmc you need to unscrew all screws from the rear of the printer and also 3 screws either side of the rear panel.</p>
+<p>Then unscrew the two screws that mount the emmc to your printer motherboard and remove the emmc.</p>
+<p>There is a clear diagram / picture on the adapter showing the orientation for plugging in to flash which we will come to later.</p>
+<h2 id="install-wsl-on-windows-windows-sub-system-for-linux">Install WSL on windows (Windows sub system for linux)...</h2>
+<p>Launch Windows powershell.</p>
+<h2 id="list-linux-distros">List linux distros</h2>
+<pre><code>wsl --list --online
+</code></pre>
+<h2 id="choose-what-to-install-eg-ubuntu">Choose what to install e.g. ubuntu</h2>
+<pre><code>wsl install -d ubuntu
+</code></pre>
+<p>Note this will prompt for a username and password for your windows subsystem for linux (wsl) linux distro.</p>
+<p>Move the tarball in this repo directory to the Linux Ubuntu/home/&lt;your username&gt; directory using Windows Explorer (yellow folder not the browser).</p>
+<h2 id="make-a-folder-to-extract-the-tarball-into">Make a folder to extract the tarball into</h2>
+<pre><code>mkdir qidiroot
+</code></pre>
+<h2 id="extract-the-tarball-into-said-root-folder">Extract the tarball into said root folder</h2>
+<pre><code>sudo tar xvf qidq1pro-os.tar.gz -C qidiroot
+</code></pre>
+<h2 id="modify-to-your-wifi-credentials">Modify to YOUR wifi credentials</h2>
+<pre><code>sudo nano qidiroot/etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+</code></pre>
+<p>Edit your SSID and password and then Ctrl+X and hit Y then enter to exit the editor.</p>
+<p>As an aside the root password is <code>makerbase</code>.</p>
+<p>Flash the emmc using BalenaEtcher using the Qidi Q1 image from <a href="https://wiki.qidi3d.com/en/Memo/flash-emmc">this link</a></p>
+<p>Eject the emmc once done.</p>
+<p class="shout">TURN OFF the PRINTER!!!</p>
+<p>Install the emmc into the printer motherboard; NOTE: you MUST use the screws to mount it or it will not be securely seated and may not read correctly.</p>
+<p class="shout">Turn ON the PRINTER!!!</p>
+<p>First identify your Qidi's IP address using AngryIPScanner which you can download from the internet here: <a href="https://angryip.org/">Angry IP Scanner</a></p>
+<p>Sort by hostnames to find the Qidi once scanned.</p>
+<p>ssh into the printer e.g.</p>
+<pre><code>ssh root@&lt;insert IP address here without angled brackets&gt;
+</code></pre>
+<h2 id="on-your-wsl-console-in-windows-enter">On your wsl console in Windows, enter</h2>
+<pre><code>sudo -s
+</code></pre>
+<p>Check everything is OK with a dry run of synchronising my correct Qidi Q1 Pro tarball of operating system data to your emmc drive...</p>
+<pre><code>rsync -aSPvx --delete -n --numeric-ids qidiroot/ root@&lt;insert your IP here without angled brackets&gt;:/
+</code></pre>
+<h2 id="if-all-good-then-do-it-for-real">If all good, then do it for REAL</h2>
+<pre><code>rsync -aSPvx --delete --numeric-ids qidiroot/ root@&lt;insert your IP here without angled brackets&gt;:/
+</code></pre>
+<h2 id="go-to-your-ssh-terminal-and-enter">Go to your ssh terminal and enter</h2>
+<pre><code>sudo shutdown now
+</code></pre>
+<p>WAIT for 1 minute then switch OFF the printer.</p>
+<p>UI will be borked.  Therefore, format a FAT32 USB stick and copy to the root directory this file:</p>
+<ul class="linklist"><li><a href="https://drive.google.com/file/d/1GYtFym1_HIyWzPiGaFYPqDV0K048fQJZ/view">UI file download</a></li></ul>
+<pre><code>mksclient.recovery
+</code></pre>
+<p>Plug in USB stick to printer and turn printer on.</p>
+<p>WAIT at least 10 seconds, before any turn off then switch ON the printer.</p>
+<p>Wait for flash.  The UI is probably still borked but this is fine.</p>
+<p>Now plug USB stick into PC, <a href="https://github.com/QIDITECH/QIDI_Q1_Pro/releases">download emmc firmware from here</a>  (at the time of writing this is Q1_V4.4.24.zip).</p>
+<p>In order to extract the zip file you will need probably to create an exception in your virus scanner since it will likely be immediately quarantined; or if you're feeling lucky, simply temporarily disable your virus scanner, extract then re-enable it immediately.</p>
+<p>Copy the QD_Update directory (not just the content) to your USB stick.</p>
+<p>Go to printer UI settings and perform a local firmware update from the USB stick.</p>
+<p class="shout">Once done, everything should be GUCCI!!!</p>
+<p class="shout">ENJOY!!!</p><div class="gallery"><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/printers/my-printers-images/QidiQ1Pro.jpg" data-thumb="../assets/img/printers-my-printers-images-qidiq1pro-960.webp" data-caption="The Qidi Q1 Pro"><img src="../assets/img/printers-my-printers-images-qidiq1pro-960.webp" width="720" height="960" alt="The Qidi Q1 Pro" loading="lazy" decoding="async"></a><figcaption>The Qidi Q1 Pro</figcaption></figure></div></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l3"><a href="#1-buy-one-of-these-or-an-equivalent-local-to-your-country">Buy one of these or an equivalent local…</a></li><li class="toc-l2"><a href="#install-wsl-on-windows-windows-sub-system-for-linux">Install WSL on windows (Windows sub system for…</a></li><li class="toc-l2"><a href="#list-linux-distros">List linux distros</a></li><li class="toc-l2"><a href="#choose-what-to-install-eg-ubuntu">Choose what to install e.g. ubuntu</a></li><li class="toc-l2"><a href="#make-a-folder-to-extract-the-tarball-into">Make a folder to extract the tarball into</a></li><li class="toc-l2"><a href="#extract-the-tarball-into-said-root-folder">Extract the tarball into said root folder</a></li><li class="toc-l2"><a href="#modify-to-your-wifi-credentials">Modify to YOUR wifi credentials</a></li><li class="toc-l2"><a href="#on-your-wsl-console-in-windows-enter">On your wsl console in Windows, enter</a></li><li class="toc-l2"><a href="#if-all-good-then-do-it-for-real">If all good, then do it for REAL</a></li><li class="toc-l2"><a href="#go-to-your-ssh-terminal-and-enter">Go to your ssh terminal and enter</a></li></ol></nav><div class="aside-box"><h2 class="aside-title">Files</h2><ul class="files"><li><a class="file" href="https://github.com/oernster/3D-printing-info/blob/main/printers/qidiq1pro/qidq1pro-os.tar.gz"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="file-body"><span class="file-label">Q1 Pro operating system tarball</span><span class="file-meta">qidq1pro-os.tar.gz · 1.6 GB on GitHub</span></span></a></li><li><a class="file" href="../configs/view.html?f=printers/qidiq1pro/updated-configs/gcode_macro.cfg"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span class="file-body"><span class="file-label">Updated gcode_macro.cfg</span><span class="file-meta">gcode_macro.cfg · 789 lines</span></span></a></li><li><a class="file" href="../configs/view.html?f=printers/qidiq1pro/updated-configs/timelapse.cfg"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span class="file-body"><span class="file-label">Updated timelapse.cfg</span><span class="file-meta">timelapse.cfg · 424 lines</span></span></a></li></ul></div></div></aside></div><nav class="pager" aria-label="More in this section"><a class="pager-link" href="../printers/voron-trident-350.html"><span class="pager-dir"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>Previous</span><span class="pager-title">Voron Trident 350 build</span></a><a class="pager-link pager-next" href="../printers/qidi-q1-pro-mainsail.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Qidi Q1 Pro: add Mainsail</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>

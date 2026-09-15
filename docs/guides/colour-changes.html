@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colour changes without a multi-material unit | 3D-printing-info</title>
+<meta name="description" content="Multi-colour prints from a single extruder using slicer filament changes, with a Captain America key fob STL to practise on.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/guides/colour-changes.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="Colour changes without a multi-material unit">
+<meta property="og:description" content="Multi-colour prints from a single extruder using slicer filament changes, with a Captain America key fob STL to practise on.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/assets/img/guides-colour-swap-keyfobcaptainamericatopdown-960.webp">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/guides/colour-changes.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Colour changes without a multi-material unit","description":"Multi-colour prints from a single extruder using slicer filament changes, with a Captain America key fob STL to practise on.","url":"https://ernster.dev/3D-printing-info/guides/colour-changes.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://ernster.dev/3D-printing-info/guides/"},{"@type":"ListItem","position":3,"name":"Colour changes without a multi-material unit","item":"https://ernster.dev/3D-printing-info/guides/colour-changes.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/" aria-current="page">Guides</a><a href="../faqs/">FAQs</a><a href="../printers/">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../guides/">Guides</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Colour changes without a multi-material unit</span></nav><h1>Colour changes without a multi-material unit</h1><p class="page-lead">Multi-colour prints from a single extruder using slicer filament changes, with a Captain America key fob STL to practise on.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Printing technique</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/guides/colour-swap/README-filament-change.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><p class="lead">Colour changes via performing a filament change operation in your slicer</p>
+<div class="callout">
+<p>NOTE: This does NOT require an multi material device such as a Palette, MMU2S or ERCF.</p>
+</div>
+<h2 id="acquire-a-suitable-print">Acquire a suitable print</h2>
+<p>A suitable print typically has a layer that you want in one colour and then at a certain height, the print changes so you want to perform a filament change e.g. to a new colour.</p>
+<p>I have provided a Captain America shield STL in this github folder as a not so trivial example that has a number of colour changes.</p>
+<p>It will require red, blue and white PLA.</p>
+<p>I have provided images of the final Captain America key fob print as jpg files so you can see the correct colours to use.</p>
+<p>As another example, I have also added a Tazmanian Devil (the cartoon character) key fob print to the repository as a jpg file.</p>
+<p>I have also provided an example prusaslicer screenshot of the final multiple sliced STL based on the instructions below; the final preview in cura will look very similar if you have followed my instructions correctly.</p>
+<h2 id="slicing">SLICING</h2>
+<h3 id="prusa-or-super-slicer">Prusa or super slicer</h3>
+<ol>
+<li>
+<p>Import the STL file into your slicer and centre it on your print bed.</p>
+</li>
+<li>
+<p>Slice the print.</p>
+</li>
+<li>
+<p>Now, in prusa slicer it might offer you the opportunity to automatically perform the colour changes for you if it guesses it's a logo.</p>
+</li>
+</ol>
+<p>We are not going to do that for this example but knock yourself out if you want to try that; we are considering the more general case of filament colour changes, e.g. for a key fob in this particular case.</p>
+<ol start="4">
+<li>
+<p>Move the vertical slider up so it rises to the first two rings of the Captain America shield and only just dismisses the base layer.</p>
+</li>
+<li>
+<p>Click the plus sign on the side of the vertical slider.</p>
+</li>
+<li>
+<p>Rinse and repeat this operation for the next circle and then finally for the top star.</p>
+</li>
+<li>
+<p>Reslice the print.</p>
+</li>
+<li>
+<p>Export the gcode to an SD card for your printer OR upload it to a raspberry pi or similar and you can print.</p>
+</li>
+</ol>
+<h3 id="cura">Cura</h3>
+<ol>
+<li>Perform the same operations as above for Prusa slicer or super slicer; however, instead of just clicking a plus button, you need to insert the command: M600.  Again rinse and repeat for all height filament colour changes.  There may be a plugin for cura that simplifies this process but I no longer use cura regularly so I am not an expert on the matter.</li>
+</ol>
+<h2 id="printing">PRINTING</h2>
+<ol>
+<li>
+<p>Kick off the print</p>
+</li>
+<li>
+<p>When the filament change operation occurs (I'm assuming marlin here, as I've never done it on klipper though I doubt it's very different, your printer may beep and ask you to press a button and remove/retract the current PLA filament.  Do that.</p>
+</li>
+<li>
+<p>Insert new filament.  It will extrude and you may need to confirm the colour change is good on your printer menu.  If you need to extrude more filament to ensure that the filament is the correct colour then do so.  Nip off the filament ideally using some needle nosed pliers; hopefully your print head will have moved to the side of the bed and up a little to allow this operation.  When you're happy, confirm this with a button press on your printer and I strongly suspect a little more filament will extrude (it does on my prusa) just before you restart printing.  When this happens you need to be QUICK to nip that off with some needle nosed pliers or a suitable tool before it starts printing the next layer or it might smudge the print and make it look bad so be careful and quick about it.</p>
+</li>
+<li>
+<p>Wait for the next layer to print, rinse and repeat this process until the print is done.  Wait for bed to cool and then remove the print from the bed and you'll be golden.</p>
+</li>
+<li>
+<p>Happy filament colour change printing!!!</p>
+</li>
+</ol>
+<h2 id="final-notes">Final Notes</h2>
+<ol>
+<li>
+<p>When first checking a key chain or similar STL file for suitability to print, it's worth sometimes increasing the z height to gain a larger amount of extrusion on the top layer of the print.  You can subsequently perform a cut operation to remove some of the base layer (be careful not to cut off critical print base parts).  This can improve the quality of the print.</p>
+</li>
+<li>
+<p>Another point to make is sometimes online STLs for key fobs have too small holes to fit on a standard keyring because the designer was an idiot and didn't consider what he was actually designing.  In this scenario you have two choices; a) increase the x and y scale by the same amount but this means the print will be bigger or b) fiddle with it in a CAD program to you needs.</p>
+</li>
+</ol><div class="gallery"><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/guides/colour-swap/KeyFobCaptainAmericaTopDown.jpg" data-thumb="../assets/img/guides-colour-swap-keyfobcaptainamericatopdown-960.webp" data-caption="The finished Captain America key fob from above"><img src="../assets/img/guides-colour-swap-keyfobcaptainamericatopdown-960.webp" width="720" height="960" alt="The finished Captain America key fob from above" loading="lazy" decoding="async"></a><figcaption>The finished Captain America key fob from above</figcaption></figure><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/guides/colour-swap/KeyFobCaptainAmericaSideShot.jpg" data-thumb="../assets/img/guides-colour-swap-keyfobcaptainamericasideshot-960.webp" data-caption="The Captain America key fob from the side"><img src="../assets/img/guides-colour-swap-keyfobcaptainamericasideshot-960.webp" width="720" height="960" alt="The Captain America key fob from the side" loading="lazy" decoding="async"></a><figcaption>The Captain America key fob from the side</figcaption></figure><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/guides/colour-swap/PrusaSlicerScreenshot.jpg" data-thumb="../assets/img/guides-colour-swap-prusaslicerscreenshot-960.webp" data-caption="The key fob sliced in PrusaSlicer with its colour changes"><img src="../assets/img/guides-colour-swap-prusaslicerscreenshot-960.webp" width="960" height="748" alt="The key fob sliced in PrusaSlicer with its colour changes" loading="lazy" decoding="async"></a><figcaption>The key fob sliced in PrusaSlicer with its colour changes</figcaption></figure><figure class="shot"><a class="zoom" href="https://raw.githubusercontent.com/oernster/3D-printing-info/main/guides/colour-swap/tazmanian-devil-example.jpg" data-thumb="../assets/img/guides-colour-swap-tazmanian-devil-example-960.webp" data-caption="A Tasmanian Devil key fob printed the same way"><img src="../assets/img/guides-colour-swap-tazmanian-devil-example-960.webp" width="720" height="960" alt="A Tasmanian Devil key fob printed the same way" loading="lazy" decoding="async"></a><figcaption>A Tasmanian Devil key fob printed the same way</figcaption></figure></div></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l2"><a href="#acquire-a-suitable-print">Acquire a suitable print</a></li><li class="toc-l2"><a href="#slicing">SLICING</a></li><li class="toc-l3"><a href="#prusa-or-super-slicer">Prusa or super slicer</a></li><li class="toc-l3"><a href="#cura">Cura</a></li><li class="toc-l2"><a href="#printing">PRINTING</a></li><li class="toc-l2"><a href="#final-notes">Final Notes</a></li></ol></nav><div class="aside-box"><h2 class="aside-title">Files</h2><ul class="files"><li><a class="file" href="https://github.com/oernster/3D-printing-info/blob/main/guides/colour-swap/keyfob-Captain-America.stl"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="file-body"><span class="file-label">Captain America key fob STL</span><span class="file-meta">keyfob-Captain-America.stl · 121.6 KB on GitHub</span><span class="file-note">Needs red, blue and white PLA.</span></span></a></li></ul></div></div></aside></div><nav class="pager" aria-label="More in this section"><a class="pager-link" href="../guides/drying-filament.html"><span class="pager-dir"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>Previous</span><span class="pager-title">Drying and storing filament</span></a><a class="pager-link pager-next" href="../guides/painting-prints.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Painting prints</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>

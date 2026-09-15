@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AMS feeding failures | 3D-printing-info</title>
+<meta name="description" content="Six causes of filament shuttling back and forth or asking for a retry, from a frayed bowden clamp to a blunt cutter.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/faqs/ams-feeding-failures.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="AMS feeding failures">
+<meta property="og:description" content="Six causes of filament shuttling back and forth or asking for a retry, from a frayed bowden clamp to a blunt cutter.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/hero.png">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/faqs/ams-feeding-failures.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"AMS feeding failures","description":"Six causes of filament shuttling back and forth or asking for a retry, from a frayed bowden clamp to a blunt cutter.","url":"https://ernster.dev/3D-printing-info/faqs/ams-feeding-failures.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"FAQs","item":"https://ernster.dev/3D-printing-info/faqs/"},{"@type":"ListItem","position":3,"name":"AMS feeding failures","item":"https://ernster.dev/3D-printing-info/faqs/ams-feeding-failures.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/">Guides</a><a href="../faqs/" aria-current="page">FAQs</a><a href="../printers/">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../faqs/">FAQs</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">AMS feeding failures</span></nav><h1>AMS feeding failures</h1><p class="page-lead">Six causes of filament shuttling back and forth or asking for a retry, from a frayed bowden clamp to a blunt cutter.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Bambu Lab</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/FAQs/bambu/AMSFeedingFailures.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><p class="lead">Solutions for the AMS having issues feeding filament (feeding back and forth multiple times and asking for a retry after multiple failures)...</p>
+<h3 class="step" id="1-internal-bowden-issues"><span class="step-n">1</span> Internal bowden issues</h3>
+<p>If your internal bowden clamp (the push down to release ring black clip device that holds your bowden in place to the extruder) is frayed then this can cause the AMS to feed filament back and forth and promote constant retry events on the touch screen UI.</p>
+<p>This bowden also pokes just outside the rear of the printer.</p>
+<p>In this scenario, please replace that bowden tube with a suitable length of spare bowden (Bambu supply plenty of spare tubing but you can pick up more if required on Amazon cheaply).</p>
+<h3 class="step" id="2-external-bowden-issues"><span class="step-n">2</span> External bowden issues</h3>
+<p>If your bowden on the rear of the AMS keeps popping out of it's slot and feeding filament like mad, requiring you to stop a print and unload and basically panic, you probably need a replacement part.  </p>
+<p>If your Bambu X1C is within the 1st year of guarantee you should be able to obtain this part free from Bambu.  This is the part you need: <a href="https://uk.store.bambulab.com/collections/accessories-for-x1-series/products/ams-internal-hub-unit">https://uk.store.bambulab.com/collections/accessories-for-x1-series/products/ams-internal-hub-unit</a></p>
+<p>There is a guide to installation here: <a href="https://wiki.bambulab.com/en/x1/maintenance/replace-filament-hub">https://wiki.bambulab.com/en/x1/maintenance/replace-filament-hub</a></p>
+<h3 class="step" id="3-bowden-feeding-to-the-ams-hub-kinked"><span class="step-n">3</span> Bowden feeding to the AMS hub kinked</h3>
+<p>If the bowden on the rear of the AMS that feeds into the AMS hub on the rear of the printer is kinked, perhaps due to poor printer orientation c.f. the AMS position, then that will prevent the filament from feeding in to the AMS hub.</p>
+<p>If this happens, you <em>may</em> be able to get away with simply reorienting the printer so the bowden is no longer kinked.  Worst case scenario, replace the bowden that enters the rear of the AMS and feeds into the AMS hub on the rear of the printer.</p>
+<h3 class="step" id="4-the-extruder-andor-hotend-may-be-clogged"><span class="step-n">4</span> The extruder and/or hotend may be clogged.</h3>
+<p>In this case, I recommend cleaning one or both of those while they are hot to ensure that there is no filament blocking the feeding path for printing.</p>
+<p>Personally, I can recommend a noclogger tool (the short variant) from noclogger.com that can be used on this printer and others to carefully clean out the two pieces of hardware down to the nozzle while the hotend is hot, after removing the bowden tube and front plastic housing on the toolhead.</p>
+<p>Once this has been done, reinsert the bowden securely and replace the front toolhead housing (be careful not to remove the connector to the toolhead front plastic piece housing while doing all of this but it is easy to reinsert it if this happens), then resume your print.  </p>
+<h3 class="step" id="5-your-filament-is-going-back-and-forth-repeatedly-and-it-wont-go-into-the-extruder"><span class="step-n">5</span> Your filament is going back and forth repeatedly and it won't go into the extruder.</h3>
+<p>It's possible your cutting blade is blunt; consider replacing it.</p>
+<h3 class="step" id="6-last-resort"><span class="step-n">6</span> Last resort</h3>
+<p>Refer to <a href="../faqs/ams-cleaning.html">BambuAMSCleaning.md</a>.  This is quite a lot more work but is likely to resolve your issues.</p>
+<h2 id="caveat">CAVEAT</h2>
+<p>These are all the issues I've come across to date; feel free to refer to the official Bambu wiki.  There may well be others that cause the AMS to flash red or simply feed the filament back and forth multiple times then fail to continue printing.</p>
+<p>I plan on maintaining this little document (and others) for the use of the community.</p></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l3"><a href="#1-internal-bowden-issues">Internal bowden issues</a></li><li class="toc-l3"><a href="#2-external-bowden-issues">External bowden issues</a></li><li class="toc-l3"><a href="#3-bowden-feeding-to-the-ams-hub-kinked">Bowden feeding to the AMS hub kinked</a></li><li class="toc-l3"><a href="#4-the-extruder-andor-hotend-may-be-clogged">The extruder and/or hotend may be clogged.</a></li><li class="toc-l3"><a href="#5-your-filament-is-going-back-and-forth-repeatedly-and-it-wont-go-into-the-extruder">Your filament is going back and forth repeatedly…</a></li><li class="toc-l3"><a href="#6-last-resort">Last resort</a></li><li class="toc-l2"><a href="#caveat">CAVEAT</a></li></ol></nav></div></aside></div><nav class="pager" aria-label="More in this section"><span class="pager-gap"></span><a class="pager-link pager-next" href="../faqs/ams-cleaning.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Cleaning an AMS that flashes red</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>

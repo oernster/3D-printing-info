@@ -1,535 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-root="" data-theme-key="3dpi-theme">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>3D-printing-info: an 8-year curated Voron and Klipper knowledge base | Guides, configs, schematics</title>
-    <meta name="description" content="Eight years of curated 3D-printing knowledge in one place: Voron and Bambu FAQs, Klipper guides, printer configs, board pinout schematics, tool and filament recommendations, curated bookmarks and STL links. Free and open source.">
-    <meta name="keywords" content="Voron, Klipper, 3D printing guides, Voron Trident config, printer configs, BTT Octopus pinout, EBB36 pinout, Shake n Tune, PID tuning, filament drying, bed adhesion, klipper macros, 3D printing knowledge base, Bambu AMS FAQ, Voron startup macro">
-    <meta name="author" content="Oliver Ernster">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow, max-image-preview:large">
-    <link rel="canonical" href="https://ernster.dev/3D-printing-info/">
-
-    <!-- Theme / identity -->
-    <meta name="theme-color" content="#0b0f17">
-    <meta name="color-scheme" content="dark">
-    <meta name="application-name" content="3D-printing-info">
-    <meta name="apple-mobile-web-app-title" content="3D-printing-info">
-    <meta name="format-detection" content="telephone=no">
-
-    <!-- Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon-16.png">
-    <link rel="apple-touch-icon" href="icon-180.png">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="3D-printing-info: an 8-year curated Voron and Klipper knowledge base">
-    <meta property="og:description" content="Eight years of curated 3D-printing knowledge: Voron and Bambu FAQs, Klipper guides, printer configs, board pinout schematics, tool and filament recommendations, curated bookmarks and STL links.">
-    <meta property="og:image" content="https://ernster.dev/3D-printing-info/hero.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1767">
-    <meta property="og:image:height" content="989">
-    <meta property="og:image:alt" content="3D Printing Info: a sculpted head contemplating a workbench of 3D printers, filament spools, tools and printed parts on a blue schematic backdrop">
-    <meta property="og:url" content="https://ernster.dev/3D-printing-info/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="3D-printing-info">
-    <meta property="og:locale" content="en_GB">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="3D-printing-info: an 8-year curated Voron and Klipper knowledge base">
-    <meta name="twitter:description" content="Eight years of curated 3D-printing knowledge: FAQs, Klipper guides, printer configs, pinout schematics, recommendations, bookmarks and STL links.">
-    <meta name="twitter:image" content="https://ernster.dev/3D-printing-info/hero.png">
-    <meta name="twitter:image:alt" content="3D Printing Info hero illustration">
-
-    <style>
-        :root {
-            --bg: #0b0f17;
-            --panel: #141a26;
-            --panel-2: #10161f;
-            --text: #e9eefb;
-            --muted: #9aa6bd;
-            --faint: #667088;
-            --border: #232c3d;
-            --border-strong: #33405a;
-            --blue: #5aa2ff;
-            --blue-hover: #78b4ff;
-            --cyan: #38bdf8;
-        }
-
-        * { box-sizing: border-box; }
-
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .container {
-            max-width: 1080px;
-            margin: 0 auto;
-            padding: 56px 20px 64px;
-            text-align: center;
-        }
-
-        .hero-banner {
-            position: relative;
-            max-width: 980px;
-            margin: 0 auto 30px;
-            border-radius: 20px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-            box-shadow: 0 26px 64px rgba(0, 0, 0, 0.55);
-        }
-
-        .hero-banner img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .hero-banner::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(180deg, rgba(11,15,23,0) 55%, rgba(11,15,23,0.55) 100%);
-            pointer-events: none;
-        }
-
-        .badge {
-            display: flex;
-            width: fit-content;
-            align-items: center;
-            gap: 8px;
-            font-size: 12.5px;
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            color: var(--cyan);
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            padding: 6px 14px;
-            margin: 0 auto 20px;
-        }
-
-        .badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cyan); }
-
-        h1 {
-            font-size: 44px;
-            margin: 0 0 14px;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
-
-        .subtitle {
-            font-size: 18px;
-            color: var(--muted);
-            margin: 0 auto 28px;
-            max-width: 780px;
-        }
-
-        .actions a {
-            display: inline-block;
-            margin: 8px;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 15px;
-            transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
-        }
-
-        .primary { background: var(--blue); color: #06101f; }
-        .primary:hover { background: var(--blue-hover); transform: translateY(-1px); }
-
-        .secondary { border: 1px solid var(--border); color: var(--text); }
-        .secondary:hover { border-color: var(--cyan); transform: translateY(-1px); }
-
-        .minor-detail { margin-top: 26px; font-size: 14px; color: var(--faint); }
-
-        .pitch {
-            max-width: 860px;
-            margin: 44px auto 0;
-            padding: 30px;
-            background: var(--panel-2);
-            border: 1px solid var(--border);
-            border-left: 4px solid var(--cyan);
-            border-radius: 14px;
-            text-align: left;
-        }
-
-        .pitch p { margin: 0; font-size: 22px; line-height: 1.5; color: var(--text); }
-        .pitch strong { color: var(--cyan); }
-        .pitch em { color: var(--muted); font-style: italic; }
-
-        .section { margin-top: 46px; }
-
-        .section h2 {
-            font-size: 24px;
-            margin: 0 0 10px;
-            font-weight: 700;
-            letter-spacing: -0.01em;
-        }
-
-        .section .lead { color: var(--muted); max-width: 740px; margin: 0 auto 8px; }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 16px;
-            margin-top: 28px;
-            text-align: left;
-        }
-
-        a.card {
-            display: block;
-            background: var(--panel);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            text-decoration: none;
-            color: inherit;
-            transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
-        }
-
-        a.card:hover { border-color: var(--cyan); transform: translateY(-2px); background: var(--panel-2); }
-
-        .card h3 {
-            margin: 0 0 6px;
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--cyan);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .card .arrow { color: var(--faint); margin-left: auto; font-weight: 700; transition: color 0.15s ease, transform 0.15s ease; }
-        a.card:hover .arrow { color: var(--cyan); transform: translateX(2px); }
-
-        .card p { margin: 0; font-size: 14px; color: var(--muted); }
-
-        .prose { max-width: 740px; margin: 0 auto; text-align: left; }
-        .prose p { color: var(--muted); margin: 0 0 14px; }
-        .prose strong { color: var(--text); }
-        .prose a { color: var(--cyan); text-decoration: none; }
-        .prose a:hover { text-decoration: underline; }
-
-        .callout {
-            max-width: 820px;
-            margin: 28px auto 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 16px;
-            text-align: left;
-        }
-
-        .callout .card p { margin-top: 8px; }
-        .callout .card h3 { color: var(--text); }
-
-        .proj-icon {
-            width: 30px;
-            height: 30px;
-            border-radius: 8px;
-            flex: 0 0 auto;
-        }
-
-        code {
-            font-family: Consolas, "Cascadia Mono", monospace;
-            background: #060a12;
-            color: #cfe0ff;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 1px 6px;
-            font-size: 13px;
-        }
-
-        .faq { max-width: 760px; margin: 28px auto 0; text-align: left; }
-
-        .faq-item {
-            background: var(--panel);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 18px 20px;
-            margin-bottom: 12px;
-        }
-
-        .faq-item h3 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
-        .faq-item p { margin: 0; font-size: 14px; color: var(--muted); }
-        .faq-item a { color: var(--cyan); text-decoration: none; }
-        .faq-item a:hover { text-decoration: underline; }
-
-        footer {
-            margin-top: 52px;
-            padding: 28px 20px 8px;
-            border-top: 1px solid var(--border);
-            color: var(--faint);
-            font-size: 13px;
-        }
-
-        footer a { color: var(--muted); text-decoration: none; }
-        footer a:hover { color: var(--cyan); }
-
-        .sr-only {
-            position: absolute; width: 1px; height: 1px;
-            padding: 0; margin: -1px; overflow: hidden;
-            clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D-printing-info: Voron, Klipper and Bambu guides, configs and pinouts</title>
+<meta name="description" content="An open 3D printing knowledge base: Voron and Klipper guides, Bambu and Voron FAQs, working printer configs, board pinouts, tool and filament picks, curated bookmarks and STL sources.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="3D-printing-info">
+<meta property="og:description" content="An open 3D printing knowledge base: Voron and Klipper guides, Bambu and Voron FAQs, working printer configs, board pinouts, tool and filament picks, curated bookmarks and STL sources.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/hero.png">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon-16.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="assets/site.css">
+<script defer src="assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ernster.dev/3D-printing-info/#website","url":"https://ernster.dev/3D-printing-info/","name":"3D-printing-info","description":"An open 3D printing knowledge base: Voron and Klipper guides, Bambu and Voron FAQs, working printer configs, board pinouts, tool and filament picks, curated bookmarks and STL sources.","inLanguage":"en-GB","publisher":{"@id":"https://ernster.dev/3D-printing-info/#author"}},{"@type":"Person","@id":"https://ernster.dev/3D-printing-info/#author","name":"Oliver Ernster","url":"https://www.crankthecode.com","sameAs":["https://github.com/oernster","https://www.crankthecode.com"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is this for?","acceptedAnswer":{"@type":"Answer","text":"Anyone running or building a Voron, a Klipper printer or a Bambu machine, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer."}},{"@type":"Question","name":"Are the printer configs safe to copy?","acceptedAnswer":{"@type":"Answer","text":"They are real configs shared as reference. Never flash another machine's config wholesale: treat them as a guide, match them to your own hardware and pins, then test carefully."}},{"@type":"Question","name":"How do I use the bookmarks?","acceptedAnswer":{"@type":"Answer","text":"Browse and filter them in the bookmark explorer. To take them with you, download the export and import it through your browser's bookmark manager."}},{"@type":"Question","name":"Is it free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The repository and this site are free and open source under the GNU GPL-3.0 licence. A coffee donation is welcome but entirely optional."}},{"@type":"Question","name":"Can I suggest additions?","acceptedAnswer":{"@type":"Answer","text":"It is a personal knowledge base, so it reflects its author's own printers and experience. Open an issue on the repository if something is out of date or you know a resource worth adding."}}]}]}</script>
 </head>
-
 <body>
-
-<div class="container">
-
-    <header class="hero">
-        <div class="hero-banner">
-            <img src="hero.png" width="1767" height="989" fetchpriority="high" decoding="async"
-                 alt="3D Printing Info: a sculpted head contemplating a workbench of 3D printers, filament spools, tools and printed parts on a blue schematic backdrop">
-        </div>
-
-        <div class="badge"><span class="badge-dot"></span> Voron · Klipper · Bambu · 8 years curated</div>
-
-        <h1>3D-printing-info</h1>
-
-        <p class="subtitle">
-            An open knowledge base built and maintained over more than
-            <strong style="color:var(--text)">eight years</strong> of running Voron and other printers:
-            FAQs, Klipper guides, working printer configs, board pinout schematics, hard-won tool and
-            filament recommendations, curated bookmarks and STL links, all in one place.
-        </p>
-
-        <div class="actions">
-            <a class="primary" href="https://github.com/oernster/3D-printing-info">Browse the repository</a>
-            <a class="secondary" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4">Buy me a coffee</a>
-        </div>
-
-        <p class="minor-detail">
-            Free and open source under GPL-3.0. Everything lives in the GitHub repo; the cards below link straight to each section.
-        </p>
-    </header>
-
-    <main>
-
-        <section class="pitch" aria-label="What this repository is">
-            <p>
-                Most of this was learned the hard way, one <em>layer shift, clog and failed first layer</em> at a time.
-                Rather than let it scatter across forums and browser tabs, it is <strong>gathered here</strong>
-                so the next person, often future me, does not have to scour the internet again.
-            </p>
-        </section>
-
-        <!-- What's inside -->
-        <section class="section" id="contents" aria-labelledby="contents-h">
-            <h2 id="contents-h">What is inside</h2>
-            <p class="lead">Eleven sections, each a folder in the repo. Click any card to open it on GitHub.</p>
-
-            <div class="grid">
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/guides">
-                    <h3>Guides <span class="arrow">&rarr;</span></h3>
-                    <p>The largest section: PID tuning, Shake n Tune, filament drying, bed adhesion, levelling, painting, resolving Stealthburner clogs, temp towers, slicer choices, colour swaps and Klipper setup.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/printers">
-                    <h3>Printer configs <span class="arrow">&rarr;</span></h3>
-                    <p>Real, working configs for my Vorons past and present: Trident 350, Voron 0.2, plus a Qidi Q1 Pro, Nevermore, sensorless and LED configs, with a summary of every upgrade on the Trident.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/FAQs">
-                    <h3>FAQs <span class="arrow">&rarr;</span></h3>
-                    <p>Bambu and Voron frequently asked questions: AMS feeding failures and cleaning, stuck cutters, layer-shift causes, sensorless steppers, motor wiring and levelling with or without a probe.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/diagrams-schematics">
-                    <h3>Diagrams and schematics <span class="arrow">&rarr;</span></h3>
-                    <p>Common Voron board pinouts in one place: BTT Octopus and Octopus Pro, SKR Mini E3, EBB36 and SB CAN toolheads, Raspberry Pi 4 GPIO and a Trident assembly model.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/recommendations">
-                    <h3>Recommendations <span class="arrow">&rarr;</span></h3>
-                    <p>A curated list of 3D-printing tools, electrical tools and tool accessories, plus my personal filament experiences across brands and materials.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/browser-bookmarks">
-                    <h3>Browser bookmarks <span class="arrow">&rarr;</span></h3>
-                    <p>Over six years of curated Voron and 3D-printing bookmarks, exported and importable straight into your favourite browser.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/stls">
-                    <h3>STL collections <span class="arrow">&rarr;</span></h3>
-                    <p>Personal STL collections curated from around the web, alongside links to many additional STL resources worth knowing.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/voron-startup">
-                    <h3>Voron startup macros <span class="arrow">&rarr;</span></h3>
-                    <p>PRINT_START style startup configs for the Voron 2.4 and Voron Trident, ready to adapt into your own printer setup.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/handy-linux-cmds">
-                    <h3>Handy Linux commands <span class="arrow">&rarr;</span></h3>
-                    <p>The Debian and Raspbian commands every Klipper host needs but nobody remembers, kept in one cheatsheet.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/moonraker">
-                    <h3>Moonraker <span class="arrow">&rarr;</span></h3>
-                    <p>A handy reference for calling a Klipper g-code macro through the Moonraker API.</p>
-                </a>
-                <a class="card" href="https://github.com/oernster/3D-printing-info/tree/main/buy-stickers">
-                    <h3>Printable stickers <span class="arrow">&rarr;</span></h3>
-                    <p>A few fun "Oliver Certified" and "Tuned By" sticker artworks to print or stick on your machine.</p>
-                </a>
-            </div>
-        </section>
-
-        <!-- Related tools -->
-        <section class="section" id="related" aria-labelledby="related-h">
-            <h2 id="related-h">Related projects</h2>
-            <p class="lead">Two companion pieces that grew out of the same hobby.</p>
-
-            <div class="callout">
-                <a class="card" href="https://ernster.dev/3D-Printer-Launcher/">
-                    <h3><img class="proj-icon" src="launcher-icon.png" alt="" width="30" height="30" decoding="async"> 3D-Printer-Launcher <span class="arrow">&rarr;</span></h3>
-                    <p>A lovely UI for temperature displays: one window that launches Klipper temperature dashboards you can drop into OBS Studio as overlays.</p>
-                </a>
-                <a class="card" href="https://ernster.dev/snark3Dprinter-discord-bot/">
-                    <h3><img class="proj-icon" src="bot-icon.png" alt="" width="30" height="30" decoding="async"> PrinterShameBot <span class="arrow">&rarr;</span></h3>
-                    <p>A Discord bot to politely torment your friends' prints. Invite it, then send <code>!printquote</code> in any channel it can read.</p>
-                </a>
-            </div>
-        </section>
-
-        <!-- Why it exists -->
-        <section class="section" id="why" aria-labelledby="why-h">
-            <h2 id="why-h">Why this exists</h2>
-            <div class="prose">
-                <p>
-                    Voron and Klipper reward tinkering but the knowledge is scattered: a pinout on one forum, a
-                    drying temperature on another, the macro you need buried in a Discord thread from two years ago.
-                </p>
-                <p>
-                    So this repo is my working notebook, kept public. The configs are the ones running on my own
-                    machines, the recommendations are things I actually bought and used; the guides are the
-                    write-ups I wish I had found the first time. If it saves you an evening of searching, it has done its job.
-                </p>
-                <p>Full reasoning at <a href="https://www.crankthecode.com/posts/3D-printing-info">crankthecode.com</a>.</p>
-            </div>
-        </section>
-
-        <!-- FAQ -->
-        <section class="section" id="faq" aria-labelledby="faq-h">
-            <h2 id="faq-h">Frequently asked questions</h2>
-            <div class="faq">
-                <div class="faq-item">
-                    <h3>Who is this for?</h3>
-                    <p>Anyone running or building a Voron, a Klipper-based printer or a Bambu machine, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Are the printer configs safe to copy?</h3>
-                    <p>They are real configs from my own printers, shared as reference. Never flash another machine's config wholesale; treat them as a guide, match them to your own hardware and pins and test carefully.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>How do I use the browser bookmarks?</h3>
-                    <p>They are exported bookmark files. Import them through your browser's bookmark manager to get the whole curated set of Voron and 3D-printing links at once.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Is it free?</h3>
-                    <p>Yes. The repository is free and open source under the GNU GPL-3.0 licence. If it helps and you would like to say thanks, there is a <a href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4">coffee donation link</a>, entirely optional.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Can I contribute or suggest additions?</h3>
-                    <p>It is a personal knowledge base, so it reflects my own printers and experience. Open an issue on the repo if something is out of date or you have a resource worth adding.</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <p class="sr-only">
-        3D-printing-info is a free, open-source knowledge base for Voron, Klipper and Bambu 3D printers, curated
-        over more than eight years. It contains guides on PID tuning, Shake n Tune, filament drying, bed adhesion,
-        levelling, painting, clog resolution, temp towers and slicer choices; real working printer configs for
-        Voron Trident 350 and Voron 0.2 plus Qidi, Nevermore and sensorless configs; Bambu and Voron FAQs; board
-        pinout schematics for BTT Octopus, SKR Mini E3 and EBB36 CAN toolheads; curated tool and filament
-        recommendations; importable browser bookmarks; STL collection links; handy Linux commands; Voron startup
-        macros; and a Moonraker macro reference. Released under the GPL-3.0 licence.
-    </p>
-
-    <footer>
-        Created and maintained by Oliver Ernster &nbsp;·&nbsp; 8+ years and counting &nbsp;·&nbsp;
-        <a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0</a> &nbsp;·&nbsp;
-        <a href="https://github.com/oernster/3D-printing-info">Source on GitHub</a> &nbsp;·&nbsp;
-        <a href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4">Buy me a coffee</a>
-    </footer>
-
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="./"><img src="icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="guides/">Guides</a><a href="faqs/">FAQs</a><a href="printers/">Printers</a><a href="configs/">Configs</a><a href="schematics/">Schematics</a><a href="kit/">Kit</a><a href="bookmarks/">Bookmarks</a><a href="stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
 </div>
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "WebSite",
-            "@id": "https://ernster.dev/3D-printing-info/#website",
-            "url": "https://ernster.dev/3D-printing-info/",
-            "name": "3D-printing-info",
-            "description": "An 8-year curated knowledge base for Voron, Klipper and Bambu 3D printers: guides, printer configs, pinout schematics, recommendations, bookmarks and STL links.",
-            "inLanguage": "en-GB",
-            "publisher": { "@id": "https://ernster.dev/3D-printing-info/#oliver" }
-        },
-        {
-            "@type": "Person",
-            "@id": "https://ernster.dev/3D-printing-info/#oliver",
-            "name": "Oliver Ernster",
-            "url": "https://www.crankthecode.com",
-            "sameAs": [
-                "https://github.com/oernster",
-                "https://www.crankthecode.com"
-            ]
-        },
-        {
-            "@type": "CollectionPage",
-            "@id": "https://ernster.dev/3D-printing-info/#collection",
-            "name": "3D-printing-info knowledge base",
-            "description": "Guides, printer configs, FAQs, board pinout schematics, tool and filament recommendations, curated bookmarks and STL links for Voron, Klipper and Bambu 3D printers.",
-            "url": "https://ernster.dev/3D-printing-info/",
-            "inLanguage": "en-GB",
-            "image": "https://ernster.dev/3D-printing-info/hero.png",
-            "license": "https://www.gnu.org/licenses/gpl-3.0.html",
-            "isAccessibleForFree": true,
-            "keywords": "Voron, Klipper, Bambu, 3D printing guides, printer configs, BTT Octopus pinout, EBB36, Shake n Tune, PID tuning, filament drying, bed adhesion, Klipper macros",
-            "author": { "@id": "https://ernster.dev/3D-printing-info/#oliver" },
-            "creator": { "@id": "https://ernster.dev/3D-printing-info/#oliver" }
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://ernster.dev/3D-printing-info/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Who is this for?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "Anyone running or building a Voron, a Klipper-based printer or a Bambu machine, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer." }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Are the printer configs safe to copy?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "They are real configs from my own printers, shared as reference. Never flash another machine's config wholesale; treat them as a guide, match them to your own hardware and pins and test carefully." }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How do I use the browser bookmarks?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "They are exported bookmark files. Import them through your browser's bookmark manager to get the whole curated set of Voron and 3D-printing links at once." }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Is it free?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "Yes. The repository is free and open source under the GNU GPL-3.0 licence, with an optional coffee donation link if it helps." }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can I contribute or suggest additions?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "It is a personal knowledge base reflecting the author's own printers and experience. Open an issue on the repo if something is out of date or you have a resource worth adding." }
-                }
-            ]
-        }
-    ]
-}
-</script>
-
+</div>
+</header>
+<main id="main" class="wrap main">
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Voron · Klipper · Bambu</p>
+<h1 class="hero-title">The 3D printing notebook, <span class="hero-accent">kept public</span></h1>
+<p class="hero-lead">More than eight years of guides, fixes, working configs, pinouts and hard-won recommendations from running Voron, Klipper and Bambu machines, gathered from one repository into one searchable site.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="guides/">Browse the guides<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+<button type="button" class="btn btn-ghost" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search everything<kbd>Ctrl K</kbd></button></div>
+<ul class="hero-points"><li>Configs from machines that really ran them</li><li>Kit that was bought and used</li><li>Free and open source under GPL-3.0</li></ul>
+</div>
+<div class="hero-art"><img src="assets/img/docs-hero-1400.webp" width="1400" height="784" alt="A sculpted head contemplating a workbench of 3D printers, filament spools and printed parts on a blue schematic backdrop" fetchpriority="high" decoding="async"></div>
+</section><section class="stats" aria-label="What is inside"><a class="stat" href="guides/"><span class="stat-n">18</span><span class="stat-l">guides</span></a><a class="stat" href="faqs/"><span class="stat-n">8</span><span class="stat-l">answers</span></a><a class="stat" href="printers/"><span class="stat-n">7</span><span class="stat-l">printer pages</span></a><a class="stat" href="configs/"><span class="stat-n">37</span><span class="stat-l">config files</span></a><a class="stat" href="schematics/"><span class="stat-n">14</span><span class="stat-l">diagrams</span></a><a class="stat" href="kit/"><span class="stat-n">167</span><span class="stat-l">picks</span></a><a class="stat" href="bookmarks/"><span class="stat-n">284</span><span class="stat-l">bookmarks</span></a><a class="stat" href="stls/"><span class="stat-n">27</span><span class="stat-l">sources</span></a></section><section class="block"><div class="block-head"><h2>Where to start</h2><p>Pick the situation you are in and follow the trail.</p></div><div class="paths"><article class="path"><h3>Building or tuning a Voron</h3><p>Belts, input shaping, levelling and the macros that start every print.</p><ul><li><a href="guides/shake-n-tune.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Shake &#x27;n&#x27; Tune: belts, input shaping and vibrations</span></a></li><li><a href="printers/voron-trident-350.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg><span>Voron Trident 350 build</span></a></li><li><a href="faqs/trident-levelling-probe.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>Levelling a Trident with a probe</span></a></li><li><a href="printers/voron-2-4-leviathan.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg><span>Voron 2.4 on a Leviathan, sensorless</span></a></li></ul></article><article class="path"><h3>A print just failed</h3><p>Clogs, layer shifts, poor adhesion and wet filament, roughly in the order worth checking.</p><ul><li><a href="guides/stealthburner-clogs.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Clearing a Stealthburner clog</span></a></li><li><a href="faqs/layer-shift-causes.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>Unusual layer shift causes</span></a></li><li><a href="guides/bed-adhesion.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Bed adhesion</span></a></li><li><a href="guides/drying-filament.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Drying and storing filament</span></a></li></ul></article><article class="path"><h3>Bambu AMS trouble</h3><p>Feeding failures, a slot flashing red and a stuck cutter.</p><ul><li><a href="faqs/ams-feeding-failures.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>AMS feeding failures</span></a></li><li><a href="faqs/ams-cleaning.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>Cleaning an AMS that flashes red</span></a></li><li><a href="faqs/cutter-stuck.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>Cutter stuck on the X1C</span></a></li></ul></article><article class="path"><h3>Getting Klipper running</h3><p>From a blank SD card to a printer that answers in Mainsail.</p><ul><li><a href="guides/klipper-setup.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Klipper setup from scratch</span></a></li><li><a href="guides/sovol-sv06-klipper.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Sovol SV06 on Klipper</span></a></li><li><a href="guides/tronxy-x5sa-klipper.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Tronxy X5SA on Klipper or Marlin</span></a></li><li><a href="guides/linux-commands.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Handy Linux commands</span></a></li></ul></article></div></section><section class="block"><div class="block-head"><h2>Everything in the notebook</h2><p>Every folder of the repository, presented as a section you can browse.</p></div><div class="tiles"><a class="tile" href="guides/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><span class="tile-body"><span class="tile-title">Guides</span><span class="tile-count">18 guides</span><span class="tile-blurb">Step-by-step write-ups for tuning, printing technique, troubleshooting and getting Klipper running, each one learned on real machines.</span></span></a><a class="tile" href="faqs/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span><span class="tile-body"><span class="tile-title">FAQs</span><span class="tile-count">8 answers</span><span class="tile-blurb">Short answers to the problems that come up again and again on Bambu Lab and Voron printers.</span></span></a><a class="tile" href="printers/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span><span class="tile-body"><span class="tile-title">Printers</span><span class="tile-count">7 printer pages</span><span class="tile-blurb">The machines behind the notes: build sheets, recovery procedures and the configs they ran.</span></span></a><a class="tile" href="configs/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span><span class="tile-body"><span class="tile-title">Config library</span><span class="tile-count">37 config files</span><span class="tile-blurb">Every Klipper, Moonraker and host config in the repository, readable in the browser with highlighting, copy and download.</span></span></a><a class="tile" href="schematics/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg></span><span class="tile-body"><span class="tile-title">Schematics</span><span class="tile-count">14 diagrams</span><span class="tile-blurb">Board pinouts and reference diagrams for common Voron electronics, gathered in one place so you can stop hunting for them.</span></span></a><a class="tile" href="kit/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span><span class="tile-body"><span class="tile-title">Recommendations</span><span class="tile-count">167 picks</span><span class="tile-blurb">Tools, electrical kit, workshop accessories and filament brands, sorted by what actually earned its place on the bench.</span></span></a><a class="tile" href="bookmarks/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span><span class="tile-body"><span class="tile-title">Bookmarks</span><span class="tile-count">284 bookmarks</span><span class="tile-blurb">A curated bookmark collection for Voron and 3D printing, browsable and searchable here or importable into your own browser.</span></span></a><a class="tile" href="stls/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span><span class="tile-body"><span class="tile-title">STL sources</span><span class="tile-count">27 sources</span><span class="tile-blurb">Where to find models worth printing, free and paid, plus collections for inspiration.</span></span></a><a class="tile" href="stickers/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="tile-body"><span class="tile-title">Stickers</span><span class="tile-blurb">Sticker artwork for a well tuned machine.</span></span></a><a class="tile" href="projects/"><span class="tile-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><span class="tile-body"><span class="tile-title">Related projects</span><span class="tile-blurb">Two companion projects from the same hobby: a dashboard launcher and a Discord bot.</span></span></a></div></section><section class="block features">
+<a class="feature feature-bookmarks" href="bookmarks/"><p class="feature-kicker"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Bookmark explorer</p><h3>284 curated links</h3><p>A curated bookmark collection for Voron and 3D printing, browsable and searchable here or importable into your own browser.</p><ul class="chip-row"><li class="chip">Calibration</li><li class="chip">CNC Machines</li><li class="chip">Guides</li><li class="chip">Klipper Plugins</li><li class="chip">Klipper Tools</li><li class="chip">MMU</li><li class="chip">Moonraker Tools</li><li class="chip">Printers</li><li class="chip">Probes</li><li class="chip">STL Files</li><li class="chip">Suppliers</li><li class="chip">Tools</li><li class="chip">Toolheads/Extruders</li><li class="chip">Voron</li></ul></a>
+<a class="feature feature-pinouts" href="schematics/"><div class="feature-thumbs"><img src="assets/img/diagrams-schematics-btt-octopus-v1-0-640.webp" width="640" height="376" alt="" loading="lazy" decoding="async"><img src="assets/img/diagrams-schematics-btt-octopus-v1-1-640.webp" width="640" height="239" alt="" loading="lazy" decoding="async"><img src="assets/img/diagrams-schematics-bigtreetech-octopus-pro-v1-0-pin-640.webp" width="640" height="239" alt="" loading="lazy" decoding="async"><img src="assets/img/diagrams-schematics-bigtreetech-octopus-pro-v1-1-pin-640.webp" width="640" height="513" alt="" loading="lazy" decoding="async"></div><p class="feature-kicker"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>Pinout library</p><h3>14 diagrams and models</h3><p>BTT Octopus, Octopus Pro, SKR Mini, EBB36 and Fly toolhead boards, Raspberry Pi GPIO and more, full resolution on click.</p></a>
+<a class="feature feature-build" href="printers/voron-trident-350.html"><div class="feature-photo"><img src="assets/img/printers-my-printers-images-vt350-640.webp" width="480" height="640" alt="The Voron Trident 350" loading="lazy" decoding="async"></div><p class="feature-kicker"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>Featured build</p><h3>Voron Trident 350 build</h3><p>A Formbot Trident rebuilt piece by piece: Hypernova toolhead, Cartographer probe, Mellow 5160 drivers, 48V motion and the Klipper plugins it runs.</p></a>
+</section><section class="block"><div class="block-head"><h2>Related projects</h2><p>Two companion projects from the same hobby: a dashboard launcher and a Discord bot.</p></div><div class="projects"><article class="project"><a class="project-media" href="https://ernster.dev/3D-Printer-Launcher/"><img src="https://ernster.dev/3D-Printer-Launcher/screenshot-launcher.png" alt="The 3D-Printer-Launcher window listing temperature dashboards" loading="lazy" decoding="async"></a><div class="project-body"><h3><img class="project-icon" src="launcher-icon.png" width="32" height="32" alt="">3D-Printer-Launcher</h3><p class="project-tagline">One window for your Klipper temperature dashboards</p><p>A small Windows launcher that starts your Qidi and Voron temperature dashboards and a webcam restart helper from one window, with live logs and per-printer config. The dashboards drop straight into OBS Studio as Browser Source overlays.</p><div class="project-actions"><a class="btn btn-primary btn-sm" href="https://ernster.dev/3D-Printer-Launcher/">Visit the site<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a><a class="btn btn-ghost btn-sm" href="https://github.com/oernster/3D-Printer-Launcher"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source</a></div></div></article><article class="project"><a class="project-media" href="https://ernster.dev/snark3Dprinter-discord-bot/"><img src="https://ernster.dev/snark3Dprinter-discord-bot/og.png" alt="PrinterShameBot banner" loading="lazy" decoding="async"></a><div class="project-body"><h3><img class="project-icon" src="bot-icon.png" width="32" height="32" alt="">PrinterShameBot</h3><p class="project-tagline">A snarky 3D printer Discord bot</p><p>A self-hosted Discord bot that answers with a 3D printing put-down, for politely tormenting your friends&#x27; prints. Invite it to your server then send the command in any channel it can read.</p><p class="project-extra">Command: <code>!printquote</code></p><div class="project-actions"><a class="btn btn-primary btn-sm" href="https://ernster.dev/snark3Dprinter-discord-bot/">Visit the site<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a><a class="btn btn-ghost btn-sm" href="https://github.com/oernster/snark3Dprinter-discord-bot"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source</a></div></div></article></div></section><section class="block split">
+<div class="why"><h2>Why this exists</h2><p>Voron and Klipper reward tinkering but the knowledge is scattered: a pinout on one forum, a drying temperature on another, the macro you need buried in a Discord thread from years ago.</p><p>So this repository is a working notebook, kept public. The configs are the ones that ran on real machines; the recommendations are things actually bought and used; the guides are the write-ups worth finding the first time. If it saves you an evening of searching, it has done its job.</p><p><a class="text-link" href="https://www.crankthecode.com/posts/3D-printing-info">The full reasoning on crankthecode.com<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></p></div>
+<div class="faq"><h2>Questions</h2><details class="faq-item"><summary>Who is this for?</summary><p>Anyone running or building a Voron, a Klipper printer or a Bambu machine, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer.</p></details><details class="faq-item"><summary>Are the printer configs safe to copy?</summary><p>They are real configs shared as reference. Never flash another machine&#x27;s config wholesale: treat them as a guide, match them to your own hardware and pins, then test carefully.</p></details><details class="faq-item"><summary>How do I use the bookmarks?</summary><p>Browse and filter them in the bookmark explorer. To take them with you, download the export and import it through your browser&#x27;s bookmark manager.</p></details><details class="faq-item"><summary>Is it free?</summary><p>Yes. The repository and this site are free and open source under the GNU GPL-3.0 licence. A coffee donation is welcome but entirely optional.</p></details><details class="faq-item"><summary>Can I suggest additions?</summary><p>It is a personal knowledge base, so it reflects its author&#x27;s own printers and experience. Open an issue on the repository if something is out of date or you know a resource worth adding.</p></details></div>
+</section>
+<section class="support"><div class="support-copy"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div><h2>Found something useful?</h2><p>The notebook is free and always will be. If it saved you an evening, a coffee helps keep it maintained.</p></div></div>
+<a class="btn btn-primary" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4">Buy me a coffee</a></section>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="./"><img src="icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="guides/">Guides</a></li><li><a href="faqs/">FAQs</a></li><li><a href="printers/">Printers</a></li><li><a href="configs/">Config library</a></li><li><a href="schematics/">Schematics</a></li><li><a href="kit/">Recommendations</a></li><li><a href="bookmarks/">Bookmarks</a></li><li><a href="stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="stickers/">Stickers</a></li><li><a href="projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
 </body>
 </html>

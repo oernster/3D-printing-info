@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-root="../" data-theme-key="3dpi-theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom sounds in Klipper | 3D-printing-info</title>
+<meta name="description" content="Play WAV samples at startup, print start and print end through gcode_shell_command and USB speakers on a Raspberry Pi.">
+<meta name="author" content="Oliver Ernster">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ernster.dev/3D-printing-info/guides/klipper-sounds.html">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:title" content="Custom sounds in Klipper">
+<meta property="og:description" content="Play WAV samples at startup, print start and print end through gcode_shell_command and USB speakers on a Raspberry Pi.">
+<meta property="og:image" content="https://ernster.dev/3D-printing-info/hero.png">
+<meta property="og:url" content="https://ernster.dev/3D-printing-info/guides/klipper-sounds.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3D-printing-info">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<script>(function(){var d=document.documentElement,k=d.getAttribute('data-theme-key'),t=null;try{t=localStorage.getItem(k);}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);})();</script>
+<link rel="stylesheet" href="../assets/site.css">
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Custom sounds in Klipper","description":"Play WAV samples at startup, print start and print end through gcode_shell_command and USB speakers on a Raspberry Pi.","url":"https://ernster.dev/3D-printing-info/guides/klipper-sounds.html","inLanguage":"en-GB","author":{"@type":"Person","name":"Oliver Ernster","url":"https://www.crankthecode.com"},"isPartOf":{"@type":"WebSite","name":"3D-printing-info","url":"https://ernster.dev/3D-printing-info/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ernster.dev/3D-printing-info/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://ernster.dev/3D-printing-info/guides/"},{"@type":"ListItem","position":3,"name":"Custom sounds in Klipper","item":"https://ernster.dev/3D-printing-info/guides/klipper-sounds.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<nav class="main-nav" id="main-nav" aria-label="Sections"><a href="../guides/" aria-current="page">Guides</a><a href="../faqs/">FAQs</a><a href="../printers/">Printers</a><a href="../configs/">Configs</a><a href="../schematics/">Schematics</a><a href="../kit/">Kit</a><a href="../bookmarks/">Bookmarks</a><a href="../stls/">STLs</a></nav>
+<div class="header-tools">
+<button type="button" class="search-trigger" data-search-open><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+<button type="button" class="icon-btn" data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+<a class="icon-btn" href="https://github.com/oernster/3D-printing-info" aria-label="Repository on GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap main">
+<header class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="../guides/">Guides</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Custom sounds in Klipper</span></nav><h1>Custom sounds in Klipper</h1><p class="page-lead">Play WAV samples at startup, print start and print end through gcode_shell_command and USB speakers on a Raspberry Pi.</p><div class="page-meta"><span class="chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Hardware and reference</span><a class="chip chip-link" href="https://github.com/oernster/3D-printing-info/blob/main/guides/setup-sounds-wavs-klipper.md"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>Source on GitHub</a></div></header><div class="doc"><article class="prose" id="content"><p class="lead">Playing custom WAV sounds on your raspberry pi in klipper HOWTO (I use 2001 Space Odyssey samples but knock yourself out with whatever you want for YOUR printer).</p>
+<h2 id="you-will-need">You will need</h2>
+<ol>
+<li>
+<p>A klipper printer</p>
+</li>
+<li>
+<p>A set of speakers ( I use these: <a href="https://thepihut.com/products/usb-powered-speakers">https://thepihut.com/products/usb-powered-speakers</a> ); these are USB/audio jack speakers.  I have not experimented with a bluetooth speaker setup.</p>
+</li>
+<li>
+<p>A raspberry pi (I use a 4b 8GB)</p>
+</li>
+<li>
+<p>Optionally putty for windows</p>
+</li>
+<li>
+<p>Optionally WinSCP for transferring files from windows to your pi.</p>
+</li>
+</ol>
+<h3 class="step" id="1-install-via-kiauh-which-you-can-find-here"><span class="step-n">1</span> Install via kiauh, which you can find here:</h3>
+<ul class="linklist"><li><a href="https://github.com/dw-0/kiauh">https://github.com/dw-0/kiauh</a></li></ul>
+<p>...the advanced option: gcode shell command.</p>
+<h3 class="step" id="2-enable-audio-in-case-you-have-not-done-so-already-sudo-raspi-config-for-that-after-ssh-ing-into-your-pi-or-using-putty-if-thats-your-preferred-method-to-access-the-command-line-on-your-pi"><span class="step-n">2</span> Enable audio in case you have not done so already: sudo raspi-config for that after ssh-ing into your pi or using putty if that's your preferred method to access the command line on your pi.</h3>
+<h3 class="step" id="3-create-a-shell-command-similar-to-my-shell-command-here-httpsgithubcomoernstervt350blobmainprint_startsh"><span class="step-n">3</span> Create a shell command similar to my shell command here: <a href="https://github.com/oernster/VT350/blob/main/print_start.sh">https://github.com/oernster/VT350/blob/main/print_start.sh</a></h3>
+<div class="callout">
+<p>NOTE: aplay and alsamixer are not required for bookworm distros of raspbian.  HOWEVER, you need to add the following lines to /etc/asounds.conf, e.g. by sending the command sudo nano /etc/asounds.conf, then paste in and Ctrl X and y to exit.</p>
+</div>
+<pre><code>defaults.ctl.card 0
+defaults.pcm.card 0
+defaults.pcm.device 0
+</code></pre>
+<p>This pre-supposes that you have a print_start.wav file.  It also assumes you have aplay installed which if not on your variant of raspbian you can install with: sudo apt install aplay</p>
+<p>You can customise the print_start.wav filename and shell script name as per your needs.</p>
+<p>You <em>may</em> need to install this: sudo apt install alsamixer</p>
+<p>This allows you to increase/set the volume of your speakers so you can actually hear something from your setup.  You can run it as alsamixer from the command line.</p>
+<p>Note that once you've adjusted any alsamixer settings, you can escape from the tool and then to ssave your changes run this command: sudo alsactl store</p>
+<h3 class="step" id="4-create-a-config-file-such-as-shell_commandcfg-here-httpsgithubcomoernstervt350blobmainshell_commandcfg"><span class="step-n">4</span> Create a config file such as shell_command.cfg here: <a href="https://github.com/oernster/VT350/blob/main/shell_command.cfg">https://github.com/oernster/VT350/blob/main/shell_command.cfg</a></h3>
+<p>This can be customised to your specific needs and wav files.  </p>
+<p>Include shell_command.cfg in your printer.cfg header files.  You must have all the wavs and shell scripts in the same directory as your printer.cfg file.</p>
+<p>What if I want a wav file to be played on printer startup?</p>
+<p>To do that you need to add this to your printer.cfg:</p>
+<pre><code>[delayed_gcode startup]
+initial_duration: 2
+gcode:
+    PRINTER_STARTUP_SOUND
+</code></pre>
+<p>Now, if you want to customise your macros to play specific sounds due to an event then simply make a call to the relevant gcode customised sound from the shell_command.cfg file we discussed earlier.</p>
+<p>Examples can be found in my PRINT_START macro here: <a href="https://github.com/oernster/VT350/blob/main/configs/macros.cfg">https://github.com/oernster/VT350/blob/main/configs/macros.cfg</a></p>
+<p class="shout">ENJOY!!!</p>
+<p>If you struggle to get it working, then debug with details from here: <a href="https://raspberrypi.stackexchange.com/questions/22708/is-there-some-trick-to-getting-aplay-audio-output-working">https://raspberrypi.stackexchange.com/questions/22708/is-there-some-trick-to-getting-aplay-audio-output-working</a></p></article><aside class="doc-aside"><div class="aside-sticky"><nav class="aside-box toc" aria-label="On this page"><h2 class="aside-title">On this page</h2><ol><li class="toc-l2"><a href="#you-will-need">You will need</a></li><li class="toc-l3"><a href="#1-install-via-kiauh-which-you-can-find-here">Install via kiauh, which you can find here:</a></li><li class="toc-l3"><a href="#2-enable-audio-in-case-you-have-not-done-so-already-sudo-raspi-config-for-that-after-ssh-ing-into-your-pi-or-using-putty-if-thats-your-preferred-method-to-access-the-command-line-on-your-pi">Enable audio in case you have not done…</a></li><li class="toc-l3"><a href="#3-create-a-shell-command-similar-to-my-shell-command-here-httpsgithubcomoernstervt350blobmainprint_startsh">Create a shell command similar to my shell…</a></li><li class="toc-l3"><a href="#4-create-a-config-file-such-as-shell_commandcfg-here-httpsgithubcomoernstervt350blobmainshell_commandcfg">Create a config file such as shell_command.cfg here:…</a></li></ol></nav></div></aside></div><nav class="pager" aria-label="More in this section"><a class="pager-link" href="../guides/tronxy-x5sa-klipper.html"><span class="pager-dir"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>Previous</span><span class="pager-title">Tronxy X5SA on Klipper or Marlin</span></a><a class="pager-link pager-next" href="../guides/eddy-current-probes.html"><span class="pager-dir">Next<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><span class="pager-title">Eddy current probes compared</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="../"><img src="../icon-32.png" width="28" height="28" alt=""><span>3D-printing-info</span></a>
+<p>An open Voron, Klipper and Bambu knowledge base, created and maintained by <a href="https://github.com/oernster">Oliver Ernster</a>.</p>
+<a class="btn btn-ghost btn-sm" href="https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Buy me a coffee</a>
+</div>
+<div><h2>Knowledge</h2><ul><li><a href="../guides/">Guides</a></li><li><a href="../faqs/">FAQs</a></li><li><a href="../printers/">Printers</a></li><li><a href="../configs/">Config library</a></li><li><a href="../schematics/">Schematics</a></li><li><a href="../kit/">Recommendations</a></li><li><a href="../bookmarks/">Bookmarks</a></li><li><a href="../stls/">STL sources</a></li></ul></div>
+<div><h2>More</h2><ul><li><a href="../stickers/">Stickers</a></li><li><a href="../projects/">Related projects</a></li><li><a href="https://ernster.dev/3D-Printer-Launcher/">3D-Printer-Launcher</a></li><li><a href="https://ernster.dev/snark3Dprinter-discord-bot/">PrinterShameBot</a></li></ul></div>
+<div><h2>Source</h2><ul>
+<li><a href="https://github.com/oernster/3D-printing-info">Repository on GitHub</a></li>
+<li><a href="https://github.com/oernster/3D-printing-info/blob/main/LICENSE">GPL-3.0 licence</a></li>
+<li><a href="https://www.crankthecode.com/posts/3D-printing-info">Why it exists</a></li>
+</ul></div>
+</div>
+<div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
+</footer>
+<div class="search" data-search hidden>
+<div class="search-backdrop" data-search-close></div>
+<div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+<div class="search-field"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" placeholder="Search guides, configs, bookmarks and tools" autocomplete="off" spellcheck="false" data-search-input aria-label="Search" aria-controls="search-results"><button type="button" class="kbd-btn" data-search-close>Esc</button></div>
+<ul class="search-results" id="search-results" role="listbox" data-search-results></ul>
+<p class="search-hint" data-search-hint data-default="Type to search every page, config file, bookmark and tool pick.">Type to search every page, config file, bookmark and tool pick.</p>
+</div>
+</div>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+<button type="button" class="lb-btn lb-close" data-lb-close aria-label="Close"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+<button type="button" class="lb-btn lb-prev" data-lb-prev aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg></button>
+<figure class="lb-figure"><img data-lb-img alt=""><figcaption><span data-lb-caption></span><a data-lb-full href="#">Open full size <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></figcaption></figure>
+<button type="button" class="lb-btn lb-next" data-lb-next aria-label="Next image"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+</body>
+</html>
