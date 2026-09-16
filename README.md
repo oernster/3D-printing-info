@@ -1,9 +1,9 @@
 # 3D-printing-info
 
-**An open, curated knowledge base for Voron, Klipper and Bambu 3D printers, created and maintained by [Oliver Ernster](https://github.com/oernster) over more than eight years.**
+**An open, curated knowledge base for Voron, Klipper, Bambu, Tronxy, Biqu, Prusa, Anycubic and Qidi 3D printers, created and maintained by [Oliver Ernster](https://github.com/oernster) over more than eight years.**
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
-[![Focus: Voron · Klipper · Bambu](https://img.shields.io/badge/Focus-Voron%20%C2%B7%20Klipper%20%C2%B7%20Bambu-38bdf8.svg)](#what-is-inside)
+[![Focus: Voron · Klipper · Bambu · Tronxy · Biqu · Prusa · Anycubic · Qidi](https://img.shields.io/badge/Focus-Voron%20%C2%B7%20Klipper%20%C2%B7%20Bambu%20%C2%B7%20Tronxy%20%C2%B7%20Biqu%20%C2%B7%20Prusa%20%C2%B7%20Anycubic%20%C2%B7%20Qidi-38bdf8.svg)](#what-is-inside)
 [![Maintained: 8+ years](https://img.shields.io/badge/Maintained-8%2B%20years-brightgreen.svg)](#)
 [![Live site](https://img.shields.io/badge/Live-oernster.github.io-5aa2ff.svg)](https://oernster.github.io/3D-printing-info/)
 
@@ -17,13 +17,13 @@ There is a browsable web version of this repository at **[oernster.github.io/3D-
 
 ## Why it exists
 
-Voron and Klipper reward tinkering, but the knowledge is scattered: a pinout on one forum, a drying temperature on another, the macro you need buried in a Discord thread from two years ago.
+Voron and Klipper reward tinkering but the knowledge is scattered: a pinout on one forum, a drying temperature on another, the macro you need buried in a Discord thread from two years ago.
 
 So this repo is my working notebook, kept public. The configs are the ones running on my own machines; the recommendations are things I actually bought and used; the guides are the write-ups I wish I had found the first time. If it saves you an evening of searching, it has done its job.
 
 ## Who it is for
 
-Anyone running or building a Voron, a Klipper-based printer or a Bambu machine, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer.
+Anyone running or building a Voron, a Klipper-based printer, a Bambu machine or a Tronxy, Biqu, Prusa, Anycubic or Qidi printer, from first setup through tuning and troubleshooting. Much of it is Voron-focused but the guides on drying, adhesion, slicers and clogs apply to any FDM printer.
 
 ---
 
@@ -83,4 +83,4 @@ Free and open source under the GNU [GPL-3.0](LICENSE) licence.
 
 Created and maintained by [Oliver Ernster](https://github.com/oernster). 8+ years and counting.
 
-Thanks, and enjoy.
+Thanks and enjoy.
