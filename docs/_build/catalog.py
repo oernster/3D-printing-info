@@ -28,7 +28,7 @@ TREE_BASE = f"{REPO_URL}/tree/{REPO_BRANCH}/"
 SITE_URL = "https://ernster.dev/3D-printing-info/"
 SITE_PATH = "/3D-printing-info/"
 SITE_NAME = "3D-printing-info"
-SITE_TAGLINE = "An open Voron, Klipper and Bambu knowledge base"
+SITE_TAGLINE = "An open Voron, Klipper, Bambu, Tronxy, Biqu, Prusa, Anycubic and Qidi knowledge base"
 AUTHOR = "Oliver Ernster"
 AUTHOR_URL = "https://www.crankthecode.com"
 GITHUB_PROFILE = "https://github.com/oernster"
@@ -992,11 +992,15 @@ SECTIONS: tuple[Section, ...] = (
 
 # Home page ---------------------------------------------------------------------
 
-HOME_TITLE = "3D-printing-info: Voron, Klipper and Bambu guides, configs and pinouts"
+HOME_TITLE = (
+    "3D-printing-info: Voron, Klipper, Bambu, Tronxy, Biqu, Prusa, Anycubic and Qidi guides, configs "
+    "and pinouts"
+)
 HOME_DESCRIPTION = (
-    "An open 3D printing knowledge base: Voron and Klipper guides, Bambu and Voron "
-    "FAQs, working printer configs, board pinouts, tool and filament picks, curated "
-    "bookmarks and STL sources."
+    "An open 3D printing knowledge base for Voron, Klipper, Bambu, Tronxy, Biqu, Prusa, Anycubic and Qidi "
+    "printers: Voron and Klipper guides, Bambu and Voron FAQs, working printer "
+    "configs, board pinouts, tool and filament picks, curated bookmarks and STL "
+    "sources."
 )
 HOME_EYEBROW = "Voron · Klipper · Bambu · Tronxy · Biqu · Prusa · Anycubic · Qidi"
 HOME_HEADLINE = "The 3D printing notebook,"
