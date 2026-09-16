@@ -998,7 +998,7 @@ HOME_DESCRIPTION = (
     "FAQs, working printer configs, board pinouts, tool and filament picks, curated "
     "bookmarks and STL sources."
 )
-HOME_EYEBROW = "Voron · Klipper · Bambu"
+HOME_EYEBROW = "Voron · Klipper · Bambu · Tronxy · Biqu · Prusa · Anycubic · Qidi"
 HOME_HEADLINE = "The 3D printing notebook,"
 HOME_HEADLINE_ACCENT = "kept public"
 HOME_LEAD = (
