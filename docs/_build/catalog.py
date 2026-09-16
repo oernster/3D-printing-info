@@ -1003,8 +1003,9 @@ HOME_HEADLINE = "The 3D printing notebook,"
 HOME_HEADLINE_ACCENT = "kept public"
 HOME_LEAD = (
     "More than eight years of guides, fixes, working configs, pinouts and hard-won "
-    "recommendations from running Voron, Klipper and Bambu machines, gathered from "
-    "one repository into one searchable site."
+    "recommendations from running Voron, Klipper and Bambu machines as well as "
+    "Tronxy, Biqu, Prusa, Anycubic and Qidi printers, gathered from one repository "
+    "into one searchable site."
 )
 HOME_POINTS = (
     "Configs from machines that really ran them",
