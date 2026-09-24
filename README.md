@@ -59,8 +59,8 @@ Eleven sections, each a folder in the repo. Click any section to open it.
 
 Two companion pieces that grew out of the same hobby.
 
-- **[3D-Printer-Launcher](https://github.com/oernster/3D-Printer-Launcher)** ([site](https://oernster.github.io/3D-Printer-Launcher/)): a lovely UI for temperature displays, one window that launches Klipper temperature dashboards you can drop into OBS Studio as overlays. A guide to setting up OBS Studio with it lives in that repo.
-- **[PrinterShameBot](https://github.com/oernster/snark3Dprinter-discord-bot)** ([site](https://oernster.github.io/snark3Dprinter-discord-bot/)): a Discord bot to politely torment your friends' 3D prints.
+- **[3D-Printer-Launcher](https://github.com/oernster/3D-Printer-Launcher)** ([site](https://ernster.dev/3D-Printer-Launcher/)): a lovely UI for temperature displays, one window that launches Klipper temperature dashboards you can drop into OBS Studio as overlays. A guide to setting up OBS Studio with it lives in that repo.
+- **[PrinterShameBot](https://github.com/oernster/snark3Dprinter-discord-bot)** ([site](https://ernster.dev/snark3Dprinter-discord-bot/)): a Discord bot to politely torment your friends' 3D prints.
 
 ### Invite PrinterShameBot
 
