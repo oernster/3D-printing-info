@@ -5,13 +5,13 @@
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![Focus: Voron · Klipper · Bambu · Tronxy · Biqu · Prusa · Anycubic · Qidi](https://img.shields.io/badge/Focus-Voron%20%C2%B7%20Klipper%20%C2%B7%20Bambu%20%C2%B7%20Tronxy%20%C2%B7%20Biqu%20%C2%B7%20Prusa%20%C2%B7%20Anycubic%20%C2%B7%20Qidi-38bdf8.svg)](#what-is-inside)
 [![Maintained: 8+ years](https://img.shields.io/badge/Maintained-8%2B%20years-brightgreen.svg)](#)
-[![Live site](https://img.shields.io/badge/Live-oernster.github.io-5aa2ff.svg)](https://oernster.github.io/3D-printing-info/)
+[![Live site](https://img.shields.io/badge/Live-ernster.dev-5aa2ff.svg)](https://ernster.dev/3D-printing-info/)
 
 <img width="1767" height="989" alt="3D-printing-info: a sculpted head contemplating a workbench of 3D printers, filament spools, tools and printed parts on a blue schematic backdrop" src="https://github.com/user-attachments/assets/ca95d5ac-e456-43af-9cec-20937c5ac8d2" />
 
 FAQs, Klipper guides, working printer configs, board pinout schematics, hard-won tool and filament recommendations, curated bookmarks and STL links, all in one place. Most of this was learned the hard way, one layer shift, clog and failed first layer at a time.
 
-There is a browsable web version of this repository at **[oernster.github.io/3D-printing-info](https://oernster.github.io/3D-printing-info/)**.
+There is a browsable web version of this repository at **[ernster.dev/3D-printing-info](https://ernster.dev/3D-printing-info/)**.
 
 ---
 
