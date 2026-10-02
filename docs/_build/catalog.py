@@ -34,6 +34,7 @@ AUTHOR_URL = "https://www.crankthecode.com"
 GITHUB_PROFILE = "https://github.com/oernster"
 DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"
 ESSAY_URL = "https://www.crankthecode.com/posts/3D-printing-info"
+HUB_URL = "https://ernster.dev"
 LICENCE_URL = f"{BLOB_BASE}LICENSE"
 HERO_IMAGE = "hero.png"
 HERO_ALT = (

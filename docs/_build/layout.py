@@ -127,6 +127,7 @@ def _footer(root: str) -> str:
 <li><a href="{attr(cat.REPO_URL)}">Repository on GitHub</a></li>
 <li><a href="{attr(cat.LICENCE_URL)}">GPL-3.0 licence</a></li>
 <li><a href="{attr(cat.ESSAY_URL)}">Why it exists</a></li>
+<li><a href="{attr(cat.HUB_URL)}">More of my work</a></li>
 </ul></div>
 </div>
 <div class="wrap footer-base">Free and open source under GPL-3.0. Icons from Feather (MIT).</div>
