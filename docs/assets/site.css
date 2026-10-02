@@ -173,6 +173,11 @@ kbd { font: 600 11.5px var(--font); padding: 2px 6px; border: 1px solid var(--bo
 .btn-primary:hover { background: var(--accent-strong); color: var(--accent-ink); }
 .btn-ghost { background: var(--surface); border-color: var(--border); color: var(--text); }
 .btn-ghost:hover { border-color: var(--accent); color: var(--text); }
+/* The house donate button: the mark is a detailed picture, so it is drawn at 2.7em
+   and the button grows around it rather than holding the 44px of a text button.
+   display: block drops the inline descender space under the artwork. */
+.btn-donate { height: auto; padding-block: 8px; }
+.btn-donate img { display: block; height: 2.7em; width: auto; }
 .btn-sm { height: 36px; padding: 0 13px; border-radius: 9px; font-size: 14px; }
 .btn-sm .icon { width: 15px; height: 15px; }
 
@@ -271,7 +276,6 @@ a.chip-link:hover { border-color: var(--accent); color: var(--text); }
 
 .support { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: clamp(48px, 7vw, 80px); padding: 26px 28px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: linear-gradient(120deg, var(--accent-soft), transparent 70%), var(--surface); }
 .support-copy { display: flex; align-items: flex-start; gap: 16px; }
-.support-copy > .icon { width: 28px; height: 28px; margin-top: 3px; color: var(--bad); }
 .support h2 { font-size: 1.3rem; }
 .support p { margin: 4px 0 0; color: var(--muted); }
 

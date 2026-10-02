@@ -536,8 +536,8 @@ def _home_about() -> str:
 <div class="why"><h2>Why this exists</h2>{why}<p><a class="text-link" href="{attr(cat.ESSAY_URL)}">The full reasoning on crankthecode.com{icon("arrow")}</a></p></div>
 <div class="faq"><h2>Questions</h2>{faq}</div>
 </section>
-<section class="support"><div class="support-copy">{icon("heart")}<div><h2>{esc(cat.HOME_SUPPORT_TITLE)}</h2><p>{esc(cat.HOME_SUPPORT_TEXT)}</p></div></div>
-<a class="btn btn-primary" href="{attr(cat.DONATE_URL)}">Buy me a coffee</a></section>"""
+<section class="support" id="support"><div class="support-copy"><div><h2>{esc(cat.HOME_SUPPORT_TITLE)}</h2><p>{esc(cat.HOME_SUPPORT_TEXT)}</p></div></div>
+<a class="btn btn-ghost btn-donate" href="{attr(cat.DONATE_URL)}"><img src="{attr(cat.DONATE_IMAGE)}" alt="">Donate</a></section>"""
 
 
 def build_home(site: Site) -> None:

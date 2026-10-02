@@ -35,6 +35,7 @@ assets/img/printers-my-printers-images-vt350-960.webp
 bookmarks/index.html
 configs/index.html
 configs/view.html
+donate.png
 faqs/ams-cleaning.html
 faqs/ams-feeding-failures.html
 faqs/cutter-stuck.html

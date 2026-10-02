@@ -139,6 +139,7 @@ def main() -> int:
         thumbs=Thumbnails(REPO_DIR, DOCS_DIR, IMAGE_PREFIX),
     )
     build(site)
+    site.thumbs.donate_mark(REPO_DIR / cat.DONATE_IMAGE, cat.DONATE_IMAGE)
     prune(write_outputs(site))
     missing = [f"not shown on any page: {path}" for path in unsurfaced(site)]
     problems = site.problems + missing

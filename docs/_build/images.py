@@ -16,6 +16,9 @@ from PIL import Image, ImageOps
 WEBP_QUALITY = 82
 WEBP_METHOD = 6
 TRANSPARENT_MODES = frozenset({"RGBA", "LA", "P", "PA"})
+# Four times the 29px height the house draws the donate mark at, so it stays crisp
+# under display scaling; the same render every other project site serves.
+DONATE_HEIGHT = 116
 
 _UNSAFE = re.compile(r"[^a-z0-9]+")
 
@@ -52,6 +55,19 @@ class Thumbnails:
         self._made[key] = thumb
         self.written.add(url)
         return thumb
+
+    def donate_mark(self, master: Path, file: str) -> None:
+        """Derive the donate mark from its master: cropped to the artwork, then scaled
+        by height alone, since it is a wide picture rather than a square icon."""
+        dest = self._docs / file
+        if not (dest.exists() and dest.stat().st_mtime >= master.stat().st_mtime):
+            with Image.open(master) as original:
+                image = original.convert("RGBA")
+                image = image.crop(image.getchannel("A").getbbox())
+                width = round(image.width * DONATE_HEIGHT / image.height)
+                image = image.resize((width, DONATE_HEIGHT), Image.Resampling.LANCZOS)
+                image.save(dest, "PNG", optimize=True)
+        self.written.add(file)
 
     @staticmethod
     def _encode(source: Path, dest: Path, max_edge: int) -> tuple[int, int]:

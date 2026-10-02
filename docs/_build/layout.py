@@ -119,7 +119,6 @@ def _footer(root: str) -> str:
 <div class="footer-brand">
 <a class="brand" href="{root or './'}"><img src="{root}icon-32.png" width="28" height="28" alt=""><span>{esc(cat.SITE_NAME)}</span></a>
 <p>{esc(cat.SITE_TAGLINE)}, created and maintained by <a href="{attr(cat.GITHUB_PROFILE)}">{esc(cat.AUTHOR)}</a>.</p>
-<a class="btn btn-ghost btn-sm" href="{attr(cat.DONATE_URL)}">{icon("heart")}Buy me a coffee</a>
 </div>
 <div><h2>Knowledge</h2><ul>{knowledge}</ul></div>
 <div><h2>More</h2><ul>{more}{projects}</ul></div>

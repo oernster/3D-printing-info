@@ -33,6 +33,8 @@ AUTHOR = "Oliver Ernster"
 AUTHOR_URL = "https://www.crankthecode.com"
 GITHUB_PROFILE = "https://github.com/oernster"
 DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"
+# The house donate mark: derived from the master at the repository root into docs/.
+DONATE_IMAGE = "donate.png"
 ESSAY_URL = "https://www.crankthecode.com/posts/3D-printing-info"
 HUB_URL = "https://ernster.dev"
 LICENCE_URL = f"{BLOB_BASE}LICENSE"
@@ -1075,10 +1077,11 @@ HOME_FAQ = (
         ),
     ),
 )
-HOME_SUPPORT_TITLE = "Found something useful?"
+HOME_SUPPORT_TITLE = f"Supporting {SITE_NAME}"
 HOME_SUPPORT_TEXT = (
-    "The notebook is free and always will be. If it saved you an evening, a coffee "
-    "helps keep it maintained."
+    "The notebook is free and stays free. There is no paid tier and nothing held "
+    "back behind a donation. If it saved you an evening, a contribution supports "
+    "its maintenance."
 )
 START_PATHS = (
     StartPath(
@@ -1121,7 +1124,8 @@ START_PATHS = (
 # Build rules -------------------------------------------------------------------
 
 # Repository paths that are deliberately not pages of their own.
-NOT_CONTENT = ("README.md", "LICENSE", ".gitignore")
+# donate.png is the master the site's donate mark is derived from, not content.
+NOT_CONTENT = ("README.md", "LICENSE", ".gitignore", "donate.png")
 NOT_CONTENT_PREFIXES = ("docs/",)
 
 # Links inside the guides that point at a path which has since moved.
