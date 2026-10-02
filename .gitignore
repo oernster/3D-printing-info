@@ -49,3 +49,7 @@ desktop.ini
 .DS_Store
 *.swp
 *~
+
+# Python byte code and lint caches from the site generator in docs/_build.
+__pycache__/
+.ruff_cache/
