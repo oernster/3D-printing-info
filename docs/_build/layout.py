@@ -5,13 +5,30 @@ Icons are from Feather (https://feathericons.com), MIT licence.
 
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 from collections.abc import Iterable, Sequence
+from pathlib import Path
 
 import catalog as cat
 from textfix import fix_prose
 from urls import rel, root_prefix, section_url
+
+ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
+ASSET_VERSION_LENGTH = 10
+
+
+def _versioned(name: str) -> str:
+    """An asset's path carrying a hash of its content, so a browser holding an old
+    copy fetches the new one the moment the file changes rather than when its cache
+    expires. Without it, a page could arrive new while its stylesheet stayed old."""
+    digest = hashlib.sha256((ASSETS_DIR / name).read_bytes()).hexdigest()
+    return f"assets/{name}?v={digest[:ASSET_VERSION_LENGTH]}"
+
+
+SITE_CSS = _versioned("site.css")
+SITE_JS = _versioned("site.js")
 
 LANG = "en-GB"
 OG_LOCALE = "en_GB"
@@ -195,8 +212,8 @@ def render_page(
 <link rel="icon" type="image/png" sizes="16x16" href="{root}icon-16.png">
 <link rel="apple-touch-icon" href="{root}icon-180.png">
 <script>{_BOOT}</script>
-<link rel="stylesheet" href="{root}assets/site.css">
-<script defer src="{root}assets/site.js"></script>
+<link rel="stylesheet" href="{root}{SITE_CSS}">
+<script defer src="{root}{SITE_JS}"></script>
 {blocks}
 </head>
 <body>

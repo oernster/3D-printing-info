@@ -537,7 +537,7 @@ def _home_about() -> str:
 <div class="faq"><h2>Questions</h2>{faq}</div>
 </section>
 <section class="support" id="support"><div class="support-copy"><div><h2>{esc(cat.HOME_SUPPORT_TITLE)}</h2><p>{esc(cat.HOME_SUPPORT_TEXT)}</p></div></div>
-<a class="btn btn-ghost btn-donate" href="{attr(cat.DONATE_URL)}"><img src="{attr(cat.DONATE_IMAGE)}" alt="">Donate</a></section>"""
+<a class="btn btn-ghost btn-donate" href="{attr(cat.DONATE_URL)}"><img src="{attr(cat.DONATE_IMAGE)}" width="{cat.DONATE_MARK_WIDTH}" height="{cat.DONATE_MARK_HEIGHT}" alt="">Donate</a></section>"""
 
 
 def build_home(site: Site) -> None:

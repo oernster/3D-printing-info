@@ -35,6 +35,10 @@ GITHUB_PROFILE = "https://github.com/oernster"
 DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=R3DFLDWT2PFC4"
 # The house donate mark: derived from the master at the repository root into docs/.
 DONATE_IMAGE = "donate.png"
+# The size the mark is drawn at (2.7em of the 15px button type), stated on the tag too
+# so it can never draw at its full size while the stylesheet is still on its way.
+DONATE_MARK_WIDTH = 46
+DONATE_MARK_HEIGHT = 40
 ESSAY_URL = "https://www.crankthecode.com/posts/3D-printing-info"
 HUB_URL = "https://ernster.dev"
 LICENCE_URL = f"{BLOB_BASE}LICENSE"
